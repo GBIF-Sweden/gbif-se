@@ -1,5 +1,6 @@
 ---
-layout: base
+layout: home
 ---
 
-# Start page
+# GBIF Sweden
+
