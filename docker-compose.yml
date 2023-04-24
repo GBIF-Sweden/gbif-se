@@ -1,0 +1,11 @@
+services:
+
+  web:
+    image: bretfisher/jekyll-serve
+    ports:
+      - 4000:4000
+      - 4001:4001
+    volumes:
+      - .:/site
+    command: bundle exec jekyll serve --host 0.0.0.0 --livereload --livereload-port 4001
+    #"bundle", "exec", "jekyll", "serve", "--force_polling", "-H", "0.0.0.0", "-P", "4000"
