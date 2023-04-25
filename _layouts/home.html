@@ -19,3 +19,28 @@ use_map: true
     minZoom: 2, maxZoom: 13
   }).addTo(map);
 </script>
+
+<div style="padding-top: 16px">
+  <a href="https://www.gbif.org/country/SE/publishing">Species occurrences published in GBIF from Swedish institutions</a>
+</div>
+
+<h2>News</h2>
+{% for post in site.posts %}
+  <div>
+      <h3>
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      </h3>
+      <p>{{ post.summary }}</p>
+      <p> Published: {{ post.date | date: "%b %d, %Y %H:%M" }}</p>
+  </div>
+{% endfor %}
+
+<h2>Events</h2>
+{% for event in site.events %}
+<div>
+    <h3>
+        <a href="{{ event.url | relative_url }}">{{ event.title }}</a>
+    </h3>
+    <p>{{ event.when }}</p>
+</div>
+{% endfor %}
