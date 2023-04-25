@@ -24,8 +24,6 @@ description: >- # this means to ignore newlines until "baseurl:"
   Portalen för fri tillgång till data om biologisk mångfald
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: gbifsweden
-github_username:  GBIF-Sweden
 
 # Build settings
 #theme: minima
@@ -55,3 +53,7 @@ exclude:
 #   - vendor/gems/
 #   - vendor/ruby/
   - docker-compose.yml
+
+collections:
+  events:
+    output: true

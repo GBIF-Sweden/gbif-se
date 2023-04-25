@@ -11,6 +11,6 @@ title: News
         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     </h3>
     <p>{{ post.summary }}</p>
-    <p> Published {{ post.date }} by {{ post.authors}} </p>
+    <p> Published: {{ post.date | date: "%b %d, %Y %H:%M" }}</p>
 </div>
 {% endfor %}
