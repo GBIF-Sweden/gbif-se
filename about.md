@@ -1,5 +1,6 @@
 ---
 layout: base
+title: About
 ---
 
-# About
+# {{ page.title }}
