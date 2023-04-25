@@ -1,0 +1,7 @@
+# gbif.se website
+
+The (new) gbif.se website built with [Jekyll](https://jekyllrb.com/).
+
+## Dev setup
+
+Use `docker compose up` to run the application on http://localhost:4000.

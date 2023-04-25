@@ -53,6 +53,7 @@ exclude:
 #   - vendor/gems/
 #   - vendor/ruby/
   - docker-compose.yml
+  - README.md
 
 collections:
   events:
