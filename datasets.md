@@ -1,11 +1,10 @@
 ---
 layout: base
 title: Datasets
+load_tablefilter: true
 ---
 
 # {{ page.title }}
-
-<script src="https://unpkg.com/tablefilter@0.6.109/dist/tablefilter/tablefilter.js"></script>
 
 <table id="datasetstable">
     <thead>
@@ -63,7 +62,7 @@ const pageLoad = async() => {
     await populateTable(records);
 
     const tf = new TableFilter('datasetstable', {
-        base_path: 'https://unpkg.com/tablefilter@0.6.109/dist/tablefilter/',
+        base_path: 'https://unpkg.com/tablefilter@0.7.3/dist/tablefilter/',
         alternate_rows: true,
         col_types: ['string', 'string', 'string', 'number'],
         col_1: 'select',
