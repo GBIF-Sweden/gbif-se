@@ -21,6 +21,40 @@ load_tablefilter: true
 
 <script>
 
+const onPageLoad = async() => {
+
+    records = await fetchRecords();
+    populateTable(records);
+    setupTableFilter();
+}
+
+const fetchRecords = async() => {
+    const response = await fetch('https://api.gbif.org/v1/dataset/search?publishingCountry=SE&limit=500');
+    const json = await response.json();
+    const records = json['results'];
+
+    for (var record of records) {
+        await fetchRecordCountIfMissing(record);
+    }
+
+    return records;
+}
+
+const fetchRecordCountIfMissing = async(record) => {
+    if (!'recordCount' in record || record['type'] == 'CHECKLIST') { 
+        var count = 0;
+        if (record['type'] == 'OCCURRENCE' || record['type'] == 'SAMPLING_EVENT') {
+            const response = await fetch('https://api.gbif.org/v1/occurrence/count?datasetKey=' + record['key']);
+            count = await response.json();
+        } else if (record['type'] == 'CHECKLIST') {
+            const response = await fetch('https://api.gbif.org/v1/dataset/' + record['key'] + '/metrics');
+            const json = await response.json();
+            count = json['countByOrigin']['SOURCE'];
+        }
+        record['recordCount'] = count;
+    }
+}
+
 const populateTable = (records) => {
     const tableBody = document.getElementById('datasetstable').getElementsByTagName('tbody')[0];
     records.forEach(record => {
@@ -36,31 +70,7 @@ const populateTable = (records) => {
     });
 }
 
-const getMissingRecordCounts = async(records) => {
-    for (var record of records) {
-        if (!'recordCount' in record || record['type'] == 'CHECKLIST') { 
-            var count = 0;
-            if (record['type'] == 'OCCURRENCE' || record['type'] == 'SAMPLING_EVENT') {
-                const response = await fetch('https://api.gbif.org/v1/occurrence/count?datasetKey=' + record['key'])
-                count = await response.json();
-            } else if (record['type'] == 'CHECKLIST') {
-                const response = await fetch('https://api.gbif.org/v1/dataset/' + record['key'] + '/metrics')
-                const json = await response.json();
-                count = json['countByOrigin']['SOURCE'];
-            }
-            record['recordCount'] = count;
-        }
-    }
-}
-
-const pageLoad = async() => {
-    const response = await fetch('https://api.gbif.org/v1/dataset/search?publishingCountry=SE&limit=500');
-    const json = await response.json();
-    const records = json['results'];
-
-    await getMissingRecordCounts(records);
-    await populateTable(records);
-
+const setupTableFilter = () => {
     const tf = new TableFilter('datasetstable', {
         base_path: 'https://unpkg.com/tablefilter@0.7.3/dist/tablefilter/',
         alternate_rows: true,
@@ -74,6 +84,6 @@ const pageLoad = async() => {
     tf.init();
 }
 
-pageLoad();
+onPageLoad();
 
 </script>
