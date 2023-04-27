@@ -30,8 +30,10 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-sass:
-  style: compact
+  - jekyll-postcss
+
+postcss:
+  cache: false
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -47,14 +49,18 @@ exclude:
 #   - gemfiles/
   - Gemfile
   - Gemfile.lock
-#   - node_modules/
+  - node_modules/
 #   - vendor/bundle/
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-  - docker-compose.yml
   - README.md
-
+  - docker-compose.yml
+  - package.json
+  - package-lock.json
+  - postcss.config.js
+  - tailwind.config.js
+  
 collections:
   events:
     output: true
