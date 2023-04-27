@@ -30,10 +30,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-postcss
-
-postcss:
-  cache: false
+  - jekyll-postcss-v2
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -56,8 +53,7 @@ exclude:
 #   - vendor/ruby/
   - README.md
   - docker-compose.yml
-  - package.json
-  - package-lock.json
+  - Dockerfile
   - postcss.config.js
   - tailwind.config.js
   
