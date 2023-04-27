@@ -8,23 +8,38 @@
 @layer base {
     h1 {
         @apply text-2xl;
+        @apply font-medium;
+        @apply mt-2;
         @apply mb-4;
     }
     h2 {
         @apply text-xl;
-        @apply mb-2;
+        @apply font-medium;
+        @apply mt-1;
+        @apply mb-1;
     }
     h3 {
         @apply text-lg;
+        @apply font-medium;
+        @apply mt-1;
+    }
+    h4 {
+        @apply font-medium;
     }
     p {
         @apply mb-2;
     }
-    a {
-        @apply text-blue-600 underline;
-    }    
     ul {
         @apply list-disc;
         @apply list-inside;
+        @apply mb-2;
+    }
+    ol {
+        @apply list-decimal;
+        @apply list-inside;
+        @apply mb-2;
+    }
+    a {
+        @apply text-blue-600 underline;
     }
   }
