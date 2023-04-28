@@ -1,6 +1,6 @@
 # gbif.se website
 
-The (new) gbif.se website built with [Jekyll](https://jekyllrb.com/).
+The (new) gbif.se website built with [Jekyll](https://jekyllrb.com/) and [tailwindcss](https://tailwindcss.com/).
 
 ## Dev setup
 
