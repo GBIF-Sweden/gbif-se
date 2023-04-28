@@ -1,45 +1,72 @@
----
-layout: base
----
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-{{ content }}
+  {%- include head.html -%}
 
-<div id="map" style="height: 320px">&nbsp;</div>
-<script>
-  var map = L.map('map').setView([61.93, 15.72], 3);
+  <body>
 
-  L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}@2x.png', {
-    attribution: 'Data copyright OSM contributors',
-    minZoom: 2, maxZoom: 13
-  }).addTo(map);
+    {%- include header.html -%}
 
-  L.tileLayer('https://api.gbif.org/v1/map/density/tile?x={x}&y={y}&z={z}&type=PUBLISHING_COUNTRY&resolution=2&key=SE&palette=yellows_reds', {
-    attribution: 'GBIF contributors',
-    minZoom: 2, maxZoom: 13
-  }).addTo(map);
-</script>
+    <main class="my-12" aria-label="Content">
+      
+      <div class="container mb-8">
+        {{ content }}
+      </div>
 
-<div style="padding-top: 16px">
-  <a href="https://www.gbif.org/country/SE/publishing">Species occurrences published in GBIF from Swedish institutions</a>
-</div>
+      <div class="bg-gray-100 py-8">
+        <div class="container">
+          <h2 class="mb-4">GBIF data portal</h2>
+          
+          <div id="map" class="h-80">&nbsp;</div>
+          <script>
+            var map = L.map('map').setView([61.93, 15.72], 3);
+          
+            L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}@2x.png', {
+              attribution: 'Data copyright OSM contributors',
+              minZoom: 2, maxZoom: 13
+            }).addTo(map);
+          
+            L.tileLayer('https://api.gbif.org/v1/map/density/tile?x={x}&y={y}&z={z}&type=PUBLISHING_COUNTRY&resolution=2&key=SE&palette=yellows_reds', {
+              attribution: 'GBIF contributors',
+              minZoom: 2, maxZoom: 13
+            }).addTo(map);
+          </script>
+          
+          <div class="mt-8 text-xl">
+            <a href="https://www.gbif.org/country/SE/publishing">Species occurrences published in GBIF from Swedish institutions</a>
+          </div>          
+        </div>
+      </div>
 
-<h2>News</h2>
-{% for post in site.posts %}
-  <div>
-      <h3>
-          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      </h3>
-      <p>{{ post.summary }}</p>
-      <p> Published: {{ post.date | date: "%b %d, %Y %H:%M" }}</p>
-  </div>
-{% endfor %}
+      <div class="container flex mt-8">
+        <div class="basis-2/3 border-r-4 border-gray-200 pr-4 mr-8">
+          <h2>News</h2>
+          {% for post in site.posts %}
+            <div>
+                <h3>
+                    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                </h3>
+                <p>{{ post.summary }}</p>
+                <p> Published: {{ post.date | date: "%b %d, %Y %H:%M" }}</p>
+            </div>
+          {% endfor %}
+        </div>
+        <div>
+          <h2>Events</h2>
+          {% for event in site.events %}
+          <div>
+              <h3>
+                  <a href="{{ event.url | relative_url }}">{{ event.title }}</a>
+              </h3>
+              <p>{{ event.when }}</p>
+          </div>
+          {% endfor %}
+        </div>
+      </div>  
 
-<h2>Events</h2>
-{% for event in site.events %}
-<div>
-    <h3>
-        <a href="{{ event.url | relative_url }}">{{ event.title }}</a>
-    </h3>
-    <p>{{ event.when }}</p>
-</div>
-{% endfor %}
+    </main>
+
+    {%- include footer.html -%}
+  </body>
+
+</html>
