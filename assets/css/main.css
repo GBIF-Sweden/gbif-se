@@ -7,24 +7,18 @@
 
 @layer base {
     h1 {
-        @apply text-2xl;
-        @apply font-medium;
+        @apply text-4xl;
         @apply mt-2;
         @apply mb-4;
     }
     h2 {
-        @apply text-xl;
-        @apply font-medium;
+        @apply text-2xl;
         @apply mt-1;
         @apply mb-1;
     }
     h3 {
-        @apply text-lg;
-        @apply font-medium;
+        @apply text-xl;
         @apply mt-1;
-    }
-    h4 {
-        @apply font-medium;
     }
     p {
         @apply mb-2;
@@ -40,7 +34,10 @@
         @apply mb-2;
     }
     a {
-        @apply text-blue-600 underline;
+        @apply text-blue-600;
+    }
+    a:hover {
+        @apply underline;
     }
   }
 
@@ -59,9 +56,10 @@
   
   .topmenu ul li a {
     display: block;
-    color: white;
-    text-align: center;
     padding: 16px;
+    color: white;
+    font-size: 1.1rem;
+    text-align: center;
     text-decoration: none;
   }
   
