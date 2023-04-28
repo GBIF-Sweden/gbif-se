@@ -1,8 +1,26 @@
-<ul role="navigation">
-    <li><a href="/">Home</a></li>
-    <li><a href="/about">About</a></li>
-    <li><a href="/datasets">Datasets</a></li>
-    <li><a href="/events">Events</a></li>
-    <li><a href="/news">News</a></li>
-    <li><a href="/services">Services</a></li>
-</ul>
+{% assign path_start_1 = page.url | split:'/' %}
+{% assign path_start_2 = path_start_1[1] | split:'.' %}
+{% assign path_start = path_start_2[0] %}
+
+<div class="topmenu">
+    <ul class="container" role="navigation">
+        <li {% if page.url == "/" %}class="active"{% endif %}>
+            <a href="/">Home</a>
+        </li>
+        <li {% if path_start == "about" %}class="active"{% endif %}>
+            <a href="/about">About</a>
+        </li>
+        <li {% if path_start == "datasets" %}class="active"{% endif %}>
+            <a href="/datasets">Datasets</a>
+        </li>
+        <li {% if path_start == "events" %}class="active"{% endif %}>
+            <a href="/events">Events</a>
+        </li>
+        <li {% if path_start == "news" %}class="active"{% endif %}>
+            <a href="/news">News</a>
+        </li>
+        <li {% if path_start == "services" %}class="active"{% endif %}>
+            <a href="/services">Services</a>
+        </li>
+    </ul>
+</div>

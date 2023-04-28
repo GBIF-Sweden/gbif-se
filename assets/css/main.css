@@ -43,3 +43,34 @@
         @apply text-blue-600 underline;
     }
   }
+
+  .topmenu {
+    overflow: hidden;
+    background-color: #40833a;
+  }
+
+  .topmenu ul {
+    list-style-type: none;
+  }
+  
+  .topmenu ul li {
+    float: left;
+  }
+  
+  .topmenu ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  .topmenu ul li a:hover {
+    color: #40833a;
+    background-color: #ddd;
+  }
+
+  .topmenu ul li.active a {
+    color: black;
+    background-color: white;
+  }
