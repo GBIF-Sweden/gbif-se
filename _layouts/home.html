@@ -41,13 +41,13 @@
       <div class="container flex mt-8">
         <div class="basis-2/3 border-r-4 border-gray-200 pr-4 mr-8">
           <h2>News</h2>
-          {% for post in site.posts %}
+          {% for news in site.news %}
             <div>
                 <h3>
-                    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                    <a href="{{ news.url | relative_url }}">{{ news.title }}</a>
                 </h3>
-                <p>{{ post.summary }}</p>
-                <p> Published: {{ post.date | date: "%b %d, %Y %H:%M" }}</p>
+                <p>{{ news.summary }}</p>
+                <p> Published: {{ news.date | date: "%b %d, %Y %H:%M" }}</p>
             </div>
           {% endfor %}
         </div>

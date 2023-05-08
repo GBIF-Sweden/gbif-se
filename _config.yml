@@ -60,5 +60,7 @@ exclude:
   - tailwind.config.js
   
 collections:
+  news:
+    output: true
   events:
     output: true
