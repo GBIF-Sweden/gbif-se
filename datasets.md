@@ -6,12 +6,17 @@ load_tablefilter: true
 
 # {{ page.title }}
 
+<div class="mb-4 text-xl">
+    <a href="https://gbif.se/ipt/">GBIF Sweden IPT</a>
+</div>
+
 <table id="datasetstable">
     <thead>
         <tr>
             <th>Title</th>
             <th>Organization</th>
             <th>Type</th>
+            <th>Subtype</th>
             <th data-sort-method="number">Record count</th>
         </tr>
     </thead>
@@ -65,6 +70,7 @@ const populateTable = (records) => {
         newRow.appendChild(tdTitle);
         newRow.appendChild(Object.assign(document.createElement('td'), {textContent: record['publishingOrganizationTitle']}));
         newRow.appendChild(Object.assign(document.createElement('td'), {textContent: record['type']}));
+        newRow.appendChild(Object.assign(document.createElement('td'), {textContent: record['subtype']}));
         newRow.appendChild(Object.assign(document.createElement('td'), 
             {className:'table-number', textContent:parseInt(record['recordCount']).toLocaleString('en-GB')}));
     });
@@ -74,10 +80,11 @@ const setupTableFilter = () => {
     const tf = new TableFilter('datasetstable', {
         base_path: 'https://unpkg.com/tablefilter@0.7.3/dist/tablefilter/',
         alternate_rows: true,
-        col_types: ['string', 'string', 'string', 'number'],
+        col_types: ['string', 'string', 'string', 'string', 'number'],
         col_1: 'select',
         col_2: 'select',
-        col_3: 'none',
+        col_3: 'select',
+        col_4: 'none',
         clear_filter_text: '- All -',
         extensions: [{ name: 'sort' }]
     });
