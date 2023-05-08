@@ -1,6 +1,6 @@
 ---
 layout: base
-title: About
+title: What is GBIF
 ---
 
 # {{ page.title }}

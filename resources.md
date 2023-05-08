@@ -1,6 +1,6 @@
 ---
 layout: base
-title: Services
+title: Resources
 ---
 
 # {{ page.title }}
