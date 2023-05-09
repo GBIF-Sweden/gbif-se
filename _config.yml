@@ -24,6 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Free and open access to biodiversity data
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+permalink: "/:basename/"
 
 # Build settings
 #theme: minima
@@ -52,8 +53,10 @@ exclude:
 #   - vendor/gems/
 #   - vendor/ruby/
   - README.md
+  - Makefile
   - docker-compose.yml
   - Dockerfile
+  - dev.Dockerfile
   - package.json
   - package-lock.json
   - postcss.config.js
@@ -62,5 +65,7 @@ exclude:
 collections:
   news:
     output: true
+    permalink: "/:collection/:name/"
   events:
     output: true
+    permalink: "/:collection/:name/"
