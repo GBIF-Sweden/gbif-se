@@ -11,17 +11,45 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       
-      - uses: actions/setup-node@v3
+      - name: Setup Node
+        uses: actions/setup-node@v3
         with:
           node-version: 18.x
-      - run: npm ci
 
-      - uses: ruby/setup-ruby@v1
+      - name: Install Node dependencies
+        run: npm ci
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.2.2'
-      - run: bundle install 
+          ruby-version: '3.2'
 
-      - run: jekyll build
+      - name: Install Ruby dependencies
+        run: bundle install 
+
+      - name: Build site
+        run: jekyll build
+
+      - name: Log in to Github packages
+        uses: docker/login-action@v2
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Extract metadata (tags, labels) for Docker
+        id: meta
+        uses: docker/metadata-action@v4
+        with:
+          images: gbif-se/website
+      
+      - name: Build and push Docker image
+        uses: docker/build-push-action@v4
+        with:
+          context: .
+          push: true
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
 
 #     - name: Build the site in the jekyll/builder container
 #       run: |
