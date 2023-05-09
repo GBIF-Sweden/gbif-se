@@ -18,6 +18,10 @@ module.exports = {
         center: true,
       },
       extend: {
+        colors: {
+          'gbif-green': '#75b375',
+          'gbif-green-dark': '#61a861',
+        },
         fontFamily: {
           sans: [
             'Roboto',

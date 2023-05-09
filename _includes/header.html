@@ -10,20 +10,22 @@
 
 <div class="my-12 flex container">
     <div class="grow text-6xl" role="banner">
-        <img src="/assets/images/logo-gbif.png" class="inline h-24">
-        <span class="font-medium">GBIF</span>.se
+        <a class="text-black hover:no-underline" href="/">
+            <img src="/assets/images/logo-gbif.png" class="inline h-24">
+            <span class="font-medium">GBIF</span>.se
+        </a>
     </div>
     <div class="mt-8">
-        <a class="p-3 bg-green-800 text-white" href="#">Contact</a>
+        <a class="p-3 bg-gbif-green text-white" href="#">Contact</a>
     </div>
 </div>
 
-<div class="topmenu overflow-hidden bg-green-800">
+<div class="topmenu overflow-hidden bg-gbif-green">
     <ul class="container list-none" role="navigation">
         {% for menu_item_0 in menu_items %}
             {% assign menu_item = menu_item_0 | split: ":" %}
             <li class="float-left">
-                <a class="block p-4 text-center text-lg no-underline hover:bg-slate-200 hover:text-green-800 hover:no-underline 
+                <a class="block p-4 text-center text-lg no-underline hover:bg-slate-200 hover:text-gbif-green hover:no-underline 
                         {% if path_start == menu_item[1] %}text-black bg-white{% else %}text-white{% endif %}" 
                     href="/{{ menu_item[1] | replace:"/", "" }}">
                     {{ menu_item[0] }}
