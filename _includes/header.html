@@ -8,9 +8,14 @@
 
 {% assign menu_items = "Home:/, Datasets:datasets, News:news, Events:events, Tools:tools, Resources:resources" | split:", " %}
 
-<div class="my-12 text-6xl container" role="banner">
-    <img src="/assets/images/logo-gbif.png" class="inline h-24">
-    <span class="font-medium">GBIF</span>.se
+<div class="my-12 flex container">
+    <div class="grow text-6xl" role="banner">
+        <img src="/assets/images/logo-gbif.png" class="inline h-24">
+        <span class="font-medium">GBIF</span>.se
+    </div>
+    <div class="mt-8">
+        <a class="p-3 bg-green-800 text-white" href="#">Contact</a>
+    </div>
 </div>
 
 <div class="topmenu overflow-hidden bg-green-800">
