@@ -15,26 +15,25 @@
 
       <div class="bg-gray-100 py-8">
         <div class="container">
-          <h2 class="mb-4">GBIF data portal</h2>
+          <h2 class="mb-4">Species occurrences published in GBIF from Swedish institutions</h2>
           
-          <div id="map" class="h-80">&nbsp;</div>
+          <div id="map" class="h-96">&nbsp;</div>
           <script>
-            var map = L.map('map').setView([61.93, 15.72], 3);
-          
-            L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}@2x.png', {
-              attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-              minZoom: 2, maxZoom: 13
+            var map = L.map('map').setView([42.00, 16.00], 2);
+            map.attributionControl.setPrefix(false);
+ 
+            L.tileLayer('https://tile.gbif.org/3857/omt/{z}/{x}/{y}@2x.png?style=gbif-geyser', {
+              attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, © <a href="https://www.openmaptiles.org/copyright">OpenMapTiles</a>',
+              minZoom: 2, 
+              maxZoom: 13
             }).addTo(map);
-          
-            L.tileLayer('https://api.gbif.org/v1/map/density/tile?x={x}&y={y}&z={z}&type=PUBLISHING_COUNTRY&resolution=2&key=SE&palette=yellows_reds', {
+
+            L.tileLayer('https://api.gbif.org/v2/map/occurrence/density/{z}/{x}/{y}@2x.png?srs=EPSG:3857&publishingCountry=SE', { 
               attribution: '<a href="https://www.gbif.org/citation-guidelines">GBIF</a>',
-              minZoom: 2, maxZoom: 13
+              minZoom: 2, 
+              maxZoom: 13
             }).addTo(map);
           </script>
-          
-          <div class="mt-8 text-xl">
-            <a href="https://www.gbif.org/country/SE/publishing">Species occurrences published in GBIF from Swedish institutions</a>
-          </div>          
         </div>
       </div>
 

@@ -7,7 +7,7 @@ load_tablefilter: true
 # {{ page.title }}
 
 <div class="mb-4 text-xl">
-    <a href="https://gbif.se/ipt/">GBIF Sweden IPT</a>
+    <a href="https://www.gbif.se/ipt/">GBIF Sweden IPT</a>
 </div>
 
 <table id="datasetstable">
@@ -66,7 +66,7 @@ const populateTable = (records) => {
         const newRow = tableBody.insertRow();
         const tdTitle = document.createElement('td');
         tdTitle.appendChild(Object.assign(document.createElement('a'), 
-            {href: 'https://gbif.org/dataset/' + record['key'], textContent: record['title']}));
+            {href: 'https://www.gbif.org/dataset/' + record['key'], textContent: record['title']}));
         newRow.appendChild(tdTitle);
         newRow.appendChild(Object.assign(document.createElement('td'), {textContent: record['publishingOrganizationTitle']}));
         newRow.appendChild(Object.assign(document.createElement('td'), {textContent: record['type']}));
