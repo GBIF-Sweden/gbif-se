@@ -1,6 +1,7 @@
 on:
   push:
-    branches: [ build ]
+    tags:
+      - 'v*'
 
 env:
   JEKYLL_ENV: production
