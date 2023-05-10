@@ -2,6 +2,9 @@ on:
   push:
     branches: [ build ]
 
+env:
+  JEKYLL_ENV: production
+
 jobs:
 
   build:
@@ -12,7 +15,7 @@ jobs:
       packages: write
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       
       - name: Setup Node
         uses: actions/setup-node@v3
@@ -31,7 +34,7 @@ jobs:
         run: bundle install 
 
       - name: Build site
-        run: JEKYLL_ENV=production bundle exec jekyll build
+        run: bundle exec jekyll build
 
       - name: Log in to the Container registry
         uses: docker/login-action@v2
