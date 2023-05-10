@@ -1,3 +1,5 @@
+# This file is for building the local dev image
+
 FROM ruby:3.2
 
 # This is for installing nodejs

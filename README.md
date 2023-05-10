@@ -4,4 +4,4 @@ The (new) gbif.se website built with [Jekyll](https://jekyllrb.com/) and [tailwi
 
 ## Dev setup
 
-Use `docker compose up` to run the application on http://localhost:4000.
+Use `make run`  (or `docker compose up`) to run the application on http://localhost:4000.
