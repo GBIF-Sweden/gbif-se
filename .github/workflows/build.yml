@@ -19,13 +19,13 @@ jobs:
         with:
           node-version: 18.x
 
-      - name: Install Node dependencies
-        run: npm ci
-
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.2'
+
+      - name: Install Node dependencies
+        run: npm ci
 
       - name: Install Ruby dependencies
         run: bundle install 
@@ -33,7 +33,7 @@ jobs:
       - name: Build site
         run: jekyll build
 
-      - name: Log in to Github packages
+      - name: Log in to the Container registry
         uses: docker/login-action@v2
         with:
           registry: ghcr.io
@@ -44,7 +44,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: ghcr.io/gbif-se
+          images: ghcr.io/${{ github.repository }}
       
       - name: Build and push Docker image
         uses: docker/build-push-action@v4
@@ -53,9 +53,3 @@ jobs:
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
-
-#     - name: Build the site in the jekyll/builder container
-#       run: |
-#         docker run \
-#         -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-#         jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
