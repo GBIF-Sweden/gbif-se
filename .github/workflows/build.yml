@@ -31,7 +31,7 @@ jobs:
         run: bundle install 
 
       - name: Build site
-        run: jekyll build
+        run: JEKYLL_ENV=production bundle exec jekyll build
 
       - name: Log in to the Container registry
         uses: docker/login-action@v2
