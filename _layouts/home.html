@@ -38,29 +38,38 @@
       </div>
 
       <div class="container flex mt-8">
+
         <div class="basis-2/3 border-r-4 border-gray-200 pr-4 mr-8">
           <h2>News</h2>
           {% assign latest_news = site.news | reverse %}
           {% for news in latest_news limit:3 %}
-            <div>
-                <h3>
-                    <a href="{{ news.url | relative_url }}">{{ news.title }}</a>
-                </h3>
-                <p>{{ news.summary }}</p>
-                <p> Published: {{ news.date | date: "%b %d, %Y %H:%M" }}</p>
+            <div class="flex mb-8">
+                <div class="basis-1/4">
+                  {% if news.image %}
+                      <a href="{{ news.url }}"><img src="/uploads/{{ news.image }}"></a>
+                  {% endif %}
+                </div>
+                <div class="basis-3/4 ml-6">
+                  <h3 class="mt-0">
+                      <a href="{{ news.url }}">{{ news.title }}</a>
+                  </h3>
+                  <div class="mt-1 text-gray-500 font-serif">{{ news.date | date: "%b %d, %Y %I:%M %p" }}</div>
+                  <p class="mt-2">{{ news.summary }}</p>
+                </div>
             </div>
           {% endfor %}
           <div class="mt-6">
             <a class="text-lg" href="{% link news.html %}">&raquo; See all news</a>
           </div>
         </div>
+
         <div>
           <h2>Events</h2>
           {% assign latest_events = site.events | reverse %}
           {% for event in latest_events limit:3 %}
           <div>
               <h3>
-                  <a href="{{ event.url | relative_url }}">{{ event.title }}</a>
+                  <a href="{{ event.url }}">{{ event.title }}</a>
               </h3>
               <p>{{ event.when }}</p>
           </div>
@@ -69,6 +78,7 @@
             <a class="text-lg" href="{% link events.html %}">&raquo; See all events</a>
           </div>
         </div>
+
       </div>  
 
     </main>

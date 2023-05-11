@@ -6,11 +6,19 @@ title: News
 <h1>{{ page.title }}</h1>
 
 {% for news in site.news reversed %}
-    <div>
-        <h3>
-            <a href="{{ news.url | relative_url }}">{{ news.title }}</a>
-        </h3>
-        <p>{{ news.summary }}</p>
-        <p> Published: {{ news.date | date: "%b %d, %Y %H:%M" }}</p>
+    <div class="flex mt-8 pb-8 border-b-4 border-gray-200">
+        <div class="basis-1/4">
+            {% if news.image %}
+                <a href="{{ news.url }}"><img src="/uploads/{{ news.image }}"></a>
+            {% endif %}
+        </div>
+        <div class="basis-3/4 ml-8">
+            <h2 class="mt-0">
+                <a href="{{ news.url }}">{{ news.title }}</a>
+            </h2>
+            <div class="mt-2 text-gray-500 font-serif">{{ news.date | date: "%b %d, %Y %I:%M %p" }}</div>
+            <p class="mt-4">{{ news.summary }}</p>
+            <div><a href="{{ news.url }}">&raquo; Read more</a></div>
+        </div>
     </div>
 {% endfor %}
