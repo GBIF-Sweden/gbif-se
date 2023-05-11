@@ -42,17 +42,19 @@ const fetchRecords = async() => {
         await fetchRecordCountIfMissing(record);
     }
 
+    records.sort((a, b) => (a.title > b.title) ? 1 : ((b.title > a.title) ? -1 : 0));
+
     return records;
 }
 
 const fetchRecordCountIfMissing = async(record) => {
-    if (!'recordCount' in record || record['type'] == 'CHECKLIST') { 
+    if (!'recordCount' in record || record.recordCount == 0 || record.type == 'CHECKLIST') { 
         var count = 0;
-        if (record['type'] == 'OCCURRENCE' || record['type'] == 'SAMPLING_EVENT') {
-            const response = await fetch('https://api.gbif.org/v1/occurrence/count?datasetKey=' + record['key']);
+        if (record.type == 'OCCURRENCE' || record.type == 'SAMPLING_EVENT') {
+            const response = await fetch('https://api.gbif.org/v1/occurrence/count?datasetKey=' + record.key);
             count = await response.json();
-        } else if (record['type'] == 'CHECKLIST') {
-            const response = await fetch('https://api.gbif.org/v1/dataset/' + record['key'] + '/metrics');
+        } else if (record.type == 'CHECKLIST') {
+            const response = await fetch('https://api.gbif.org/v1/dataset/' + record.key + '/metrics');
             const json = await response.json();
             count = json['countByOrigin']['SOURCE'];
         }
@@ -66,13 +68,13 @@ const populateTable = (records) => {
         const newRow = tableBody.insertRow();
         const tdTitle = document.createElement('td');
         tdTitle.appendChild(Object.assign(document.createElement('a'), 
-            {href: 'https://www.gbif.org/dataset/' + record['key'], textContent: record['title']}));
+            {href: 'https://www.gbif.org/dataset/' + record.key, textContent: record.title}));
         newRow.appendChild(tdTitle);
-        newRow.appendChild(Object.assign(document.createElement('td'), {textContent: record['publishingOrganizationTitle']}));
-        newRow.appendChild(Object.assign(document.createElement('td'), {textContent: record['type']}));
-        newRow.appendChild(Object.assign(document.createElement('td'), {textContent: record['subtype']}));
+        newRow.appendChild(Object.assign(document.createElement('td'), {textContent: record.publishingOrganizationTitle}));
+        newRow.appendChild(Object.assign(document.createElement('td'), {textContent: record.type}));
+        newRow.appendChild(Object.assign(document.createElement('td'), {textContent: record.subtype}));
         newRow.appendChild(Object.assign(document.createElement('td'), 
-            {className:'table-number', textContent:parseInt(record['recordCount']).toLocaleString('en-GB')}));
+            {className:'table-number text-right', textContent:parseInt(record.recordCount).toLocaleString('en-GB')}));
     });
 }
 
