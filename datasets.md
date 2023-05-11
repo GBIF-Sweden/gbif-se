@@ -7,7 +7,7 @@ load_tablefilter: true
 # {{ page.title }}
 
 <div class="mb-4 text-xl">
-    <a href="https://www.gbif.se/ipt/">GBIF Sweden IPT</a>
+    <a href="https://www.gbif.se/ipt/">&raquo; GBIF Sweden IPT</a>
 </div>
 
 <table id="datasetstable">

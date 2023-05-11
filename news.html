@@ -5,7 +5,7 @@ title: News
 
 <h1>{{ page.title }}</h1>
 
-{% for news in site.news %}
+{% for news in site.news reversed %}
     <div>
         <h3>
             <a href="{{ news.url | relative_url }}">{{ news.title }}</a>
