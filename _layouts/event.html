@@ -4,6 +4,21 @@ layout: base
 
 <h1>{{ page.title }}</h1>
 
-<i>{{ page.when }}</i>
+<div class="mt-2 text-gray-600">
+    {{ page.from | date: "%b %d, %Y %I:%M %p" }}{% if page.to %} - {{ page.to | date: "%b %d, %Y %I:%M %p" }}{% endif %}
+</div>
+{% if page.place %}
+    <div class="text-gray-600">
+        {{ page.place }}
+    </div>
+{% endif %}
+
+<p class="text-lg text-gray-700 mt-6 mb-4">
+    {{ page.summary }}
+</p>
+
+{% if page.image %}
+    <img class="h-72 mb-8" src="/uploads/{{ page.image }}">
+{% endif %}
 
 {{ content }}
