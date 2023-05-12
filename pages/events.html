@@ -18,11 +18,13 @@ permalink: /:basename/
                 <h2 class="mt-0">
                     <a href="{{ event.url }}">{{ event.title }}</a>
                 </h2>
-                <div class="mt-2 text-gray-500 font-serif">
+                <div class="mt-2 text-gray-500">
+                    {%- include icons/calendar.html class="h-4 inline" -%}
                     {{ event.from | date: "%b %d, %Y %I:%M %p" }}{% if event.to %} - {{ event.to | date: "%b %d, %Y %I:%M %p" }}{% endif %}
                 </div>
                 {% if event.place %}
-                    <div class="text-gray-500 font-serif">
+                    <div class="text-gray-500">
+                        {%- include icons/map-pin.html class="h-4 inline" -%}
                         {{ event.place }}
                     </div>
                 {% endif %}
