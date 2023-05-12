@@ -6,11 +6,33 @@ permalink: /:basename/
 
 <h1>{{ page.title }}</h1>
 
-{% for event in site.events reversed %}
-    <div>
-        <h3>
-            <a href="{{ event.url }}">{{ event.title }}</a>
-        </h3>
-        <p>{{ event.when }}</p>
-    </div>
-{% endfor %}
+<div>
+    {% for event in site.events %}
+        <div class="flex mt-8 pb-8 border-b-4 border-gray-200 last:border-0">
+            <div class="basis-1/4">
+                {% if event.image %}
+                    <a href="{{ event.url }}"><img src="/uploads/{{ event.image }}"></a>
+                {% endif %}
+            </div>
+            <div class="basis-3/4 ml-8">
+                <h2 class="mt-0">
+                    <a href="{{ event.url }}">{{ event.title }}</a>
+                </h2>
+                <div class="mt-2 text-gray-500 font-serif">
+                    {{ event.from | date: "%b %d, %Y %I:%M %p" }}{% if event.to %} - {{ event.to | date: "%b %d, %Y %I:%M %p" }}{% endif %}
+                </div>
+                {% if event.place %}
+                    <div class="text-gray-500 font-serif">
+                        {{ event.place }}
+                    </div>
+                {% endif %}
+                <p class="mt-4">
+                    {{ event.summary }}
+                </p>
+                <div>
+                    <a href="{{ event.url }}">&raquo; Read more</a>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>
