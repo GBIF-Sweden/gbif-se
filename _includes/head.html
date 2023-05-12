@@ -1,17 +1,16 @@
-
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
-    {%- seo -%}
-    <link rel="stylesheet" href="{{ "/assets/css/main.css" }}">
-    {% if page.load_leaflet == true %}
-        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css">
-        <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
-    {% endif %}
-    {% if page.load_tablefilter == true %}
-        <script src="https://unpkg.com/tablefilter@0.7.3/dist/tablefilter/tablefilter.js"></script>
-    {% endif %}
-    {%- feed_meta -%}
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
+  {%- seo -%}
+  <link rel="stylesheet" href="{{ "/assets/css/main.css" }}">
+  {% if page.load_leaflet == true %}
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css">
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+  {% endif %}
+  {% if page.load_tablefilter == true %}
+    <script src="https://unpkg.com/tablefilter@0.7.3/dist/tablefilter/tablefilter.js"></script>
+  {% endif %}
+  {%- feed_meta -%}
   </head>

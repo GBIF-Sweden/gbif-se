@@ -5,22 +5,22 @@ layout: base
 <h1>{{ page.title }}</h1>
 
 <div class="mt-2 text-gray-600">
-    {%- include icons/calendar.html class="h-4 inline" -%}
-    {%- include event-date.html from=page.from to=page.to -%}
+  {%- include icons/calendar.html class="h-4 inline" -%}
+  {%- include event-date.html from=page.from to=page.to -%}
 </div>
 {% if page.place %}
-    <div class="text-gray-600">
-        {%- include icons/map-pin.html class="h-4 inline" -%}
-        {{ page.place }}
-    </div>
+  <div class="text-gray-600">
+    {%- include icons/map-pin.html class="h-4 inline" -%}
+    {{ page.place }}
+  </div>
 {% endif %}
 
 <p class="text-lg text-gray-700 mt-6 mb-4">
-    {{ page.summary }}
+  {{ page.summary }}
 </p>
 
 {% if page.image %}
-    <img class="h-72 mb-8" src="/uploads/{{ page.image }}">
+  <img class="h-72 mb-8" src="/uploads/{{ page.image }}">
 {% endif %}
 
 {{ content }}
