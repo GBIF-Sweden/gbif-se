@@ -20,7 +20,7 @@ permalink: /:basename/
                 </h2>
                 <div class="mt-2 text-gray-500">
                     {%- include icons/calendar.html class="h-4 inline" -%}
-                    {{ event.from | date: "%b %d, %Y %I:%M %p" }}{% if event.to %} - {{ event.to | date: "%b %d, %Y %I:%M %p" }}{% endif %}
+                    {%- include event-date.html from=event.from to=event.to -%}
                 </div>
                 {% if event.place %}
                     <div class="text-gray-500">

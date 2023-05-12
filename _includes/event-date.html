@@ -1,0 +1,15 @@
+{%- assign from_size = include.from | size -%}
+{%- if from_size > 10 -%}
+    {%- assign from_format = "%b %d, %Y %I:%M %p" -%}
+{%- else -%}
+    {%- assign from_format = "%b %d, %Y" -%}
+{%- endif -%}
+
+{%- assign to_size = include.to | size -%}
+{%- if to_size > 10 -%}
+    {%- assign to_format = "%b %d, %Y %I:%M %p" -%}
+{%- else -%}
+    {%- assign to_format = "%b %d, %Y" -%}
+{%- endif -%}
+
+{{ include.from | date: from_format }}{% if include.to %} - {{ include.to | date: to_format }}{% endif %}
