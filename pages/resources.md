@@ -1,6 +1,7 @@
 ---
 layout: base
 title: Resources
+permalink: /:basename/
 ---
 
 # {{ page.title }}

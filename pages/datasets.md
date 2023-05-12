@@ -1,6 +1,7 @@
 ---
 layout: base
 title: Datasets
+permalink: /:basename/
 load_tablefilter: true
 ---
 

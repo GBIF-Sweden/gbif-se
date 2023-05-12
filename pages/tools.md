@@ -1,6 +1,7 @@
 ---
 layout: base
 title: Tools
+permalink: /:basename/
 ---
 
 # {{ page.title }}

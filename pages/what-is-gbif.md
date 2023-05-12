@@ -1,6 +1,7 @@
 ---
 layout: base
 title: What is GBIF
+permalink: /:basename/
 ---
 
 # {{ page.title }}
