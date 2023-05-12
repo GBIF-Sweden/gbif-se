@@ -1,6 +1,6 @@
 ---
 layout: event
-title: GBIF Europe and Central Asia Nodes meeting 2023
+slug: GBIF Europe and Central Asia Nodes meeting 2023
 from: 2023-05-15 12:00
 to:  2023-05-18 13:00
 place: Warsaw, Poland

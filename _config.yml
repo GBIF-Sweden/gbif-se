@@ -65,7 +65,7 @@ exclude:
 collections:
   news:
     output: true
-    permalink: "/:collection/:name/"
+    permalink: "/:collection/:year/:slug/"
   events:
     output: true
-    permalink: "/:collection/:name/"
+    permalink: "/:collection/:year/:slug/"
