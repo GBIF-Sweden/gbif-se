@@ -1,0 +1,35 @@
+- name: IPT
+  description: The Integrated Publishing Toolkit (IPT) is a free open source software tool that is used to publish and share biodiversity datasets through the GBIF network.
+  link: https://www.gbif.se/ipt
+  linktitle: Swedish IPT
+
+- name: Data validator
+  link: https://www.gbif.org/tools/data-validator
+
+- name: Github
+  link: https://github.com/GBIF-Sweden/
+
+- name: API
+  description: The GBIF API is a RESTful JSON based API.
+  link: https://www.gbif.org/developer/summary
+
+- name: rgbif
+  description: An interface to the GBIF API for the R statistical programming environment.
+  link: https://www.gbif.org/tool/81747/rgbif
+
+- name: pygbif
+  description: Python client for the GBIF API.
+  link: https://www.gbif.org/tool/OlyoYyRbKCSCkMKIi4oIT/pygbif-gbif-python-client
+
+- name: Templates for publishing data
+
+- name: Open refine
+
+- name: GRSciColl/GBIF Registry
+  description: The Global Registry of Scientific Collections (GRSciColl) is a comprehensive, community-curated clearing house of information on scientific collections, which builds on previous efforts developed by the Consortium of the Barcode of Life (CBOL) and others.
+  link: https://www.gbif.org/grscicoll
+
+- name: "Data portals: SBDI Bioatlas/GBIF.org"
+    
+- name: Tools catalogue
+  link: https://www.gbif.org/resource/search?contentType=tool
