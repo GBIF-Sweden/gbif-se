@@ -1,12 +1,11 @@
 {%- if page.url == "/" -%}
   {%- assign path_start = "/" -%}
 {%- else -%}
-  {%- assign path_start_0 = page.url | split:'/' -%}
-  {%- assign path_start_1 = path_start_0[1] | split:'.' -%}
-  {%- assign path_start = path_start_1[0] -%}
+  {%- assign path_start_0 = page.url | split: "/" -%}
+  {%- assign path_start = path_start_0[1] | prepend: "/" | append: "/"  -%}
 {%- endif -%}
 
-{%- assign menu_items = "Home:/, Datasets:datasets, News:news, Events:events, Tools:tools, Resources:resources" | split:", " -%}
+{%- assign menu_items = "Home:/, Datasets:/datasets/, News:/news/, Events:/events/, Tools:/tools/, Resources:/resources/" | split:", " -%}
 
 <div class="my-12 flex container">
   <div class="grow" role="banner">
@@ -15,7 +14,7 @@
     </a>
   </div>
   <div class="mt-8">
-    <a class="p-3 bg-gbif-green text-white" href="/contact">Contact</a>
+    <a class="p-3 bg-gbif-green text-white" href="/contact/">Contact</a>
   </div>
 </div>
 
@@ -26,7 +25,7 @@
       <li class="float-left">
         <a class="block p-4 text-center text-lg no-underline hover:bg-slate-200 hover:text-gbif-green hover:no-underline 
               {% if path_start == menu_item[1] %}text-black bg-white{% else %}text-white{% endif %}" 
-          href="/{{ menu_item[1] | replace:"/", "" }}">
+          href="{{ menu_item[1] }}">
           {{ menu_item[0] }}
         </a>
       </li>
