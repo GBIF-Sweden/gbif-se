@@ -9,7 +9,7 @@ permalink: /:basename/
 
 <h2>Coming events</h2>
 <div>
-{% assign coming_events = site.events | coming_events %}
+{% assign coming_events = site.events | sort: "from" | coming_events %}
 {% for event in coming_events %}
   {% include event-item.html event=event %}
 {% endfor %}
@@ -17,7 +17,7 @@ permalink: /:basename/
 
 <h2 class="mt-8">Past events</h2>
 <div>
-{% assign past_events = site.events | past_events %}
+{% assign past_events = site.events | sort: "from" | past_events %}
 {% for event in past_events reversed %}
   {% include event-item.html event=event %}
 {% endfor %}
