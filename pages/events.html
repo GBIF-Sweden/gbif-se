@@ -6,35 +6,19 @@ permalink: /:basename/
 
 <h1>{{ page.title }}</h1>
 
+
+<h2>Coming events</h2>
 <div>
-  {% for event in site.events %}
-    <div class="flex mt-8 pb-8 border-b-4 border-gray-200 last:border-0">
-      <div class="basis-1/4">
-        {% if event.image %}
-          <a href="{{ event.url }}"><img src="/uploads/{{ event.image }}"></a>
-        {% endif %}
-      </div>
-      <div class="basis-3/4 ml-8">
-        <h2 class="mt-0">
-          <a href="{{ event.url }}">{{ event.slug }}</a>
-        </h2>
-        <div class="mt-2 text-gray-500">
-          {%- include icons/calendar.html class="h-4 inline" -%}
-          {%- include event-date.html from=event.from to=event.to -%}
-        </div>
-        {% if event.place %}
-          <div class="text-gray-500">
-            {%- include icons/map-pin.html class="h-4 inline" -%}
-            {{ event.place }}
-          </div>
-        {% endif %}
-        <p class="mt-4">
-          {{ event.summary }}
-        </p>
-        <div>
-          <a href="{{ event.url }}">&raquo; Read more</a>
-        </div>
-      </div>
-    </div>
-  {% endfor %}
+{% assign coming_events = site.events | coming_events %}
+{% for event in coming_events %}
+  {% include event-item.html event=event %}
+{% endfor %}
+</div>
+
+<h2 class="mt-8">Past events</h2>
+<div>
+{% assign past_events = site.events | past_events %}
+{% for event in past_events reversed %}
+  {% include event-item.html event=event %}
+{% endfor %}
 </div>

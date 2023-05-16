@@ -1,0 +1,28 @@
+<div class="flex mt-8 pb-8 border-b-4 border-gray-200 last:border-0">
+  <div class="basis-1/4">
+    {% if event.image %}
+      <a href="{{ event.url }}"><img src="/uploads/{{ event.image }}"></a>
+    {% endif %}
+  </div>
+  <div class="basis-3/4 ml-8">
+    <h2 class="mt-0">
+      <a href="{{ event.url }}">{{ event.slug }}</a>
+    </h2>
+    <div class="mt-2 text-gray-500">
+      {%- include icons/calendar.html class="h-4 inline" -%}
+      {%- include event-date.html from=event.from to=event.to -%}
+    </div>
+    {% if event.place %}
+      <div class="text-gray-500">
+          {%- include icons/map-pin.html class="h-4 inline" -%}
+          {{ event.place }}
+      </div>
+    {% endif %}
+    <p class="mt-4">
+      {{ event.summary }}
+    </p>
+    <div>
+      <a href="{{ event.url }}">&raquo; Read more</a>
+    </div>
+  </div>
+</div>
