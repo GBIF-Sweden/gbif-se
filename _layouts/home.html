@@ -69,7 +69,7 @@
 
         <div class="basis-1/3">
           <h2>Events</h2>
-          {% assign coming_events = site.events | sort: "from" | coming_events %}
+          {% assign coming_events = site.events | sort: "from" | filter_events: "coming" %}
           {% for event in coming_events limit:3 %}
             <div class="flex mb-8">
               <div class="basis-1/4">

@@ -1,0 +1,51 @@
+---
+layout: base
+---
+
+<div class="flex">
+
+  {% include events-side-menu.html type=page.event_type %}
+
+  <div class="grow">
+
+    <h1>{{ page.title }}</h1>
+
+    <h2>{{ page.event_type | capitalize }} events</h2>
+
+    <div>
+      {% assign events = site.events | sort: "from" | filter_events: page.event_type %}
+      {% for event in events %}
+        <div class="flex mt-8 pb-8 border-b-4 border-gray-200 last:border-0">
+          <div class="flex-none w-48">
+            {% if event.image %}
+              <a href="{{ event.url }}"><img src="/uploads/{{ event.image }}"></a>
+            {% endif %}
+          </div>
+          <div class="ml-8 grow">
+            <h2 class="mt-0">
+              <a href="{{ event.url }}">{{ event.slug }}</a>
+            </h2>
+            <div class="mt-2 text-gray-500">
+              {%- include icons/calendar.html class="h-4 inline" -%}
+              {%- include event-date.html from=event.from to=event.to -%}
+            </div>
+            {% if event.place %}
+              <div class="text-gray-500">
+                  {%- include icons/map-pin.html class="h-4 inline" -%}
+                  {{ event.place }}
+              </div>
+            {% endif %}
+            <p class="mt-4">
+              {{ event.summary }}
+            </p>
+            <div>
+              <a href="{{ event.url }}">&raquo; Read more</a>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    
+  </div>
+
+</div>
