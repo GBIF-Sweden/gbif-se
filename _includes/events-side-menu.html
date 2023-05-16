@@ -1,0 +1,11 @@
+<div class="mr-8 mt-2 w-48 flex-none">
+  <div class="bg-gbif-green-light px-3 py-2 text-gray-800 text-lg">Events</div>
+  <ul class="bg-gray-100 list-none">
+    <li class="px-3 py-2 {% if include.type == 'coming' %}bg-gray-300{% else %}hover:bg-gray-200{% endif %}">
+      <a class="block text-gray-700 hover:no-underline" href="/events/">Coming</a>
+    </li>
+    <li class="px-3 py-2 {% if include.type == 'past' %}bg-gray-300{% else %}hover:bg-gray-200{% endif %}"">
+      <a class="block text-gray-700 hover:no-underline" href="/events/past/">Past</a>
+    </li>
+  </ul>
+</div>

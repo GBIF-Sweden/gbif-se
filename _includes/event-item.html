@@ -1,10 +1,10 @@
 <div class="flex mt-8 pb-8 border-b-4 border-gray-200 last:border-0">
-  <div class="basis-1/4">
+  <div class="flex-none w-48">
     {% if event.image %}
       <a href="{{ event.url }}"><img src="/uploads/{{ event.image }}"></a>
     {% endif %}
   </div>
-  <div class="basis-3/4 ml-8">
+  <div class="ml-8 grow">
     <h2 class="mt-0">
       <a href="{{ event.url }}">{{ event.slug }}</a>
     </h2>

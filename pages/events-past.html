@@ -1,0 +1,19 @@
+---
+layout: base
+title: Events
+permalink: /events/past/
+---
+
+<div class="flex">
+  {% include events-side-menu.html type="past" %}
+  <div class="grow">
+    <h1>{{ page.title }}</h1>
+    <h2>Past events</h2>
+    <div>
+      {% assign past_events = site.events | sort: "from" | past_events %}
+      {% for event in past_events reversed %}
+        {% include event-item.html event=event %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
