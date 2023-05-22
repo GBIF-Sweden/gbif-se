@@ -19,11 +19,19 @@
 </div>
 
 <div class="overflow-hidden bg-gbif-green">
-  <ul class="container list-none" role="navigation">
+  <a class="container sm:hidden block px-4 py-3 text-white" onclick="toggleMobileMenu();" href="javascript:void(0)">
+    <svg id="topMenuOpen" class="w-8 h-8" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    </svg>
+    <svg id="topMenuClose" class="w-8 h-8 hidden" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round"></path>
+    </svg>
+  </a>
+  <ul id="topMenu" class="container list-none mb-0 hidden sm:block" role="navigation">
     {% for menu_item_0 in menu_items %}
       {% assign menu_item = menu_item_0 | split: ":" %}
-      <li class="float-left">
-        <a class="block p-4 text-center text-lg no-underline hover:bg-slate-200 hover:text-gbif-green hover:no-underline 
+      <li class="sm:float-left">
+        <a class="block p-4 sm:text-center text-lg no-underline hover:bg-slate-200 hover:text-gbif-green hover:no-underline
               {% if path_start == menu_item[1] %}text-black bg-white{% else %}text-white{% endif %}" 
           href="{{ menu_item[1] }}">
           {{ menu_item[0] }}

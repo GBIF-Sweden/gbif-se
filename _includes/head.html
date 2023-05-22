@@ -13,4 +13,11 @@
     <script src="https://unpkg.com/tablefilter@0.7.3/dist/tablefilter/tablefilter.js"></script>
   {% endif %}
   {%- feed_meta -%}
-  </head>
+  <script type="text/javascript">
+    function toggleMobileMenu() {
+      document.getElementById("topMenu").classList.toggle("hidden");
+      document.getElementById("topMenuOpen").classList.toggle("hidden");
+      document.getElementById("topMenuClose").classList.toggle("hidden");
+    }
+  </script>
+</head>
