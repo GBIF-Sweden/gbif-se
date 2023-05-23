@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: default
 title: FAIR and CARE
 permalink: /:basename/
 ---

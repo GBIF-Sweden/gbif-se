@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: default
 title: Tools
 permalink: /:basename/
 ---
@@ -8,7 +8,7 @@ permalink: /:basename/
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ullamcorper venenatis iaculis. In ullamcorper viverra lorem, quis consequat dolor mattis a. Curabitur facilisis nulla purus, nec tincidunt nisi tristique eu.
 
-<div class="mt-8 grid grid-cols-2 gap-8">
+<div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
   {% for tool in site.data.tools %}
     <div>
       <h2 class="mb-2">{{ tool.name }}</h2>

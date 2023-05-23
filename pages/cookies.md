@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: default
 title: Cookies
 permalink: /:basename/
 ---
