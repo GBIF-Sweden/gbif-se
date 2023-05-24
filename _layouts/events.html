@@ -13,7 +13,10 @@ layout: default
     <h2>{{ page.event_type | capitalize }} events</h2>
 
     <div>
-      {% assign events = site.events | sort: "from" | filter_events: page.event_type %}
+      {% assign events = site.events | filter_events: page.event_type | sort: "from" %}
+      {% if page.event_type == 'past' %}
+        {% assign events = events | reverse %}
+      {% endif %}
       {% for event in events %}
         <article class="flex flex-col md:flex-row mt-8 pb-8 border-b-4 border-gray-200 last:border-0">
           <div class="flex-none md:w-48 mb-4 md:mb-0">
