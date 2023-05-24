@@ -15,34 +15,36 @@ layout: default
     <div>
       {% assign events = site.events | sort: "from" | filter_events: page.event_type %}
       {% for event in events %}
-        <div class="flex flex-col md:flex-row mt-8 pb-8 border-b-4 border-gray-200 last:border-0">
+        <article class="flex flex-col md:flex-row mt-8 pb-8 border-b-4 border-gray-200 last:border-0">
           <div class="flex-none md:w-48 mb-4 md:mb-0">
             {% if event.image %}
               <a href="{{ event.url }}"><img src="/uploads/{{ event.image }}"></a>
             {% endif %}
           </div>
           <div class="md:ml-8 grow">
-            <h2 class="mt-0">
-              <a href="{{ event.url }}">{{ event.slug }}</a>
-            </h2>
-            <div class="mt-2 text-gray-500">
-              {%- include icons/calendar.html class="h-4 inline" -%}
-              {%- include event-date.html from=event.from to=event.to -%}
-            </div>
-            {% if event.place %}
-              <div class="text-gray-500">
-                  {%- include icons/map-pin.html class="h-4 inline" -%}
-                  {{ event.place }}
+            <header>
+              <h2 class="mt-0">
+                <a href="{{ event.url }}">{{ event.slug }}</a>
+              </h2>
+              <div class="mt-2 text-gray-500">
+                {%- include icons/calendar.html class="h-4 inline" -%}
+                {%- include event-date.html from=event.from to=event.to -%}
               </div>
-            {% endif %}
+              {% if event.place %}
+                <div class="text-gray-500">
+                    {%- include icons/map-pin.html class="h-4 inline" -%}
+                    {{ event.place }}
+                </div>
+              {% endif %}
+            </header>
             <p class="mt-4">
               {{ event.summary }}
             </p>
-            <div>
+            <footer>
               <a href="{{ event.url }}">&raquo; Read more</a>
-            </div>
+            </footer>
           </div>
-        </div>
+        </article>
       {% endfor %}
     </div>
     

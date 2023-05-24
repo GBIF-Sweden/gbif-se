@@ -8,26 +8,28 @@ permalink: /:basename/
 
 <div>
   {% for news in site.news reversed %}
-    <div class="flex flex-col md:flex-row mt-8 pb-8 border-b-4 border-gray-200 last:border-0">
+    <article class="flex flex-col md:flex-row mt-8 pb-8 border-b-4 border-gray-200 last:border-0">
       <div class="basis-1/4 mb-4 md:mb-0">
         {% if news.image %}
           <a href="{{ news.url }}"><img src="/uploads/{{ news.image }}"></a>
         {% endif %}
       </div>
       <div class="basis-3/4 md:ml-8">
-        <h2 class="mt-0">
-          <a href="{{ news.url }}">{{ news.slug }}</a>
-        </h2>
-        <div class="mt-2 text-gray-500">
-          {{ news.date | date: "%b %d, %Y %I:%M %p" }}
-        </div>
+        <header>
+          <h2 class="mt-0">
+            <a href="{{ news.url }}">{{ news.slug }}</a>
+          </h2>
+          <div class="mt-2 text-gray-500">
+            {{ news.date | date: "%b %d, %Y %I:%M %p" }}
+          </div>
+        </header>
         <p class="mt-4">
           {{ news.summary }}
         </p>
-        <div>
+        <footer>
           <a href="{{ news.url }}">&raquo; Read more</a>
-        </div>
+        </footer>
       </div>
-    </div>
+    </article>
   {% endfor %}
 </div>

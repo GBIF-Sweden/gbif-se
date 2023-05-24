@@ -2,18 +2,22 @@
 layout: default
 ---
 
-<h1>{{ page.slug }}</h1>
+<article>
+  <header>
+    <h1>{{ page.slug }}</h1>
+  </header>
 
-<p class="text-lg text-gray-700 mt-6 mb-4">
-  {{ page.summary }}
-</p>
+  <p class="text-lg text-gray-700 mt-6 mb-4">
+    {{ page.summary }}
+  </p>
 
-{% if page.image %}
-  <img class="h-72 mb-8" src="/uploads/{{ page.image }}">
-{% endif %}
+  {% if page.image %}
+    <img class="h-72 mb-8" src="/uploads/{{ page.image }}">
+  {% endif %}
 
-{{ content }}
+  {{ content }}
 
-<div class="mt-8 pt-4 border-t-4 border-gray-200 text-gray-500">
-  Published: {{ page.date | date: "%b %d, %Y %I:%M %p" }}
-</div>
+  <footer class="mt-8 pt-4 border-t-4 border-gray-200 text-gray-500">
+    Published: {{ page.date | date: "%b %d, %Y %I:%M %p" }}
+  </footer>
+</article>

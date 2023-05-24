@@ -4,11 +4,11 @@ layout: base
 
 <main class="my-12" aria-label="Content">
   
-  <div class="container mb-8 px-4">
+  <section class="container mb-8 px-4">
     {{ content }}
-  </div>
+  </section>
 
-  <div class="bg-gray-100 py-8">
+  <section class="bg-gray-100 py-8">
     <div class="container px-4">
       <h2 class="mb-4">Species occurrences published in GBIF from Swedish institutions</h2>
       
@@ -30,11 +30,11 @@ layout: base
         }).addTo(map);
       </script>
     </div>
-  </div>
+  </section>
 
   <div class="container flex flex-col lg:flex-row mt-8 px-4">
 
-    <div class="basis-2/3 lg:border-r-4 lg:border-gray-200 lg:pr-4 lg:mr-8">
+    <section class="basis-2/3 lg:border-r-4 lg:border-gray-200 lg:pr-4 lg:mr-8">
       <h2 class="mb-2">News</h2>
       {% assign latest_news = site.news | reverse %}
       {% for news in latest_news limit:3 %}
@@ -60,9 +60,9 @@ layout: base
       <div class="mt-6">
         <a class="text-lg" href="/news/">&raquo; See all news</a>
       </div>
-    </div>
+    </section>
 
-    <div class="basis-1/3 mt-8 lg:mt-0">
+    <section class="basis-1/3 mt-8 lg:mt-0">
       <h2 class="mb-2">Events</h2>
       {% assign coming_events = site.events | sort: "from" | filter_events: "coming" %}
       {% for event in coming_events limit:3 %}
@@ -92,7 +92,7 @@ layout: base
       <div class="mt-6">
         <a class="text-lg" href="/events/">&raquo; See all events</a>
       </div>
-    </div>
+    </section>
 
   </div>  
 
