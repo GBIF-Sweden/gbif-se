@@ -43,7 +43,9 @@ layout: base
         <article class="flex flex-col md:flex-row mb-8">
             <div class="basis-1/4 mb-4 md:mb-0">
               {% if news.image %}
-                  <a href="{{ news.url }}"><img src="/uploads/{{ news.image }}"></a>
+                  <a href="{{ news.url }}" title="{{ news.slug }}">
+                    <img src="/uploads/{{ news.image }}" alt="">
+                  </a>
               {% endif %}
             </div>
             <div class="basis-3/4 ml-6">
@@ -75,7 +77,9 @@ layout: base
         <article class="flex flex-col md:flex-row mb-8">
           <div class="basis-1/4 mb-4 md:mb-0">
             {% if event.image %}
-                <a href="{{ event.url }}"><img src="/uploads/{{ event.image }}"></a>
+                <a href="{{ event.url }}" title="{{ event.slug }}">
+                  <img src="/uploads/{{ event.image }}" alt="">
+                </a>
             {% endif %}
           </div>
           <div class="basis-3/4 ml-6">

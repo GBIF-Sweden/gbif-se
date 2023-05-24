@@ -18,7 +18,9 @@ layout: default
         <article class="flex flex-col md:flex-row mt-8 pb-8 border-b-4 border-gray-200 last:border-0">
           <div class="flex-none md:w-48 mb-4 md:mb-0">
             {% if event.image %}
-              <a href="{{ event.url }}"><img src="/uploads/{{ event.image }}"></a>
+              <a href="{{ event.url }}" title="{{ event.slug }}">
+                <img src="/uploads/{{ event.image }}" alt="">
+              </a>
             {% endif %}
           </div>
           <div class="md:ml-8 grow">
@@ -41,7 +43,7 @@ layout: default
               {{ event.summary }}
             </p>
             <footer>
-              <a href="{{ event.url }}">&raquo; Read more</a>
+              <a href="{{ event.url }}" title="{{ event.slug }}">&raquo; Read more</a>
             </footer>
           </div>
         </article>

@@ -11,7 +11,9 @@ permalink: /:basename/
     <article class="flex flex-col md:flex-row mt-8 pb-8 border-b-4 border-gray-200 last:border-0">
       <div class="basis-1/4 mb-4 md:mb-0">
         {% if news.image %}
-          <a href="{{ news.url }}"><img src="/uploads/{{ news.image }}"></a>
+          <a href="{{ news.url }}" title="{{ news.slug }}">
+            <img src="/uploads/{{ news.image }}" alt="">
+          </a>
         {% endif %}
       </div>
       <div class="basis-3/4 md:ml-8">
@@ -27,7 +29,7 @@ permalink: /:basename/
           {{ news.summary }}
         </p>
         <footer>
-          <a href="{{ news.url }}">&raquo; Read more</a>
+          <a href="{{ news.url }}" title="{{ news.slug }}">&raquo; Read more</a>
         </footer>
       </div>
     </article>
