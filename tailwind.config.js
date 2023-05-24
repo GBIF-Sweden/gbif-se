@@ -21,9 +21,9 @@ module.exports = {
       },
       extend: {
         colors: {
-          'gbif-green': '#75b375',
+          'gbif-green': '#40833a',
           'gbif-green-light': '#c4dec4',
-          'gbif-green-dark': '#61a861',
+          'gbif-green-dark': '#397534',
         },
         fontFamily: {
           sans: [
