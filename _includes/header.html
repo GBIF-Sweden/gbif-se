@@ -7,50 +7,50 @@
 
 {%- assign menu_items = "Home:/, Datasets:/datasets/, News:/news/, Events:/events/, Tools:/tools/, Resources:/resources/" | split:", " -%}
 
-  <header class="container flex my-12 px-4" aria-label="Site header">
-    <div class="grow">
-      <a href="/" title="To start page">
-        <img src="/assets/images/gbif_se_logo_black.png" class="inline h-20" alt="GBIF logtype">
-      </a>
-    </div>
-    <div class="mt-8">
-      <a class="p-3 bg-gbif-green text-white" href="/contact/">Contact</a>
-    </div>
-  </header>
+<header class="container flex my-12 px-4" aria-label="Site header">
+  <div class="grow">
+    <a href="/" title="To start page">
+      <img src="/assets/images/gbif_se_logo_black.png" class="inline h-20" alt="GBIF logtype">
+    </a>
+  </div>
+  <div class="mt-8">
+    <a class="p-3 bg-gbif-green text-white" href="/contact/">Contact</a>
+  </div>
+</header>
 
-  <nav class="overflow-hidden bg-gbif-green" aria-label="Main menu">
-    <button class="container sm:hidden block px-4 py-3 text-white" onclick="toggleMobileMenu()">
-      <svg id="topMenuOpen" class="w-8 h-8" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-        <path d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" stroke-linecap="round" stroke-linejoin="round"></path>
-      </svg>
-      <svg id="topMenuClose" class="w-8 h-8 hidden" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-        <path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round"></path>
-      </svg>
-    </button>
-    <ul id="topMenu" class="container list-none mb-0 hidden sm:block">
-      {% for menu_item_0 in menu_items %}
-        {% assign menu_item = menu_item_0 | split: ":" %}
-        <li class="sm:float-left">
-          <a class="block p-4 sm:text-center text-lg no-underline hover:bg-slate-200 hover:text-gbif-green hover:no-underline
-              {% if path_start == menu_item[1] %}text-black bg-white{% else %}text-white{% endif %}" 
-            href="{{ menu_item[1] }}">
-            {{ menu_item[0] }}
-          </a>
-          {% if menu_item[1] == "/events/" %}
-            <ul class="sm:hidden mb-0 list-none">
-              <li>
-                <a class="p-3 pl-8 block no-underline hover:bg-slate-200 hover:text-gbif-green hover:no-underline
-                    {% if page.url == '/events/' %}text-black bg-white{% else %}text-white{% endif %}"
-                  href="/events/">Coming</a>
-              </li>
-              <li>
-                <a class="p-3 pl-8 block no-underline hover:bg-slate-200 hover:text-gbif-green hover:no-underline
-                    {% if page.url == '/events/past/' %}text-black bg-white{% else %}text-white{% endif %}"
-                  href="/events/past/">Past</a>
-              </li>
-            </ul>
-          {% endif %}
-        </li>
-      {% endfor %}
-    </ul>
-  </nav>
+<nav class="overflow-hidden bg-gbif-green" aria-label="Main menu">
+  <button class="container sm:hidden block px-4 py-3 text-white" onclick="toggleMobileMenu()">
+    <svg id="topMenuOpen" class="w-8 h-8" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    </svg>
+    <svg id="topMenuClose" class="w-8 h-8 hidden" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round"></path>
+    </svg>
+  </button>
+  <ul id="topMenu" class="container list-none mb-0 hidden sm:block">
+    {% for menu_item_0 in menu_items %}
+      {% assign menu_item = menu_item_0 | split: ":" %}
+      <li class="sm:float-left">
+        <a class="block p-4 sm:text-center text-lg no-underline hover:bg-slate-200 hover:text-gbif-green hover:no-underline
+            {% if path_start == menu_item[1] %}text-black bg-white{% else %}text-white{% endif %}" 
+          href="{{ menu_item[1] }}">
+          {{ menu_item[0] }}
+        </a>
+        {% if menu_item[1] == "/events/" %}
+          <ul class="sm:hidden mb-0 list-none">
+            <li>
+              <a class="p-3 pl-8 block no-underline hover:bg-slate-200 hover:text-gbif-green hover:no-underline
+                  {% if page.url == '/events/' %}text-black bg-white{% else %}text-white{% endif %}"
+                href="/events/">Coming</a>
+            </li>
+            <li>
+              <a class="p-3 pl-8 block no-underline hover:bg-slate-200 hover:text-gbif-green hover:no-underline
+                  {% if page.url == '/events/past/' %}text-black bg-white{% else %}text-white{% endif %}"
+                href="/events/past/">Past</a>
+            </li>
+          </ul>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</nav>
