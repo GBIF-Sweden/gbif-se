@@ -7,7 +7,7 @@
 
 {%- assign menu_items = "Home:/, Datasets:/datasets/, News:/news/, Events:/events/, Tools:/tools/, Resources:/resources/" | split:", " -%}
 
-  <header class="container flex my-12 px-4">
+  <header class="container flex my-12 px-4" aria-label="Site header">
     <div class="grow">
       <a href="/" title="To start page">
         <img src="/assets/images/gbif_se_logo_black.png" class="inline h-20" alt="GBIF logtype">
@@ -18,7 +18,7 @@
     </div>
   </header>
 
-  <nav class="overflow-hidden bg-gbif-green">
+  <nav class="overflow-hidden bg-gbif-green" aria-label="Main menu">
     <button class="container sm:hidden block px-4 py-3 text-white" onclick="toggleMobileMenu()">
       <svg id="topMenuOpen" class="w-8 h-8" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
         <path d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" stroke-linecap="round" stroke-linejoin="round"></path>
