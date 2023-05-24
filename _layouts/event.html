@@ -7,30 +7,31 @@ layout: default
   {% assign event_type = page | event_type %}
   {% include events-side-menu.html type=event_type %}
 
-  <div class="grow">
+  <article class="grow">
 
-    <h1>{{ page.slug }}</h1>
-
-    <div class="mt-2 text-gray-600">
-      {%- include icons/calendar.html class="h-4 inline" -%}
-      {%- include event-date.html from=page.from to=page.to -%}
-    </div>
-    {% if page.place %}
-      <div class="text-gray-600">
-        {%- include icons/map-pin.html class="h-4 inline" -%}
-        {{ page.place }}
+    <header>
+      <h1>{{ page.slug }}</h1>
+      <div class="mt-2 text-gray-600">
+        {%- include icons/calendar.html class="h-4 inline" -%}
+        {%- include event-date.html from=page.from to=page.to -%}
       </div>
-    {% endif %}
+      {% if page.place %}
+        <div class="text-gray-600">
+          {%- include icons/map-pin.html class="h-4 inline" -%}
+          {{ page.place }}
+        </div>
+      {% endif %}
+    </header>
 
     <p class="text-lg text-gray-700 mt-6 mb-4">
       {{ page.summary }}
     </p>
 
     {% if page.image %}
-      <img class="h-72 mb-8" src="/uploads/{{ page.image }}">
+      <img class="h-72 mb-8" src="/uploads/{{ page.image }}" alt="">
     {% endif %}
 
     {{ content }}
 
-  </div>
+  </article>
 </div>
