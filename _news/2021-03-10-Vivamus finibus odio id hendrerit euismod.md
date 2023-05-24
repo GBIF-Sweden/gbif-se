@@ -1,8 +1,8 @@
 ---
 layout: news
-slug:  Vivamus finibus odio id hendrerit euismod. Praesent aliquam risus orci, at maximus nulla tincidunt ut
-date: 2020-07-08 10:00
-summary: "Proin id consequat purus, vel auctor nibh. Ut tristique sed magna ut ornare. Pellentesque finibus tellus eget dapibus malesuada. Morbi euismod vulputate orci, sed vehicula turpis tristique eu. Integer eget vulputate dolor, ac efficitur orci."
+title:  Vivamus finibus odio id hendrerit euismod
+date: 2021-03-10 10:00
+description: "Proin id consequat purus, vel auctor nibh. Ut tristique sed magna ut ornare. Pellentesque finibus tellus eget dapibus malesuada. Morbi euismod vulputate orci, sed vehicula turpis tristique eu. Integer eget vulputate dolor, ac efficitur orci."
 ---
 
 Donec accumsan facilisis dapibus. Cras eget lectus id enim mattis iaculis. Etiam eu felis ut quam lobortis dapibus. Sed molestie id libero a rutrum. Pellentesque efficitur tincidunt rhoncus. In commodo nec erat id lacinia. Ut pellentesque dapibus velit, vitae viverra nulla eleifend sed. Nullam elit metus, auctor vel leo ut, euismod commodo purus. Donec bibendum nulla nec magna efficitur fringilla sed nec nisi. Nulla luctus facilisis enim, ac aliquet diam pulvinar nec. Praesent vitae neque at mi tincidunt suscipit non a elit.

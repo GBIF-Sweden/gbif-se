@@ -1,8 +1,8 @@
 ---
 layout: news
-slug:  Praesent aliquam risus orci, at maximus nulla tincidunt ut.
+title: Praesent aliquam risus orci, at maximus nulla tincidunt ut
 date: 2023-04-01 15:00
-summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id consequat purus, vel auctor nibh. Ut tristique sed magna ut ornare. Pellentesque finibus tellus eget dapibus malesuada. Morbi euismod vulputate orci, sed vehicula turpis tristique eu. Integer eget vulputate dolor, ac efficitur orci."
+description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id consequat purus, vel auctor nibh. Ut tristique sed magna ut ornare. Pellentesque finibus tellus eget dapibus malesuada. Morbi euismod vulputate orci, sed vehicula turpis tristique eu. Integer eget vulputate dolor, ac efficitur orci."
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ullamcorper venenatis iaculis. In ullamcorper viverra lorem, quis consequat dolor mattis a. Curabitur facilisis nulla purus, nec tincidunt nisi tristique eu. Quisque ut rutrum sem, commodo mattis dui. Fusce ac libero rhoncus tellus tempor lobortis sed vitae nisi. Nullam pretium scelerisque risus ultrices maximus. Aliquam lobortis convallis nunc finibus interdum. Nulla mattis libero eget tortor ullamcorper varius. Proin purus ligula, convallis sed eros quis, posuere tincidunt neque. Etiam porttitor nec tortor eu vehicula. Vestibulum a consequat mauris, quis fringilla ante. Pellentesque sed viverra tortor.

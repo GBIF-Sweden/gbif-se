@@ -18,7 +18,7 @@ layout: default
         <article class="flex flex-col md:flex-row mt-8 pb-8 border-b-4 border-gray-200 last:border-0">
           <div class="flex-none md:w-48 mb-4 md:mb-0">
             {% if event.image %}
-              <a href="{{ event.url }}" title="{{ event.slug }}">
+              <a href="{{ event.url }}" title="{{ event.title }}">
                 <img src="/uploads/{{ event.image }}" alt="">
               </a>
             {% endif %}
@@ -26,7 +26,7 @@ layout: default
           <div class="md:ml-8 grow">
             <header>
               <h2 class="mt-0">
-                <a href="{{ event.url }}">{{ event.slug }}</a>
+                <a href="{{ event.url }}">{{ event.title }}</a>
               </h2>
               <div class="mt-2 text-gray-500">
                 {%- include icons/calendar.html class="h-4 inline" -%}
@@ -40,10 +40,10 @@ layout: default
               {% endif %}
             </header>
             <p class="mt-4">
-              {{ event.summary }}
+              {{ event.description }}
             </p>
             <footer>
-              <a href="{{ event.url }}" title="{{ event.slug }}">&raquo; Read more</a>
+              <a href="{{ event.url }}" title="{{ event.title }}">&raquo; Read more</a>
             </footer>
           </div>
         </article>

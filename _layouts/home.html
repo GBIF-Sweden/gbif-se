@@ -43,7 +43,7 @@ layout: base
         <article class="flex flex-col md:flex-row mb-8">
             <div class="basis-1/4 mb-4 md:mb-0">
               {% if news.image %}
-                  <a href="{{ news.url }}" title="{{ news.slug }}">
+                  <a href="{{ news.url }}" title="{{ news.title }}">
                     <img src="/uploads/{{ news.image }}" alt="">
                   </a>
               {% endif %}
@@ -51,14 +51,14 @@ layout: base
             <div class="basis-3/4 ml-6">
               <header>
                 <h3 class="mt-0">
-                    <a href="{{ news.url }}">{{ news.slug }}</a>
+                    <a href="{{ news.url }}">{{ news.title }}</a>
                 </h3>
                 <div class="mt-1 text-gray-500">
                   {{ news.date | date: "%b %d, %Y %I:%M %p" }}
                 </div>
               </header>
               <p class="mt-2">
-                {{ news.summary }}
+                {{ news.description }}
               </p>
             </div>
           </article>
@@ -77,7 +77,7 @@ layout: base
         <article class="flex flex-col md:flex-row mb-8">
           <div class="basis-1/4 mb-4 md:mb-0">
             {% if event.image %}
-                <a href="{{ event.url }}" title="{{ event.slug }}">
+                <a href="{{ event.url }}" title="{{ event.title }}">
                   <img src="/uploads/{{ event.image }}" alt="">
                 </a>
             {% endif %}
@@ -85,7 +85,7 @@ layout: base
           <div class="basis-3/4 ml-6">
             <header>
               <h3 class="mt-0">
-                  <a href="{{ event.url }}">{{ event.slug }}</a>
+                  <a href="{{ event.url }}">{{ event.title }}</a>
               </h3>
               <div class="mt-1 text-gray-500">
                 {%- include icons/calendar.html class="h-4 inline" -%}
