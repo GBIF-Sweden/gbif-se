@@ -30,24 +30,24 @@
   <ul id="topMenu" class="container list-none mb-0 hidden sm:block">
     {% for menu_item_0 in menu_items %}
       {% assign menu_item = menu_item_0 | split: ":" %}
+      {% assign menu_item_path = menu_item[1] %}
       <li class="sm:float-left">
         <a class="block p-4 sm:text-center text-lg no-underline hover:bg-slate-200 hover:text-gbif-green hover:no-underline
             {% if path_start == menu_item[1] %}text-black bg-white{% else %}text-white{% endif %}" 
           href="{{ menu_item[1] }}">
           {{ menu_item[0] }}
         </a>
-        {% if menu_item[1] == "/events/" %}
+        {% include submenu_data.html path_start=menu_item_path %}
+        {% if submenu_header %}
           <ul class="sm:hidden mb-0 list-none">
-            <li>
-              <a class="p-3 pl-8 block no-underline hover:bg-slate-200 hover:text-gbif-green hover:no-underline
-                  {% if page.url == '/events/' %}text-black bg-white{% else %}text-white{% endif %}"
-                href="/events/">Coming</a>
-            </li>
-            <li>
-              <a class="p-3 pl-8 block no-underline hover:bg-slate-200 hover:text-gbif-green hover:no-underline
-                  {% if page.url == '/events/past/' %}text-black bg-white{% else %}text-white{% endif %}"
-                href="/events/past/">Past</a>
-            </li>
+            {% for submenu_item_0 in submenu_items %}
+              {% assign submenu_item = submenu_item_0 | split: ":" %}
+              <li>
+                <a class="p-3 pl-8 block no-underline hover:bg-slate-200 hover:text-gbif-green hover:no-underline
+                    {% if page.url == 'x' %}text-black bg-white{% else %}text-white{% endif %}"
+                  href="{{ submenu_item[1] }}">{{ submenu_item[0] }}</a>
+              </li>
+            {% endfor %}
           </ul>
         {% endif %}
       </li>

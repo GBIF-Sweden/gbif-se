@@ -1,0 +1,10 @@
+{% if include.path_start == "/events/" %}
+  {% assign submenu_header = "Events" %}
+  {% assign submenu_items = "Coming:/events/, Past:/events/past/" | split:", " %}
+{% elsif include.path_start == "/news/" %}
+  {% assign submenu_header = "News" %}
+  {% assign submenu_items = "2023:/news/2023/, 2022:/news/2022/" | split:", " %}
+{% else %}
+  {% assign submenu_header = [] %}
+  {% assign submenu_items = [] %}
+{% endif %}

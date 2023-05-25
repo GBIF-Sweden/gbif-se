@@ -2,57 +2,47 @@
 layout: default
 ---
 
-<div class="flex">
+<h1>{{ page.title }}</h1>
 
-  {% include events-side-menu.html type=page.event_type %}
+<h2>{{ page.event_type | capitalize }} events</h2>
 
-  <div class="grow">
-
-    <h1>{{ page.title }}</h1>
-
-    <h2>{{ page.event_type | capitalize }} events</h2>
-
-    <div>
-      {% assign events = site.events | filter_events: page.event_type | sort: "from" %}
-      {% if page.event_type == 'past' %}
-        {% assign events = events | reverse %}
-      {% endif %}
-      {% for event in events %}
-        <article class="flex flex-col md:flex-row mt-8 pb-8 border-b-4 border-gray-200 last:border-0">
-          <div class="flex-none md:w-48 mb-4 md:mb-0">
-            {% if event.image %}
-              <a href="{{ event.url }}" title="{{ event.title }}">
-                <img src="/uploads/{{ event.image }}" alt="">
-              </a>
-            {% endif %}
+<div>
+  {% assign events = site.events | filter_events: page.event_type | sort: "from" %}
+  {% if page.event_type == 'past' %}
+    {% assign events = events | reverse %}
+  {% endif %}
+  {% for event in events %}
+    <article class="flex flex-col md:flex-row mt-8 pb-8 border-b-4 border-gray-200 last:border-0">
+      <div class="flex-none md:w-48 mb-4 md:mb-0">
+        {% if event.image %}
+          <a href="{{ event.url }}" title="{{ event.title }}">
+            <img src="/uploads/{{ event.image }}" alt="">
+          </a>
+        {% endif %}
+      </div>
+      <div class="md:ml-8 grow">
+        <header>
+          <h2 class="mt-0">
+            <a href="{{ event.url }}">{{ event.title }}</a>
+          </h2>
+          <div class="mt-2 text-gray-500">
+            {%- include icons/calendar.html class="h-4 inline" -%}
+            {%- include event-date.html from=event.from to=event.to -%}
           </div>
-          <div class="md:ml-8 grow">
-            <header>
-              <h2 class="mt-0">
-                <a href="{{ event.url }}">{{ event.title }}</a>
-              </h2>
-              <div class="mt-2 text-gray-500">
-                {%- include icons/calendar.html class="h-4 inline" -%}
-                {%- include event-date.html from=event.from to=event.to -%}
-              </div>
-              {% if event.place %}
-                <div class="text-gray-500">
-                    {%- include icons/map-pin.html class="h-4 inline" -%}
-                    {{ event.place }}
-                </div>
-              {% endif %}
-            </header>
-            <p class="mt-4">
-              {{ event.description }}
-            </p>
-            <footer>
-              <a href="{{ event.url }}" title="{{ event.title }}">&raquo; Read more</a>
-            </footer>
-          </div>
-        </article>
-      {% endfor %}
-    </div>
-    
-  </div>
-
+          {% if event.place %}
+            <div class="text-gray-500">
+                {%- include icons/map-pin.html class="h-4 inline" -%}
+                {{ event.place }}
+            </div>
+          {% endif %}
+        </header>
+        <p class="mt-4">
+          {{ event.description }}
+        </p>
+        <footer>
+          <a href="{{ event.url }}" title="{{ event.title }}">&raquo; Read more</a>
+        </footer>
+      </div>
+    </article>
+  {% endfor %}
 </div>
