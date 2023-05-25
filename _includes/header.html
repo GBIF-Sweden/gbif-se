@@ -44,7 +44,7 @@
               {% assign submenu_item = submenu_item_0 | split: ":" %}
               <li>
                 <a class="p-3 pl-8 block no-underline hover:bg-slate-200 hover:text-gbif-green hover:no-underline
-                    {% if page.url == 'x' %}text-black bg-white{% else %}text-white{% endif %}"
+                    {% if forloop.index0 == submenu_active_index %}text-black bg-white{% else %}text-white{% endif %}"
                   href="{{ submenu_item[1] }}">{{ submenu_item[0] }}</a>
               </li>
             {% endfor %}

@@ -19,7 +19,7 @@ layout: base
         <ul class="bg-gray-100 list-none">
           {% for menu_item_0 in submenu_items %}
             {% assign menu_item = menu_item_0 | split: ":" %}
-            <li class="px-3 py-2 hover:bg-gray-200 {% if include.type == 'coming' %}bg-gray-300{% endif %}">
+            <li class="px-3 py-2 hover:bg-gray-200 {% if forloop.index0 == submenu_active_index %}bg-gray-300{% endif %}">
               <a class="block text-gray-700 hover:no-underline" href="{{ menu_item[1] }}">{{ menu_item[0] }}</a>
             </li>
           {% endfor %}
