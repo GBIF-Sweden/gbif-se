@@ -4,30 +4,56 @@ layout: base
 
 <main class="my-12" aria-label="Content">
   
-  <article class="container mb-8 px-4">
+  <article class="container mb-8 px-4 text-lg">
     {{ content }}
   </article>
 
   <div class="bg-gray-100 py-8">
     <article class="container px-4">
-      <h2 class="mb-4">Species occurrences published in GBIF from Swedish institutions</h2>
-      
-      <div id="map" class="h-96">&nbsp;</div>
-      <script>
-        var map = L.map('map').setView([42.00, 16.00], 2);
-        map.attributionControl.setPrefix(false);
+      <h2 class="mb-4">Species occurrences published in GBIF by Swedish institutions</h2>
+      <div id="map1" class="h-96">&nbsp;</div>
+      <div class="mt-2 text-lg">
+        <a href="https://www.gbif.org/country/SE/publishing" title="Species occurrences published in GBIF by Swedish institutions">&raquo; Explore on gbif.org</a>
+      </div>
+      <script type="text/javascript">
+        var map1 = L.map('map1').setView([42.00, 16.00], 2);
+        map1.attributionControl.setPrefix(false);
+
+        L.tileLayer('https://tile.gbif.org/3857/omt/{z}/{x}/{y}@2x.png?style=gbif-geyser', {
+          attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, © <a href="https://www.openmaptiles.org/copyright">OpenMapTiles</a>',
+          minZoom: 2,
+          maxZoom: 13
+        }).addTo(map1);
+
+        L.tileLayer('https://api.gbif.org/v2/map/occurrence/density/{z}/{x}/{y}@2x.png?srs=EPSG:3857&publishingCountry=SE', {
+          attribution: '<a href="https://www.gbif.org/citation-guidelines">GBIF</a>',
+          minZoom: 2,
+          maxZoom: 13
+        }).addTo(map1);
+      </script>
+    </article>
+
+    <article class="container px-4 mt-8">
+      <h2 class="mb-4">Species occurrences published in GBIF about Sweden</h2>
+      <div id="map2" class="h-96">&nbsp;</div>
+      <div class="mt-2 text-lg">
+        <a href="https://www.gbif.org/country/SE/about" title="Species occurrences published in GBIF about Sweden">&raquo; Explore on gbif.org</a>
+      </div>
+      <script type="text/javascript">
+        var map2 = L.map('map2').setView([63.00, 16.00], 4);
+        map2.attributionControl.setPrefix(false);
 
         L.tileLayer('https://tile.gbif.org/3857/omt/{z}/{x}/{y}@2x.png?style=gbif-geyser', {
           attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, © <a href="https://www.openmaptiles.org/copyright">OpenMapTiles</a>',
           minZoom: 2, 
           maxZoom: 13
-        }).addTo(map);
+        }).addTo(map2);
 
-        L.tileLayer('https://api.gbif.org/v2/map/occurrence/density/{z}/{x}/{y}@2x.png?srs=EPSG:3857&publishingCountry=SE', { 
+        L.tileLayer('https://api.gbif.org/v2/map/occurrence/density/{z}/{x}/{y}@2x.png?srs=EPSG:3857&country=SE', { 
           attribution: '<a href="https://www.gbif.org/citation-guidelines">GBIF</a>',
           minZoom: 2, 
           maxZoom: 13
-        }).addTo(map);
+        }).addTo(map2);
       </script>
     </article>
   </div>

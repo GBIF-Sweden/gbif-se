@@ -8,6 +8,7 @@
 
 - name: Developers blog
   image: ala-logo.png
+  link: /
 
 - name: Courses and training
   image: gbif-eca-2023.png
@@ -15,6 +16,7 @@
 
 - name: Documentation
   image: 2023-05-glis-sac-rome.png
+  link: /
 
 - name: Science review
   image: gbif-eca-2023.png
@@ -28,3 +30,11 @@
   image: gbif-eca-2023.png
   description: Join the conversation and get answers to data use related questions
   link: https://discourse.gbif.org/c/data-use/
+
+- name: Use cases
+  image: gbif-eca-2023.png
+  link: /
+
+- name: Projects and open calls
+  image: gbif-eca-2023.png
+  link: /

@@ -1,0 +1,29 @@
+{%- assign submenu_header = [] -%}
+{%- assign submenu_items = [] -%}
+{%- assign submenu_active_item = [] -%}
+
+{%- if include.path_start == "/events/" -%}
+
+  {%- assign submenu_header = "Events" -%}
+  {%- assign submenu_items = "Coming:/events/, Past:/events/past/" | split:", " -%}
+
+  {%- if page.collection == "events" -%}
+    {%- assign submenu_active_item = page | event_type | capitalize -%}
+  {%- elsif page.url == "/events/" -%}
+    {%- assign submenu_active_item = "Coming" -%}
+  {%- elsif  page.url == "/events/past/" -%}
+    {%- assign submenu_active_item = "Past" -%}
+  {%- endif -%}
+
+{%- elsif include.path_start == "/news/" -%}
+
+  {%- assign submenu_header = "News" -%}
+  {%- assign submenu_items = "2023:/news/2023/, 2022:/news/2022/" | split:", " -%}
+
+  {%- if page.collection == "news" -%}
+    {%- assign submenu_active_item = page.date | date: "%Y" -%}
+  {%- else -%}
+    {%- assign submenu_active_item = page.year | append: "" -%}
+  {%- endif -%}
+
+{%- endif -%}
