@@ -8,7 +8,9 @@ layout: base
   <div class="flex">
     {% if submenu_header %}
       <nav class="mr-8 mt-2 w-48 flex-none hidden sm:block" aria-label="Context menu">
-        <div class="bg-gbif-green-light px-3 py-2 text-gray-800 text-lg">{{ submenu_header }}</div>
+        <a class="block bg-gbif-green-light px-3 py-2 text-gray-800 text-lg hover:bg-gray-200 hover:no-underline" href="{{ path_start }}">
+          {{ submenu_header }}
+        </a>
         <ul class="bg-gray-100 list-none">
           {% for menu_item_0 in submenu_items %}
             {% assign menu_item = menu_item_0 | split: ":" %}
