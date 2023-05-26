@@ -98,7 +98,7 @@ layout: base
       <header>
         <h2 class="mb-2">Events</h2>
       </header>
-      {% assign coming_events = site.events | sort: "from" | filter_events: "coming" %}
+      {% assign coming_events = site.events | sort: "start_time" | filter_events: "coming" %}
       {% for event in coming_events limit:3 %}
         <article class="flex flex-col md:flex-row mb-8">
           <div class="basis-1/4 mb-4 md:mb-0">
@@ -115,12 +115,12 @@ layout: base
               </h3>
               <div class="mt-1 text-gray-500">
                 {%- include icons/calendar.html class="h-4 inline" -%}
-                {%- include event-date.html from=event.from to=event.to -%}
+                {%- include event-date.html start_time=event.start_time end_time=event.end_time -%}
               </div>
-              {% if event.place %}
+              {% if event.location %}
                 <div class="mt-1 text-gray-500">
                   {%- include icons/map-pin.html class="h-4 inline" -%}
-                  {{ event.place }}
+                  {{ event.location }}
                 </div>
               {% endif %}
            </header>
