@@ -9,7 +9,7 @@ layout: base
   {%- assign path_start = path_start_0[1] | prepend: "/" | append: "/"  -%}
 {%- endif -%}
 
-{% include submenu_data.html path_start=path_start %}
+{% include submenu-data.html path_start=path_start %}
 
 <main class="container mt-12 mb-8 px-4" aria-label="Content">
   <div class="flex">
@@ -19,7 +19,7 @@ layout: base
         <ul class="bg-gray-100 list-none">
           {% for menu_item_0 in submenu_items %}
             {% assign menu_item = menu_item_0 | split: ":" %}
-            <li class="px-3 py-2 hover:bg-gray-200 {% if forloop.index0 == submenu_active_index %}bg-gray-300{% endif %}">
+            <li class="px-3 py-2 hover:bg-gray-200 {% if menu_item[0] == submenu_active_item %}bg-gray-300{% endif %}">
               <a class="block text-gray-700 hover:no-underline" href="{{ menu_item[1] }}">{{ menu_item[0] }}</a>
             </li>
           {% endfor %}
