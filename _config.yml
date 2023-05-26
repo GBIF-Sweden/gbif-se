@@ -73,3 +73,15 @@ collections:
   events:
     output: true
     permalink: "/:collection/:year/:slug/"
+
+defaults:
+  - scope:
+      path: ""
+      type: news
+    values:
+      layout: news-item
+  - scope:
+      path: ""
+      type: events
+    values:
+      layout: event-item

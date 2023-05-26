@@ -1,0 +1,6 @@
+{%- if page.url == "/" -%}
+  {%- assign path_start = "/" -%}
+{%- else -%}
+  {%- assign path_start_0 = page.url | split: "/" -%}
+  {%- assign path_start = path_start_0[1] | prepend: "/" | append: "/"  -%}
+{%- endif -%}
