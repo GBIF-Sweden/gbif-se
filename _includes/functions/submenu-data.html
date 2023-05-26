@@ -9,7 +9,6 @@
 
   {%- if page.collection == "events" -%}
     {%- assign submenu_active_item = page | event_type | capitalize -%}
-    {%- assign event_type = page | event_type -%}
   {%- elsif page.url == "/events/" -%}
     {%- assign submenu_active_item = "Coming" -%}
   {%- elsif  page.url == "/events/past/" -%}

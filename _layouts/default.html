@@ -1,15 +1,8 @@
 ---
 layout: base
 ---
-
-{%- if page.url == "/" -%}
-  {%- assign path_start = "/" -%}
-{%- else -%}
-  {%- assign path_start_0 = page.url | split: "/" -%}
-  {%- assign path_start = path_start_0[1] | prepend: "/" | append: "/"  -%}
-{%- endif -%}
-
-{% include submenu-data.html path_start=path_start %}
+{%- include functions/path-start.html -%}
+{%- include functions/submenu-data.html path_start=path_start -%}
 
 <main class="container mt-12 mb-8 px-4" aria-label="Content">
   <div class="flex">

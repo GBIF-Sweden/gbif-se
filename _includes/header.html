@@ -1,11 +1,5 @@
-{%- if page.url == "/" -%}
-  {%- assign path_start = "/" -%}
-{%- else -%}
-  {%- assign path_start_0 = page.url | split: "/" -%}
-  {%- assign path_start = path_start_0[1] | prepend: "/" | append: "/"  -%}
-{%- endif -%}
-
 {%- assign menu_items = "Home:/, Datasets:/datasets/, News:/news/, Events:/events/, Tools:/tools/, Resources:/resources/" | split:", " -%}
+{%- include functions/path-start.html -%}
 
 <header class="container flex my-12 px-4" aria-label="Site header">
   <div class="grow">
@@ -30,14 +24,15 @@
   <ul id="topMenu" class="container list-none mb-0 hidden sm:block">
     {% for menu_item_0 in menu_items %}
       {% assign menu_item = menu_item_0 | split: ":" %}
+      {% assign menu_item_title = menu_item[0] %}
       {% assign menu_item_path = menu_item[1] %}
       <li class="sm:float-left">
         <a class="block p-4 sm:text-center text-lg no-underline hover:bg-slate-200 hover:text-gbif-green hover:no-underline
-            {% if path_start == menu_item[1] %}text-black bg-white{% else %}text-white{% endif %}" 
-          href="{{ menu_item[1] }}">
-          {{ menu_item[0] }}
+            {% if path_start == menu_item_path %}text-black bg-white{% else %}text-white{% endif %}" 
+          href="{{ menu_item_path }}">
+          {{ menu_item_title }}
         </a>
-        {% include submenu-data.html path_start=menu_item_path %}
+        {% include functions/submenu-data.html path_start=menu_item_path %}
         {% if submenu_header %}
           <ul class="sm:hidden mb-0 list-none">
             {% for submenu_item_0 in submenu_items %}
