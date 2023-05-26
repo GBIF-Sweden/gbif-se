@@ -4,10 +4,10 @@ layout: base
 {%- include functions/path-start.html -%}
 {%- include functions/submenu-data.html path_start=path_start -%}
 
-<main class="container mt-12 mb-8 px-4" aria-label="Content">
+<div class="container mt-12 mb-8 px-4">
   <div class="flex">
     {% if submenu_header %}
-      <nav class="mr-8 mt-2 w-48 flex-none hidden sm:block" aria-label="Submenu">
+      <nav class="mr-8 mt-2 w-48 flex-none hidden sm:block" aria-label="Context menu">
         <div class="bg-gbif-green-light px-3 py-2 text-gray-800 text-lg">{{ submenu_header }}</div>
         <ul class="bg-gray-100 list-none">
           {% for menu_item_0 in submenu_items %}
@@ -19,8 +19,10 @@ layout: base
         </ul>
       </nav>
     {% endif %}
-    <div class="grow">
-      {{ content }}
-    </div>
+    <main aria-label="Content">
+      <article class="grow">
+        {{ content }}
+      </article>
+    </main>
   </div>
-</main>
+</div>

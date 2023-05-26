@@ -2,30 +2,26 @@
 layout: default
 ---
 
-<article>
-
-  <header>
-    <h1>{{ page.title }}</h1>
-    <div class="mt-2 text-gray-600">
-      {%- include icons/calendar.html class="h-4 inline" -%}
-      {%- include event-date.html from=page.from to=page.to -%}
+<header>
+  <h1>{{ page.title }}</h1>
+  <div class="mt-2 text-gray-600">
+    {%- include icons/calendar.html class="h-4 inline" -%}
+    {%- include event-date.html from=page.from to=page.to -%}
+  </div>
+  {% if page.place %}
+    <div class="text-gray-600">
+      {%- include icons/map-pin.html class="h-4 inline" -%}
+      {{ page.place }}
     </div>
-    {% if page.place %}
-      <div class="text-gray-600">
-        {%- include icons/map-pin.html class="h-4 inline" -%}
-        {{ page.place }}
-      </div>
-    {% endif %}
-  </header>
-
-  <p class="text-lg text-gray-700 mt-6 mb-4">
-    {{ page.description }}
-  </p>
-
-  {% if page.image %}
-    <img class="h-72 mb-8" src="/uploads/{{ page.image }}" alt="">
   {% endif %}
+</header>
 
-  {{ content }}
+<p class="text-lg text-gray-700 mt-6 mb-4">
+  {{ page.description }}
+</p>
 
-</article>
+{% if page.image %}
+  <img class="h-72 mb-8" src="/uploads/{{ page.image }}" alt="">
+{% endif %}
+
+{{ content }}
