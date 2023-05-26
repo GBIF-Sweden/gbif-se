@@ -1,5 +1,4 @@
 ---
-layout: news
 title:  Finibus odio id hendrerit euismod. Praesent aliquam risus orci, at maximus nulla tincidunt ut
 date: 2020-07-08 10:00
 description: "Proin id consequat purus, vel auctor nibh. Ut tristique sed magna ut ornare. Pellentesque finibus tellus eget dapibus malesuada. Morbi euismod vulputate orci, sed vehicula turpis tristique eu. Integer eget vulputate dolor, ac efficitur orci."

@@ -1,5 +1,4 @@
 ---
-layout: news
 title: Ebbe Nielsen Challenge 2022
 date: 2022-10-08 10:00
 image: calypso-orchid-calypso-bulbosa-cc-by-j-brew.jpeg

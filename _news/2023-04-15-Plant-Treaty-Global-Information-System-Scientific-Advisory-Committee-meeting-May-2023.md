@@ -1,5 +1,4 @@
 ---
-layout: news
 title: Plant Treaty Global Information System Scientific Advisory Committee meeting May 2023
 date: 2023-04-15 10:00
 image: 2023-05-glis-sac-rome.png

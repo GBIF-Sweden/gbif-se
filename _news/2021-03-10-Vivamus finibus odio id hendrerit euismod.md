@@ -1,5 +1,4 @@
 ---
-layout: news
 title:  Vivamus finibus odio id hendrerit euismod
 date: 2021-03-10 10:00
 description: "Proin id consequat purus, vel auctor nibh. Ut tristique sed magna ut ornare. Pellentesque finibus tellus eget dapibus malesuada. Morbi euismod vulputate orci, sed vehicula turpis tristique eu. Integer eget vulputate dolor, ac efficitur orci."
