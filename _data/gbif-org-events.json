@@ -1,0 +1,100 @@
+{
+  "VCALENDAR": [
+    {
+      "VERSION": "2.0",
+      "PRODID": "-//Michael Angstadt//biweekly 0.6.1//EN",
+      "VEVENT": [
+        {
+          "DTSTAMP": "20230524T145333Z",
+          "UID": "971f67-f19f-4461-bddb-e131e09",
+          "title": "XXVII International Congress of Entomology ICE2024",
+          "description": " Read more <https://ice2024.org/> ",
+          "url": "https://www.gbif.org/event/971f67-f19f-4461-bddb-e131e09",
+          "start_time": "2024-08-25",
+          "end_time": "2024-08-30"
+        },
+        {
+          "DTSTAMP": "20230524T145333Z",
+          "UID": "5cb0df-4456-4d91-a798-15373d0",
+          "title": "International Mycological Congress IMC12",
+          "description": " Read more <https://imc12.org> ",
+          "url": "https://www.gbif.org/event/5cb0df-4456-4d91-a798-15373d0",
+          "start_time": "2024-08-11 10:00",
+          "end_time": "2024-08-15 18:00"
+        },
+        {
+          "DTSTAMP": "20230524T145333Z",
+          "UID": "d720ed-efba-4eff-8f4b-dd9fef7",
+          "title": "UN Ocean Decade Conference",
+          "description": "The conference will be a key moment for governments, leaders, maritime sectors, philanthropy, universities, private sector, NGOs and more, to take stock of the achievements of the first three years of the Ocean Decade and define a collective vision for the coming years. Participants will benefit from concrete examples and best practices in ocean science to deliver “the science we need for the ocean we want”.A key outcome of the 2024 UN Ocean Decade Conference will be the publication of a set of white papers related to the 10 Decade Challenges, that will identify future priorities for the Ocean Decade to generate the knowledge needed for science-based solutions related to global challenges, such as climate change, food security, biodiversity conservation, sustainable ocean economy, pollution and natural hazards.Read more <https://oceandecade.org/news/barcelona-to-host-2024-un-ocean-decade-conference/>",
+          "url": "https://www.gbif.org/event/d720ed-efba-4eff-8f4b-dd9fef7",
+          "start_time": "2024-04-10 10:00",
+          "end_time": "2024-04-12 19:00"
+        },
+        {
+          "DTSTAMP": "20230524T145333Z",
+          "UID": "0cc339-4a90-4eee-89b3-6b6e784",
+          "title": "BES 2023 - British Ecological Society Annual Meeting 2023",
+          "description": "Join ecologists from around the world in December 2023 for Europe’s largest and most welcoming conference dedicated to ecology.Each year our Annual Meeting attracts over 1200 delegates and provides opportunities to meet new colleagues, develop your career, learn new skills, and share your science with the global ecological community.We will be offering an exciting programme of internationally renowned plenary speakers, diverse thematic sessions, engaging workshops, and a variety of networking events.More information here <https://www.britishecologicalsociety.org/events/bes-annual-meeting-2023/welcome-to-bes2023/>",
+          "url": "https://www.gbif.org/event/0cc339-4a90-4eee-89b3-6b6e784",
+          "start_time": "2023-12-12 11:00",
+          "end_time": "2023-12-15 19:00"
+        },
+        {
+          "DTSTAMP": "20230524T145333Z",
+          "UID": "47FsIg8Xm0ZkQU8oaWWdL9",
+          "title": "International Data Week 2023: A Festival of Data",
+          "description": "Organized by the International Science Council’s Committee on Data (CODATA) and World Data System (WDS), and the Research Data Alliance (RDA), International Data Week brings together a global community of data scientists and data stewards; researchers from all domains; data, interoperability and informatics experts from all fields; industry leaders, entrepreneurs and policymakers.This inclusive and celebratory Festival of Data will include in-person and virtual components that highlight the opportunities for the positive transformation of our world in the light of the COVID-19 pandemic and other global challenges.IDW 2023 will combine the RDA Plenary Meeting, the biannual meeting of this international member organization working to develop and support global infrastructure facilitating data sharing and reuse, and SciDataCon 2023, the scientific conference addressing the frontiers of data in research organized by CODATA and WDS.",
+          "url": "https://www.gbif.org/event/47FsIg8Xm0ZkQU8oaWWdL9",
+          "start_time": "2023-10-23 15:00",
+          "end_time": "2023-10-26 23:00"
+        },
+        {
+          "DTSTAMP": "20230524T145333Z",
+          "UID": "7Lkru4LJ02nEkKv1ha4Slz",
+          "title": "GB30: 30th Meeting of the GBIF Governing Board",
+          "description": "The 30th meeting of the GBIF Governing Board and associated events will take place in Canberra, Australia, on 15-20 October 2023.15 October - Nodes Training - Day 1 <https://gb30.gbif.org/programme#sunday-15-october-2023> 16 October - Nodes Training - Day 2 + NSG meeting <https://gb30.gbif.org/programme#monday-16-october-2023> 17 October - GBIF committee meetings <https://gb30.gbif.org/programme#tuesday-17-october-2023> 18 October -Governing Board meeting Day 1 <https://gb30.gbif.org/programme#wednesday-18-october-2023> 19 October - Governing Board meeting Day 2 <https://gb30.gbif.org/programme#thursday-19-october-2022> 20 October - National Symposium: The Role of Biological Collections in Australia’s Science-Policy Interface <https://gb30.gbif.org/programme#friday-20-october-2023>The GB30 information and registration website can be found at gb30.gbif.org <https://gb30.gbif.org/>.Any questions about the meeting can be sent to GB30@gbif.org <mailto:GB30@gbif.org>. Read more <https://gb30.gbif.org/> ",
+          "url": "https://www.gbif.org/event/7Lkru4LJ02nEkKv1ha4Slz",
+          "start_time": "2023-10-15 00:00",
+          "end_time": "2023-10-20 08:00"
+        },
+        {
+          "DTSTAMP": "20230524T145333Z",
+          "UID": "5iRgejgh4UJYUq0oGWpjk2",
+          "title": "Global Conference on Biodiversity and Monitoring",
+          "description": "The Global Conference on Biodiversity and Monitoring is organized by GEO BON and its partners between 10-13 October 2023 in Montreal, Canada.One year after COP15 of the UN CBD and the landmark agreement of a Global Biodiversity Framework, the GEO BON global conference will focus on the grand challenge of ‘Monitoring Biodiversity for Action’. A central theme will be the development of best practices and new technologies for biodiversity observations and monitoring to support transformative policy and conservation action.The conference will offer a venue for sharing and exchanging scientific and traditional knowledge related to biodiversity change, from genes to ecosystems; the associated contributions to people, across all sectors of society; and its conservation, sustainable use and shared benefits.Visit website <https://geobon.org/geo-bon-global-conference-monitoring-biodiversity-for-action/>",
+          "url": "https://www.gbif.org/event/5iRgejgh4UJYUq0oGWpjk2",
+          "start_time": "2023-10-10 09:00",
+          "end_time": "2023-10-13 19:00"
+        },
+        {
+          "DTSTAMP": "20230524T145333Z",
+          "UID": "7328bd-f1a9-41e5-afda-048ef94",
+          "title": "TDWG 2023",
+          "description": "The Biodiversity Information Standards (TDWG) annual conference in 2023 will be a hybrid meeting, hosted in Hobart, Tasmania by theAtlas of Living Australia, ALA <https://ala.org.au/> and the National Research Collections Australia, NRCA <https://www.csiro.au/en/about/facilities-collections/collections>. Read more <https://www.tdwg.org/conferences/2023/> ",
+          "url": "https://www.gbif.org/event/7328bd-f1a9-41e5-afda-048ef94",
+          "start_time": "2023-10-09 01:00",
+          "end_time": "2023-10-13 09:00"
+        },
+        {
+          "DTSTAMP": "20230524T145333Z",
+          "UID": "c44b4d-da2e-48d9-8816-94ed2d2",
+          "title": "European Conference on Ecological Modelling",
+          "description": "In a world where biodiversity and ecosystem services are at high risk, business as usual is no longer possible. Transformation of how societies deal with natural resources is much needed, but requires a better understanding of how ecological and social-ecological systems respond to change and human intervention. Ecological Modelling thus needs to aim at predicting the response to change and to address multiple scales in time, space and organization that are relevant for management.The 9th European Conference on Ecological Modelling, ECEM 2023, welcomes contributions that directly or indirectly support transformation. This includes strategies and models that focus on improving one or more of the following aspects: representation of response mechanisms, multi-criteria model evaluation, model-data fusion, sensitivity and robustness analyses, upscaling and transferability to new regions, link to management scenarios, social-ecological systems, transparency and reproducibility, implementation and testing of theories and concepts, and multi-modelling synthesis. In general, any contribution advancing ecological modelling is welcome.The ECEM 2023 continues a series of conferences launched by the European chapter of ISEM, the International Society for Ecological Modelling. ISEM promotes the international exchange of ideas, scientific results, and general knowledge in the areas of systems’ analysis and simulations in ecology and application of ecological modelling for natural resource management.Visit website <https://ecem23.eu/>",
+          "url": "https://www.gbif.org/event/c44b4d-da2e-48d9-8816-94ed2d2",
+          "start_time": "2023-09-04 10:00",
+          "end_time": "2023-09-08 18:00"
+        },
+        {
+          "DTSTAMP": "20230524T145333Z",
+          "UID": "7sTlfIhb71XM87xhUoDXWn",
+          "title": "IPBES 10 (Tenth session of the Plenary of the Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services)",
+          "description": "IPBES 10 will be preceded by regional consultations and a Stakeholder Day on 27 August 2023. Further information on these events will follow in due course.At IPBES 10, the Plenary will consider, among other items, the thematic assessment of invasive alien species, as well as requests, inputs and suggestions for additional elements of the rolling work programme of the Platform up to 2030. Regular elections for the membership of the Bureau, including the IPBES Chair, will also be held at that session.More information here <https://ipbes.net/events/ipbes-10>",
+          "url": "https://www.gbif.org/event/7sTlfIhb71XM87xhUoDXWn",
+          "start_time": "2023-08-28 09:00",
+          "end_time": "2023-09-02 19:00"
+        }
+      ]
+    }
+  ]
+}

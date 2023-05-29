@@ -12,7 +12,7 @@ module Jekyll
 
         def filter_events(events, type_to_include)
             events.select do |event|
-                if event_type(event.data) == type_to_include
+                if event_type(event) == type_to_include
                     event
                 end
             end

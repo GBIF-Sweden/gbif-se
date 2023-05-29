@@ -3,6 +3,22 @@ layout: default
 permalink: /:basename/
 ---
 
+# json
+
+{% for item in site.data.upcoming.VCALENDAR[0].VEVENT %}
+  {{ item.title }}
+
+  {{ item.description }}
+
+  {{ item.url }}
+
+  {{ item.start_time }}
+
+  {{ item.end_time }}
+
+  <hr>
+{% endfor %}
+
 # ical
 
 {% ical url: https://api.gbif.org/v1/newsroom/events/calendar/upcoming.ics reverse: false %}
