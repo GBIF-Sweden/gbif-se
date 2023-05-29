@@ -35,7 +35,6 @@ safe: false
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-ical-tag
   - jekyll-postcss-v2
 
 # Exclude from processing.
