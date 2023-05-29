@@ -10,7 +10,7 @@ permalink: /:basename/
 {% for resource in site.data.resources %}
   <div class="border border-gray-300">
     <a href="{{ resource.link }}" title="{{ resource.name }}">
-      <img src="/uploads/{{ resource.image }}" alt="">
+      <img src="/uploads/{{ resource.image }}" class="w-full h-48" alt="">
     </a>
     <div class="p-4">
       <a href="{{ resource.link }}">{{ resource.name }}</a>
