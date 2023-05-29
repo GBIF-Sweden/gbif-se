@@ -98,8 +98,8 @@ layout: base
       <header>
         <h2 class="mb-2">Events</h2>
       </header>
-      {% assign coming_events = site.events | sort: "start_time" | filter_events: "coming" %}
-      {% for event in coming_events limit:3 %}
+      {% include functions/fetch-events.html event_type="coming" %}
+      {% for event in events limit:3 %}
         <article class="flex flex-col md:flex-row mb-8">
           <div class="basis-1/4 mb-4 md:mb-0">
             {% if event.image %}
