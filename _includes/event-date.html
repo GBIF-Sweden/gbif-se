@@ -1,15 +1,15 @@
-{%- assign from_size = include.from | size -%}
-{%- if from_size > 10 -%}
-  {%- assign from_format = "%b %d, %Y %I:%M %p" -%}
+{%- assign start_time_size = include.start_time | size -%}
+{%- if start_time_size > 10 -%}
+  {%- assign start_time_format = "%b %d, %Y %I:%M %p" -%}
 {%- else -%}
-  {%- assign from_format = "%b %d, %Y" -%}
+  {%- assign start_time_format = "%b %d, %Y" -%}
 {%- endif -%}
 
-{%- assign to_size = include.to | size -%}
-{%- if to_size > 10 -%}
-  {%- assign to_format = "%b %d, %Y %I:%M %p" -%}
+{%- assign end_time_size = include.end_time | size -%}
+{%- if end_time_size > 10 -%}
+  {%- assign end_time_format = "%b %d, %Y %I:%M %p" -%}
 {%- else -%}
-  {%- assign to_format = "%b %d, %Y" -%}
+  {%- assign end_time_format = "%b %d, %Y" -%}
 {%- endif -%}
 
-{{ include.from | date: from_format }}{% if include.to %} - {{ include.to | date: to_format }}{% endif %}
+{{ include.start_time | date: start_time_format }}{% if include.end_time %} - {{ include.end_time | date: end_time_format }}{% endif %}

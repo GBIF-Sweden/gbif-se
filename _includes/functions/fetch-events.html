@@ -1,0 +1,7 @@
+{% assign gbif_org_events = site.data.gbif-org-events.VCALENDAR[0].VEVENT %}
+{% assign all_events = site.events | concat: gbif_org_events %}
+{% assign events = all_events | filter_events: include.event_type | sort: "start_time" %}
+
+{% if include.event_type == "past" %}
+  {% assign events = events | reverse %}
+{% endif %}

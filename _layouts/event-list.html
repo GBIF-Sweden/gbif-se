@@ -7,10 +7,7 @@ layout: default
 <h2>{{ page.event_type | capitalize }} events</h2>
 
 <div>
-  {% assign events = site.events | filter_events: page.event_type | sort: "from" %}
-  {% if page.event_type == 'past' %}
-    {% assign events = events | reverse %}
-  {% endif %}
+  {% include functions/fetch-events.html event_type=page.event_type %}
   {% for event in events %}
     <article class="flex flex-col md:flex-row mt-8 pb-8 border-b-4 border-gray-200 last:border-0">
       <div class="flex-none md:w-48 mb-4 md:mb-0">
@@ -27,12 +24,12 @@ layout: default
           </h2>
           <div class="mt-2 text-gray-500">
             {%- include icons/calendar.html class="h-4 inline" -%}
-            {%- include event-date.html from=event.from to=event.to -%}
+            {%- include event-date.html start_time=event.start_time end_time=event.end_time -%}
           </div>
-          {% if event.place %}
+          {% if event.location %}
             <div class="text-gray-500">
                 {%- include icons/map-pin.html class="h-4 inline" -%}
-                {{ event.place }}
+                {{ event.location }}
             </div>
           {% endif %}
         </header>

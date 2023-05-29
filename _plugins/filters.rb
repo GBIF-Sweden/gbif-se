@@ -2,7 +2,7 @@ module Jekyll
     module EventFilter
 
         def event_type(event)
-            end_date = event["to"] ? event["to"] : event["from"]
+            end_date = event["end_time"] ? event["end_time"] : event["start_time"]
             if end_date.to_s[0..9] >= DateTime.now.strftime("%Y-%m-%d")
                 "coming"
             else
@@ -12,7 +12,7 @@ module Jekyll
 
         def filter_events(events, type_to_include)
             events.select do |event|
-                if event_type(event.data) == type_to_include
+                if event_type(event) == type_to_include
                     event
                 end
             end
