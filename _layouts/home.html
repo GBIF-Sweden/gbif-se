@@ -156,10 +156,9 @@ layout: base
     await fetchFromCountriesCount();
     await fetchFromPublishersCount();
 
-    await fetchAboutOccurrenceCount();
+    await fetchAboutOccurrenceAndPublishersCount();
     await fetchAboutDatasetsCount();
     await fetchAboutCountriesCount();
-    await fetchAboutPublishersCount();
   }
 
   const fetchFromOccurrenceCount = async() => {
@@ -190,11 +189,12 @@ layout: base
     updateElement('from_publishers_count', json.count)
   }
 
-  const fetchAboutOccurrenceCount = async() => {
-    const response = await fetch('https://api.gbif.org/v1/occurrence/count?country=SE');
+  const fetchAboutOccurrenceAndPublishersCount = async() => {
+    const response = await fetch('https://api.gbif.org/v1/occurrence/search?country=SE&limit=0&facet=publishingOrg&publishingOrg.facetLimit=999');
     const json = await response.json();
     console.log(json);
-    updateElement('about_occurrence_count', json)
+    updateElement('about_occurrence_count', json.count)
+    updateElement('about_publishers_count', json.facets[0].counts.length)
   }
 
   const fetchAboutDatasetsCount = async() => {
@@ -209,10 +209,6 @@ layout: base
     const json = await response.json();
     console.log(json);
     updateElement('about_countries_count', Object.keys(json).length)
-  }
-
-  const fetchAboutPublishersCount = async() => {
-    updateElement('about_publishers_count', 0)
   }
 
   const updateElement = (id, value) => {
