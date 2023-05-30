@@ -153,8 +153,13 @@ layout: base
   const onPageLoad = async() => {
     await fetchFromOccurrenceCount();
     await fetchFromDatasetsCount();
-    await fetchFromPublishersCount();
     await fetchFromCountriesCount();
+    await fetchFromPublishersCount();
+
+    await fetchAboutOccurrenceCount();
+    await fetchAboutDatasetsCount();
+    await fetchAboutCountriesCount();
+    await fetchAboutPublishersCount();
   }
 
   const fetchFromOccurrenceCount = async() => {
@@ -169,8 +174,13 @@ layout: base
     const json = await response.json();
     console.log(json);
     updateElement('from_datasets_count', json.count)
-//    const uniquePublishers = [...new Set(json.results.map((item) => item.publishingOrganizationKey))];
-//    updateElement('from_publishers_count', uniquePublishers.length)
+  }
+
+  const fetchFromCountriesCount = async() => {
+    const response = await fetch('https://api.gbif.org/v1/occurrence/counts/countries?publishingCountry=SE');
+    const json = await response.json();
+    console.log(json);
+    updateElement('from_countries_count', Object.keys(json).length)
   }
 
   const fetchFromPublishersCount = async() => {
@@ -180,11 +190,29 @@ layout: base
     updateElement('from_publishers_count', json.count)
   }
 
-  const fetchFromCountriesCount = async() => {
-    const response = await fetch('https://api.gbif.org/v1/occurrence/counts/countries?publishingCountry=SE');
+  const fetchAboutOccurrenceCount = async() => {
+    const response = await fetch('https://api.gbif.org/v1/occurrence/count?country=SE');
     const json = await response.json();
     console.log(json);
-    updateElement('from_countries_count', Object.keys(json).length)
+    updateElement('about_occurrence_count', json)
+  }
+
+  const fetchAboutDatasetsCount = async() => {
+    const response = await fetch('https://api.gbif.org/v1/occurrence/counts/datasets?country=SE');
+    const json = await response.json();
+    console.log(json);
+    updateElement('about_datasets_count', Object.keys(json).length)
+  }
+
+  const fetchAboutCountriesCount = async() => {
+    const response = await fetch('https://api.gbif.org/v1/occurrence/counts/publishingCountries?country=SE');
+    const json = await response.json();
+    console.log(json);
+    updateElement('about_countries_count', Object.keys(json).length)
+  }
+
+  const fetchAboutPublishersCount = async() => {
+    updateElement('about_publishers_count', 0)
   }
 
   const updateElement = (id, value) => {
