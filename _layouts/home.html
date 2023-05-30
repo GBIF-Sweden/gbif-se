@@ -11,6 +11,12 @@ layout: base
   <div class="bg-gray-100 py-8">
     <article class="container px-4">
       <h2 class="mb-4">Species occurrences published in GBIF by Swedish institutions</h2>
+      <div class="mb-4">
+        <span id="from_occurrence_count">-</span> occurrences, 
+        <span id="from_datasets_count">-</span> datasets, 
+        <span id="from_countries_count">-</span> countries covered by data from Sweden, 
+        <span id="from_publishers_count">-</span> publishers from Sweden
+      </div>
       <div id="map1" class="h-96">&nbsp;</div>
       <div class="mt-2 text-lg">
         <a href="https://www.gbif.org/country/SE/publishing" title="Species occurrences published in GBIF by Swedish institutions">&raquo; Explore on gbif.org</a>
@@ -35,6 +41,12 @@ layout: base
 
     <article class="container px-4 mt-8">
       <h2 class="mb-4">Species occurrences published in GBIF about Sweden</h2>
+      <div class="mb-4">
+        <span id="about_occurrence_count">-</span> occurrences, 
+        <span id="about_datasets_count">-</span> datasets, 
+        <span id="about_countries_count">-</span> countries contribute data, 
+        <span id="about_publishers_count">-</span> publishers
+      </div>
       <div id="map2" class="h-96">&nbsp;</div>
       <div class="mt-2 text-lg">
         <a href="https://www.gbif.org/country/SE/about" title="Species occurrences published in GBIF about Sweden">&raquo; Explore on gbif.org</a>
@@ -135,3 +147,50 @@ layout: base
   </div>  
 
 </main>
+
+<script type="text/javascript">
+
+  const onPageLoad = async() => {
+    await fetchFromOccurrenceCount();
+    await fetchFromDatasetsCount();
+    await fetchFromPublishersCount();
+    await fetchFromCountriesCount();
+  }
+
+  const fetchFromOccurrenceCount = async() => {
+    const response = await fetch('https://api.gbif.org/v1/occurrence/count?publishingCountry=SE');
+    const json = await response.json();
+    console.log(json);
+    updateElement('from_occurrence_count', json)
+  }
+
+  const fetchFromDatasetsCount = async() => {
+    const response = await fetch('https://api.gbif.org/v1/dataset/search?publishingCountry=SE&limit=500');
+    const json = await response.json();
+    console.log(json);
+    updateElement('from_datasets_count', json.count)
+//    const uniquePublishers = [...new Set(json.results.map((item) => item.publishingOrganizationKey))];
+//    updateElement('from_publishers_count', uniquePublishers.length)
+  }
+
+  const fetchFromPublishersCount = async() => {
+    const response = await fetch('https://api.gbif.org/v1/organization?country=SE&limit=100');
+    const json = await response.json();
+    console.log(json);
+    updateElement('from_publishers_count', json.count)
+  }
+
+  const fetchFromCountriesCount = async() => {
+    const response = await fetch('https://api.gbif.org/v1/occurrence/counts/countries?publishingCountry=SE');
+    const json = await response.json();
+    console.log(json);
+    updateElement('from_countries_count', Object.keys(json).length)
+  }
+
+  const updateElement = (id, value) => {
+    document.getElementById(id).innerText = parseInt(value).toLocaleString('en-GB');
+  }
+
+  onPageLoad();
+
+</script>
