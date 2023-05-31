@@ -11,6 +11,24 @@ layout: base
   <div class="bg-gray-100 py-8">
     <article class="container px-4">
       <h2 class="mb-4">Species occurrences published in GBIF by Swedish institutions</h2>
+      <div class="mb-4 flex gap-x-8 sm:grid sm:grid-cols-4">
+        <div>
+          <div id="from_occurrence_count" class="text-xl">...</div>
+          Occurrences
+        </div>
+        <div>
+          <div id="from_datasets_count" class="text-xl">...</div>
+          Datasets
+        </div>
+        <div>
+          <div id="from_countries_count" class="text-xl">...</div>
+          Countries covered
+        </div>
+        <div>
+          <div id="from_publishers_count" class="text-xl">...</div>
+          Publishers
+        </div>
+      </div>
       <div id="map1" class="h-96">&nbsp;</div>
       <div class="mt-2 text-lg">
         <a href="https://www.gbif.org/country/SE/publishing" title="Species occurrences published in GBIF by Swedish institutions">&raquo; Explore on gbif.org</a>
@@ -35,6 +53,24 @@ layout: base
 
     <article class="container px-4 mt-8">
       <h2 class="mb-4">Species occurrences published in GBIF about Sweden</h2>
+      <div class="mb-4 flex gap-x-8 sm:grid sm:grid-cols-4">
+        <div>
+          <div id="about_occurrence_count" class="text-xl">...</div>
+          Occurrences
+        </div>
+        <div>
+          <div id="about_datasets_count" class="text-xl">...</div>
+          Datasets
+        </div>
+        <div>
+          <div id="about_countries_count" class="text-xl">...</div>
+          Countries contributing
+        </div>
+        <div>
+          <div id="about_publishers_count" class="text-xl">...</div>
+          Publishers
+        </div>
+      </div>
       <div id="map2" class="h-96">&nbsp;</div>
       <div class="mt-2 text-lg">
         <a href="https://www.gbif.org/country/SE/about" title="Species occurrences published in GBIF about Sweden">&raquo; Explore on gbif.org</a>
@@ -135,3 +171,42 @@ layout: base
   </div>  
 
 </main>
+
+<script type="text/javascript">
+
+  const onPageLoad = async() => {
+    var result = await fetch_json('https://api.gbif.org/v1/occurrence/count?publishingCountry=SE')
+    updateElement('from_occurrence_count', result);
+    
+    result = await fetch_json('https://api.gbif.org/v1/dataset/search?publishingCountry=SE&limit=500');
+    updateElement('from_datasets_count', result.count)
+
+    result = await fetch_json('https://api.gbif.org/v1/occurrence/counts/countries?publishingCountry=SE');
+    updateElement('from_countries_count', Object.keys(result).length)
+
+    result = await fetch_json('https://api.gbif.org/v1/organization?country=SE&limit=100');
+    updateElement('from_publishers_count', result.count)
+
+    result = await fetch_json('https://api.gbif.org/v1/occurrence/search?country=SE&limit=0&facet=publishingOrg&publishingOrg.facetLimit=999');
+    updateElement('about_occurrence_count', result.count)
+    updateElement('about_publishers_count', result.facets[0].counts.length)
+
+    result = await fetch_json('https://api.gbif.org/v1/occurrence/counts/datasets?country=SE');
+    updateElement('about_datasets_count', Object.keys(result).length)
+
+    result = await fetch_json('https://api.gbif.org/v1/occurrence/counts/publishingCountries?country=SE');
+    updateElement('about_countries_count', Object.keys(result).length)
+  }
+
+  const fetch_json = async(url) => {
+    const response = await fetch(url);
+    return await response.json();
+  }
+
+  const updateElement = (id, value) => {
+    document.getElementById(id).innerText = parseInt(value).toLocaleString('en-GB');
+  }
+
+  onPageLoad();
+
+</script>
