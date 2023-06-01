@@ -7,35 +7,36 @@ load_tablefilter: true
 
 <h1>{{ page.title }}</h1>
 
-<div class="mb-4 text-xl">
-  <a href="https://www.gbif.se/ipt/">&raquo; GBIF Sweden IPT</a>
-</div>
+<article>
+  <h2 class="text-lg">Occurrence per kingdom</h2>
+  <div class="mb-8 py-2 px-4 border border-gray-300 grid grid-cols-2 gap-y-3 sm:grid-cols-3 md:grid-cols-5">
+    {% for kingdom in site.data.kingdoms %}
+      <div>
+        <div class="text-gray-600">{{ kingdom.name}}</div>
+        <span id="kingdom_{{ kingdom.id}}" class="text-lg"></span>
+      </div>
+    {% endfor %}
+  </div>
+</article>
 
-<div class="mb-4">
-  <div>Animalia: <span id="kingdom_1"></span></div>
-  <div>Plantae: <span id="kingdom_6"></span></div>
-  <div>Fungi: <span id="kingdom_5"></span></div>
-  <div>Archaea: <span id="kingdom_2"></span></div>
-  <div>Bacteria: <span id="kingdom_3"></span></div>
-  <div>Chromista: <span id="kingdom_4"></span></div>
-  <div>Protoza: <span id="kingdom_7"></span></div>
-  <div>Viruses: <span id="kingdom_8"></span></div>
-  <div>Incertae sedis: <span id="kingdom_0"></span></div>
-</div>
-
-<table id="datasetstable">
-  <thead>
-    <tr>
-      <th tabindex="0">Title</th>
-      <th tabindex="0">Organization</th>
-      <th tabindex="0">Type</th>
-      <th tabindex="0">Subtype</th>
-      <th tabindex="0" data-sort-method="number">Record count</th>
-    </tr>
-  </thead>
-  <tbody>
-  </tbody>
-</table>
+<article>
+  <div class="mb-4 text-xl">
+    <a href="https://www.gbif.se/ipt/">&raquo; All datasets on GBIF Sweden IPT</a>
+  </div>
+  <table id="datasetstable">
+    <thead>
+      <tr>
+        <th tabindex="0">Title</th>
+        <th tabindex="0">Organization</th>
+        <th tabindex="0">Type</th>
+        <th tabindex="0">Subtype</th>
+        <th tabindex="0" data-sort-method="number">Record count</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+</article>
 
 <script type="text/javascript">
 
