@@ -9,7 +9,7 @@ load_tablefilter: true
 
 <article>
   <h2 class="text-lg">Occurrence per kingdom</h2>
-  <div class="mb-8 py-2 px-4 border border-gray-300 grid grid-cols-2 gap-y-3 sm:grid-cols-3 md:grid-cols-5">
+  <div class="mb-8 py-2 px-4 border border-gray-300 grid grid-cols-3 gap-y-3 md:grid-cols-5">
     {% for kingdom in site.data.kingdoms %}
       <div>
         <div class="text-gray-600">{{ kingdom.name}}</div>
@@ -21,15 +21,15 @@ load_tablefilter: true
 
 <article>
   <div class="mb-4 text-xl">
-    <a href="https://www.gbif.se/ipt/">&raquo; All datasets on GBIF Sweden IPT</a>
+    <a href="https://www.gbif.se/ipt/">&raquo; Explore datasets on GBIF Sweden IPT</a>
   </div>
   <table id="datasetstable">
     <thead>
       <tr>
         <th tabindex="0">Title</th>
-        <th tabindex="0">Organization</th>
+        <th tabindex="0" class="hidden sm:table-cell">Organization</th>
         <th tabindex="0">Type</th>
-        <th tabindex="0">Subtype</th>
+        <th tabindex="0" class="hidden sm:table-cell">Subtype</th>
         <th tabindex="0" data-sort-method="number">Record count</th>
       </tr>
     </thead>
@@ -88,9 +88,11 @@ load_tablefilter: true
       tdTitle.appendChild(Object.assign(document.createElement('a'), 
         {href: 'https://www.gbif.org/dataset/' + record.key, textContent: record.title}));
       newRow.appendChild(tdTitle);
-      newRow.appendChild(Object.assign(document.createElement('td'), {textContent: record.publishingOrganizationTitle}));
+      newRow.appendChild(Object.assign(document.createElement('td'), 
+        {className:'hidden sm:table-cell', textContent: record.publishingOrganizationTitle}));
       newRow.appendChild(Object.assign(document.createElement('td'), {textContent: record.type}));
-      newRow.appendChild(Object.assign(document.createElement('td'), {textContent: record.subtype}));
+      newRow.appendChild(Object.assign(document.createElement('td'), 
+        {className:'hidden sm:table-cell', textContent: record.subtype}));
       newRow.appendChild(Object.assign(document.createElement('td'), 
         {className:'table-number text-right', textContent:parseInt(record.recordCount).toLocaleString('en-GB')}));
     });
@@ -100,6 +102,12 @@ load_tablefilter: true
     const tf = new TableFilter('datasetstable', {
       base_path: 'https://unpkg.com/tablefilter@0.7.3/dist/tablefilter/',
       alternate_rows: true,
+      rows_counter: true,
+      paging: {
+        length: 25,
+      },
+      btn_reset: true,
+      help_instructions: false,
       col_types: ['string', 'string', 'string', 'string', 'number'],
       col_1: 'select',
       col_2: 'select',
@@ -109,6 +117,13 @@ load_tablefilter: true
       extensions: [{ name: 'sort' }]
     });
     tf.init();
+
+    // On mobiles: hide Organization and Subtype columns in the filter row
+    const filterRow = document.getElementsByClassName('fltrow')[0];
+    filterRow.children[1].classList.add('hidden');
+    filterRow.children[1].classList.add('sm:table-cell');
+    filterRow.children[3].classList.add('hidden');
+    filterRow.children[3].classList.add('sm:table-cell');
   }
 
   const fetch_json = async(url) => {
