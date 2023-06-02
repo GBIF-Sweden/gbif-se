@@ -45,16 +45,11 @@ plugins:
 # their entries' file path in the `include:` list.
 #
 exclude:
-#   - .sass-cache/
   - .jekyll-cache/
-#   - gemfiles/
+  - node_modules/
+  - script
   - Gemfile
   - Gemfile.lock
-  - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
   - README.md
   - Makefile
   - docker-compose.yml
