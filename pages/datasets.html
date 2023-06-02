@@ -7,92 +7,139 @@ load_tablefilter: true
 
 <h1>{{ page.title }}</h1>
 
-<div class="mb-4 text-xl">
-  <a href="https://www.gbif.se/ipt/">&raquo; GBIF Sweden IPT</a>
-</div>
+<article>
+  <h2 class="text-lg">Occurrence per kingdom</h2>
+  <div class="mb-8 py-2 px-4 border border-gray-300 grid grid-cols-3 gap-y-3 md:grid-cols-5">
+    {% for kingdom in site.data.kingdoms %}
+      <div>
+        <div class="text-gray-600">{{ kingdom.name}}</div>
+        <span id="kingdom_{{ kingdom.id}}" class="text-lg"></span>
+      </div>
+    {% endfor %}
+  </div>
+</article>
 
-<table id="datasetstable">
-  <thead>
-    <tr>
-      <th tabindex="0">Title</th>
-      <th tabindex="0">Organization</th>
-      <th tabindex="0">Type</th>
-      <th tabindex="0">Subtype</th>
-      <th tabindex="0" data-sort-method="number">Record count</th>
-    </tr>
-  </thead>
-  <tbody>
-  </tbody>
-</table>
+<article>
+  <div class="mb-4 text-xl">
+    <a href="https://www.gbif.se/ipt/">&raquo; Explore datasets on GBIF Sweden IPT</a>
+  </div>
+  <table id="datasetstable">
+    <thead>
+      <tr>
+        <th tabindex="0" class="text-left">Title</th>
+        <th tabindex="0" class="text-left hidden sm:table-cell">Organization</th>
+        <th tabindex="0" class="text-left">Type</th>
+        <th tabindex="0" class="text-left hidden sm:table-cell">Subtype</th>
+        <th tabindex="0" class="text-left" data-sort-method="number">Record count</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+</article>
 
 <script type="text/javascript">
 
-const onPageLoad = async() => {
-  records = await fetchRecords();
-  populateTable(records);
-  setupTableFilter();
-}
+  const onPageLoad = async() => {
+    // Occurence by kingdom
+    const result = await fetch_json('https://api.gbif.org/v1/occurrence/search?publishingCountry=SE&limit=0&facet=kingdomKey');
+    const kingdoms = result.facets[0].counts;
+    kingdoms.forEach(kingdom => {
+      updateElement('kingdom_' + kingdom.name, kingdom.count);
+    });
 
-const fetchRecords = async() => {
-  const response = await fetch('https://api.gbif.org/v1/dataset/search?publishingCountry=SE&limit=500');
-  const json = await response.json();
-  const records = json['results'];
-
-  for (var record of records) {
-    await fetchRecordCountIfMissing(record);
+    // Main data table
+    records = await fetchRecords();
+    populateTable(records);
+    setupTableFilter();
   }
 
-  records.sort((a, b) => (a.title > b.title) ? 1 : ((b.title > a.title) ? -1 : 0));
+  const fetchRecords = async() => {
+    const result = await fetch_json('https://api.gbif.org/v1/dataset/search?publishingCountry=SE&limit=500');
+    const records = result['results'];
 
-  return records;
-}
-
-const fetchRecordCountIfMissing = async(record) => {
-  if (!'recordCount' in record || record.recordCount == 0 || record.type == 'CHECKLIST') { 
-    var count = 0;
-    if (record.type == 'OCCURRENCE' || record.type == 'SAMPLING_EVENT') {
-      const response = await fetch('https://api.gbif.org/v1/occurrence/count?datasetKey=' + record.key);
-      count = await response.json();
-    } else if (record.type == 'CHECKLIST') {
-      const response = await fetch('https://api.gbif.org/v1/dataset/' + record.key + '/metrics');
-      const json = await response.json();
-      count = json['countByOrigin']['SOURCE'];
+    for (var record of records) {
+      await fetchRecordCountIfMissing(record);
     }
-    record['recordCount'] = count;
+
+    records.sort((a, b) => (a.title > b.title) ? 1 : ((b.title > a.title) ? -1 : 0));
+
+    return records;
   }
-}
 
-const populateTable = (records) => {
-  const tableBody = document.getElementById('datasetstable').getElementsByTagName('tbody')[0];
-  records.forEach(record => {
-    const newRow = tableBody.insertRow();
-    const tdTitle = document.createElement('td');
-    tdTitle.appendChild(Object.assign(document.createElement('a'), 
-      {href: 'https://www.gbif.org/dataset/' + record.key, textContent: record.title}));
-    newRow.appendChild(tdTitle);
-    newRow.appendChild(Object.assign(document.createElement('td'), {textContent: record.publishingOrganizationTitle}));
-    newRow.appendChild(Object.assign(document.createElement('td'), {textContent: record.type}));
-    newRow.appendChild(Object.assign(document.createElement('td'), {textContent: record.subtype}));
-    newRow.appendChild(Object.assign(document.createElement('td'), 
-      {className:'table-number text-right', textContent:parseInt(record.recordCount).toLocaleString('en-GB')}));
-  });
-}
+  const fetchRecordCountIfMissing = async(record) => {
+    if (!'recordCount' in record || record.recordCount == 0 || record.type == 'CHECKLIST') { 
+      var count = 0;
+      if (record.type == 'OCCURRENCE' || record.type == 'SAMPLING_EVENT') {
+        count = await fetch_json('https://api.gbif.org/v1/occurrence/count?datasetKey=' + record.key);
+      } else if (record.type == 'CHECKLIST') {
+        const result = await fetch_json('https://api.gbif.org/v1/dataset/' + record.key + '/metrics');
+        count = result['countByOrigin']['SOURCE'];
+      }
+      record['recordCount'] = count;
+    }
+  }
 
-const setupTableFilter = () => {
-  const tf = new TableFilter('datasetstable', {
-    base_path: 'https://unpkg.com/tablefilter@0.7.3/dist/tablefilter/',
-    alternate_rows: true,
-    col_types: ['string', 'string', 'string', 'string', 'number'],
-    col_1: 'select',
-    col_2: 'select',
-    col_3: 'select',
-    col_4: 'none',
-    clear_filter_text: '- All -',
-    extensions: [{ name: 'sort' }]
-  });
-  tf.init();
-}
+  const populateTable = (records) => {
+    const tableBody = document.getElementById('datasetstable').getElementsByTagName('tbody')[0];
+    records.forEach(record => {
+      const newRow = tableBody.insertRow();
+      const tdTitle = document.createElement('td');
+      tdTitle.appendChild(Object.assign(document.createElement('a'), 
+        {href: 'https://www.gbif.org/dataset/' + record.key, textContent: record.title}));
+      newRow.appendChild(tdTitle);
+      newRow.appendChild(Object.assign(document.createElement('td'), 
+        {className:'hidden sm:table-cell', textContent: record.publishingOrganizationTitle}));
+      newRow.appendChild(Object.assign(document.createElement('td'), {textContent: record.type}));
+      newRow.appendChild(Object.assign(document.createElement('td'), 
+        {className:'hidden sm:table-cell', textContent: record.subtype}));
+      newRow.appendChild(Object.assign(document.createElement('td'), 
+        {className:'table-number text-right', textContent:parseInt(record.recordCount).toLocaleString('en-GB')}));
+    });
+  }
 
-onPageLoad();
+  const setupTableFilter = () => {
+    const tf = new TableFilter('datasetstable', {
+      base_path: 'https://unpkg.com/tablefilter@0.7.3/dist/tablefilter/',
+      alternate_rows: true,
+      rows_counter: true,
+      paging: {
+        length: 25,
+      },
+      btn_reset: true,
+      help_instructions: false,
+      filters_row_index: 1,
+      col_types: ['string', 'string', 'string', 'string', 'number'],
+      col_1: 'select',
+      col_2: 'select',
+      col_3: 'select',
+      col_4: 'none',
+      clear_filter_text: '- All -',
+      extensions: [{ name: 'sort' }]
+    });
+    tf.init();
+
+    // Some tweaks to make it look better on mobiles: 
+    // - Hide Organization and Subtype columns in the filter rows
+    const filterRow = document.getElementsByClassName('fltrow')[0];
+    filterRow.children[1].classList.add('hidden');
+    filterRow.children[1].classList.add('sm:table-cell');
+    filterRow.children[3].classList.add('hidden');
+    filterRow.children[3].classList.add('sm:table-cell');
+    // - Increase the size of mdiv (and decrease rdiv) to make sure paging controls are visible
+    document.getElementsByClassName('mdiv')[0].style.width = '58%';
+    document.getElementsByClassName('rdiv')[0].style.width = '10%';
+  }
+
+  const fetch_json = async(url) => {
+    const response = await fetch(url);
+    return await response.json();
+  }
+
+  const updateElement = (id, value) => {
+    document.getElementById(id).innerText = parseInt(value).toLocaleString('en-GB');
+  }
+
+  onPageLoad();
 
 </script>

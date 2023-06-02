@@ -1,0 +1,26 @@
+- id: 1
+  name: Animalia
+
+- id: 6
+  name: Plantae
+  
+- id: 5
+  name: Fungi
+
+- id: 2
+  name: Archaea
+
+- id: 3
+  name: Bacteria
+
+- id: 4
+  name: Chromista
+
+- id: 7
+  name: Protoza
+
+- id: 8
+  name: Viruses
+
+- id: 0
+  name: Incertae sedis
