@@ -2,8 +2,6 @@ on:
   push:
     tags:
       - 'v*'
-    branches:
-      - 'fetch-events'
 
 env:
   JEKYLL_ENV: production
