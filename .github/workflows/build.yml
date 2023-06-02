@@ -3,8 +3,7 @@ on:
     branches:
       - 'main'
   schedule:
-    - cron: '38 15 * * *'
-    #- cron: '3 23 * * *'
+    - cron: '7 23 * * *'
 
 env:
   JEKYLL_ENV: production
