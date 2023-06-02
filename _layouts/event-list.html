@@ -10,14 +10,14 @@ layout: default
   {% include functions/fetch-events.html event_type=page.event_type %}
   {% for event in events %}
     <article class="flex flex-col md:flex-row mt-8 pb-8 border-b-4 border-gray-200 last:border-0">
-      <div class="flex-none md:w-48 mb-4 md:mb-0">
+      <div class="basis-1/4 mb-4 md:mb-0">
         {% if event.image %}
           <a href="{{ event.url }}" title="{{ event.title }}">
             <img src="/uploads/{{ event.image }}" alt="">
           </a>
         {% endif %}
       </div>
-      <div class="md:ml-8 grow">
+      <div class="basis-3/4 md:ml-8">
         <header>
           <h2 class="mt-0">
             <a href="{{ event.url }}">{{ event.title }}</a>
