@@ -26,11 +26,11 @@ load_tablefilter: true
   <table id="datasetstable">
     <thead>
       <tr>
-        <th tabindex="0">Title</th>
-        <th tabindex="0" class="hidden sm:table-cell">Organization</th>
-        <th tabindex="0">Type</th>
-        <th tabindex="0" class="hidden sm:table-cell">Subtype</th>
-        <th tabindex="0" data-sort-method="number">Record count</th>
+        <th tabindex="0" class="text-left">Title</th>
+        <th tabindex="0" class="text-left hidden sm:table-cell">Organization</th>
+        <th tabindex="0" class="text-left">Type</th>
+        <th tabindex="0" class="text-left hidden sm:table-cell">Subtype</th>
+        <th tabindex="0" class="text-left" data-sort-method="number">Record count</th>
       </tr>
     </thead>
     <tbody>
@@ -108,6 +108,7 @@ load_tablefilter: true
       },
       btn_reset: true,
       help_instructions: false,
+      filters_row_index: 1,
       col_types: ['string', 'string', 'string', 'string', 'number'],
       col_1: 'select',
       col_2: 'select',
@@ -118,12 +119,16 @@ load_tablefilter: true
     });
     tf.init();
 
-    // On mobiles: hide Organization and Subtype columns in the filter row
+    // Some tweaks to make it look better on mobiles: 
+    // - Hide Organization and Subtype columns in the filter rows
     const filterRow = document.getElementsByClassName('fltrow')[0];
     filterRow.children[1].classList.add('hidden');
     filterRow.children[1].classList.add('sm:table-cell');
     filterRow.children[3].classList.add('hidden');
     filterRow.children[3].classList.add('sm:table-cell');
+    // - Increase the size of mdiv (and decrease rdiv) to make sure paging controls are visible
+    document.getElementsByClassName('mdiv')[0].style.width = '58%';
+    document.getElementsByClassName('rdiv')[0].style.width = '10%';
   }
 
   const fetch_json = async(url) => {
