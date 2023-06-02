@@ -1,7 +1,10 @@
 on:
   push:
-    tags:
-      - 'v*'
+    branches:
+      - 'main'
+  schedule:
+    - cron: '58 14 * * *'
+    #- cron: '3 23 * * *'
 
 env:
   JEKYLL_ENV: production
@@ -52,7 +55,9 @@ jobs:
         uses: docker/metadata-action@v4
         with:
           images: ghcr.io/${{ github.repository }}
-      
+          tags: |
+            type=raw,value=latest,enable=${{ github.ref == format('refs/heads/{0}', 'main') }}
+
       - name: Build and push Docker image
         uses: docker/build-push-action@v4
         with:
