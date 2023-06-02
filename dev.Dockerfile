@@ -17,7 +17,6 @@ WORKDIR /node
 
 COPY package* /node
 RUN npm install
-RUN npm install -g ical2json
 
 WORKDIR /site
 

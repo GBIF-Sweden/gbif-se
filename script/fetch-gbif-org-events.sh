@@ -6,7 +6,12 @@ echo "Fetching events from gbif.org..."
 curl -sS "https://api.gbif.org/v1/newsroom/events/calendar/upcoming.ics?limit=100" --output _data/gbif-org-events.ics
 
 # Convert to json, output file is _data/gbif-org-events.json (requires nodejs)
-ical2json _data/gbif-org-events.ics
+if test -f "node_modules/ical2json/bin/ical2json"; then
+    ICAL2JSON="node_modules/ical2json/bin/ical2json"
+else
+    ICAL2JSON="ical2json"
+fi
+$ICAL2JSON _data/gbif-org-events.ics
 
 # Replace attribute names to align with our own data model for events
 sed -i 's/SUMMARY/title/g' _data/gbif-org-events.json
