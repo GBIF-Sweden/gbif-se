@@ -17,6 +17,7 @@ WORKDIR /node
 
 COPY package* /node
 RUN npm install
+RUN npm install -g ical2json
 
 WORKDIR /site
 
@@ -31,5 +32,4 @@ EXPOSE 35729
 
 VOLUME /site
 
-# TODO:mb see if this can be improved
-CMD ln -sf /node/node_modules . && bundle exec jekyll serve --host 0.0.0.0 --future --livereload
+CMD ln -sf /node/node_modules . && script/fetch-gbif-org-events.sh && bundle exec jekyll serve --host 0.0.0.0 --future --livereload

@@ -1,7 +1,9 @@
 #!/bin/bash
 
+echo "Fetching events from gbif.org..."
+
 # Fetch events from gbif.org to _data/gbif-org-events.ics
-curl "https://api.gbif.org/v1/newsroom/events/calendar/upcoming.ics?limit=100" -# --output _data/gbif-org-events.ics
+curl -sS "https://api.gbif.org/v1/newsroom/events/calendar/upcoming.ics?limit=100" --output _data/gbif-org-events.ics
 
 # Convert to json, output file is _data/gbif-org-events.json (requires nodejs)
 ical2json _data/gbif-org-events.ics
@@ -20,3 +22,5 @@ sed -i -E 's/([0-9]{4})([0-9]{2})([0-9]{2})T([0-9]{2})([0-9]{2})[0-9]{2}Z/\1-\2-
 # Cleanup
 sed -i 's/\\\\n//g' _data/gbif-org-events.json
 sed -i 's/\\\\//g' _data/gbif-org-events.json
+
+echo "Done"
