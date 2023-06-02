@@ -3,7 +3,7 @@ on:
     branches:
       - 'main'
   schedule:
-    - cron: '58 14 * * *'
+    - cron: '38 15 * * *'
     #- cron: '3 23 * * *'
 
 env:
@@ -56,6 +56,8 @@ jobs:
         with:
           images: ghcr.io/${{ github.repository }}
           tags: |
+            type=schedule,pattern=nightly
+            type=ref,event=branch
             type=raw,value=latest,enable=${{ github.ref == format('refs/heads/{0}', 'main') }}
 
       - name: Build and push Docker image
