@@ -8,14 +8,14 @@ layout: base
   <div class="flex">
     {% if submenu_header %}
       <nav class="mr-8 mt-2 w-48 flex-none hidden sm:block" aria-label="Context menu">
-        <a class="block bg-gbif-green-light px-3 py-2 text-gray-800 text-lg hover:bg-gray-200 hover:no-underline" href="{{ path_start }}">
+        <a class="block bg-gbif-green-light px-3 py-2 text-slate-800 text-lg hover:bg-slate-200 hover:no-underline" href="{{ path_start }}">
           {{ submenu_header }}
         </a>
-        <ul class="bg-gray-100 list-none">
+        <ul class="bg-slate-100 list-none ml-0">
           {% for menu_item_0 in submenu_items %}
             {% assign menu_item = menu_item_0 | split: ":" %}
-            <li class="px-3 py-2 hover:bg-gray-200 {% if menu_item[0] == submenu_active_item %}bg-gray-300{% endif %}">
-              <a class="block text-gray-700 hover:no-underline" href="{{ menu_item[1] }}">{{ menu_item[0] }}</a>
+            <li class="px-3 py-2 hover:bg-slate-200 {% if menu_item[0] == submenu_active_item %}bg-slate-300{% endif %}">
+              <a class="block text-slate-700 hover:no-underline" href="{{ menu_item[1] }}">{{ menu_item[0] }}</a>
             </li>
           {% endfor %}
         </ul>

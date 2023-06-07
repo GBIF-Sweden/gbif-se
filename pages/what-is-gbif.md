@@ -6,30 +6,16 @@ permalink: /:basename/
 
 # {{ page.title }}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ullamcorper venenatis iaculis. In ullamcorper viverra lorem, quis consequat dolor mattis a. Curabitur facilisis nulla purus, nec tincidunt nisi tristique eu. 
+<p class="text-lg text-slate-700">GBIF—the Global Biodiversity Information Facility—is an international network and data infrastructure funded by the world's governments and aimed at providing anyone, anywhere, open access to data about all types of life on Earth.</p>
 
-## Header 2
+[some nice biodiversity image?]
 
-Quisque ut rutrum sem, [commodo mattis dui](/). Fusce ac libero rhoncus tellus **tempor lobortis** sed vitae nisi. Nullam pretium scelerisque risus ultrices maximus. *Aliquam* lobortis convallis nunc finibus interdum. 
+Coordinated through its Secretariat in Copenhagen, the [GBIF network of participating countries and organizations](https://www.gbif.org/the-gbif-network), working through the participant nodes, provides data-holding institutions around the world with common standards, best practices and open-source tools enabling them to share information about where and when species have been recorded. This knowledge derives from many different kinds of sources, including everything from museum specimens collected in the 18th and 19th century to DNA barcodes and smartphone photos recorded in recent days and weeks.
 
-Nulla mattis libero eget tortor ullamcorper varius. Proin purus ligula, convallis sed eros quis, posuere tincidunt neque. Etiam porttitor nec tortor eu vehicula. Vestibulum a consequat mauris, quis fringilla ante. Pellentesque sed viverra tortor.
+The network draws these diverse data sources together through the use of [data standards](https://www.gbif.org/standards), including [Darwin Core](https://www.gbif.org/darwin-core), which forms the basis for the bulk of GBIF.org's index of hundreds of millions of species occurrence records. Publishers provide open access to their datasets using machine-readable Creative Commons license designations, allowing scientists, researchers and others to apply the data in about [four peer-reviewed publications](https://www.gbif.org/resource/search?contentType=literature) (along with more policy papers) every day. Many of these analyses—which cover topics from the [impacts of climate change](https://www.gbif.org/climate) and the spread of [invasive and alien pests](https://www.gbif.org/resource/search?contentType=literature&topics=INVASIVES) to priorities for [conservation](https://www.gbif.org/conservation), [food security](https://www.gbif.org/food) and [human health](https://www.gbif.org/health)—would not be possible without the data provided by the GBIF network.
 
-- item 1
-- item 2
-- item 3
+## Vision
+A world in which the best possible biodiversity data underpins research, policy and decisions.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ullamcorper venenatis iaculis. In ullamcorper viverra lorem, quis consequat dolor mattis a. Curabitur facilisis nulla purus, nec tincidunt nisi tristique eu. Quisque ut rutrum sem, commodo mattis dui. Fusce ac libero rhoncus tellus tempor lobortis sed vitae nisi. 
-
-1. item 1
-2. item 2
-3. item 3
-
-Nullam pretium scelerisque risus ultrices maximus. Aliquam lobortis convallis nunc finibus interdum. Nulla mattis libero eget tortor ullamcorper varius. Proin purus ligula, convallis sed eros quis, posuere tincidunt neque. Etiam porttitor nec tortor eu vehicula. Vestibulum a consequat mauris, quis fringilla ante. Pellentesque sed viverra tortor.
-
-### Header 3
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ullamcorper venenatis iaculis. In ullamcorper viverra lorem, quis consequat dolor mattis a. Curabitur facilisis nulla purus, nec tincidunt nisi tristique eu. Quisque ut rutrum sem, commodo mattis dui. Fusce ac libero rhoncus tellus tempor lobortis sed vitae nisi. Nullam pretium scelerisque risus ultrices maximus. Aliquam lobortis convallis nunc finibus interdum. Nulla mattis libero eget tortor ullamcorper varius. Proin purus ligula, convallis sed eros quis, posuere tincidunt neque. Etiam porttitor nec tortor eu vehicula. Vestibulum a consequat mauris, quis fringilla ante. Pellentesque sed viverra tortor.
-
-#### Header 4
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ullamcorper venenatis iaculis. In ullamcorper viverra lorem, quis consequat dolor mattis a. Curabitur facilisis nulla purus, nec tincidunt nisi tristique eu. Quisque ut rutrum sem, commodo mattis dui. Fusce ac libero rhoncus tellus tempor lobortis sed vitae nisi. Nullam pretium scelerisque risus ultrices maximus. Aliquam lobortis convallis nunc finibus interdum. Nulla mattis libero eget tortor ullamcorper varius. Proin purus ligula, convallis sed eros quis, posuere tincidunt neque. Etiam porttitor nec tortor eu vehicula. Vestibulum a consequat mauris, quis fringilla ante. Pellentesque sed viverra tortor.
+## Mission
+To mobilize the data, skills and technologies needed to make comprehensive biodiversity information freely available for science and decisions addressing biodiversity loss and sustainable development.

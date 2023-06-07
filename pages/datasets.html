@@ -9,10 +9,10 @@ load_tablefilter: true
 
 <article>
   <h2 class="text-lg">Occurrence per kingdom</h2>
-  <div class="mb-8 py-2 px-4 border border-gray-300 grid grid-cols-3 gap-y-3 md:grid-cols-5">
+  <div class="mb-8 py-2 px-4 shadow-md bg-slate-50 grid grid-cols-3 gap-y-3 md:grid-cols-5">
     {% for kingdom in site.data.kingdoms %}
       <div>
-        <div class="text-gray-600">{{ kingdom.name}}</div>
+        <div class="text-slate-600">{{ kingdom.name}}</div>
         <span id="kingdom_{{ kingdom.id}}" class="text-lg"></span>
       </div>
     {% endfor %}

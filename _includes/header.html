@@ -34,7 +34,7 @@
         </a>
         {% include functions/submenu-data.html path_start=menu_item_path %}
         {% if submenu_header %}
-          <ul class="sm:hidden mb-0 list-none">
+          <ul class="sm:hidden mb-0 ml-0 list-none">
             {% for submenu_item_0 in submenu_items %}
               {% assign submenu_item = submenu_item_0 | split: ":" %}
               <li>

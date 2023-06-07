@@ -13,25 +13,28 @@
     }
     h2 {
         @apply text-2xl;
-        @apply mt-1;
+        @apply mt-6;
         @apply mb-1;
     }
     h3 {
         @apply text-xl;
-        @apply mt-1;
+        @apply mt-3;
+        @apply mb-1;
     }
     p {
-        @apply mb-2;
-        @apply font-text;   
+        @apply mb-3;
+        @apply font-text;
     }
     ul {
         @apply list-disc;
-        @apply list-inside;
+        @apply list-outside;
+        @apply ml-8;
         @apply mb-2;
     }
     ol {
         @apply list-decimal;
-        @apply list-inside;
+        @apply list-outside;
+        @apply ml-8;
         @apply mb-2;
     }
     a {

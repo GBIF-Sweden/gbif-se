@@ -8,7 +8,7 @@ layout: base
     {{ content }}
   </article>
 
-  <div class="bg-gray-100 py-8">
+  <div class="bg-slate-100 py-8">
     <article class="container px-4">
       <h2 class="mb-4">Species occurrences published in GBIF by Swedish institutions</h2>
       <div class="mb-4 flex gap-x-8 sm:grid sm:grid-cols-4">
@@ -96,7 +96,7 @@ layout: base
 
   <div class="container flex flex-col lg:flex-row mt-8 px-4">
 
-    <article class="basis-2/3 lg:border-r-4 lg:border-gray-200 lg:pr-4 lg:mr-8">
+    <article class="basis-2/3 lg:border-r-4 lg:border-slate-200 lg:pr-4 lg:mr-8">
       <header>
         <h2 class="mb-2">News</h2>
       </header>
@@ -115,7 +115,7 @@ layout: base
                 <h3 class="mt-0">
                     <a href="{{ news.url }}">{{ news.title }}</a>
                 </h3>
-                <div class="mt-1 text-gray-500">
+                <div class="mt-1 text-slate-500">
                   {{ news.date | date: "%b %d, %Y %I:%M %p" }}
                 </div>
               </header>
@@ -149,12 +149,12 @@ layout: base
               <h3 class="mt-0">
                   <a href="{{ event.url }}">{{ event.title }}</a>
               </h3>
-              <div class="mt-1 text-gray-500">
+              <div class="mt-1 text-slate-500">
                 {%- include icons/calendar.html class="h-4 inline" -%}
                 {%- include event-date.html start_time=event.start_time end_time=event.end_time -%}
               </div>
               {% if event.location %}
-                <div class="mt-1 text-gray-500">
+                <div class="mt-1 text-slate-500">
                   {%- include icons/map-pin.html class="h-4 inline" -%}
                   {{ event.location }}
                 </div>
