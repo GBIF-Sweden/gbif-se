@@ -24,6 +24,8 @@ Considering the growing number of stakeholders and the significance of GBIF's im
 
 To achieve these goals, the strategic framework focuses on enhancing value and coherence through ongoing innovation that supports the GBIF community and adapts to its evolving needs. Building upon the foundation provided by the global network, the strategic priorities outlined below aim to address the data, people, and infrastructure necessary for improving our understanding, conservation, and restoration of biodiversity in all its intricate complexity.
 
-Download the Strategic Framework 2023-2027 in [PDF](https://assets.ctfassets.net/uo17ejk9rkwj/4syMySXpjvR7ZABffjJx2g/d6c0e77cc72d7e3429f3c248ec50eef2/gbif-strategic-framework-23-27.pdf) or [PowerPoint](https://assets.ctfassets.net/uo17ejk9rkwj/5ZNmVKdtBNnpCIfJVQOzGU/2107c35451c9ba8f1620d1dc29b5fe3d/strategic-framework-gbif.pptx) formats
+<p class="shadow-md bg-slate-100 p-4 my-6">
+Download the Strategic Framework 2023-2027 in <a href="https://assets.ctfassets.net/uo17ejk9rkwj/4syMySXpjvR7ZABffjJx2g/d6c0e77cc72d7e3429f3c248ec50eef2/gbif-strategic-framework-23-27.pdf" title="Download Strategic Framework as PDF">PDF</a> or <a href="https://assets.ctfassets.net/uo17ejk9rkwj/5ZNmVKdtBNnpCIfJVQOzGU/2107c35451c9ba8f1620d1dc29b5fe3d/strategic-framework-gbif.pptx" title="Download Strategic Framework as PowerPoint">PowerPoint</a> formats
+</p>
 
 Annual Work Programmes relating to the Strategic Framework can be found at [www.gbif.org](). 
