@@ -6,7 +6,7 @@ permalink: /:basename/
 
 # {{ page.title }}
 
-<p class="text-lg text-gray-700">GBIF—the Global Biodiversity Information Facility—is an international network and data infrastructure funded by the world's governments and aimed at providing anyone, anywhere, open access to data about all types of life on Earth.</p>
+<p class="text-lg text-slate-700">GBIF—the Global Biodiversity Information Facility—is an international network and data infrastructure funded by the world's governments and aimed at providing anyone, anywhere, open access to data about all types of life on Earth.</p>
 
 [some nice biodiversity image?]
 

@@ -7,7 +7,7 @@ layout: default
   {% for news in site.news reversed %}
     {% assign news_year = news.date | date: "%Y" | plus: 0 %}
     {% if page.year == 0 or page.year == news_year %}
-      <article class="flex flex-col md:flex-row mt-8 pb-8 border-b-4 border-gray-200 last:border-0">
+      <article class="flex flex-col md:flex-row mt-8 pb-8 border-b-4 border-slate-200 last:border-0">
         <div class="basis-1/4 mb-4 md:mb-0">
           {% if news.image %}
             <a href="{{ news.url }}" title="{{ news.title }}">
@@ -20,7 +20,7 @@ layout: default
             <h2 class="mt-0">
               <a href="{{ news.url }}">{{ news.title }}</a>
             </h2>
-            <div class="mt-2 text-gray-500">
+            <div class="mt-2 text-slate-500">
               {{ news.date | date: "%b %d, %Y %I:%M %p" }}
             </div>
           </header>
