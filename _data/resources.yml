@@ -1,22 +1,18 @@
-- name: All you need to know about GRSciColl
+- name: Programmes and Awards
   image: grscicoll.jpg
-  link: https://www.gbif.org/grscicoll  
-
-- name: Beginner's guide to the GBIF API
-  image: Rest-API.png
-  link: https://data-blog.gbif.org/post/gbif-api-beginners-guide/
+  link: /
 
 - name: Developers blog
   image: ala-logo.png
-  link: /
+  link: https://data-blog.gbif.org/
 
 - name: Courses and training
   image: gbif-eca-2023.png
-  link: https://www.gbif.org/training
+  link: /
 
 - name: Documentation
   image: 2023-05-glis-sac-rome.png
-  link: /
+  link: https://docs.gbif.org/
 
 - name: Science review
   image: gbif-eca-2023.png
@@ -24,17 +20,13 @@
 
 - name: Citation Guide
   image: gbif-eca-2023.png
-  link: https://www.gbif.org/citation-guidelines
-
-- name: Community forum
-  image: gbif-eca-2023.png
-  description: Join the conversation and get answers to data use related questions
-  link: https://discourse.gbif.org/c/data-use/
-
-- name: Use cases
-  image: gbif-eca-2023.png
   link: /
 
-- name: Projects and open calls
+- name: GBIF Community Forum
+  image: gbif-eca-2023.png
+  description: Join the conversation and get answers to data use related questions
+  link: https://discourse.gbif.org/
+
+- name: Use Cases
   image: gbif-eca-2023.png
   link: /

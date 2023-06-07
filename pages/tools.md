@@ -6,16 +6,18 @@ permalink: /:basename/
 
 # {{ page.title }}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ullamcorper venenatis iaculis. In ullamcorper viverra lorem, quis consequat dolor mattis a. Curabitur facilisis nulla purus, nec tincidunt nisi tristique eu.
+GBIF provides tools for publishing, accessing and using biodiversity data. Here we list a subset of tools available. For a more detailed list of tools available within the community, go to the [GBIF Tools Catalogue](https://www.gbif.org/resource/search?contentType=tool) or visit the [SBDI Tools webpage](https://tools.biodiversitydata.se/).
 
-<div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
-  {% for tool in site.data.tools %}
-    <div>
-      <h2 class="mb-2">{{ tool.name }}</h2>
-      <div class="mb-2">{{ tool.description }}</div>
-      {% if tool.link %}
-        <a class="text-xl" href="{{ tool.link }}">&raquo; {{ tool.linktitle | default: tool.name }}</a>
-      {% endif %}
+{% for tool_group in site.data.tools %}
+  <article>
+    <h2>{{ tool_group.name }}</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      {% for tool in tool_group.items %}
+        <article class="bg-slate-100 shadow-md px-3 cursor-pointer hover:bg-slate-200" onclick="location.href='{{ tool.link }}';">
+          <h3 class="mb-2"><a href="{{ tool.link }}">{{ tool.name }}</a></h3>
+          <div class="mb-2">{{ tool.description }}</div>
+        </article>
+      {% endfor %}
     </div>
-  {% endfor %}
-</div>
+  </article>
+{% endfor %}
