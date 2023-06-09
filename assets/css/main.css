@@ -43,4 +43,7 @@
     a:hover {
         @apply underline;
     }
+    address {
+        @apply not-italic;
+    }
   }

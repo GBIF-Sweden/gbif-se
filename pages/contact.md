@@ -16,6 +16,7 @@ For general inquiries and support use [gbif@nrm.se](mailto:gbif@nrm.se). It is a
     {% if staff.image %}
       <img src="/uploads/staff/{{ staff.image }}" class="h-56" alt="">
     {% endif %}
+    <address>
     <h3 class="text-lg mb-0">{{ staff.name }}</h3>
     <div>{{ staff.title }}</div>
     <div>{{ staff.organisation }}</div>
@@ -24,18 +25,23 @@ For general inquiries and support use [gbif@nrm.se](mailto:gbif@nrm.se). It is a
     <div>{{ staff.country | default: "Sweden" }}</div>
     <div><a href="mailto:{{ staff.email }}">{{ staff.email }}</a></div>
     <div><a href="tel:{{ staff.phone }}">{{ staff.phone }}</a></div>
+    </address>
   </article>
 {% endfor %}
 </div>
 
 ## Mailing address
-GBIF Sweden  
-PO Box 500 07  
-104 05 Stockholm  
-Sweden
+<address>
+  GBIF Sweden<br>
+  PO Box 500 07<br>
+  104 05 Stockholm<br>
+  Sweden<br>
+</address>
 
 ## Visiting address
-Swedish Museum of Natural History  
-Naturhistoriska riksmuseet  
-Frescativägen 40  
-114 18 Stockholm
+<address>
+  Swedish Museum of Natural History<br>
+  Naturhistoriska riksmuseet<br>
+  Frescativägen 40<br>
+  114 18 Stockholm<br>
+</address>
