@@ -5,3 +5,4 @@ _site
 vendor
 node_modules
 _data/gbif-org-events.*
+_data/occurence-total.json

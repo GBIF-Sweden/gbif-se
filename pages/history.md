@@ -10,4 +10,4 @@ GBIF arose from a [1999 recommendation by the Biodiversity Informatics Subgroup]
 
 That recommendation received the [endorsement of science ministers from OECD member states](https://doi.org/10.1038/21728), and, in 2001, GBIF was officially established through [Memorandum of Understanding](https://www.gbif.org/document/80661) between participating governments.
 
-GBIF stores and distributes documented observations from a multitude of trusted sources of species information. GBIF now distributes more than 2.3 billion observations through its [data portal](http://gbif.org).
+GBIF stores and distributes documented observations from a multitude of trusted sources of species information. GBIF now distributes more than {{ site.data.occurence-total.count | divided_by: 1000000000.0 | round: 1 }} billion observations through its [data portal](http://gbif.org).

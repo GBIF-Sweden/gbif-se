@@ -9,3 +9,7 @@ run-nginx:
 
 deploy:
 	ssh nrm-arda 'docker compose -f /home/gbif/repos/gbif-se-web/gbif-se-website/docker-compose.yml pull && docker compose -f /home/gbif/repos/gbif-se-web/gbif-se-website/docker-compose.yml up --detach'
+
+pre-render:
+	script/fetch-gbif-org-events.sh
+	curl -sS "https://api.gbif.org/v1/occurrence/search?limit=0&occurrenceStatus=present" --output _data/occurence-total.json

@@ -36,8 +36,8 @@ jobs:
       - name: Install Ruby dependencies
         run: bundle install 
 
-      - name: Fetch events from gbif.org
-        run: script/fetch-gbif-org-events.sh
+      - name: Pre render - fetch external data
+        run: make pre-render
 
       - name: Build site
         run: bundle exec jekyll build --future

@@ -31,4 +31,4 @@ EXPOSE 35729
 
 VOLUME /site
 
-CMD ln -sf /node/node_modules . && script/fetch-gbif-org-events.sh && bundle exec jekyll serve --host 0.0.0.0 --future --livereload
+CMD ln -sf /node/node_modules . && make pre-render && bundle exec jekyll serve --host 0.0.0.0 --future --livereload
