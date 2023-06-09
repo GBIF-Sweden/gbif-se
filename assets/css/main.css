@@ -24,18 +24,21 @@
     p {
         @apply mb-3;
         @apply font-text;
+        @apply text-lg;
     }
     ul {
         @apply list-disc;
         @apply list-outside;
         @apply ml-8;
         @apply mb-2;
+        @apply text-lg;
     }
     ol {
         @apply list-decimal;
         @apply list-outside;
         @apply ml-8;
         @apply mb-2;
+        @apply text-lg;
     }
     a {
         @apply text-blue-600;
@@ -46,4 +49,11 @@
     address {
         @apply not-italic;
     }
-  }
+}
+
+@layer components {
+    .preamble {
+        @apply text-xl;
+        @apply text-slate-700;
+    }
+}
