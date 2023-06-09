@@ -17,7 +17,7 @@
       path: /strategic-framework/
     - name: FAIR and CARE
       path: /fair-and-care/
-    - name: Citation guide
+    - name: '#citethedoi'
       path: https://www.gbif.org/citation-guidelines
 
 - name: Community
@@ -39,5 +39,3 @@
       path: /accessibility/
     - name: Privacy Policy
       path: /privacy-policy/
-    - name: Cookies
-      path: /cookies/

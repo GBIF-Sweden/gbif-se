@@ -26,7 +26,15 @@
           <ul class="list-none list-inside ml-0">
             {% for menu_item in menu_header.items %}
               <li class="mb-1">
-                <a class="text-white {% if path_start == menu_item.path %}font-bold {% endif %}" href="{{ menu_item.path }}">{{ menu_item.name }}</a>
+                <a class="text-white {% if path_start == menu_item.path %}font-bold {% endif %}" href="{{ menu_item.path }}">
+                  {{ menu_item.name }}
+                  {%- assign starts_with = menu_item.path | slice: 0, 4 -%}
+                  {%- if starts_with == 'http' %}
+                    <svg class="h-4 inline" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                  {%- endif -%}
+                </a>
               </li>
             {% endfor %}
           </ul>
