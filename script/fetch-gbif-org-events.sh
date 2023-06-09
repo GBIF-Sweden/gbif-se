@@ -25,6 +25,7 @@ sed -i 's/DTEND/end_time/g' _data/gbif-org-events.json
 sed -i -E 's/([0-9]{4})([0-9]{2})([0-9]{2})T([0-9]{2})([0-9]{2})[0-9]{2}Z/\1-\2-\3 \4:\5/g'  _data/gbif-org-events.json
 
 # Cleanup
+sed -i 's/\\\\n\\\\n/<br class=\\"mb-4\\">/g' _data/gbif-org-events.json
 sed -i 's/\\\\n//g' _data/gbif-org-events.json
 sed -i 's/\\\\//g' _data/gbif-org-events.json
 

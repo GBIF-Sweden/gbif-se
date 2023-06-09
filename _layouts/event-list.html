@@ -42,7 +42,7 @@ layout: default
           {% endif %}
         </header>
         <p class="mt-4">
-          {{ event.description }}
+          {{ event.description | truncatewords: 100, ' [...]' }}
         </p>
         <footer>
           <a href="{{ event.url }}" title="{{ event.title }}">&raquo; Read more</a>
