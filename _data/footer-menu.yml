@@ -1,0 +1,43 @@
+- name: Who we are
+  items:
+    - name: What is GBIF
+      path: /what-is-gbif/
+    - name: GBIF Sweden
+      path: /gbif-sweden/
+    - name: Governance
+      path: /governance/
+    - name: Contact
+      path: /contact/
+
+- name: What we do
+  items:
+    - name: History
+      path: /history/
+    - name: Strategic framework
+      path: /strategic-framework/
+    - name: FAIR and CARE
+      path: /fair-and-care/
+    - name: Citation guide
+      path: https://www.gbif.org/citation-guidelines
+
+- name: Community
+  items:
+    - name: SBDI
+      path: /sbdi/
+    - name: The GBIF Network
+      path: /the-gbif-network/
+    - name: Taxonomy
+      path: /taxonomy/
+    - name: Data standards
+      path: /data-standards/
+
+- name: Information
+  items:
+    - name: GBIF API
+      path: https://www.gbif.org/developer/summary
+    - name: Accessibility
+      path: /accessibility/
+    - name: Privacy Policy
+      path: /privacy-policy/
+    - name: Cookies
+      path: /cookies/
