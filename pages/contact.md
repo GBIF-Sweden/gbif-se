@@ -30,18 +30,22 @@ For general inquiries and support use [gbif@nrm.se](mailto:gbif@nrm.se). It is a
 {% endfor %}
 </div>
 
-## Mailing address
-<address>
-  GBIF Sweden<br>
-  PO Box 500 07<br>
-  104 05 Stockholm<br>
-  Sweden<br>
-</address>
+<article class="mt-8 border-t-2 border-slate-200">
+  <h2>Mailing address</h2>
+  <address>
+    GBIF Sweden<br>
+    PO Box 500 07<br>
+    104 05 Stockholm<br>
+    Sweden<br>
+  </address>
+</article>
 
-## Visiting address
-<address>
-  Swedish Museum of Natural History<br>
-  Naturhistoriska riksmuseet<br>
-  Frescativägen 40<br>
-  114 18 Stockholm<br>
-</address>
+<article class="mt-8 border-t-2 border-slate-200">
+  <h2>Visiting address</h2>
+  <address>
+    Swedish Museum of Natural History<br>
+    Naturhistoriska riksmuseet<br>
+    Frescativägen 40<br>
+    114 18 Stockholm<br>
+  </address>
+</article>
