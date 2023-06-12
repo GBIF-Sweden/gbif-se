@@ -12,8 +12,14 @@ load_tablefilter: true
   <div class="mb-8 py-2 px-4 shadow-md bg-slate-50 grid grid-cols-2 gap-y-3 sm:grid-cols-3 md:grid-cols-5">
     {% for kingdom in site.data.kingdoms %}
       <div>
-        <div class="text-slate-600">{{ kingdom.name}}</div>
-        <span id="kingdom_{{ kingdom.id}}" class="text-lg"></span>
+        <div class="text-slate-600">{{ kingdom.name }}</div>
+        <span class="text-lg">
+          {%- for kingdom_count in site.data.kingdom-counts.facets[0].counts -%}
+            {%- if kingdom.id == kingdom_count.name -%}
+              {%- include functions/number-format.html number=kingdom_count.count ts=',' decimals=0 -%}
+            {%- endif -%}
+          {%- endfor -%}
+        </span>
       </div>
     {% endfor %}
   </div>
@@ -42,13 +48,6 @@ load_tablefilter: true
 <script type="text/javascript">
 
   const onPageLoad = async() => {
-    // Occurence by kingdom
-    const result = await fetch_json('https://api.gbif.org/v1/occurrence/search?publishingCountry=SE&limit=0&facet=kingdomKey');
-    const kingdoms = result.facets[0].counts;
-    kingdoms.forEach(kingdom => {
-      updateElement('kingdom_' + kingdom.name, kingdom.count);
-    });
-
     // Main data table
     records = await fetchRecords();
     populateTable(records);
@@ -141,10 +140,6 @@ load_tablefilter: true
   const fetch_json = async(url) => {
     const response = await fetch(url);
     return await response.json();
-  }
-
-  const updateElement = (id, value) => {
-    document.getElementById(id).innerText = parseInt(value).toLocaleString('en-GB');
   }
 
   onPageLoad();

@@ -13,3 +13,4 @@ deploy:
 pre-render:
 	script/fetch-gbif-org-events.sh
 	curl -sS "https://api.gbif.org/v1/occurrence/search?limit=0&occurrenceStatus=present" --output _data/occurence-total.json
+	curl -sS "https://api.gbif.org/v1/occurrence/search?publishingCountry=SE&limit=0&facet=kingdomKey" --output _data/kingdom-counts.json
