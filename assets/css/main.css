@@ -56,4 +56,46 @@
         @apply text-xl;
         @apply text-slate-700;
     }
+    .gbif-icon {
+        @apply font-['gbificons'];
+        @apply antialiased;
+    }
+}
+
+@font-face {
+    font-family: 'gbificons';
+    src:url('/assets/iconfont/gbificons.eot');
+    src:url('/assets/iconfont/gbificons.eot#iefix') format('embedded-opentype'),
+        url('/assets/iconfont/gbificons.ttf') format('truetype'),
+        url('/assets/iconfont/gbificons.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.gb-icon-animalia:before {
+    content: "\EA14";
+}
+.gb-icon-archaea:before {
+    content: "\EA15";
+}
+.gb-icon-bacteria:before {
+    content: "\EA16";
+}
+.gb-icon-chromista:before {
+    content: "\EA17";
+}
+.gb-icon-fungi:before {
+    content: "\EA18";
+}
+.gb-icon-plantae:before {
+    content: "\EA19";
+}
+.gb-icon-protozoa:before {
+    content: "\EA1A";
+}
+.gb-icon-incertae-sedis:before {
+    content: "\EA1B";
+}
+.gb-icon-viruses:before {
+    content: "\EA1C";
 }

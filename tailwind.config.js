@@ -24,6 +24,7 @@ module.exports = {
         colors: {
           'gbif-green': '#40833a',
           'gbif-green-light': '#c4dec4',
+          'gbif-green-medium': '#71b171',
           'gbif-green-dark': '#397534',
         },
         fontFamily: {
