@@ -26,19 +26,19 @@
   items:
 
     - name: Integrated Publishing Toolkit (IPT)
-      link: /integrated-publishing-toolkit
+      link: /integrated-publishing-toolkit/
 
     - name: Data validator
       link: https://www.gbif.org/tools/data-validator/about
 
     - name: Open refine
-      link: /open-refine
+      link: /open-refine/
 
     - name: GRSciColl & GBIF Registry
-      link: /grscicoll-and-gbif-registry
+      link: /grscicoll-and-gbif-registry/
 
     - name: Templates for publishing data
-      link: /templates-for-publishing-data
+      link: /templates-for-publishing-data/
 
     - name: Tools catalogue
       link: https://www.gbif.org/resource/search?contentType=tool
