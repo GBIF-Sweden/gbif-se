@@ -15,8 +15,8 @@
       path: /history/
     - name: Strategic framework
       path: /strategic-framework/
-    - name: FAIR and CARE
-      path: /fair-and-care/
+    - name: Be FAIR and CARE
+      path: /be-fair-and-care/
     - name: '#citethedoi'
       path: https://www.gbif.org/citation-guidelines
 
