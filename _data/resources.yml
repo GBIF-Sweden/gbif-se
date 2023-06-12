@@ -1,32 +1,24 @@
-- name: Programmes and Awards
-  image: grscicoll.jpg
-  link: /
-
-- name: Developers blog
-  image: ala-logo.png
-  link: https://data-blog.gbif.org/
+- name: GBIF Programmes and Awards
+  image: resources/grscicoll.jpg
+  link: /gbif-programmes-and-awards/
 
 - name: Courses and training
-  image: gbif-eca-2023.png
-  link: /
+  image: events/gbif-eca-2023.png
+  link: /courses-and-training/
 
-- name: Documentation
-  image: 2023-05-glis-sac-rome.png
+- name: Developers blog
+  image: resources/Rest-API.png
+  link: https://data-blog.gbif.org/
+
+- name: Documentation & Guides
+  image: events/gbif-eca-2023.png
   link: https://docs.gbif.org/
 
-- name: Science review
-  image: gbif-eca-2023.png
+- name: GBIF Science review
+  image: news/2023-05-glis-sac-rome.png
   link: https://www.gbif.org/science-review
 
-- name: Citation Guide
-  image: gbif-eca-2023.png
-  link: /
-
 - name: GBIF Community Forum
-  image: gbif-eca-2023.png
+  image: resources/forum.png
   description: Join the conversation and get answers to data use related questions
   link: https://discourse.gbif.org/
-
-- name: Use Cases
-  image: gbif-eca-2023.png
-  link: /

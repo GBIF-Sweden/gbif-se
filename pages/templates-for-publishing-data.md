@@ -1,6 +1,6 @@
 ---
 layout: default
-title: FAIR and CARE
+title: Templates for publishing data
 permalink: /:basename/
 ---
 

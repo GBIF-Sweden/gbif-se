@@ -1,7 +1,7 @@
 ---
 title: Plant Treaty Global Information System Scientific Advisory Committee meeting May 2023
 date: 2023-04-15 10:00
-image: 2023-05-glis-sac-rome.png
+image: news/2023-05-glis-sac-rome.png
 description: "GBIF Norway and the GBIF Secretariat were invited as speakers at the Plant Treaty (ITPGRFA) fifth meeting of the Scientific Advisory Committee (SAC) of the Global Information System (GLIS) in Rome from 8th to 9th May 2023."
 ---
 
