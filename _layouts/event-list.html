@@ -16,7 +16,7 @@ layout: default
         {% else %}
           <div class="hidden md:block relative text-center text-slate-700" aria-hidden="true">
             <img class="inline h-40" src="/assets/images/blank_calendar.svg" alt="">
-            <div class="text-xl text-white font-bold absolute top-1/2 left-1/2 -translate-x-1/2 translate-y-[-165%]">
+            <div class="text-xl text-white font-bold uppercase absolute top-1/2 left-1/2 -translate-x-1/2 translate-y-[-165%]">
               {{ event.start_time | date: "%b" }}
             </div>
             <div class="text-7xl absolute top-1/2 left-1/2 -translate-x-1/2 translate-y-[-10%]">
@@ -32,7 +32,7 @@ layout: default
           </h2>
           <div class="mt-2 text-slate-500">
             {%- include icons/calendar.html class="h-4 inline" -%}
-            {%- include event-date.html start_time=event.start_time end_time=event.end_time -%}
+            {%- include event-date.html event=event -%}
           </div>
           {% if event.location %}
             <div class="text-slate-500">
