@@ -35,7 +35,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-postcss-v2
   - jekyll-sitemap
-  - jekyll-last-modified-at
 
 # Exclude from processing.
 # The following items will not be processed, by default.
