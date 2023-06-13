@@ -32,14 +32,13 @@ load_tablefilter: true
   <div class="mb-4 text-xl">
     <a href="https://www.gbif.se/ipt/">&raquo; Explore datasets on GBIF Sweden IPT</a>
   </div>
-  <div id="tableToolbar" class="max-w-xs sm:max-w-none"></div>
   <table id="datasetstable" class="w-full">
     <thead>
       <tr>
         <th tabindex="0" class="text-left">Title</th>
         <th tabindex="0" class="text-left hidden sm:table-cell">Organization</th>
         <th tabindex="0" class="text-left hidden sm:table-cell">Type</th>
-        <th tabindex="0" class="text-left hidden sm:table-cell">Subtype</th>
+        <th tabindex="0" class="text-left hidden md:table-cell">Subtype</th>
         <th tabindex="0" class="text-left" data-sort-method="number">Record count</th>
       </tr>
     </thead>
@@ -96,7 +95,7 @@ load_tablefilter: true
       newRow.appendChild(Object.assign(document.createElement('td'), 
         {className:'hidden sm:table-cell', textContent: record.type}));
       newRow.appendChild(Object.assign(document.createElement('td'), 
-        {className:'hidden sm:table-cell', textContent: record.subtype}));
+        {className:'hidden md:table-cell', textContent: record.subtype}));
       newRow.appendChild(Object.assign(document.createElement('td'), 
         {className:'table-number text-right', textContent:parseInt(record.recordCount).toLocaleString('en-GB')}));
     });
@@ -105,15 +104,11 @@ load_tablefilter: true
   const setupTableFilter = () => {
     const tf = new TableFilter('datasetstable', {
       base_path: 'https://unpkg.com/tablefilter@0.7.3/dist/tablefilter/',
-      toolbar: {
-          target_id: 'tableToolbar'
-      },
       alternate_rows: true,
       rows_counter: true,
-      paging: {
-        length: 25,
+      btn_reset: {
+        text: 'Reset filter'
       },
-      btn_reset: true,
       help_instructions: false,
       filters_row_index: 1,
       col_types: ['string', 'string', 'string', 'string', 'number'],
@@ -134,10 +129,7 @@ load_tablefilter: true
     filterRow.children[2].classList.add('hidden');
     filterRow.children[2].classList.add('sm:table-cell');
     filterRow.children[3].classList.add('hidden');
-    filterRow.children[3].classList.add('sm:table-cell');
-    // - Increase the size of mdiv (and decrease rdiv) to make sure paging controls are visible
-    document.getElementsByClassName('mdiv')[0].style.width = '58%';
-    document.getElementsByClassName('rdiv')[0].style.width = '10%';
+    filterRow.children[3].classList.add('md:table-cell');
   }
 
   const fetch_json = async(url) => {
