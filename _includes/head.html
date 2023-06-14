@@ -18,16 +18,29 @@
       document.addEventListener('DOMContentLoaded', function() {
         var calendarEl = document.getElementById('calendar');
         var calendar = new FullCalendar.Calendar(calendarEl, {
+          initialView: 'dayGridMonth',
           headerToolbar: {
-            left: 'title',
-            right: 'prev,next'
+            left: 'prev',
+            center: 'title',
+            right: 'next'
           },
           titleFormat: {
             year: 'numeric',
             month: 'short'
           },
           firstDay: 1,
-          initialView: 'dayGridMonth'
+          displayEventTime: false,
+          events: [
+            {%- include functions/fetch-events.html event_type='coming' -%}
+            {%- for event in events -%}
+              {
+                title: '{{ event.title }}',
+                start: '{{ event.start_time | date: "%Y%m%dT%I%M%SZ"}}',
+                end: '{{ event.end_time | date: "%Y%m%dT%I%M%SZ"}}',
+                url: '{{ event.url }}'
+              },
+            {%- endfor -%}
+          ]
         });
         calendar.render();
       });

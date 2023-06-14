@@ -7,8 +7,8 @@ layout: base
 <div class="container mt-12 mb-8 px-4">
   <div class="flex">
     {% if submenu_header %}
-      <div>
-        <nav class="mr-8 mt-2 w-48 hidden sm:block" aria-label="Context menu">
+      <div class="mr-8 w-64 hidden sm:block">
+        <nav class="mt-2" aria-label="Context menu">
           <a class="block bg-gbif-green-light px-3 py-2 text-slate-800 text-lg hover:bg-slate-200 hover:no-underline" href="{{ path_start }}">
             {{ submenu_header }}
           </a>
@@ -22,7 +22,7 @@ layout: base
           </ul>
         </nav>
         {% if page.load_calendar == true %}
-          <div id="calendar" class="w-48 h-96 text-xs" aria-hidden="true"></div>
+          <div id="calendar" class="mt-8 h-[28rem] text-xs" aria-hidden="true"></div>
         {% endif %}
       </div>
     {% endif %}
