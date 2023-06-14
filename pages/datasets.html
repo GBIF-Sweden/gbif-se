@@ -32,6 +32,7 @@ load_tablefilter: true
   <div class="mb-4 text-xl">
     <a href="https://www.gbif.se/ipt/">&raquo; Explore datasets on GBIF Sweden IPT</a>
   </div>
+  <div id="tableToolbar"></div>
   <table id="datasetstable" class="w-full">
     <thead>
       <tr>
@@ -104,6 +105,9 @@ load_tablefilter: true
   const setupTableFilter = () => {
     const tf = new TableFilter('datasetstable', {
       base_path: 'https://unpkg.com/tablefilter@0.7.3/dist/tablefilter/',
+      toolbar: {
+          target_id: 'tableToolbar'
+      },
       alternate_rows: true,
       rows_counter: true,
       btn_reset: {

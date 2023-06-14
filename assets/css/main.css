@@ -119,3 +119,7 @@
     color: rgb(30 41 59);
   }
 
+/* Tablefilter */
+#tableToolbar .inf {
+    min-width: fit-content;
+}
