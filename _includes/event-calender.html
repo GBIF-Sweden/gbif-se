@@ -1,0 +1,39 @@
+<div id="calendar" class="mt-8 h-[28rem] text-xs" aria-hidden="true"></div>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var calendarEl = document.getElementById('calendar');
+    var calendar = new FullCalendar.Calendar(calendarEl, {
+      initialView: 'dayGridMonth',
+      headerToolbar: {
+        left: 'prev',
+        center: 'title',
+        right: 'next'
+      },
+      titleFormat: {
+        year: 'numeric',
+        month: 'short'
+      },
+      firstDay: 1,
+      displayEventTime: false,
+      eventColor: '#c4dec4',
+      eventTextColor: 'rgb(30 41 59)',
+
+      eventDidMount: function(obj) {
+        obj.el.title = obj.event.title;
+      },
+
+      events: [
+        {%- include functions/fetch-events.html -%}
+        {%- for event in events -%}
+          {
+            title: '{{ event.title }}',
+            start: '{{ event.start_time | date: "%Y%m%dT%I%M%SZ" }}',
+            end: '{{ event.end_time | date: "%Y%m%dT%I%M%SZ" }}',
+            url: '{{ event.url }}'
+          },
+        {%- endfor -%}
+      ]
+    });
+    calendar.render();
+  });
+</script>

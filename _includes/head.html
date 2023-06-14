@@ -13,63 +13,7 @@
     <script src="https://unpkg.com/tablefilter@0.7.3/dist/tablefilter/tablefilter.js"></script>
   {%- endif -%}
   {%- if page.load_calendar == true -%}
-    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js"></script>
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        var calendarEl = document.getElementById('calendar');
-        var calendar = new FullCalendar.Calendar(calendarEl, {
-          initialView: 'dayGridMonth',
-          headerToolbar: {
-            left: 'prev',
-            center: 'title',
-            right: 'next'
-          },
-          titleFormat: {
-            year: 'numeric',
-            month: 'short'
-          },
-          firstDay: 1,
-          displayEventTime: false,
-          eventColor: '#c4dec4',
-          eventTextColor: 'rgb(30 41 59)',
-
-          eventDidMount: function(obj) {
-            obj.el.title = obj.event.title;
-          },
-
-          events: [
-            {%- include functions/fetch-events.html -%}
-            {%- for event in events -%}
-              {
-                title: '{{ event.title }}',
-                start: '{{ event.start_time | date: "%Y%m%dT%I%M%SZ"}}',
-                end: '{{ event.end_time | date: "%Y%m%dT%I%M%SZ"}}',
-                url: '{{ event.url }}'
-              },
-            {%- endfor -%}
-          ]
-        });
-        calendar.render();
-      });
-    </script>
-    <style>
-      .fc .fc-toolbar.fc-header-toolbar {
-        font-size: .6rem;
-        margin-bottom: 0;
-      }
-      .fc .fc-button-primary {
-        background-color: white;
-        border-color: white;
-        color: rgb(30 41 59);
-      }
-      .fc .fc-col-header-cell {
-        font-weight: normal;
-        background-color:rgb(203 213 225);
-      }
-      .fc a {
-        color: rgb(30 41 59);
-      }
-    </style>
+    <script src="https://unpkg.com/fullcalendar@6.1.8/index.global.min.js"></script>
   {%- endif -%}
 
   {%- if jekyll.environment == 'production' -%}

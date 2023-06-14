@@ -22,7 +22,7 @@ layout: base
           </ul>
         </nav>
         {% if page.load_calendar == true %}
-          <div id="calendar" class="mt-8 h-[28rem] text-xs" aria-hidden="true"></div>
+          {%- include event-calendar.html -%}
         {% endif %}
       </div>
     {% endif %}
