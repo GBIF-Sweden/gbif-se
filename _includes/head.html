@@ -30,6 +30,8 @@
           },
           firstDay: 1,
           displayEventTime: false,
+          eventColor: '#c4dec4',
+          eventTextColor: 'rgb(30 41 59)',
           events: [
             {%- include functions/fetch-events.html event_type='coming' -%}
             {%- for event in events -%}
@@ -46,12 +48,21 @@
       });
     </script>
     <style>
-      .fc-toolbar {
-          font-size: .9em;
+      .fc .fc-toolbar.fc-header-toolbar {
+        font-size: .6rem;
+        margin-bottom: 0;
       }
-      .fc-toolbar h2 {
-          font-size: 12px;
-          white-space: normal !important;
+      .fc .fc-button-primary {
+        background-color: white;
+        border-color: white;
+        color: rgb(30 41 59);
+      }
+      .fc .fc-col-header-cell {
+        font-weight: normal;
+        background-color:rgb(203 213 225);
+      }
+      .fc a {
+        color: rgb(30 41 59);
       }
     </style>
   {%- endif -%}
