@@ -18,7 +18,7 @@
 
   {%- if jekyll.environment == 'production' -%}
     <!-- Matomo -->
-    <script type="text/javascript">
+    <script>
       var _paq = window._paq = window._paq || [];
       /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
       _paq.push(['trackPageView']);
@@ -34,8 +34,8 @@
     <!-- End Matomo Code -->
   {%- endif -%}
 
-  <script type="text/javascript">
-    function toggleMobileMenu() {
+  <script>
+    const toggleMobileMenu = () => {
       document.getElementById("topMenu").classList.toggle("hidden");
       document.getElementById("topMenuOpen").classList.toggle("hidden");
       document.getElementById("topMenuClose").classList.toggle("hidden");

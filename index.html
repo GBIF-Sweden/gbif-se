@@ -36,22 +36,6 @@ load_leaflet: true
       <div class="mt-2 text-lg">
         <a href="https://www.gbif.org/country/SE/publishing" title="Species occurrences published in GBIF by Swedish institutions">&raquo; Explore on gbif.org</a>
       </div>
-      <script type="text/javascript">
-        var map1 = L.map('map1').setView([42.00, 16.00], 2);
-        map1.attributionControl.setPrefix(false);
-
-        L.tileLayer('https://tile.gbif.org/3857/omt/{z}/{x}/{y}@2x.png?style=gbif-geyser', {
-          attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, © <a href="https://www.openmaptiles.org/copyright">OpenMapTiles</a>',
-          minZoom: 2,
-          maxZoom: 13
-        }).addTo(map1);
-
-        L.tileLayer('https://api.gbif.org/v2/map/occurrence/density/{z}/{x}/{y}@2x.png?srs=EPSG:3857&publishingCountry=SE', {
-          attribution: '<a href="https://www.gbif.org/citation-guidelines">GBIF</a>',
-          minZoom: 2,
-          maxZoom: 13
-        }).addTo(map1);
-      </script>
     </article>
 
     <article class="container px-4 mt-8">
@@ -78,22 +62,6 @@ load_leaflet: true
       <div class="mt-2 text-lg">
         <a href="https://www.gbif.org/country/SE/about" title="Species occurrences published in GBIF about Sweden">&raquo; Explore on gbif.org</a>
       </div>
-      <script type="text/javascript">
-        var map2 = L.map('map2').setView([63.00, 16.00], 4);
-        map2.attributionControl.setPrefix(false);
-
-        L.tileLayer('https://tile.gbif.org/3857/omt/{z}/{x}/{y}@2x.png?style=gbif-geyser', {
-          attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, © <a href="https://www.openmaptiles.org/copyright">OpenMapTiles</a>',
-          minZoom: 2, 
-          maxZoom: 13
-        }).addTo(map2);
-
-        L.tileLayer('https://api.gbif.org/v2/map/occurrence/density/{z}/{x}/{y}@2x.png?srs=EPSG:3857&country=SE', { 
-          attribution: '<a href="https://www.gbif.org/citation-guidelines">GBIF</a>',
-          minZoom: 2, 
-          maxZoom: 13
-        }).addTo(map2);
-      </script>
     </article>
   </div>
 
@@ -183,9 +151,48 @@ load_leaflet: true
 
 </main>
 
-<script type="text/javascript">
+<script>
 
-  const onPageLoad = async() => {
+  document.addEventListener('DOMContentLoaded', function() {
+    setupMaps();
+    fetchOccurrenceCounts();
+  });
+
+  const setupMaps = () => {
+    const map1 = L.map('map1', {
+      center: [42.00, 16.00],
+      zoom: 2,
+      minZoom: 2,
+      maxZoom: 13
+    });
+    map1.attributionControl.setPrefix(false);
+
+    L.tileLayer('https://tile.gbif.org/3857/omt/{z}/{x}/{y}@2x.png?style=gbif-geyser', {
+      attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, © <a href="https://www.openmaptiles.org/copyright">OpenMapTiles</a>',
+    }).addTo(map1);
+
+    L.tileLayer('https://api.gbif.org/v2/map/occurrence/density/{z}/{x}/{y}@2x.png?srs=EPSG:3857&publishingCountry=SE', {
+      attribution: '<a href="https://www.gbif.org/citation-guidelines">GBIF</a>',
+    }).addTo(map1);
+
+    const map2 = L.map('map2', {
+      center: [63.00, 16.00],
+      zoom: 4,
+      minZoom: 2,
+      maxZoom: 13
+    });
+    map2.attributionControl.setPrefix(false);
+
+    L.tileLayer('https://tile.gbif.org/3857/omt/{z}/{x}/{y}@2x.png?style=gbif-geyser', {
+      attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, © <a href="https://www.openmaptiles.org/copyright">OpenMapTiles</a>',
+    }).addTo(map2);
+
+    L.tileLayer('https://api.gbif.org/v2/map/occurrence/density/{z}/{x}/{y}@2x.png?srs=EPSG:3857&country=SE', {
+      attribution: '<a href="https://www.gbif.org/citation-guidelines">GBIF</a>',
+    }).addTo(map2);
+  }
+
+  const fetchOccurrenceCounts = async() => {
     var result = await fetch_json('https://api.gbif.org/v1/occurrence/count?publishingCountry=SE')
     updateElement('from_occurrence_count', result);
     
@@ -217,7 +224,4 @@ load_leaflet: true
   const updateElement = (id, value) => {
     document.getElementById(id).innerText = parseInt(value).toLocaleString('en-GB');
   }
-
-  onPageLoad();
-
 </script>

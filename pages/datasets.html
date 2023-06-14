@@ -48,14 +48,13 @@ load_tablefilter: true
   </table>
 </article>
 
-<script type="text/javascript">
+<script>
 
-  const onPageLoad = async() => {
-    // Main data table
+  document.addEventListener('DOMContentLoaded', async function() {
     records = await fetchRecords();
     populateTable(records);
     setupTableFilter();
-  }
+  });
 
   const fetchRecords = async() => {
     const result = await fetch_json('https://api.gbif.org/v1/dataset/search?publishingCountry=SE&limit=500');
@@ -140,7 +139,4 @@ load_tablefilter: true
     const response = await fetch(url);
     return await response.json();
   }
-
-  onPageLoad();
-
 </script>
