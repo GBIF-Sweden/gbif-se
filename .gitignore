@@ -4,6 +4,8 @@ _site
 .jekyll-metadata
 vendor
 node_modules
+pages/news-*.html
 _data/gbif-org-events.*
 _data/occurence-total.json
 _data/kingdom-counts.json
+_data/news-years.yml
