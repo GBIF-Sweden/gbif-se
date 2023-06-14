@@ -9,23 +9,23 @@ layout: default
 <div>
   {% include functions/fetch-events.html event_type=page.event_type %}
   {% for event in events %}
-    <article class="flex flex-col md:flex-row mt-8 pb-8 border-b-4 border-slate-200 last:border-0">
-      <div class="basis-1/4 mb-4 md:mb-0 cursor-pointer" onclick="location.href='{{ event.url }}';">
+    <article class="flex flex-col lg:flex-row mt-8 pb-8 border-b-4 border-slate-200 last:border-0">
+      <div class="basis-1/6 mb-4 lg:mb-0 cursor-pointer" onclick="location.href='{{ event.url }}';">
         {% if event.image %}
           <img src="/uploads/{{ event.image }}" alt="">
         {% else %}
-          <div class="hidden md:block relative text-center text-slate-700" aria-hidden="true">
-            <img class="inline h-40" src="/assets/images/blank_calendar.svg" alt="">
-            <div class="text-xl text-white font-bold uppercase absolute top-1/2 left-1/2 -translate-x-1/2 translate-y-[-165%]">
+          <div class="hidden lg:block relative text-center text-slate-700" aria-hidden="true">
+            <img class="inline h-24" src="/assets/images/Calendar-Blank-Vector.svg" alt="">
+            <div class="text-xl text-white font-bold uppercase absolute top-1/2 left-1/2 -translate-x-1/2 translate-y-[-170%]">
               {{ event.start_time | date: "%b" }}
             </div>
-            <div class="text-7xl absolute top-1/2 left-1/2 -translate-x-1/2 translate-y-[-10%]">
+            <div class="text-4xl absolute top-1/2 left-1/2 -translate-x-1/2 translate-y-[-20%]">
               {{ event.start_time | date: "%d" }}
             </div>
           </div>
         {% endif %}
       </div>
-      <div class="basis-3/4 md:ml-8">
+      <div class="basis-5/6 lg:ml-8">
         <header>
           <h2 class="mt-0">
             <a href="{{ event.url }}">{{ event.title }}</a>
