@@ -32,6 +32,11 @@
           displayEventTime: false,
           eventColor: '#c4dec4',
           eventTextColor: 'rgb(30 41 59)',
+
+          eventDidMount: function(obj) {
+            obj.el.title = obj.event.title;
+          },
+
           events: [
             {%- include functions/fetch-events.html event_type='coming' -%}
             {%- for event in events -%}
