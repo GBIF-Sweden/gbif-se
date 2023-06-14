@@ -62,6 +62,7 @@
     }
 }
 
+/* GBIF font icons */
 @font-face {
     font-family: 'gbificons';
     src:url('/assets/iconfont/gbificons.eot');
@@ -99,3 +100,22 @@
 .gb-icon-viruses:before {
     content: "\EA1C";
 }
+
+/* Fullcalendar */
+.fc .fc-toolbar.fc-header-toolbar {
+    font-size: .6rem;
+    margin-bottom: 0;
+  }
+  .fc .fc-button-primary {
+    background-color: white;
+    border-color: white;
+    color: rgb(30 41 59);
+  }
+  .fc .fc-col-header-cell {
+    font-weight: normal;
+    background-color:rgb(203 213 225);
+  }
+  .fc a {
+    color: rgb(30 41 59);
+  }
+

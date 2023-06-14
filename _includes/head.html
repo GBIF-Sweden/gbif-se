@@ -12,6 +12,9 @@
   {%- if page.load_tablefilter == true -%}
     <script src="https://unpkg.com/tablefilter@0.7.3/dist/tablefilter/tablefilter.js"></script>
   {%- endif -%}
+  {%- if page.load_calendar == true -%}
+    <script src="https://unpkg.com/fullcalendar@6.1.8/index.global.min.js"></script>
+  {%- endif -%}
 
   {%- if jekyll.environment == 'production' -%}
     <!-- Matomo -->
