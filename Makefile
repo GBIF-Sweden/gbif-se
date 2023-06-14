@@ -1,6 +1,10 @@
 run:
 	docker compose up --detach
 
+restart:
+	docker compose down
+	docker compose up --detach
+
 rebuild:
 	docker compose down
 	docker build --no-cache --file dev.Dockerfile --tag gbif-se/website-dev .
