@@ -18,7 +18,12 @@
 {%- elsif include.path_start == "/news/" -%}
 
   {%- assign submenu_header = "News" -%}
-  {%- assign submenu_items = "2023:/news/2023/, 2022:/news/2022/" | split:", " -%}
+  {%- capture submenu_items_str -%}
+    {%- for year in site.data.news-years -%}
+      {{ year }}:/news/{{ year}}/,
+    {%- endfor -%}
+  {%- endcapture -%}
+  {%- assign submenu_items = submenu_items_str | split:"," -%}
 
   {%- if page.collection == "news" -%}
     {%- assign submenu_active_item = page.date | date: "%Y" -%}
