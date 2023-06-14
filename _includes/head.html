@@ -38,7 +38,7 @@
           },
 
           events: [
-            {%- include functions/fetch-events.html event_type='coming' -%}
+            {%- include functions/fetch-events.html -%}
             {%- for event in events -%}
               {
                 title: '{{ event.title }}',
