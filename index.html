@@ -113,8 +113,8 @@ load_leaflet: true
               <img src="/uploads/{{ event.image }}" alt="">
             {% else %}
               <div class="hidden md:block relative text-center text-slate-700" aria-hidden="true">
-                <img class="inline h-24" src="/assets/images/Calendar-Blank-Vector.svg" alt="">
-                <div class="text-xl text-white font-bold uppercase absolute top-1/2 left-1/2 -translate-x-1/2 translate-y-[-170%]">
+                <img class="inline h-20" src="/assets/images/Calendar-Blank-Vector.svg" alt="">
+                <div class="text-lg text-white font-bold uppercase absolute top-1/2 left-1/2 -translate-x-1/2 translate-y-[-150%]">
                   {{ event.start_time | date: "%b" }}
                 </div>
                 <div class="text-4xl absolute top-1/2 left-1/2 -translate-x-1/2 translate-y-[-20%]">
