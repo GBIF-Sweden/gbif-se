@@ -1,19 +1,13 @@
-{%- if event.UID -%}
-  {%- assign timezone = "UTC" -%}
-{%- else -%}
-  {%- assign timezone = "CET" -%}
-{%- endif -%}
-
 {%- assign start_time_size = include.event.start_time | size -%}
 {%- if start_time_size > 10 -%}
-  {%- assign start_time_format = "%b %d, %Y %I:%M %p " | append: timezone -%}
+  {%- assign start_time_format = "%b %d, %Y %H:%M CET" -%}
 {%- else -%}
   {%- assign start_time_format = "%b %d, %Y" -%}
 {%- endif -%}
 
 {%- assign end_time_size = include.event.end_time | size -%}
 {%- if end_time_size > 10 -%}
-  {%- assign end_time_format = "%b %d, %Y %I:%M %p " | append: timezone -%}
+  {%- assign end_time_format = "%b %d, %Y %H:%M CET" -%}
 {%- else -%}
   {%- assign end_time_format = "%b %d, %Y" -%}
 {%- endif -%}
