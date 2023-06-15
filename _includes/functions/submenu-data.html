@@ -20,7 +20,7 @@
   {%- assign submenu_header = "News" -%}
   {%- capture submenu_items_str -%}
     {%- for year in site.data.news-years -%}
-      {{ year }}:/news/{{ year}}/,
+      {{ year | capitalize }}:/news/{{ year }}/,
     {%- endfor -%}
   {%- endcapture -%}
   {%- assign submenu_items = submenu_items_str | split:"," -%}

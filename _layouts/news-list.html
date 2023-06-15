@@ -4,9 +4,11 @@ layout: default
 
 <h1>{{ page.title }}</h1>
 <div>
+  {% assign last_news = site.news | last %}
+  {% assign archive_start = last_news.date | date: "%Y" | minus: 4 %}
   {% for news in site.news reversed %}
     {% assign news_year = news.date | date: "%Y" | plus: 0 %}
-    {% if page.year == 0 or page.year == news_year %}
+    {% if page.year == news_year or page.year == 0 or page.year == "archive" and news_year < archive_start %}
       <article class="flex flex-col lg:flex-row mt-8 pb-8 border-b-4 border-slate-200 last:border-0">
         <div class="basis-1/4 mb-4 lg:mb-0">
           {% if news.image %}
