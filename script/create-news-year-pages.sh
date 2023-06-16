@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Exit on errors
+set -e
+
 # Find all unique years that have news published
 YEAR_COUNT=`ls _news | cut -c 1-4 | sort -u -r | wc -l` 
 YEARS=`ls _news | cut -c 1-4 | sort -u -r | head -n 5`
