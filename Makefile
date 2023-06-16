@@ -2,8 +2,7 @@ run:
 	docker compose up --detach
 
 restart:
-	docker compose down
-	docker compose up --detach
+	docker compose restart
 
 rebuild:
 	docker compose down
@@ -24,3 +23,9 @@ pre-render:
 	script/create-news-year-pages.sh
 	curl -sS "https://api.gbif.org/v1/occurrence/search?limit=0&occurrenceStatus=present" --output _data/occurence-total.json
 	curl -sS "https://api.gbif.org/v1/occurrence/search?publishingCountry=SE&limit=0&facet=kingdomKey" --output _data/kingdom-counts.json
+
+_clean-deps:
+	rm Gemfile.lock package-lock.json
+
+bump-deps: _clean-deps rebuild
+	docker cp gbif-se-web-1:/node/package-lock.json .

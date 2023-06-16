@@ -56,9 +56,10 @@ The news index pages for different years are generated based on the actual years
 ### API calls
 Some API calls are made to gbif.org and the responses are saved in the _data folder.
 
-## Dependencies
-TODO:
-- node
-- ruby
-- github actions
-- dev.Dockerfile
+## Dependencies and versions
+The Ruby and Node versions used are specified in [build.yml](.github/workflows/build.yml) for production and in [dev.Dockerfile](dev.Dockerfile) for development.
+
+To bump the dependecies in [Gemfile.lock](Gemfile.lock) and [package-lock.json](package-lock.json) run:
+```
+make dump-deps
+```

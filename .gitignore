@@ -1,8 +1,6 @@
 _site
-.sass-cache
 .jekyll-cache
 .jekyll-metadata
-vendor
 node_modules
 pages/news-*.html
 _data/gbif-org-events.*
