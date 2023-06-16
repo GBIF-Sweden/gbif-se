@@ -17,25 +17,26 @@ make rebuild
 ```
 
 ## Production
-The application runs in Docker on `nrm-arda`. The docker-compose file can be found in `/home/gbif/repos/gbif-se-web/gbif-se-website`.
+The application runs in Docker on **nrm-arda**. The docker-compose file can be found in `/home/gbif/repos/gbif-se-web/gbif-se-website`.
 
 ### Building
-Github Actions is used for building the production Docker image (using [Dockerfile](Dockerfile)). The [build workflow](.github/workflows/build.yml) is triggered when a push is made to the `main` branch. It will build the Docker image and push it to the Github Container registry.
+Github Actions is used for building the production Docker image (using [Dockerfile](Dockerfile)). The [build workflow](.github/workflows/build.yml) is triggered when a push is made to the **main** branch. It will build the Docker image and push it to the [Github Container registry](https://github.com/orgs/GBIF-Sweden/packages).
 
 ### Deploying
 Deploy the latest Docker image:
 ```
 make deploy
 ```
-This command will pull the latest image and restart the application. It requires ssh access to `nrm-arda`.
+This command will pull the latest image and restart the application. It requires ssh access to **nrm-arda**.
 
 ### Nightly builds
-Some data for the site is loaded at build time from gbif.org (see [Pre render](#pre-render) for details). The site is therefore rebuilt and republished every night to stay accurate. This is done in two steps:
+Some data for the site is fetched at build time from gbif.org (see [Pre render](#pre-render) for details). The site is therefore rebuilt and republished every night to stay accurate. This is done in two steps:
 
 1. The [build workflow](.github/workflows/build.yml) runs on schedule and builds and pushes a new image.
-2. A cronjob on `nrm-arda` pulls the latest image and restarts the application. The cronjob runs on the root account (see `/root/crontabs/dailyGBIF-se.sh`).
+2. A cronjob on **nrm-arda** pulls the latest image and restarts the application. The cronjob runs on the root account (see `/root/crontabs/dailyGBIF-se.sh`).
 
 ### Running the production image locally
+This is useful for testing the image.
 ```
 make build-nginx
 make run-nginx
@@ -59,7 +60,7 @@ Some API calls are made to gbif.org and the responses are saved in the _data fol
 ## Dependencies and versions
 The Ruby and Node versions used are specified in [build.yml](.github/workflows/build.yml) for production and in [dev.Dockerfile](dev.Dockerfile) for development.
 
-To bump the dependecies in [Gemfile.lock](Gemfile.lock) and [package-lock.json](package-lock.json) run:
+To bump the dependecies in [Gemfile](Gemfile) and [package.json](package.json) run:
 ```
 make dump-deps
 ```
