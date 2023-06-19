@@ -60,6 +60,11 @@
         @apply font-['gbificons'];
         @apply antialiased;
     }
+    .link-icon {
+        @apply bg-[url('/assets/images/link-icon.svg')];
+        @apply bg-no-repeat;
+        @apply pl-7;
+    }
 }
 
 /* GBIF font icons */
