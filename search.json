@@ -1,0 +1,35 @@
+---
+layout: none
+---
+[
+  {% for page in site.pages %}
+    {% if page.title != nil %}
+      {
+        "title": "{{ page.title | escape }}",
+        "url": "{{ page.url }}",
+        "date": "{{ page.date }}",
+        "content": "{{ page.content | strip_html | strip_newlines | replace: '"', '' }}"
+      } {% unless forloop.last %},{% endunless %}
+    {% endif %}
+  {% endfor %}
+  ,
+  {% for page in site.news %}
+    {
+      "title": "{{ page.title | escape }}",
+      "url": "{{ page.url }}",
+      "date": "{{ page.date }}",
+      "description": "{{ page.description }}",
+      "content": "{{ page.content | strip_html | strip_newlines }}"
+    } {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+  ,
+  {% for page in site.events %}
+    {
+      "title": "{{ page.title | escape }}",
+      "url": "{{ page.url }}",
+      "date": "{{ page.date }}",
+      "description": "{{ page.description }}",
+      "content": "{{ page.content | strip_html | strip_newlines }}"
+    } {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]
