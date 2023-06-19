@@ -15,7 +15,7 @@ GBIF provides tools for publishing, accessing and using biodiversity data. Here 
       {% for tool in tool_group.items %}
         <article class="bg-slate-100 shadow-md px-3 cursor-pointer hover:bg-slate-200" onclick="location.href='{{ tool.link }}';">
           <h3 class="mb-2"><a href="{{ tool.link }}">{{ tool.name }}</a></h3>
-          <div class="mb-2">{{ tool.description }}</div>
+          <p>{{ tool.description }}</p>
         </article>
       {% endfor %}
     </div>

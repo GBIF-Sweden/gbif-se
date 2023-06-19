@@ -10,11 +10,9 @@ layout: default
     {% assign news_year = news.date | date: "%Y" | plus: 0 %}
     {% if page.year == news_year or page.year == 0 or page.year == "archive" and news_year < archive_start %}
       <article class="flex flex-col lg:flex-row mt-8 pb-8 border-b-4 border-slate-200 last:border-0">
-        <div class="basis-1/4 mb-4 lg:mb-0">
+        <div class="basis-1/4 mb-4 lg:mb-0 cursor-pointer" onclick="location.href='{{ news.url }}';">
           {% if news.image %}
-            <a href="{{ news.url }}" title="{{ news.title }}">
-              <img src="/uploads/{{ news.image }}" alt="">
-            </a>
+            <img src="/uploads/{{ news.image }}" alt="">
           {% endif %}
         </div>
         <div class="basis-3/4 lg:ml-8">

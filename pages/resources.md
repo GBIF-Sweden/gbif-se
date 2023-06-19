@@ -12,7 +12,7 @@ permalink: /:basename/
     <img src="/uploads/{{ resource.image }}" class="w-full h-48" alt="">
     <div class="px-4 py-2">
       <h3><a href="{{ resource.link }}">{{ resource.name }}</a></h3>
-      <div class="mt-2 text-slate-600">{{ resource.description }}</div>
+      <p class="mb-1 text-slate-600">{{ resource.description }}</p>
     </div>
   </article>
 {% endfor %}

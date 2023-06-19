@@ -74,11 +74,9 @@ load_leaflet: true
       {% assign latest_news = site.news | reverse %}
       {% for news in latest_news limit:3 %}
         <article class="flex flex-col md:flex-row mb-8">
-            <div class="basis-1/4 mb-4 md:mb-0">
+            <div class="basis-1/4 mb-4 md:mb-0 cursor-pointer" onclick="location.href='{{ news.url }}';">
               {% if news.image %}
-                  <a href="{{ news.url }}" title="{{ news.title }}">
-                    <img src="/uploads/{{ news.image }}" alt="">
-                  </a>
+                <img src="/uploads/{{ news.image }}" alt="">
               {% endif %}
             </div>
             <div class="basis-3/4 md:ml-6">
