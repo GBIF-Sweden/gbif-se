@@ -15,29 +15,20 @@ and this page need to be processed last so all markdown has been converted to ht
         "title": "{{ page.title }}",
         "url": "{{ page.url }}",
         "date": "{{ page.date }}",
-        "description": "{{ page_body | truncatewords: 30 }}",
+        "description": "{{ page_body | truncatewords: 30 | default: '-'}}",
         "content": "{{ page_body }}"
       },
     {% endif %}
   {%- endfor -%}
 
-  {% for page in site.news %}
+  {% assign news_and_events = site.news | concat: site.events %}
+  {% for page in news_and_events %}
     {
       "title": "{{ page.title }}",
       "url": "{{ page.url }}",
       "date": "{{ page.date }}",
-      "description": "{{ page.description }}",
+      "description": "{{ page.description | default: '-' }}",
       "content": "{% include page-body-as-text.html page=page %}"
     } {%- unless forloop.last -%},{% endunless -%}
-  {% endfor %}
-,
-  {% for page in site.events %}
-    {
-      "title": "{{ page.title }}",
-      "url": "{{ page.url }}",
-      "date": "{{ page.date }}",
-      "description": "{{ page.description }}",
-      "content": "{% include page-body-as-text.html page=page %}"
-    } {%- unless forloop.last -%},{%- endunless -%}
   {% endfor %}
 ]

@@ -32,7 +32,7 @@ load_search: true
           '<br>{description}' + 
         '</li>',
       limit: 100,
-      debounceTime: 60000,
+      debounceTime: 60000, // This is to effectively disable the search-on-keypress functionality
     });
 
     const input = document.getElementById('search-input');
@@ -46,7 +46,8 @@ load_search: true
 
     input.focus();
 
-    // If there is a query param named query put the value in the search field and fire a search
+    // If there is a query string param named query 
+    // put the value in the search field and fire a search
     const url = new URL(location);
     const query = url.searchParams.get('query');
     if (query) {
@@ -56,6 +57,7 @@ load_search: true
     }
   });
 
+  // Perform search and push the query on the url
   const search = () => {
     const query = document.getElementById('search-input').value;
     const newUrl = new URL(location);

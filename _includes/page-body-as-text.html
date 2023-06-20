@@ -1,1 +1,1 @@
-{{ include.page.content | strip_html | strip_newlines | remove_first: include.page.title | replace: '"', '' }}
+{{ include.page.content | strip_html | strip_newlines | remove_first: include.page.title | remove_non_json_chars }}
