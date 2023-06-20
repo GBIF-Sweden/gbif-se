@@ -7,22 +7,48 @@ load_search: true
 
 <h1>{{ page.title }}</h1>
 
-<input type="text" id="search-input" class="border">
-<button class="ml-4 py-1 px-2 bg-gbif-green text-white rounded shadow-md hover:bg-gbif-green-light hover:text-slate-800" onclick="search()">Search</button>
+<div class="text-lg">
+  <label for="search-input">Query: </label>
+  <input id="search-input" type="text" class="ml-2 mr-2 w-40 sm:w-96 border border-slate-400">
+  <button class="py-1 px-3 bg-gbif-green text-white rounded shadow-md hover:bg-gbif-green-light hover:text-slate-800" onclick="search()">
+    Search
+  </button>
+</div>
 
-<ul class="list-none list-inside ml-0" id="results-container"></ul>
+<ul id="results-container" class="mt-4 list-none list-inside ml-0"></ul>
+
 <script>
-    const sjs = SimpleJekyllSearch({
+  var simpleSearch = undefined;
+
+  document.addEventListener('DOMContentLoaded', function() {
+
+    simpleSearch = SimpleJekyllSearch({
       searchInput: document.getElementById('search-input'),
       resultsContainer: document.getElementById('results-container'),
       json: '/assets/zzz-search.json',
-      searchResultTemplate: '<li class="mt-2"><a href="{url}">{title}</a><br>{description}</li>',
+      searchResultTemplate: 
+        '<li class="p-1 mt-2 rounded hover:bg-slate-100 cursor-pointer" onclick="location.href=\'{url}\';">' + 
+          '<a href="{url}" class="text-xl">{title}</a>' + 
+          '<br>{description}' + 
+        '</li>',
       limit: 100,
-      debounceTime: 1000,
+      debounceTime: 60000,
     });
 
+    const input = document.getElementById('search-input');
+
+    input.addEventListener('keypress', function(event) {
+      if (event.key === 'Enter') {
+        event.preventDefault();
+        search();
+      }
+    });
+
+    input.focus();
+  });
+
   const search = () => {
-    sjs.search(document.getElementById('search-input').value);
+    simpleSearch.search(document.getElementById('search-input').value);
   }
 </script>
 
