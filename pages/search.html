@@ -7,14 +7,22 @@ load_search: true
 
 <h1>{{ page.title }}</h1>
 
-<input type="text" id="search-input" placeholder="Search...">
-<ul id="results-container"></ul>
+<input type="text" id="search-input" class="border">
+<button class="ml-4 py-1 px-2 bg-gbif-green text-white rounded shadow-md hover:bg-gbif-green-light hover:text-slate-800" onclick="search()">Search</button>
+
+<ul class="list-none list-inside ml-0" id="results-container"></ul>
 <script>
-  var sjs = SimpleJekyllSearch({
-    searchInput: document.getElementById('search-input'),
-    resultsContainer: document.getElementById('results-container'),
-    json: '/assets/zzz-search.json',
-    limit: 100
-  });
+    const sjs = SimpleJekyllSearch({
+      searchInput: document.getElementById('search-input'),
+      resultsContainer: document.getElementById('results-container'),
+      json: '/assets/zzz-search.json',
+      searchResultTemplate: '<li class="mt-2"><a href="{url}">{title}</a><br>{description}</li>',
+      limit: 100,
+      debounceTime: 1000,
+    });
+
+  const search = () => {
+    sjs.search(document.getElementById('search-input').value);
+  }
 </script>
 
