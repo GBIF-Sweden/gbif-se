@@ -20,7 +20,9 @@ load_search: true
 <script>
   var simpleSearch = undefined;
 
-  document.addEventListener('DOMContentLoaded', function() {
+  window.addEventListener('popstate', event => updateResultFromUrl());
+
+  document.addEventListener('DOMContentLoaded', () => {
 
     simpleSearch = SimpleJekyllSearch({
       searchInput: document.getElementById('search-input'),
@@ -36,26 +38,28 @@ load_search: true
     });
 
     const input = document.getElementById('search-input');
-
-    input.addEventListener('keypress', function(event) {
+    input.addEventListener('keypress', event => {
       if (event.key === 'Enter') {
         event.preventDefault();
         search();
       }
     });
-
     input.focus();
 
-    // If there is a query string param named query 
-    // put the value in the search field and fire a search
-    const url = new URL(location);
-    const query = url.searchParams.get('query');
-    if (query) {
-      const input = document.getElementById('search-input');
-      input.value = query;
-      setTimeout(function () {simpleSearch.search(query)}, 100);
-    }
+    updateResultFromUrl();
   });
+
+  // Update the search result from the query string parameter on the current page url
+  const updateResultFromUrl = () => {
+    const query = new URL(location).searchParams.get('query');
+    const input = document.getElementById('search-input');
+    input.value = query;
+    if (query) {
+      setTimeout(() => {simpleSearch.search(query)}, 100);
+    } else {
+      document.getElementById('results-container').innerHTML = '';
+    }
+  }
 
   // Perform search and push the query on the url
   const search = () => {
