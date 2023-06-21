@@ -7,7 +7,7 @@ and this page need to be processed last so all markdown has been converted to ht
 {% endcomment %}
 [
   {%- for page in site.pages -%}
-    {% if page.title != nil %}
+    {% if page.title != nil and page.title != 'Search' %}
       {%- capture page_body -%}
         {% include page-body-as-text.html page=page %}
       {%- endcapture -%}

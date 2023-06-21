@@ -4,8 +4,6 @@ layout: default
 
 <h1>{{ page.title }}</h1>
 
-<h2>{{ page.event_type | capitalize }} events</h2>
-
 <div>
   {% include functions/fetch-events.html event_type=page.event_type %}
   {% for event in events %}
