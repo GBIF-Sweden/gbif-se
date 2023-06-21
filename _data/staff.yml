@@ -16,7 +16,7 @@
   city: Stockholm
   email: veronika.johansson@nrm.se
   phone: +46 8 5195 4036
-  image: veronika2020.jpg
+  image: veronika.jpg
 
 - name: PhD Kevin Holston
   title: Node staff
@@ -35,7 +35,7 @@
   zip: SE-10405
   city: Stockholm
   email: manash.shah@nrm.se
-  phone: +46 768 769472
+  phone: +46 8 5195 5123
   image: manash.jpg
 
 - name: MSc Mats Bovin
@@ -45,4 +45,5 @@
   zip: SE-10405
   city: Stockholm
   email: mats.bovin@nrm.se
-  phone: +46 735 584124
+  phone: +46 8 5195 4009
+  image: mats.jpg
