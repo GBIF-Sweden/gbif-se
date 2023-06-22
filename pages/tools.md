@@ -6,7 +6,9 @@ permalink: /:basename/
 
 # {{ page.title }}
 
-GBIF provides tools for publishing, accessing and using biodiversity data. Here we list a subset of tools available. For a more detailed list of tools available within the community, go to the [GBIF Tools Catalogue](https://www.gbif.org/resource/search?contentType=tool) or visit the [SBDI Tools webpage](https://tools.biodiversitydata.se/).
+<p class="preamble">
+GBIF provides tools for publishing, accessing and using biodiversity data. Here we list a subset of tools available. For a more detailed list of tools available within the community, go to the <a href="https://www.gbif.org/resource/search?contentType=tool">GBIF Tools Catalogue</a> or visit the <a href="https://tools.biodiversitydata.se/">SBDI Tools webpage</a>.
+</p>
 
 {% for tool_group in site.data.tools %}
   <article>

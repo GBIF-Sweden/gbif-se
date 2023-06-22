@@ -1,5 +1,6 @@
 - name: GBIF Programmes and Awards
   image: resources/grscicoll.jpg
+  description: GBIF's award programmes seek to recognize excellence and innovation in the application of biodiversity data to critical scientific and social issues.
   link: /gbif-programmes-and-awards/
 
 - name: Courses and training
