@@ -1,7 +1,7 @@
 ![example workflow](https://github.com/GBIF-Sweden/gbif-se/actions/workflows/build.yml/badge.svg)
 
-# gbif.se website
-The [gbif.se](https://gbif.se) website built with [Jekyll](https://jekyllrb.com/) and [tailwindcss](https://tailwindcss.com/).
+# www.gbif.se website
+The [www.gbif.se](https://www.gbif.se) website built with [Jekyll](https://jekyllrb.com/) and [tailwindcss](https://tailwindcss.com/).
 
 ## Development
 The local dev environment runs in Docker using [dev.Dockerfile](dev.Dockerfile) and [docker-compose.yml](docker-compose.yml).
