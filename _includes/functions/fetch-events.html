@@ -1,4 +1,4 @@
-{% assign gbif_org_events = site.data.gbif-org-events.VCALENDAR[0].VEVENT %}
+{% assign gbif_org_events = site.data.all-events %}
 {% assign events = site.events | concat: gbif_org_events %}
 {% if include.event_type %}
   {% assign events = events | filter_events: include.event_type %}

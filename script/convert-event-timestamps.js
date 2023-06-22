@@ -19,6 +19,7 @@ fs.readFile("./_data/gbif-org-events.json", "utf8", (_err, jsonString) => {
   data.VCALENDAR[0].VEVENT.forEach(event => {
     event.start_time = convertDateTime(event.start_time);
     event.end_time = convertDateTime(event.end_time);
+    event.DTSTAMP = undefined; // This is to be able to compare event objects in merge-events.json
   });
 
   fs.writeFileSync('./_data/gbif-org-events.json', JSON.stringify(data, null, 2))
