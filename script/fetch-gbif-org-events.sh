@@ -17,6 +17,7 @@ fi
 $ICAL2JSON _data/gbif-org-events.ics
 
 # Replace attribute names to align with our own data model for events
+sed -i 's/UID/uid/g' _data/gbif-org-events.json
 sed -i 's/SUMMARY/title/g' _data/gbif-org-events.json
 sed -i 's/DESCRIPTION/description/g' _data/gbif-org-events.json
 sed -i 's/URL/url/g' _data/gbif-org-events.json
