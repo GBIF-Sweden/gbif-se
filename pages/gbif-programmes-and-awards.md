@@ -39,8 +39,8 @@ permalink: /:basename/
 </div>
 
 ## Awards
-GBIF's award programmes seek to recognize excellence and innovation in the application of biodiversity data to critical scientific and social issues. The GBIF Secretariat currently administers three awards:
+GBIF's award programmes seek to recognize excellence and innovation in the application of biodiversity data to critical scientific and social issues. The GBIF Secretariat currently administers three yearly awards. Read more about the calls, eligibility, deadlines etc. on respective award page:
 
-- the [Graduate Researchers Award](https://www.gbif.org/graduate-researchers-award)
-- the [Ebbe Nielsen Challenge](https://www.gbif.org/ebbe)
-- the [GBIF Node Awards](https://www.gbif.org/gbif-node-awards)
+- [The Graduate Researchers Award](https://www.gbif.org/graduate-researchers-award)
+- [The Ebbe Nielsen Challenge](https://www.gbif.org/ebbe)
+- [The GBIF Node Awards](https://www.gbif.org/gbif-node-awards)

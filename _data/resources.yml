@@ -5,21 +5,25 @@
 
 - name: Courses and training
   image: events/gbif-eca-2023.png
+  description: Explore the GBIF curricula on biodiversity data mobilization and use.
   link: /courses-and-training/
 
 - name: Developers blog
   image: resources/Rest-API.png
+  description: A place for GBIF staff and guest bloggers to contribute on various posts on e.g. data use, statistics and idea.
   link: https://data-blog.gbif.org/
 
 - name: Documentation & Guides
   image: events/gbif-eca-2023.png
+  description: Browse current GBIF documentation, guidance and best practices.
   link: https://docs.gbif.org/
 
 - name: GBIF Science review
   image: news/2023-05-glis-sac-rome.png
+  description: The GBIF <i>Science Review</i> provides an annual snapshot of key research published using GBIF-mediated data.
   link: https://www.gbif.org/science-review
 
 - name: GBIF Community Forum
   image: resources/forum.png
-  description: Join the conversation and get answers to data use related questions
+  description: Join recent discussions at the GBIF Community Forum.
   link: https://discourse.gbif.org/
