@@ -49,7 +49,7 @@ make pre-render
 ```
 
 ### Events
-Events are fetched from the gbif.org [calender feed](https://www.gbif.org/resource/search?contentType=event) and stored in the _data folder. They are then presented in a list merged with events from this application (in the _events folder). The event feed from gbif.org contains only upcoming events. To be able to show past events from gbif.org all the events are merged in to a data file ([_data/all-events.json]()) which is committed in to this repo. This is done in the production build process. It can also be run manually with:
+Events are fetched from the gbif.org [calender feed](https://www.gbif.org/resource/search?contentType=event) and stored in the _data folder. They are then presented in a list merged with events from this application (in the _events folder). The event feed from gbif.org contains only upcoming events. To be able to show past events from gbif.org all the events are merged in to a data file ([_data/all-events.json](_data/all-events.json)) which is committed in to this repo. This is done in the production build process. It can also be run manually with:
 ```
 make merge-events
 ```
