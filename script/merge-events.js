@@ -1,3 +1,7 @@
+// This script adds and updates events from the gbif.org calendar feed (gbif-org-events.json)
+// to the repo file (all-events.json). The purpose is to be able to keep past events as the
+// gbif.org calendar feed only contain upcoming events.
+
 const fs = require("fs");
 const util = require("util");
 
