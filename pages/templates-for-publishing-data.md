@@ -8,7 +8,7 @@ permalink: /:basename/
 
 We encourage data holders to publish the richest data possible to ensure their use across a wider range of research approaches and questions, but not every dataset includes information at the same level of detail. Sharing what is available through GBIF and SBDI is valuable, because even partial information answers some important questions.
 
-Below are descriptions of the four classes of datasets currently supported.
+Below are descriptions of the four classes of datasets currently supported:
 
 ## Resources metadata
 At its simplest level, GBIF and SBDI allows institutions to create datasets describing undigitized resources like those in natural history and other collections. All three other dataset classes include this basic information, but this ‘metadata-only’ class offers researchers a valuable tool for discovering and learning about evidence not yet available online. They can also help assess the relative importance and value of undigitized collections and set priorities for future digitization. As with all datasets, GBIF ensures that each metadata dataset is associated with a unique Digital Object Identifier (DOI) to streamline data users’ citation of these resources.
@@ -40,3 +40,5 @@ By indicating the methods, events and relative abundance of species recorded in 
 - [Browse sampling-event datasets](https://www.gbif.org/dataset/search?type=SAMPLING_EVENT)
 - [DwC-A template for sampling-event datasets](https://ipt.gbif.org/manual/en/ipt/2.5/sampling-event-data#templates)
 - [Data quality requirements for sampling events](https://www.gbif.org/data-quality-requirements-sampling-events)
+
+Contact [gbif@nrm.se](mailto:gbif@nrm.se) or use the [SBDI Support](https://docs.biodiversitydata.se/support/) form if you have questions about data mobilization, publishing licenses or data standards.
