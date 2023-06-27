@@ -2,11 +2,11 @@
   items:
 
     - name: GBIF API
-      description: The GBIF API is a RESTful JSON based API. Access and download data, metadata, species names, maps, literature and more; or build your own tools.
+      description: Access and download data, metadata, species names, maps, literature and more; or build your own tools.
       link: https://www.gbif.org/developer/summary
 
     - name: rgbif
-      description: R package from rOpenSci that allows searching and retrieving data from GBIF. rgbif wraps R code around the GBIF API.
+      description: R package from rOpenSci that allows searching and retrieving data from GBIF.
       link: https://www.gbif.org/tool/81747/rgbif
 
     - name: Pygbif
@@ -14,11 +14,11 @@
       link: https://www.gbif.org/tool/OlyoYyRbKCSCkMKIi4oIT/pygbif-gbif-python-client
 
     - name: Hosted portals
-      description: Set up a simple, branded and fully customizable website that displays a targeted subset of GBIF-mediated data, or browse existing ones.
+      description: Set up a simple, branded and fully customizable website that displays a subset of GBIF-mediated data.
       link: https://www.gbif.org/hosted-portals
 
     - name: SBDI Bioatlas
-      description: The Swedish Living Atlases installation hosted by SBDI; explore Swedish biodiversity data and tools for visualization and analysis.
+      description: Explore Swedish biodiversity data and tools for visualization and analysis.
       link: https://biodiversitydata.se/
 
     - name: GBIF.org
@@ -29,23 +29,23 @@
   items:
 
     - name: Integrated Publishing Toolkit (IPT)
-      description: The Integrated Publishing Toolkit (IPT) is a free, open source software tool used to publish and share biodiversity datasets through the GBIF network.
+      description: A free, open source software tool used to publish and share biodiversity datasets. 
       link: /integrated-publishing-toolkit/
 
     - name: Data validator
-      description: A service for anyone with a GBIF-relevant dataset to get a report on syntax and content validity.
+      description: A service to get a report on a dataset syntax and content validity.
       link: https://www.gbif.org/tools/data-validator/about
 
     - name: Open refine
-      description: "OpenRefine is a powerful free, open source tool for working with messy data: cleaning or transforming it from one format into another."
+      description: A powerful free, open source tool for working with messy data.	
       link: https://openrefine.org/
 
     - name: GRSciColl & GBIF Registry
-      description: A clearinghouse of information about the world's scientific institutions and collections hosted within the GBIF Registry of publishing institutions and datasets.
+      description: A clearinghouse of information about the world's scientific institutions and collections.
       link: /grscicoll-and-gbif-registry/
 
     - name: Templates for publishing data
-      description: Explore core dataset classes for publishing in GBIF, mandatory fields, and dataset templates with or without test data.
+      description: Explore dataset classes for data publishing in GBIF.
       link: /templates-for-publishing-data/
 
     - name: Tools catalogue
