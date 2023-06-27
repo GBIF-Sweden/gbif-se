@@ -9,7 +9,7 @@
       description: R package from rOpenSci that allows searching and retrieving data from GBIF.
       link: https://www.gbif.org/tool/81747/rgbif
 
-    - name: Pygbif
+    - name: pygbif
       description: A Python client for the GBIF API.
       link: https://www.gbif.org/tool/OlyoYyRbKCSCkMKIi4oIT/pygbif-gbif-python-client
 
