@@ -5,6 +5,7 @@
 
 - name: Courses and training
   image: resources/courses.png
+  image-full-width: true
   description: Explore the GBIF curricula on biodiversity data mobilization and use.
   link: /courses-and-training/
 
@@ -20,6 +21,7 @@
 
 - name: GBIF Science review
   image: resources/science-review.png
+  image-full-width: true
   description: An annual snapshot of key research published using GBIF-mediated data.
   link: https://www.gbif.org/science-review
 
