@@ -1,7 +1,7 @@
 ---
 layout: default
 title: GBIF Programmes and Awards
-permalink: /:basename/
+permalink: /resources/:basename/
 ---
 
 # {{ page.title }}

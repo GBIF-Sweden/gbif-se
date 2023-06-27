@@ -30,7 +30,7 @@
 
     - name: Integrated Publishing Toolkit (IPT)
       description: A free, open source software tool used to publish and share biodiversity datasets. 
-      link: /integrated-publishing-toolkit/
+      link: /tools/integrated-publishing-toolkit/
 
     - name: Data validator
       description: A service to get a report on a dataset syntax and content validity.
@@ -42,11 +42,11 @@
 
     - name: GRSciColl & GBIF Registry
       description: A clearinghouse of information about the world's scientific institutions and collections.
-      link: /grscicoll-and-gbif-registry/
+      link: /tools/grscicoll-and-gbif-registry/
 
     - name: Templates for publishing data
       description: Explore dataset classes for data publishing in GBIF.
-      link: /templates-for-publishing-data/
+      link: /tools/templates-for-publishing-data/
 
     - name: Tools catalogue
       description: Explore GBIF community tools available for data management, visualization and analysis.

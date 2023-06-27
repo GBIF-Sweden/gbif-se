@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Courses and training
-permalink: /:basename/
+permalink: /resources/:basename/
 ---
 
 # {{ page.title }}

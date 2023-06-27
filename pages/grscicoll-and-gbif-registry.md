@@ -1,7 +1,7 @@
 ---
 layout: default
 title: GRSciColl & GBIF Registry
-permalink: /:basename/
+permalink: /tools/:basename/
 ---
 
 # {{ page.title }}

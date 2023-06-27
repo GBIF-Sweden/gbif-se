@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Integrated Publishing Toolkit (IPT)
-permalink: /:basename/
+permalink: /tools/:basename/
 ---
 
 # {{ page.title }}
