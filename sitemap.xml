@@ -1,0 +1,15 @@
+---
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">  
+  {%- assign all_content = site.pages | concat: site.news | concat: site.events -%}
+  {%- for page in all_content -%}
+    {%- comment -%} Exclude pages with extensions eg .json, .xml, .txt {%- endcomment -%}
+    {%- assign last_path = page.url | split: "/" | last -%}
+    {%- unless last_path contains "." -%}
+    <url>
+      <loc>{{ site.url }}{{ page.url }}</loc>
+    </url>
+    {%- endunless %}
+  {% endfor %}
+</urlset>

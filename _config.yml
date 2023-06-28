@@ -34,7 +34,6 @@ safe: false
 plugins:
   - jekyll-seo-tag
   - jekyll-postcss-v2
-  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default.
