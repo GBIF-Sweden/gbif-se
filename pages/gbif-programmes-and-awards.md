@@ -17,7 +17,7 @@ permalink: /resources/:basename/
   </article>
 
   <article class="bg-slate-100 shadow-md px-3 pb-2">
-    <h3 class="mb-2">BID: BIDiodiversity Information for Development</h3>
+    <h3 class="mb-2">BID: Biodiversity Information for Development</h3>
     <p>BID is a multi-year programme funded by the <a href="http://europa.eu/">European Union</a> and led by GBIF that aims to enhance capacity to mobilize and use biodiversity data effectively in research and policy in sub-Saharan Africa, the Caribbean and the Pacific.</p>
     <a class="link-icon text-lg mr-8" href="https://www.gbif.org/programme/82243" title="Learn more about BID">Learn more</a>
     <a class="link-icon text-lg" href="https://www.gbif.org/programme/82243/#projects" title="Explore all BID projects">Explore projects</a>
