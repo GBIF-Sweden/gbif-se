@@ -32,6 +32,7 @@ safe: false
 
 # Build settings
 plugins:
+  - jekyll-feed
   - jekyll-seo-tag
   - jekyll-postcss-v2
 
@@ -78,3 +79,8 @@ defaults:
       type: events
     values:
       layout: event-item
+
+feed:
+  posts_limit: 50
+  collections:
+    - news

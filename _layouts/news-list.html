@@ -2,7 +2,14 @@
 layout: default
 ---
 
-<h1>{{ page.title }}</h1>
+<div class="flex items-center">
+  <h1 class="grow">{{ page.title }}</h1>
+  <a class="mb-2 px-2 py-1 text-lg text-slate-700 bg-slate-100 shadow" href="/feed/news.xml">
+    <svg class="h-6 inline" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M12.75 19.5v-.75a7.5 7.5 0 00-7.5-7.5H4.5m0-6.75h.75c7.87 0 14.25 6.38 14.25 14.25v.75M6 18.75a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" stroke-linecap="round" stroke-linejoin="round"></path>
+    </svg> Feed
+  </a>
+</div>
 <div>
   {% assign last_news = site.news | last %}
   {% assign archive_start = last_news.date | date: "%Y" | minus: 4 %}
