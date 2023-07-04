@@ -32,3 +32,6 @@ _clean-deps:
 
 bump-deps: _clean-deps rebuild
 	docker cp gbif-se-web-1:/node/package-lock.json .
+
+news:
+	@script/create-news.sh
