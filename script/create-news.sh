@@ -6,6 +6,9 @@ read -p "Enter publishing date (format YYYY-MM-DD, press ENTER for today's date)
 DATE=${REPLY:-`date +%Y-%m-%d`}
 read -p "Enter title: "
 TITLE=${REPLY:-News title}
+TITLE=${TITLE//\\/-}
+TITLE=${TITLE//\//-}
+TITLE=${TITLE//\*/-}
 read -p "Enter image filename (press ENTER for default image): "
 IMAGE=${REPLY:-default.png}
 
@@ -14,3 +17,5 @@ FILENAME="_news/$DATE-$TITLE.md"
 echo -e $CONTENT > "$FILENAME"
 
 echo -e "\nNews page created: $FILENAME\n"
+
+code --reuse-window "$FILENAME"
