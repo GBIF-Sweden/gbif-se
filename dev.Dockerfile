@@ -31,4 +31,4 @@ EXPOSE 35729
 
 VOLUME /site
 
-CMD ln -sf /node/node_modules . && make pre-render && bundle exec jekyll serve --host 0.0.0.0 --future --livereload
+ENTRYPOINT [ "sh", "/site/script/entrypoint.sh" ]
