@@ -1,7 +1,7 @@
 ---
-title: GBIF Report Reveals Returns on Investments
+title: "GBIF Report Reveals Returns on Investments"
 date: 2023-06-26
-image: news/value-news-bg2.png
+image: value-news-bg2.png
 description: "The Global Biodiversity Information Facility (GBIF) has published a report shedding light on the returns yielded by investments in their data infrastructure. The report, titled “Unveiling the Value: The Return on Investments in GBIF,” highlights the wide-ranging impact of GBIF’s efforts on both scientific advancement and societal progress."
 ---
 

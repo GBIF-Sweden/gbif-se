@@ -1,7 +1,7 @@
 ---
 title: "Share your dirt: Call for data papers describing datasets on soil biodiversity"
 date: 2023-02-16
-image: news/Dicyrtomina_ornata-iNat-alours-hero.png
+image: Dicyrtomina_ornata-iNat-alours-hero.png
 description: "GBIF continues partnership with FinBIF and Pensoft to support publication of new datasets about organisms whose life cycles depend on soil. DEADLINE: 22 September 2023"
 ---
 

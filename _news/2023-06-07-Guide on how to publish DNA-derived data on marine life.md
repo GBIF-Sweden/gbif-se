@@ -1,7 +1,7 @@
 ---
-title: Guide on how to publish DNA-derived data on marine life
+title: "Guide on how to publish DNA-derived data on marine life"
 date: 2023-06-07
-image: news/DNA-cover-1024x560.jpg
+image: DNA-cover-1024x560.jpg
 description: "There is now an updated version of a guide to publishing sequence-based data. It is a practical guide for holders of genomic and metagenomic information, to include recommendations for sharing occurrence records based on DNA-based studies of the world’s oceans and seas."
 ---
 

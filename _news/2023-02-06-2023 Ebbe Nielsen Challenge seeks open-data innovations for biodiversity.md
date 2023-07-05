@@ -1,7 +1,7 @@
 ---
-title: 2023 Ebbe Nielsen Challenge seeks open-data innovations for biodiversity
+title: "2023 Ebbe Nielsen Challenge seeks open-data innovations for biodiversity"
 date: 2023-02-06
-image: news/Ebbe-2023.png
+image: Ebbe-2023.png
 description: "Call for entries for submissions vying for €20,000 in prizes from annual incentive competition. DEADLINE: 22 August 2023"
 ---
 
