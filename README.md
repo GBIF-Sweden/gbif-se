@@ -3,6 +3,8 @@
 # www.gbif.se website
 The [www.gbif.se](https://www.gbif.se) website built with [Jekyll](https://jekyllrb.com/) and [tailwindcss](https://tailwindcss.com/).
 
+[The wiki](https://github.com/GBIF-Sweden/gbif-se/wiki) contains more documentation, for example on how to edit content on the site.
+
 ## Development
 The local dev environment runs in Docker using [dev.Dockerfile](dev.Dockerfile) and [docker-compose.yml](docker-compose.yml).
 
@@ -15,6 +17,8 @@ Rebuild the development docker image:
 ```
 make rebuild
 ```
+
+You can also [run the dev environment in Codespaces](https://github.com/GBIF-Sweden/gbif-se/wiki/Working-with-Codespaces).
 
 ## Production
 The application runs in Docker on **nrm-arda**. The docker-compose file can be found in `/home/gbif/repos/gbif-se-web/gbif-se-website`.
