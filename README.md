@@ -20,14 +20,19 @@ make rebuild
 
 You can also [run the dev environment in Codespaces](https://github.com/GBIF-Sweden/gbif-se/wiki/Working-with-Codespaces).
 
+### Branching strategy
+As described below the latest build is [automatically deployed](#deploying) to production. Therefore anything commited to the `main` branch must be production ready. If your work is not production ready use the `develop` branch or a feature branch.
+
 ## Production
 The application runs in Docker on **nrm-arda**. The docker-compose file can be found in `/home/gbif/repos/gbif-se-web/gbif-se-website`.
 
 ### Building
-Github Actions is used for building the production Docker image (using [Dockerfile](Dockerfile)). The [build workflow](.github/workflows/build.yml) is triggered when a push is made to the **main** branch. It will build the Docker image and push it to the [Github Container registry](https://github.com/orgs/GBIF-Sweden/packages).
+Github Actions is used for building the production Docker image (using [Dockerfile](Dockerfile)). The [build workflow](.github/workflows/build.yml) is triggered when a push is made to the `main` branch. It will build the Docker image and push it to the [Github Container registry](https://github.com/orgs/GBIF-Sweden/packages).
 
 ### Deploying
-Deploy the latest Docker image:
+The latest build image will automatically be deployed to production every 30 minutes. This is done by a cronjob on **nrm-arda** that pulls the latest image (if there is one) and restarts the application (if there was a new image). The cronjob runs on the root account (see `/root/crontabs/update-gbif-se.sh`).
+
+The latest build image can also be deployed manually:
 ```
 make deploy
 ```
@@ -37,7 +42,7 @@ This command will pull the latest image and restart the application. It requires
 Some data for the site is fetched at build time from gbif.org (see [Pre render](#pre-render) for details). The site is therefore rebuilt and republished every night to stay accurate. This is done in two steps:
 
 1. The [build workflow](.github/workflows/build.yml) runs on schedule and builds and pushes a new image.
-2. A cronjob on **nrm-arda** pulls the latest image and restarts the application. The cronjob runs on the root account (see `/root/crontabs/dailyGBIF-se.sh`).
+2. The above mentioned cronjob on **nrm-arda** pulls the latest image and restarts the application.
 
 ### Running the production image locally
 This is useful for testing the image.
