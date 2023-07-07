@@ -35,3 +35,6 @@ bump-deps: _clean-deps rebuild
 
 news:
 	@script/create-news.sh
+
+event:
+	@script/create-event.sh
