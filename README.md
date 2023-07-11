@@ -18,7 +18,7 @@ Rebuild the development docker image:
 make rebuild
 ```
 
-You can also [run the dev environment in Codespaces](https://github.com/GBIF-Sweden/gbif-se/wiki/Working-with-Codespaces).
+You can also [run the dev environment in Codespaces](https://github.com/GBIF-Sweden/gbif-se/wiki/Working-with-Codespaces-to-edit-content).
 
 ### Branching strategy
 As described below the latest build is [automatically deployed](#deploying) to production. Therefore anything commited to the `main` branch must be production ready. If your work is not production ready use the `develop` branch or a feature branch.
