@@ -126,5 +126,13 @@
     "url": "https://www.gbif.org/event/123c1f-8cd9-4034-8c17-fff181d",
     "start_time": "2023-08-07 05:00",
     "end_time": "2023-08-11 09:00"
+  },
+  {
+    "uid": "QwInj7j7H3Jnb4PmuDoxZ",
+    "title": "Hosted Portals Community Call",
+    "description": "DETAILED AGENDA TO FOLLOW<br class=\"mb-4\">The next hosted portals <> call will provide an opportunity for introducing some new teams, sharing updates on progress, and discussing potential new features.<br class=\"mb-4\">Contributions from community members on the following topics would be most welcome:<br class=\"mb-4\"> * For those who have not yet launched their portals: progress, plans and feedback on any blocking issues  * For those whose portals are live <>: tips on promotion, reports on user feedback  * From all community members: ideas on future feature requests Anyone not currently involved in a hosted portal who wants to learn more can emailhostedportals@gbif.org <mailto:hostedportals@gbif.org> to request a Zoom link to join the call.",
+    "url": "https://www.gbif.org/event/QwInj7j7H3Jnb4PmuDoxZ",
+    "start_time": "2023-08-16 14:00",
+    "end_time": "2023-08-16 15:30"
   }
 ]
