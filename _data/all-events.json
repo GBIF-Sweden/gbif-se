@@ -134,5 +134,13 @@
     "url": "https://www.gbif.org/event/QwInj7j7H3Jnb4PmuDoxZ",
     "start_time": "2023-08-16 14:00",
     "end_time": "2023-08-16 15:30"
+  },
+  {
+    "uid": "be57b7-7323-4242-95d1-0bad0f6",
+    "title": "Simposio internacional sobre colecciones biologicas y datos abiertos de biodiversidad (in Spanish only)",
+    "description": "El objetivo de este evento es dar a conocer el estado del arte de la gestión y uso de las colecciones biológicas y la implementación de sistemas de datos abiertos de biodiversidad en Latinoamérica mediante el intercambio de experiencias internacionales (Argentina, Brasil, Colombia, Ecuador, México y Chile).<br class=\"mb-4\">El simposio se enmarca en el contexto de un Comité de Diversidad Biológica (CDB) que reside en la Vicerrectoría de Investigación y Desarrollo de la Universidad de Chile, cuyo objetivo es relevar e institucionalizar el rol de las colecciones biológicas y los datos abiertos en docencia, investigación y extensión.<br class=\"mb-4\">Este evento es financiado por el Proyecto UCH-21991 “Fortaleciendo las bases del modelo académico de la Universidad de Chile: formación integral, calidad de vida estudiantil, vínculo laboral y el nexo de la investigación y formación” del Ministerio de Educación y del Proyecto InES de Ciencia Abierta INCA210002 de la Agencia Nacional de Investigación y Desarrollo de Chile. Además, está patrocinado por el Ministerio de Medio Ambiente (MMA) y por el Consorcio de Universidades del Estado de ChileCUECH <https://uchile.cl/agenda/206801/simposio-de-colecciones-biologicas-y-datos-abiertos-de-biodiversidad>.<br class=\"mb-4\"> Inscripción  <https://docs.google.com/forms/d/e/1FAIpQLSetIa00NuRtGf-yxAOlG2kZhrHBq7p4HcgljzD0L9upVmIIhg/viewform><br class=\"mb-4\">",
+    "url": "https://www.gbif.org/event/be57b7-7323-4242-95d1-0bad0f6",
+    "start_time": "2023-09-06 14:00",
+    "end_time": "2023-09-07 14:00"
   }
 ]
