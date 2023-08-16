@@ -130,7 +130,7 @@
   {
     "uid": "QwInj7j7H3Jnb4PmuDoxZ",
     "title": "Hosted Portals Community Call",
-    "description": "DETAILED AGENDA TO FOLLOW<br class=\"mb-4\">The next hosted portals <> call will provide an opportunity for introducing some new teams, sharing updates on progress, and discussing potential new features.<br class=\"mb-4\">Contributions from community members on the following topics would be most welcome:<br class=\"mb-4\"> * For those who have not yet launched their portals: progress, plans and feedback on any blocking issues  * For those whose portals are live <>: tips on promotion, reports on user feedback  * From all community members: ideas on future feature requests Anyone not currently involved in a hosted portal who wants to learn more can emailhostedportals@gbif.org <mailto:hostedportals@gbif.org> to request a Zoom link to join the call.",
+    "description": "A community call with network members who are running GBIF's hosted portal service <> will provide an opportunity for introducing some new teams, sharing updates on progress, and discussing potential new features.<br class=\"mb-4\">Agenda<br class=\"mb-4\">| Time | Topic | Speaker | | ----------- | --------------------------------------------------------- | -------------------| | 14:00–14:05 |Welcome and introduction | Mélianie Raymond <https://orcid.org/0000-0002-6158-8202>GBIF Secretariat | | 14:05–14:25 | UpdatesMetrics / GRSciColl <> / Phylogenetic browser <https://www.legumedata.org/phylogeny/explore/> | Morten Høfft <https://orcid.org/0000-0002-4953-5220>GBIF Secretariat | | 14:25–15:25 | Community updates- Progress, plans and feedback on any blocking issues- Tips on promoting live portals <>, feedback reports- Feature requests and suggestions | Moderated discussion | | 15:25–15:30 | Next steps | Tim Robertson <https://orcid.org/0000-0001-6215-3617>GBIF Secretariat |<br class=\"mb-4\">Anyone not currently involved in a hosted portal who wants to learn more can emailhostedportals@gbif.org <mailto:hostedportals@gbif.org> to request a Zoom link to join the call.",
     "url": "https://www.gbif.org/event/QwInj7j7H3Jnb4PmuDoxZ",
     "start_time": "2023-08-16 14:00",
     "end_time": "2023-08-16 15:30"
@@ -142,5 +142,13 @@
     "url": "https://www.gbif.org/event/be57b7-7323-4242-95d1-0bad0f6",
     "start_time": "2023-09-06 14:00",
     "end_time": "2023-09-07 14:00"
+  },
+  {
+    "uid": "4PLN09zRP6tkrmSWL7tZcs",
+    "title": "ESA2024 - Ecological Society of America 2024",
+    "description": "More information to come",
+    "url": "https://www.gbif.org/event/4PLN09zRP6tkrmSWL7tZcs",
+    "start_time": "2024-08-04 18:00",
+    "end_time": "2024-08-10 04:00"
   }
 ]
