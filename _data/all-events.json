@@ -150,5 +150,13 @@
     "url": "https://www.gbif.org/event/4PLN09zRP6tkrmSWL7tZcs",
     "start_time": "2024-08-04 18:00",
     "end_time": "2024-08-10 04:00"
+  },
+  {
+    "uid": "65kl94cMrkKdxdlBftE7d",
+    "title": "Technical support hour for GBIF nodes: September 2023",
+    "description": "The GBIF technical support hour for Nodes is back!<br class=\"mb-4\">For this session, we have a guest, Daniel Noesgaard <https://orcid.org/0000-0002-0407-1805> from the Communication team, who will explain how GBIF tracks literature citations of GBIF data. How the citations are found, labelled, and integrated in the GBIF index. The Data Product team will also be there to answer any helpdesk question related or not to the topic of the presentation.<br class=\"mb-4\">We will begin every session with a five minute practical topic, and then open the floor for technical questions including, but not limited to, the presented topic.<br class=\"mb-4\">The drop-in office hour will be every first Wednesday of the month at 4pm CET (UTC+1)<br class=\"mb-4\"> Register for the event <https://us02web.zoom.us/meeting/register/tZcvcOGvrT4oE9wL-mhfROh9sJ-kFzhc_hn9> <br class=\"mb-4\">If nodes and nodes staff have ideas for topics, or questions please post them in the community forum <https://discourse.gbif.org/t/gbif-technical-support-hour-for-nodes-tour-of-the-registry-and-how-to-debug-ingestion/3760> or email them tohelpdesk@gbif.org <mailto:helpdesk@gbif.org>",
+    "url": "https://www.gbif.org/event/65kl94cMrkKdxdlBftE7d",
+    "start_time": "2023-09-06 16:00",
+    "end_time": "2023-09-06 17:00"
   }
 ]
