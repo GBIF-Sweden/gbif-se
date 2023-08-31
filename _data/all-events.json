@@ -166,5 +166,13 @@
     "url": "https://www.gbif.org/event/1cdb04-93c3-4552-ac4c-d856eda",
     "start_time": "2023-09-19 15:30",
     "end_time": "2023-09-19 17:00"
+  },
+  {
+    "uid": "1UMLfGAfvQKXqN0jAqurvh",
+    "title": "IBC 2024 XX International Botanical Congress",
+    "description": "The IBC 2024 XX International Botanical Congress in Madrid will address the following main topics:<br class=\"mb-4\"> * Systematics, phylogenetics, biogeography and evolution  * Ecology, environment and global change, including invasive species and plant-animal interactions  * Biodiversity and conservation  * Structure, physiology and development, including Evo-Devo  * Genetics, genomics and bioinformatics  * Plants and Society  Register for the event <https://ibcmadrid2024.com/index.php?seccion=registrationArea&subSeccion=registrationInfo>",
+    "url": "https://www.gbif.org/event/1UMLfGAfvQKXqN0jAqurvh",
+    "start_time": "2024-07-21 00:00",
+    "end_time": "2024-07-27 00:00"
   }
 ]
