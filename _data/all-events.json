@@ -174,5 +174,13 @@
     "url": "https://www.gbif.org/event/1UMLfGAfvQKXqN0jAqurvh",
     "start_time": "2024-07-21 00:00",
     "end_time": "2024-07-27 00:00"
+  },
+  {
+    "uid": "311aad-4200-466d-b8ec-5e0dabc",
+    "title": "ISME19",
+    "description": "Organized every two years, the ISME symposia are the largest not-for-profit international meetings addressing the wide range of topics in Microbial Ecology. With an average delegate number of 2200 people representing over 50 countries worldwide we are truly international.<br class=\"mb-4\">The next meeting, ISME19, will be held in Cape Town, South Africa, 2024.<br class=\"mb-4\">read more <https://www.isme-microbes.org/symposia-events> ",
+    "url": "https://www.gbif.org/event/311aad-4200-466d-b8ec-5e0dabc",
+    "start_time": "2024-08-18 00:00",
+    "end_time": "2024-08-23 00:00"
   }
 ]
