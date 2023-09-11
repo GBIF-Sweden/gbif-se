@@ -14,8 +14,11 @@ layout: default
           <div class="text-xl text-white font-bold uppercase absolute top-1/2 left-1/2 -translate-x-1/2 translate-y-[-170%]">
             {{ event.start_time | date: "%b" }}
           </div>
-          <div class="text-4xl absolute top-1/2 left-1/2 -translate-x-1/2 translate-y-[-20%]">
+          <div class="text-4xl absolute top-1/2 left-1/2 -translate-x-1/2 translate-y-[-45%]">
             {{ event.start_time | date: "%d" }}
+          </div>
+          <div class="text-xl absolute top-1/2 left-1/2 -translate-x-1/2 translate-y-[70%]">
+            {{ event.start_time | date: "%Y" }}
           </div>
         </div>
       </div>
