@@ -222,5 +222,13 @@
     "url": "https://www.gbif.org/event/6tQZ1sj6aBLu4fyZphi5VB",
     "start_time": "2024-07-26 00:00",
     "end_time": "2024-07-30 00:00"
+  },
+  {
+    "uid": "KRLd8778KpetQw1y7WR2g",
+    "title": "Technical support hour for GBIF nodes: November 2023",
+    "description": "In this November session, we will explain how we identify related occurrence records on GBIF (which is sometimes referred to as the GBIF \"data clustering\" feature). For some background information, you can read our blogposthere <https://data-blog.gbif.org/post/clustering-occurrences/>. Tim Robertson <https://orcid.org/0000-0001-6215-3617> from the Informatics team will join the session. We will be happy to answer any question relating or not to the topic.<br class=\"mb-4\"> Register for the event <https://ucph-ku.zoom.us/meeting/register/u5Eqce6vqj4iGNbFYoF7nPdd7dD3rh_n7_-X#/registration><br class=\"mb-4\">If nodes and nodes staff have ideas for topics, or questions please post them in the community forum <https://discourse.gbif.org/t/gbif-technical-support-hour-for-nodes-tour-of-the-registry-and-how-to-debug-ingestion/3760> or email them tohelpdesk@gbif.org <mailto:helpdesk@gbif.org>",
+    "url": "https://www.gbif.org/event/KRLd8778KpetQw1y7WR2g",
+    "start_time": "2023-11-01 16:00",
+    "end_time": "2023-11-01 17:00"
   }
 ]
