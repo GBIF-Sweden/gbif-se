@@ -3,15 +3,10 @@
 FROM ruby:3.2
 
 # This is for installing nodejs
-RUN curl -fsSL https://deb.nodesource.com/setup_18.x | bash -
-
-RUN apt-get update && apt-get install -y --no-install-recommends \
-    build-essential \
-    git \
-    curl \
-    gnupg \
-    nodejs \
-    && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install -y ca-certificates curl gnupg
+RUN curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | gpg --dearmor -o /etc/apt/keyrings/nodesource.gpg
+RUN echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node_18.x nodistro main" | tee /etc/apt/sources.list.d/nodesource.list
+RUN apt-get update && apt-get install nodejs -y && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /node
 
