@@ -230,5 +230,21 @@
     "url": "https://www.gbif.org/event/KRLd8778KpetQw1y7WR2g",
     "start_time": "2023-11-01 16:00",
     "end_time": "2023-11-01 17:00"
+  },
+  {
+    "uid": "6fiey0ckNZQgqDhppL7z3J",
+    "title": "SBDI Days 2024: Towards Data-driven Ecology",
+    "description": "<br class=\"mb-4\">SBDI Days: Towards data-driven ecology is hosted by the Swedish Biodiversity Data Infrastructure and will take place on January 24th-25th 2024 at the Swedish Museum of Natural History in Stockholm.<br class=\"mb-4\">The event will offer keynotes and presentations, posters, demonstrations, and time to mingle and exchange ideas about data driven ecology.<br class=\"mb-4\">Registration deadline 2024-01-10<br class=\"mb-4\"> Register  <https://www.nrm.se/sbdidays> ",
+    "url": "https://www.gbif.org/event/6fiey0ckNZQgqDhppL7z3J",
+    "start_time": "2024-01-24 00:00",
+    "end_time": "2024-01-25 00:00"
+  },
+  {
+    "uid": "7rHfBVHUvJnyoOohYhjQQA",
+    "title": "AGU 2023: Annual meeting of the American Geophysical Union",
+    "description": "Join GBIF Secretariat communications manager Kyle Copas <https://orcid.org/0000-0002-6590-599X> at the following sessions during the AGU Fall Meeting 2023 <https://www.agu.org/fall-meeting>—or seek him out <mailto:kcopas@gbif.org> elsewhere during the meeting.<br class=\"mb-4\">Monday, 12 December 2023: 17:05-17:15 How Biodiversity Data Supports Research on Climate-driven Changes in Patterns of Human Diseases <https://agu.confex.com/agu/fm23/meetingapp.cgi/Paper/1337657> Session: GH14A: Advances in Climate-Driven Models for Vector-Borne DiseasesMoscone West-2020, L2<br class=\"mb-4\">Wednesday, 13 December 2023: 09:15-09:24 \"Darwin More\": Diversifying the GBIF Data Model to Improve the Richness and Quality of FAIR and Open Data about Biological Material Samples <https://agu.confex.com/agu/fm23/meetingapp.cgi/Paper/1264054> Session: IN31A: Preserving Our Primary Field Data for Future Generations of Geoscientific Research: Perspectives on Managing Physical Samples, Airborne Observations, and Other Field DataMoscone West-2014, L2<br class=\"mb-4\">NOTE: all event times are Pacific Standard Time (UTC-8).<br class=\"mb-4\">Read more <https://www.agu.org/fall-meeting> ",
+    "url": "https://www.gbif.org/event/7rHfBVHUvJnyoOohYhjQQA",
+    "start_time": "2023-12-11 00:00",
+    "end_time": "2023-12-15 00:00"
   }
 ]
