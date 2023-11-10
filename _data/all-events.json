@@ -254,5 +254,13 @@
     "url": "https://www.gbif.org/event/686uY1fQAo8N8mb98Q2GEa",
     "start_time": "2023-11-29 15:00",
     "end_time": "2023-11-29 16:30"
+  },
+  {
+    "uid": "0ea041-e38b-474d-b581-47f4289",
+    "title": "EC-ESA JOINT EARTH SYSTEM SCIENCE INITIATIVE",
+    "description": "This event focuses on: Reviewing the latest advances in EO and Earth System Science across domains and specially to showcase the latest ESA and EC funded results, projects (e.g., ESA Science Clusters), and initiatives as a basis for networking and interdisciplinary science.<br class=\"mb-4\"> Read more  <https://essi2023.esa.int/> ",
+    "url": "https://www.gbif.org/event/0ea041-e38b-474d-b581-47f4289",
+    "start_time": "2023-11-22 09:00",
+    "end_time": "2023-11-24 13:00"
   }
 ]
