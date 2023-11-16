@@ -262,5 +262,21 @@
     "url": "https://www.gbif.org/event/0ea041-e38b-474d-b581-47f4289",
     "start_time": "2023-11-22 09:00",
     "end_time": "2023-11-24 13:00"
+  },
+  {
+    "uid": "R71kcTbgBGO6IVQpDiyvr",
+    "title": "Technical support hour for GBIF nodes: December 2023",
+    "description": "In the December session, we will explain the new features of Integrated Publishing Toolkit Version 3.0 (IPT3).<br class=\"mb-4\">For some background information, you can read our release information here <https://ipt.gbif-uat.org/manual/en/ipt/latest/releases#3-0-rc1-august-2023>.<br class=\"mb-4\">Mikhail Podolskiy <https://dk.linkedin.com/in/mikhail-podolskiy-a34658154> from the Informatics team will join the session. We will be happy to answer any question relating or not to the topic.<br class=\"mb-4\"> Register for the event <https://us02web.zoom.us/meeting/register/tZMocOuorT4pE9IQGeccjRPj8dY52HcXdv-o> <br class=\"mb-4\">If nodes and nodes staff have ideas for topics, or questions please post them in the community forum <https://discourse.gbif.org/t/gbif-technical-support-hour-for-nodes-tour-of-the-registry-and-how-to-debug-ingestion/3760> or email them tohelpdesk@gbif.org <mailto:helpdesk@gbif.org>",
+    "url": "https://www.gbif.org/event/R71kcTbgBGO6IVQpDiyvr",
+    "start_time": "2023-12-06 16:00",
+    "end_time": "2023-12-06 17:00"
+  },
+  {
+    "uid": "0mBJUJXd9FLwaFc89sWTJ",
+    "title": "NBN Conference",
+    "description": "Join GBIF Secretariat communications manager Kyle Copas <https://orcid.org/0000-0002-6590-599X> at the following meeting “Transmitting the value of GBIF at national scale” at the NBN Conference at the National Museums Scotland in Edinburgh.<br class=\"mb-4\">The theme of the conference will follow the NBN Trust Strategy 2022-2027 “Making data work for nature” with each of the sessions following our four Strategic Ambitions:<br class=\"mb-4\">Ambition 1: The NBN Atlas is the ‘go to’ place for sharing, finding and accessing UK biodiversity data<br class=\"mb-4\">Ambition 2: Biodiversity data is providing the evidence needed for nature’s recovery<br class=\"mb-4\">Ambition 3: Citizen science is valued, supported and expanded as a major source of biodiversity data<br class=\"mb-4\">Ambition 4: The National Biodiversity Network is a well-connected and highly collaborative community with a united voice on key issues<br class=\"mb-4\"> Read more <https://nbn.org.uk/news-events-publications/nbn-conference-2/nbn-conference-2023/kyle-copas-nbn-conference-2023/>",
+    "url": "https://www.gbif.org/event/0mBJUJXd9FLwaFc89sWTJ",
+    "start_time": "2023-11-23 08:00",
+    "end_time": "2023-11-23 22:00"
   }
 ]
