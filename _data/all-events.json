@@ -278,5 +278,21 @@
     "url": "https://www.gbif.org/event/0mBJUJXd9FLwaFc89sWTJ",
     "start_time": "2023-11-23 08:00",
     "end_time": "2023-11-23 22:00"
+  },
+  {
+    "uid": "I01nPkQIb33IQA5xEof4D",
+    "title": "International Conference on Mycorrhizas (ICOM 12)",
+    "description": "The theme of ICOM12 is “Bridging gaps in form, function and diversity”.<br class=\"mb-4\">Alongside showcasing some of the most exciting and cutting-edge mycorrhizal research, the conference will address this theme through conversation, culture, gastronomy, and fun.<br class=\"mb-4\">The plenary themes are supported by parallel sessions that will cover topics such as: Mycorrhizas in ecosystem structure and function; Evolution of a mycorrhizal world: drivers and under-explored mycorrhizal systems; Genes to molecules: mechanisms of resource exchange; Mycorrhizas, climate and environmental change; Strengthening links between genomics and ecology.<br class=\"mb-4\"> Read more <https://icom12.org/> ",
+    "url": "https://www.gbif.org/event/I01nPkQIb33IQA5xEof4D",
+    "start_time": "2024-08-04 01:00",
+    "end_time": "2024-08-09 01:00"
+  },
+  {
+    "uid": "2UotGSLCDhiGdIKQymq2zh",
+    "title": "ECSA 2024 conference: Change",
+    "description": "<br class=\"mb-4\">Be part of one of the leading citizen science events in Europe, to discuss and network with citizen science practitioners, researchers, activists, scientists, policymakers, artists, and more.<br class=\"mb-4\"> Read more <https://2024.ecsa.ngo/> ",
+    "url": "https://www.gbif.org/event/2UotGSLCDhiGdIKQymq2zh",
+    "start_time": "2024-04-03 01:00",
+    "end_time": "2024-04-06 01:00"
   }
 ]
