@@ -294,5 +294,29 @@
     "url": "https://www.gbif.org/event/2UotGSLCDhiGdIKQymq2zh",
     "start_time": "2024-04-03 01:00",
     "end_time": "2024-04-06 01:00"
+  },
+  {
+    "uid": "SwbTrhnpHf08e7yqzrQJ2",
+    "title": "Hacking Biodiversity Data Cubes for Policy",
+    "description": "B-Cubed’s hackathon is planned as a 4-day event, bringing together biodiversity informaticians, researchers, and practitioners who are passionate about leveraging biodiversity data for impactful solutions.<br class=\"mb-4\"> Read more <https://b-cubed.eu/b-cubed-hackathon> ",
+    "url": "https://www.gbif.org/event/SwbTrhnpHf08e7yqzrQJ2",
+    "start_time": "2024-04-02 01:00",
+    "end_time": "2024-04-04 01:00"
+  },
+  {
+    "uid": "2UbMVJsBRqN75XRYC8RYe7",
+    "title": "BioDT Hackathon: Bring Your Own Data (BYOD) - Second End-Users Workshop",
+    "description": "A transformative three-day hackathon titled Harnessing Digital Twinning for Sustainable Agriculture: Predictive Characterisation and Conservation of Crop Wild Relatives, takes place from January 23rd to 25th, 2024 in Oslo, Norway.<br class=\"mb-4\">The event, promises to unravel the immense potential of digital twinning in revolutionizing global agricultural practices.<br class=\"mb-4\"> Read more <https://biodt.eu/form/biodt-bring-your-own-data-in-osl> ",
+    "url": "https://www.gbif.org/event/2UbMVJsBRqN75XRYC8RYe7",
+    "start_time": "2024-01-23 00:00",
+    "end_time": "2024-01-25 00:00"
+  },
+  {
+    "uid": "2f2c56-6972-4d70-8734-b114b1d",
+    "title": "GBIF Data Use Club seminar: 2023 Graduate Researchers Award winners",
+    "description": "The 2023 GBIF Graduate Researchers Award winners will present their work to theGBIF Data Use Club <> community.<br class=\"mb-4\">Dorothy Akoth <https://www.gbif.org/news/6qTuv5Xf1qa05arROvx7Y1/>, master's student atMakarere University <https://cns.mak.ac.ug/> in Uganda, will present her research in improving the knowledge of the distribution and imperilment status of 110 native fish species outside the iconic Haplochromine tribe of East African cichlids.<br class=\"mb-4\">Andre Vicente Liz <https://www.gbif.org/news/9SpIV0pXkqfAAhJ6s0IvJ/portuguese-student-andre-vicente-liz-wins-2023-gbif-graduate-researchers-award>, a PhD candidate at theResearch Centre in Biodiversity and Genetic Resources <https://cibio.up.pt/en/>(CIBIO-InBIO) at the University of Porto, will present his integrated analysis of the genetic and spatial distribution patterns of 107 vertebrate species that live in the Sahara-Sahel desert.<br class=\"mb-4\">The event is open for all, and attendees will have an opportunity to ask questions and exchange ideas following the presentation.<br class=\"mb-4\">Email advance comments and questions to datause@gbif.org <mailto:datause@gbif.org>.<br class=\"mb-4\">Register now <https://us02web.zoom.us/meeting/register/tZMocuuhrDoqGt3ZI1QGU9uEP_48Fb6YNq1Z>",
+    "url": "https://www.gbif.org/event/2f2c56-6972-4d70-8734-b114b1d",
+    "start_time": "2023-12-14 15:00",
+    "end_time": "2023-12-14 16:30"
   }
 ]
