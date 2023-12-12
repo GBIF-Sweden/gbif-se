@@ -318,5 +318,13 @@
     "url": "https://www.gbif.org/event/2f2c56-6972-4d70-8734-b114b1d",
     "start_time": "2023-12-14 15:00",
     "end_time": "2023-12-14 16:30"
+  },
+  {
+    "uid": "5OAhtQqcgvm3GV1KdS7KOu",
+    "title": "Technical support hour for GBIF nodes: January 2024",
+    "description": "This January, we celebrate one year of Technical Support Hour for Nodes <https://www.gbif.org/composition/lKyZFAUnIDv8kpf0CgZsS/technical-support-hour-for-gbif-nodes>!<br class=\"mb-4\">In the first session of 2024, Paloma Shimabukuro <https://orcid.org/0000-0002-5114-953X> will give you an overview of what is currently available for publishing health data on GBIF. Paloma is the GBIF contractor behind theGBIF health Helpdesk <> and is working on mobilizing vector-borne disease data.<br class=\"mb-4\">The Data Products team will join as well. We will be happy to answer any question relating or not to the topic.<br class=\"mb-4\"> Register for the event <https://us02web.zoom.us/meeting/register/tZ0rcOypqTguHdA4X1KI5f_o4uoEkMeLiGbA> <br class=\"mb-4\">If nodes and nodes staff have ideas for topics, or questions please post them in the community forum <https://discourse.gbif.org/t/gbif-technical-support-hour-for-nodes-tour-of-the-registry-and-how-to-debug-ingestion/3760> or email them tohelpdesk@gbif.org <mailto:helpdesk@gbif.org>",
+    "url": "https://www.gbif.org/event/5OAhtQqcgvm3GV1KdS7KOu",
+    "start_time": "2024-01-03 16:00",
+    "end_time": "2024-01-03 17:00"
   }
 ]
