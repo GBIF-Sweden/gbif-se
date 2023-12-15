@@ -326,5 +326,13 @@
     "url": "https://www.gbif.org/event/5OAhtQqcgvm3GV1KdS7KOu",
     "start_time": "2024-01-03 16:00",
     "end_time": "2024-01-03 17:00"
+  },
+  {
+    "uid": "9ccc9c-3a4d-4295-acb9-e1b5208",
+    "title": "SPNHC and TDWG Joint Conference",
+    "description": "The Society for the Preservation of Natural History Collections SPNHC <https://spnhc.org/> is an international organization devoted to the preservation, conservation and management of natural history collections.<br class=\"mb-4\">Biodiversity Information Standards TDWG <https://www.tdwg.org/> develops and maintains data standards that support the integration of primary biodiversity information across disciplines, organizations, and nations. Its annual conference has become a preeminent forum for advancing biodiversity informatics.<br class=\"mb-4\"> Read more <https://www.tdwg.org/conferences/2024/> ",
+    "url": "https://www.gbif.org/event/9ccc9c-3a4d-4295-acb9-e1b5208",
+    "start_time": "2024-09-02 02:00",
+    "end_time": "2024-09-06 11:00"
   }
 ]
