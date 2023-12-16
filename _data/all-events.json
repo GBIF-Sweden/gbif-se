@@ -334,5 +334,13 @@
     "url": "https://www.gbif.org/event/9ccc9c-3a4d-4295-acb9-e1b5208",
     "start_time": "2024-09-02 02:00",
     "end_time": "2024-09-06 11:00"
+  },
+  {
+    "uid": "a07f7d-897f-4257-94b6-946f7ec",
+    "title": "9th International Barcode of Life Conference",
+    "description": "GBIF and the new data model serve for barcoding/metabarcoding data storage and use<br class=\"mb-4\"> Read more <https://dnabarcodingconference.com/> ",
+    "url": "https://www.gbif.org/event/a07f7d-897f-4257-94b6-946f7ec",
+    "start_time": "2024-09-03 14:00",
+    "end_time": "2024-09-06 23:00"
   }
 ]
