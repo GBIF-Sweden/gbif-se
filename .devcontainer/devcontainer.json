@@ -9,6 +9,6 @@
     },
     "onCreateCommand": ["touch", "/tmp/onCreateCommand"],
     "updateContentCommand": ["touch", "/tmp/updateContentCommand"],
-    "postCreateCommand": ["touch", "/tmp/postCreateCommand"],
+    "postCreateCommand": ["make", "run"],
     "postStartCommand": ["touch", "/tmp/postStartCommand"]
 }
