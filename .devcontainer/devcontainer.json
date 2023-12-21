@@ -9,6 +9,6 @@
     },
     "onCreateCommand": ["touch", "/tmp/onCreateCommand"],
     "updateContentCommand": ["touch", "/tmp/updateContentCommand"],
-    "postCreateCommand": ["pwd", ">", "/tmp/postCreateCommand"],
+    "postCreateCommand": "pwd > /tmp/postCreateCommand",
     "postStartCommand": ["touch", "/tmp/postStartCommand"]
 }
