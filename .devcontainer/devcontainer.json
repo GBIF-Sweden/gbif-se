@@ -7,5 +7,5 @@
           "openFiles": []
         }
     },
-    "postCreateCommand": ["make", "run"]
+    "postCreateCommand": "make run"
 }
