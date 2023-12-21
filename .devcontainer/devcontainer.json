@@ -7,5 +7,8 @@
           "openFiles": []
         }
     },
-    "postCreateCommand": "make run"
+    "onCreateCommand": ["touch", "/tmp/onCreateCommand"],
+    "updateContentCommand": ["touch", "/tmp/updateContentCommand"],
+    "postCreateCommand": ["touch", "/tmp/postCreateCommand"],
+    "postStartCommand": ["touch", "/tmp/postStartCommand"]
 }
