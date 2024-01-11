@@ -342,5 +342,13 @@
     "url": "https://www.gbif.org/event/a07f7d-897f-4257-94b6-946f7ec",
     "start_time": "2024-09-03 14:00",
     "end_time": "2024-09-06 23:00"
+  },
+  {
+    "uid": "2vtOYk4ymZsLxQah4mfErG",
+    "title": "Technical support hour for GBIF nodes: February 2024",
+    "description": "The theme for February session of the Technical Support Hour for Node, is DNA <https://www.gbif.org/dna> data publishing. For this session, we welcome Tobias Guldberg Frøslev <https://orcid.org/0000-0002-3530-013X> from the Participation and Engagment team. Tobias will present the resource currently available for sharing DNA-derived data - with a focus on a new tool for formatting environmental DNA dataset – on GBIF and answer all your questions on the topic.<br class=\"mb-4\">You are welcome to read more about DNA and GBIF here <https://discourse.gbif.org/t/invitation-to-share-dna-metabarcoding-data-to-test-early-pilot-of-data-publishing-tool/3975><br class=\"mb-4\">The Data Product team will join as well. We will be happy to answer any question relating or not to the topic.<br class=\"mb-4\"> Register for the event <https://us02web.zoom.us/meeting/register/tZAlcumhpjopHNJ4yzlZLVVBsEb0NR7RkSIy> <br class=\"mb-4\">If nodes and nodes staff have ideas for topics, or questions please post them in the community forum <https://discourse.gbif.org/t/gbif-technical-support-hour-for-nodes-tour-of-the-registry-and-how-to-debug-ingestion/3760> or email them tohelpdesk@gbif.org <mailto:helpdesk@gbif.org>",
+    "url": "https://www.gbif.org/event/2vtOYk4ymZsLxQah4mfErG",
+    "start_time": "2024-02-07 16:00",
+    "end_time": "2024-02-07 17:00"
   }
 ]
