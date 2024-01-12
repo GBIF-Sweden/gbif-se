@@ -350,5 +350,37 @@
     "url": "https://www.gbif.org/event/2vtOYk4ymZsLxQah4mfErG",
     "start_time": "2024-02-07 16:00",
     "end_time": "2024-02-07 17:00"
+  },
+  {
+    "uid": "4eUUexKQt1oomsjY8UqSUO",
+    "title": "ARISE day 2024",
+    "description": "The ARISE project <https://www.arise-biodiversity.nl/> is building an infrastructure that will identify and monitor all multicellular species in the Netherlands.<br class=\"mb-4\">On March 27 the ARISE day will provide updates on ARISE, keynote speeches, workshops, entertainment, meet old friends, make new ones. All lectures and activities will be in English.<br class=\"mb-4\"> Read more <https://www.arise-biodiversity.nl/arise-day-2024> ",
+    "url": "https://www.gbif.org/event/4eUUexKQt1oomsjY8UqSUO",
+    "start_time": "2024-03-27 09:00",
+    "end_time": "2024-03-27 17:00"
+  },
+  {
+    "uid": "6Wr7QDTesZotfzM8GN3hNx",
+    "title": "Empowering Biodiversity Research III (EBR III)",
+    "description": "This conference will focus on utilizing biodiversity data to bridge the gap with Policy.<br class=\"mb-4\">Meet GBIF Secretariat deputy director Tim Hirsch <https://orcid.org/0000-0002-5015-5807> at the following session during the EBR III conference <https://www.biodiversity.be/EBRIII/programme/><br class=\"mb-4\">Monday, 25 March 2024: 10:40-11:10 GBIF’s role in empowering biodiversity research and policy <https://www.biodiversity.be/EBRIII/programme/> Session 1<br class=\"mb-4\"> Read more <https://www.biodiversity.be/EBRIII/> ",
+    "url": "https://www.gbif.org/event/6Wr7QDTesZotfzM8GN3hNx",
+    "start_time": "2024-03-25 08:00",
+    "end_time": "2024-03-26 22:00"
+  },
+  {
+    "uid": "84989f-260a-4006-85be-2d3b420",
+    "title": "Celebrating 10 Years of US MBON -2024 Annual All-Hands Workshop",
+    "description": "MarineBon meeting to strengthen links between national MBON teams and partners and identify or develop common activities and outputs. Followed by a species distribution modelling workshop to trace a roadmap to move from research to operations in the ability to map distributions of species and habitats using ‘Species Distribution Models’ or SDMs as a complement to assessments now possible with databases such as OBIS and GBIF.",
+    "url": "https://www.gbif.org/event/84989f-260a-4006-85be-2d3b420",
+    "start_time": "2024-03-18 16:00",
+    "end_time": "2024-03-23 00:00"
+  },
+  {
+    "uid": "6f4ed0-5335-4fc8-8e71-4c81152",
+    "title": "Joint OBIS-GBIF meeting",
+    "description": "The two organisations will come to together to develop a joint GBIF-OBIS action plan to further support collaboration between the two infrastructures.<br class=\"mb-4\">Participation by invitation only.<br class=\"mb-4\"> Read more <https://www.oceanexpert.org/event/4048> ",
+    "url": "https://www.gbif.org/event/6f4ed0-5335-4fc8-8e71-4c81152",
+    "start_time": "2024-02-08 09:00",
+    "end_time": "2024-02-09 17:00"
   }
 ]
