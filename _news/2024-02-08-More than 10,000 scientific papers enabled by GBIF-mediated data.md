@@ -1,0 +1,14 @@
+---
+title: "More than 10,000 scientific papers enabled by GBIF-mediated data"
+date: 2024-02-08
+image: 2024-10000papers-gbif-mediated.png
+description: "Significant growth in use of data from the GBIF network continues to demonstrate the importance and value of open biodiversity data"
+---
+
+February 1, GBIF crossed a significant milestone, logging the 10,000th peer-reviewed journal article using and citing data shared through its network. The number of GBIF-enabled scientific publications has increased steadily since tracking began. This corpus of research included [more than 1,700 published papers from 2023](https://www.gbif.org/resource/search?contentType=literature&year=2023&literatureType=journal&relevance=GBIF_USED&peerReview=true), with the largest monthly share (180) coming in December—an average of six published peer-reviewed uses per day.
+
+The [10,000th paper](https://doi.org/10.1080/14888386.2023.2291133), published in the journal *Biodiversity*, explores the effects of climate change on rhinoceros populations in Southern Africa. Authors [Hlelowenkhosi Mamba](https://orcid.org/0000-0001-8172-1739) and [Timothy Randhir](https://orcid.org/0000-0002-1084-9716) from the University of Massachusetts relied on species occurrence records from the GBIF network to model the future distributions of critically endangered black (*[Diceros bicornis](https://doi.org/10.15468/dl.jh1jx9)*) and near threatened white (*[Ceratotherium simum](https://doi.org/10.15468/dl.ambym9)*) rhinoceros populations in South Africa, Namibia, Kenya, Zimbabwe, Eswatini, Botswana, Zambia and Tanzania. Their findings suggest that temperature changes are likely to have significant impacts on rhinos, concluding that strengthened conservation strategies remain critical for the survival of both species.
+
+Authors who [cite the DOIs](https://www.gbif.org/citation-guidelines) that GBIF assigns to their data downloads help create direct links between their studies and the data sources, enabling the attribution of credit to the publishers. The transparency and reproducibility of research is also vastly improved, as users can rerun queries from data citations. Researchers in Sweden contributed to [265 scientific papers](https://www.gbif.org/resource/search?contentType=literature&literatureType=journal&relevance=GBIF_USED&countriesOfResearcher=SE&peerReview=true) using GBIF data during 2023.
+
+Long-standing citation practices and personal habits have slowed the uptake of DOI-based data citations, but direct outreach from GBIF to authors has improved this significantly. Today, nearly two in three articles follow the recommended [guidelines](https://www.gbif.org/citation-guidelines).
