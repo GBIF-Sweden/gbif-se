@@ -431,5 +431,13 @@
     "url": "https://www.gbif.org/event/6Jx3bKshi8VWPqk2dW5Jz7",
     "start_time": "2024-02-28 09:00",
     "end_time": "2024-02-28 10:00"
+  },
+  {
+    "uid": "123JskXfrvbKFD9P9zmgCi",
+    "title": "Technical support hour for GBIF nodes: March 2024",
+    "description": "The theme for the March 2024 session of the Technical Support Hour for Node is GBIF’s data quality workflow. We will go through how published data is processed regarding quality checks, show how you can get an overview of the flags and issues of datasets, how users provide publicly accessible feedback and how you can navigate the feedback yourself.<br class=\"mb-4\"> Register for the event <https://us02web.zoom.us/meeting/register/tZUkfuCupj8iH92pS7BE9VbYfkSL-Q7j9IyC> <br class=\"mb-4\">If nodes and node staff have ideas for topics, or questions please post them in the community forum <https://discourse.gbif.org/t/gbifs-data-quality-workflow-gbif-technical-support-hour-for-nodes/4286> or email them tohelpdesk@gbif.org <mailto:helpdesk@gbif.org>",
+    "url": "https://www.gbif.org/event/123JskXfrvbKFD9P9zmgCi",
+    "start_time": "2024-03-06 16:00",
+    "end_time": "2024-03-06 17:00"
   }
 ]
