@@ -479,5 +479,13 @@
     "url": "https://www.gbif.org/event/b6fd27-01ee-4a7f-96f5-6f1f742",
     "start_time": "2024-03-04 17:00",
     "end_time": "2024-03-04 19:00"
+  },
+  {
+    "uid": "6FM0vVDgOK6ZpX3why3WbY",
+    "title": "Technical support hour for GBIF nodes: April 2024",
+    "description": "The topic for the next Technical Support Hour for nodes is A general introduction to GBIFs technical documentation. Last year the GBIF Secretariat released the first version of the technical documentation and work is ongoing to improve and enrich the documentation. We will give you an introduction to what information is already accessible.<br class=\"mb-4\">Note that we are switching to summer time in Denmark and therefore the session has moved one hour ahead.<br class=\"mb-4\"> Register for the event <https://us02web.zoom.us/meeting/register/tZUpf-GqqD8jE9ae6KKyPnpfl97YP_-s9QFU> <br class=\"mb-4\">We will be happy to answer any question relating or not to the topic. Please feel free to post questions in advance onthe discourse forum <https://discourse.gbif.org/t/a-general-introduction-to-gbifs-technical-documentation-gbif-techincal-support-hour-for-nodes/4335> or writehelpdesk@gbif.org <mailto:helpdesk@gbif.org>.",
+    "url": "https://www.gbif.org/event/6FM0vVDgOK6ZpX3why3WbY",
+    "start_time": "2024-04-03 16:00",
+    "end_time": "2024-04-03 17:00"
   }
 ]
