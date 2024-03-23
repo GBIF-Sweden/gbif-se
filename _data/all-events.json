@@ -487,5 +487,13 @@
     "url": "https://www.gbif.org/event/6FM0vVDgOK6ZpX3why3WbY",
     "start_time": "2024-04-03 16:00",
     "end_time": "2024-04-03 17:00"
+  },
+  {
+    "uid": "1zGtffxiZ5bqXB0i0cIfS2",
+    "title": "Global Registry of Scientific Collections (GRSciColl) community call",
+    "description": "Join us for an update on the Global Registry of Scientific Collections <https://scientific-collections.gbif.org/>.<br class=\"mb-4\">In this community call we will discuss the progress of the GRSciColl roadmap implementation <https://scientific-collections.gbif.org/road-map>.<br class=\"mb-4\">Agenda<br class=\"mb-4\"> * Review of the data schema: output of the survey, changes being implemented and mapping to Latimer Core  * Support structured collection descriptors: proposed implementation and examples  * Q&A and Discussion  Register <https://us02web.zoom.us/meeting/register/tZYudeuqrDooE9yUXe4GSGEueV0VRYbDO4Zf> ",
+    "url": "https://www.gbif.org/event/1zGtffxiZ5bqXB0i0cIfS2",
+    "start_time": "2024-04-17 15:00",
+    "end_time": "2024-04-17 16:00"
   }
 ]
