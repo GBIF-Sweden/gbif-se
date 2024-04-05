@@ -24,13 +24,13 @@ You can also [run the dev environment in Codespaces](https://github.com/GBIF-Swe
 As described below the latest build is [automatically deployed](#deploying) to production. Therefore anything commited to the `main` branch must be production ready. If your work is not production ready use the `develop` branch or a feature branch.
 
 ## Production
-The application runs in Docker on **nrm-arda**. The docker-compose file can be found in `/home/gbif/repos/gbif-se-web/gbif-se-website`.
+The application is installed using the gbif-se role in [gbif-install](https://github.com/GBIF-Sweden/gbif-install/blob/main/ansible/roles/gbif-se/README.md). It runs in Docker on **nrm-arda**. The installation directory is `/data/apps/gbif-se`.
 
 ### Building
 Github Actions is used for building the production Docker image (using [Dockerfile](Dockerfile)). The [build workflow](.github/workflows/build.yml) is triggered when a push is made to the `main` branch. It will build the Docker image and push it to the [Github Container registry](https://github.com/orgs/GBIF-Sweden/packages).
 
 ### Deploying
-The latest build image will automatically be deployed to production every 30 minutes. This is done by a cronjob on **nrm-arda** that pulls the latest image (if there is one) and restarts the application (if there was a new image). The cronjob runs on the root account (see `/root/crontabs/update-gbif-se.sh`).
+The latest build image will automatically be deployed to production every 30 minutes. This is done by a cronjob on **nrm-arda** that pulls the latest image (if there is one) and restarts the application (if there was a new image). The cronjob runs on the root account (see `/data/apps/gbif-se/update-gbif-se.sh`).
 
 The latest build image can also be deployed manually:
 ```
@@ -74,5 +74,5 @@ The Ruby and Node versions used are specified in [build.yml](.github/workflows/b
 
 To bump the dependecies in [Gemfile](Gemfile) and [package.json](package.json) run:
 ```
-make dump-deps
+make bump-deps
 ```
