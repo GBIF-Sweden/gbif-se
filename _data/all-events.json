@@ -495,5 +495,13 @@
     "url": "https://www.gbif.org/event/1zGtffxiZ5bqXB0i0cIfS2",
     "start_time": "2024-04-17 15:00",
     "end_time": "2024-04-17 16:00"
+  },
+  {
+    "uid": "1ztgiIhMCnh0roNxHeJW1c",
+    "title": "Europe and Central Asia Nodes meeting 2024",
+    "description": "The 16th meeting of the GBIF Europe and Central Asia nodes is hosted by the GBIF Croatia <https://www.gbif.org/country/HR/summary> 26 to 29 of May 2024 the in person and on site meeting is open to node managers from the European and Central Asia participant nodes. Nonmember countries and international organizations are invited to express their interest to join the meeting as observers.<br class=\"mb-4\">The ECA nodes have been through an open regional process, led by Dag Endresen and Niels Raes, to select the dates and country to host the meeting. The meeting will be held in Zagreb. The selection of Croatia also reflects the wish to strengthen engagement in the Balkans and the visibility of GBIF in this relatively new GBIF Participant country.<br class=\"mb-4\">Agenda and meeting overview <https://bit.ly/gbifeca2024><br class=\"mb-4\">For any further information contact Dag Endresen <mailto:dag.endresen@nhm.uio.no> Nodes regional representative for Europe and Central Asia.",
+    "url": "https://www.gbif.org/event/1ztgiIhMCnh0roNxHeJW1c",
+    "start_time": "2024-05-26 09:00",
+    "end_time": "2024-05-29 13:00"
   }
 ]
