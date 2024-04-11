@@ -511,5 +511,13 @@
     "url": "https://www.gbif.org/event/KqKofU1tg3NHjZ4OCJpra",
     "start_time": "2024-04-16 09:00",
     "end_time": "2024-04-16 15:45"
+  },
+  {
+    "uid": "01I7kLGOyUdKCE7dhmC47L",
+    "title": "Technical support hour for GBIF nodes: May 2024",
+    "description": "May 1st, 2024, we will convene for the next GBIF technical support hour for nodes where the topic is how to detect and solve formatting issues in your DwC-A. The session will occur on May 1st, 2024, at 4pm CEST (UTC+2).<br class=\"mb-4\">Publishers and nodes occasionally encounter errors that are not transparent when they try to validate their DwC-A’s with thedata validator tool <https://www.gbif.org/tools/data-validator> on GBIF.org <https://www.gbif.org/>. The errors often relate to issues with delimiters, special character, e.g. two double quotes (“”””) around values in one or few cells which affects interpretation of delimiters, etc. If you have any examples of weird formatting issues – please let us know and we will make sure to include it in the presentation!<br class=\"mb-4\">We will show the validator tool and how to problem solve using a few tools to check your files.<br class=\"mb-4\"> Register for the event <https://us02web.zoom.us/meeting/register/tZMpcuyprzItGd3Dgv90l4Iv8RCL-IjADgFd#/registration><br class=\"mb-4\">We will be happy to answer any question relating or not to the topic. Please feel free to post questions in advance onthe discourse forum <https://discourse.gbif.org/t/how-to-detect-and-solve-formatting-issues-in-your-dwc-a-gbif-technical-support-hour-for-nodes/4390> or writehelpdesk@gbif.org <mailto:helpdesk@gbif.org>.",
+    "url": "https://www.gbif.org/event/01I7kLGOyUdKCE7dhmC47L",
+    "start_time": "2024-05-01 16:00",
+    "end_time": "2024-05-01 17:00"
   }
 ]
