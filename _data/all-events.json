@@ -519,5 +519,13 @@
     "url": "https://www.gbif.org/event/01I7kLGOyUdKCE7dhmC47L",
     "start_time": "2024-05-01 16:00",
     "end_time": "2024-05-01 17:00"
+  },
+  {
+    "uid": "7C2ZNTqFlsK8gNLoreA18F",
+    "title": "Joint regional meeting kick-off and CESP community webinar",
+    "description": "Expected audience: Node Managers and Node staff<br class=\"mb-4\">Note this webinar will be run twice to accommodate different time zones. Please register to the one that works best for you below.<br class=\"mb-4\"> Register for the event (evening CPH time) <https://us02web.zoom.us/meeting/register/tZctdO2rrjorGtM88sAl4CH5sniqTKUgEQWj> <br class=\"mb-4\"> Register for the event (morning CPH time) <https://us02web.zoom.us/meeting/register/tZItdOivpj0uGNMe3ck6Qm0MN7NhRdHfQ7Jh> <br class=\"mb-4\">The webinar will firstly provide updates from the Nodes Committee and GBIF Secretariat as background for regional discussions in the 2024 regional nodes meetings. These will follow the structure provided in the2024 Nodes Implementation Plan <https://docs.gbif.org/nodes-implementation-2024/en/>.<br class=\"mb-4\">Secondly, we will discuss changes to the format of the GBIF Capacity Enhancement Support Programme <https://www.gbif.org/programme/82219/capacity-enhancement-support-programme> and encourage nodes to participate in upcoming call for proposals.<br class=\"mb-4\">Agenda<br class=\"mb-4\">| Topic | Speaker | | ----- | ------------------------------------------ | | Welcome address and introduction to the 2024 regional nodes meetings |Anne Sophie Archambeau <https://orcid.org/0000-0001-6902-1465>Nodes Committee Chair (15 minutes)| | Updates on the topics for regional discussions as outlined in the Nodes Implementation Plan |Melianie Raymond <https://orcid.org/0000-0002-6158-8202>  Community and Capacity Manager (30 minutes) | | Question time | (15 minutes)| | Updates to the GBIF Capacity Enhancement Support Programme |Maheva Bagard LaursenProgramme Officer for Community and Capacity (20 minutes)| | Question time | (15 minutes)|",
+    "url": "https://www.gbif.org/event/7C2ZNTqFlsK8gNLoreA18F",
+    "start_time": "2024-04-25 19:00",
+    "end_time": "2024-04-26 10:30"
   }
 ]
