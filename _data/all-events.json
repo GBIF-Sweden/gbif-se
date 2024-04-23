@@ -527,5 +527,13 @@
     "url": "https://www.gbif.org/event/7C2ZNTqFlsK8gNLoreA18F",
     "start_time": "2024-04-25 19:00",
     "end_time": "2024-04-26 10:30"
+  },
+  {
+    "uid": "6400ab-0498-4911-8ff2-d9e38a1",
+    "title": "Unlocking Slovakias Biodiversity Through Data Publishing",
+    "description": "This workshop is a part of CESP2023-005 <https://www.gbif.org/project/CESP2023-005/unlocking-slovakias-biodiversity-through-data-publishing> and is designed for researchers, data managers, and biodiversity enthusiasts who are keen to enhance their skills in data publishing and management, with a focus on biodiversity data in Slovakia.",
+    "url": "https://www.gbif.org/event/6400ab-0498-4911-8ff2-d9e38a1",
+    "start_time": "2024-05-08 12:00",
+    "end_time": "2024-05-10 12:00"
   }
 ]
