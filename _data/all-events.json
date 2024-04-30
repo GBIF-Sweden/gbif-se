@@ -535,5 +535,21 @@
     "url": "https://www.gbif.org/event/6400ab-0498-4911-8ff2-d9e38a1",
     "start_time": "2024-05-08 12:00",
     "end_time": "2024-05-10 12:00"
+  },
+  {
+    "uid": "2kpMj5CuRGhgx9O4tEEmK2",
+    "title": "Africa nodes webinar",
+    "description": "GBIF is working with regional support teams in Africa, Asia, the Caribbean, Europe and Central Asia. In this webinar, the regional support team in Africa will update the Node Managers and staff within the region, highlighting their ongoing efforts. There will be a deliberate emphasis to align these efforts with the objectives of the Nodes implementation plan, as well as with the specific tasks designated for Node Managers and staff within the plan. In this way, the members will demonstrate how they are complementing nodes to effectively execute the implementation plan.<br class=\"mb-4\">For any further information contact the Africa regional support team <mailto:africa_support@gbif.org>.<br class=\"mb-4\">Agenda<br class=\"mb-4\">| Topic | Speaker | | ----- | ------------------------------------------ | |Welcome address and introduction to the regional/sub-regional webinar series |Jean Paul Kubwimana <https://www.gbif.org/contact-us/directory?personId=4072&group=nodesCommittee>Chairperson, regional nodes committee (Africa) (5 minutes)| | Activities of the regional support team: technical and help desk support |Tsiky Rabetrano <https://orcid.org/0000-0002-1114-956X> regional support team  (15 minutes) | |Activities of the regional support team: collection mobilization for the Global Registry of Scientific Collections (GRSciColl)|Laban Musinguzi <https://orcid.org/0000-0001-7915-3218> regional support team  (10 minutes)| | Discussion & questions | (20 minutes)| | Way forward for subsequent webinars|Jean Paul Kubwimana <https://www.gbif.org/contact-us/directory?personId=4072&group=nodesCommittee>Chairperson, regional nodes committee (Africa) (15 minutes)|<br class=\"mb-4\"> Register for the event <https://us02web.zoom.us/j/89768083406?pwd=RFIzemR5YnJXVFNweXZiVWZwRDdmZz09> ",
+    "url": "https://www.gbif.org/event/2kpMj5CuRGhgx9O4tEEmK2",
+    "start_time": "2024-05-10 15:00",
+    "end_time": "2024-05-10 16:30"
+  },
+  {
+    "uid": "2C4EgwchW1gY5iZ8VRb4nf",
+    "title": "Arab States workshop",
+    "description": "Agenda<br class=\"mb-4\">| Day 1 | Topic | | ----- | --------------------------------------- | |9.00 - 10.30 | Session 1: Welcome and Introductions| |11.00 - 12.30 |Session 2: What is GBIF and what is its relevance?| |13.30 - 15.00 |Session 3: How can GBIF support countries to meet the Kunming - Montreal Biodiversity Targets?| |15.30 - 17.00 |Session 3: Continued|<br class=\"mb-4\">| Day 2 | Topic | | ----- | --------------------------------------- | |9.00 - 10.30 | Session 4: Building community and capacity for the sharing of open biodiversity data in the Arab States| |11.00 - 12.30 |Session 4: Continued| |13.30 - 15.00 |Session 5: Developing a road map for biodiversity data for the Arab States| |15.30 - 17.00 |Session 5: Continued|<br class=\"mb-4\">",
+    "url": "https://www.gbif.org/event/2C4EgwchW1gY5iZ8VRb4nf",
+    "start_time": "2024-05-06 00:00",
+    "end_time": "2024-05-08 00:00"
   }
 ]
