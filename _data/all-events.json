@@ -563,7 +563,7 @@
   {
     "uid": "5ffiVoYwhcFpz3wvv4qLjv",
     "title": "Latin America and Caribbean Nodes meeting 2024",
-    "description": "Will be available soon Agenda and meeting overview <https://ecuador.hp.gbif-staging.org/nodes-meeting-2024><br class=\"mb-4\">Contact Leslie Melisa Ojeda Cabrera <mailto:snib.guatemala@gmail.com> Nodes regional representative for Latin America and the Caribbean for any further information on the agenda.<br class=\"mb-4\">Questions on the logistics please contact Victor Sánchez Chocho <mailto:victor.chocho@ambiente.gob.ec> Nodes regional representative deputy for Latin America and the Caribbean",
+    "description": "Will be available soon Agenda and meeting overview <https://gbif.ambiente.gob.ec/nodes-meeting-2024><br class=\"mb-4\">Contact Leslie Melisa Ojeda Cabrera <mailto:snib.guatemala@gmail.com> Nodes regional representative for Latin America and the Caribbean for any further information on the agenda.<br class=\"mb-4\">Questions on the logistics please contact Victor Sánchez Chocho <mailto:victor.chocho@ambiente.gob.ec> Nodes regional representative deputy for Latin America and the Caribbean",
     "url": "https://www.gbif.org/event/5ffiVoYwhcFpz3wvv4qLjv",
     "start_time": "2024-06-03 09:00",
     "end_time": "2024-06-06 13:00"
@@ -575,5 +575,21 @@
     "url": "https://www.gbif.org/event/2cn0uCiWlTeeldhJuOkOxd",
     "start_time": "2024-05-29 00:00",
     "end_time": "2024-05-31 00:00"
+  },
+  {
+    "uid": "7i8KywevYxWzlQMGaYdcxp",
+    "title": "Data Use Club practical sessions: cloud computing services",
+    "description": "Utilizing cloud computing services <https://techdocs.gbif.org/en/cloud-services/> can enable big data queries that are slow or impractical on a local machine. Public datasets containingsnapshots <https://www.gbif.org/occurrence-snapshots> of all GBIF-mediated occurrence data are shared each month on the Microsoft Planetary Computer (Azure), as an Amazon AWS Open Dataset, and on a public Google GCS bucket and BigQuery table.<br class=\"mb-4\">During this practical session, GBIF Data Analyst, John Waller <https://orcid.org/0000-0002-7302-5976>, will describe the snapshots and will demonstrate how to query and cite GBIF-mediated data using these cloud services.<br class=\"mb-4\"> Register for the event <https://us02web.zoom.us/meeting/register/tZElc-ispz8uHNJaZDBD9Mvnzb_BLT95wKr3> ",
+    "url": "https://www.gbif.org/event/7i8KywevYxWzlQMGaYdcxp",
+    "start_time": "2024-09-19 15:00",
+    "end_time": "2024-09-19 16:30"
+  },
+  {
+    "uid": "IocR0dw3jA7qeI2KX3nrQ",
+    "title": "Open question and answer session for CESP2024 call for proposals",
+    "description": "Expected audience: Node managers, Node staff and potential project partners<br class=\"mb-4\">The GBIF Secretariat will be holding an open question and answer session in English, for persons interested in knowing more about the2024 CESP call for proposals <https://www.gbif.org/news/4XHudxoaMexjeqgdaejBBg/>.<br class=\"mb-4\">The aim is to provide an opportunity to raise any questions about the call’s criteria and format, applying for CESP grant, as well as about the programme in general. If you are looking for partners, it is also an opportunity to seek support.<br class=\"mb-4\">We highlight that applications for the CESP grant must be submitted by a Head of Delegation or a Node Manager, representing a currentGBIF Participant (either voting or associate) <https://www.gbif.org/the-gbif-network>. Node staff and/or potential project partners are also welcome to attend this event.<br class=\"mb-4\">Please be informed the event will be kept open for as long as there are attendees and questions.<br class=\"mb-4\">Note this webinar will be run twice to accommodate different time zones. Please choose the one that works best for you.<br class=\"mb-4\"> Register for the evening session (CPH time) <https://us02web.zoom.us/meeting/register/tZItfu6gpjstHNCX4SsJAvdlmv04PPoJZ4N4> <br class=\"mb-4\"> Register for the morning session (CPH time) <https://us02web.zoom.us/meeting/register/tZwpdOurrj8jEtUJcgFbRxI9hsSpssXQjHtK> <br class=\"mb-4\">If you are unable to attend either of these times and have questions for us, you are always welcome to submit them toCESP@gbif.org <mailto:CESP@gbif.org>.",
+    "url": "https://www.gbif.org/event/IocR0dw3jA7qeI2KX3nrQ",
+    "start_time": "2024-05-23 19:00",
+    "end_time": "2024-05-24 10:00"
   }
 ]
