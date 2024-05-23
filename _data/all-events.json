@@ -599,5 +599,13 @@
     "url": "https://www.gbif.org/event/3JFlnRmej9tFykMEEMlPY1",
     "start_time": "2024-06-24 00:01",
     "end_time": "2024-07-28 02:01"
+  },
+  {
+    "uid": "nti6Pns7Qqt6WnZ2XUL2p",
+    "title": "Technical support hour for GBIF nodes: July 2024",
+    "description": "Join us for the next session of the technical support hour for GBIF nodes on July 3rd, 2024, where the topic is API SQL downloads.<br class=\"mb-4\">Would you like to be able to generate custom summary views of GBIF occurrence data? This is now possible as an experimental feature withAPI SQL downloads <https://techdocs.gbif.org/en/data-use/api-sql-downloads> with an added bonus ofcustom functions <https://techdocs.gbif.org/en/data-use/api-sql-download-functions> that can be used to query the data. During the practical session, we will show some examples of how the API SQL downloads can be used to generate occurrence data summaries relevant for nodes and share a few recipes along the way. Please note that the feature is currently only available for preview by invited users.<br class=\"mb-4\">We will be happy to answer any question relating or not to the topic. Please feel free to post questions in advance on thediscourse forum <https://discourse.gbif.org/t/api-sql-downloads-gbif-technical-support-hour-for-nodes/4459> or write tohelpdesk@gbif.org <mailto:helpdesk@gbif.org>.<br class=\"mb-4\"> Register for the event <https://us02web.zoom.us/meeting/register/tZAlf-qsqjMrHdLvqFiTuccIBu1W0_ywNsxr> ",
+    "url": "https://www.gbif.org/event/nti6Pns7Qqt6WnZ2XUL2p",
+    "start_time": "2024-07-03 16:00",
+    "end_time": "2024-07-03 17:00"
   }
 ]
