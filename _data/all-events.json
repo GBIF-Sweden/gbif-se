@@ -607,5 +607,13 @@
     "url": "https://www.gbif.org/event/nti6Pns7Qqt6WnZ2XUL2p",
     "start_time": "2024-07-03 16:00",
     "end_time": "2024-07-03 17:00"
+  },
+  {
+    "uid": "9EL3WJDNKACfNs82db5Rf",
+    "title": "12th North American Paleontological Convention (NAPC)",
+    "description": "The North American Paleontological Convention (NAPC) <https://sites.lsa.umich.edu/napc2024/> covers all branches of paleontology, including vertebrate, invertebrate, paleobotany, micropaleontology, paleo-related organic and inorganic geochemistry, paleoecology, paleoclimatology, and astrobiology. It provides a forum for exchanging research findings, defining future directions, and fostering relaxed interactions within the paleontological community at large. The meeting will feature a variety of symposia and topical sessions, varied field trips, and technical workshops.<br class=\"mb-4\">Visit website <https://sites.lsa.umich.edu/napc2024/> ",
+    "url": "https://www.gbif.org/event/9EL3WJDNKACfNs82db5Rf",
+    "start_time": "2024-06-17 00:00",
+    "end_time": "2024-06-21 00:00"
   }
 ]
