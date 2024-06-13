@@ -619,7 +619,7 @@
   {
     "uid": "7FqoAMYeaGGbVVs5OtQkoc",
     "title": "Webinar #2 for the Americas: OBIS-GBIF Joint Strategy and Action Plan",
-    "description": "Following its announcement <> on 28 May, learn more about the OBIS-GBIF joint strategy <https://docs.gbif.org/obis-gbif-joint-strategy/en/> and action plan <https://docs.gbif.org/obis-gbif-action-plan-2024/en/>, what it means and how you can get involved.<br class=\"mb-4\">We encourage that participants post questions to the topic on the discourse forum <https://discourse.gbif.org/t/obis-gbif-joint-strategy-and-action-plan/4500><br class=\"mb-4\">Final agenda to follow<br class=\"mb-4\">Register here <https://us02web.zoom.us/webinar/register/WN_JAyHic4xS1yx-TKYHsfVMg> ",
+    "description": "Following its announcement <> on 28 May, learn more about the OBIS-GBIF joint strategy <https://docs.gbif.org/obis-gbif-joint-strategy/en/> and action plan <https://docs.gbif.org/obis-gbif-action-plan-2024/en/>, what it means and how you can get involved.<br class=\"mb-4\">We encourage that participants post questions to the topic on the discourse forum <https://discourse.gbif.org/t/obis-gbif-joint-strategy-and-action-plan/4500><br class=\"mb-4\">Agenda<br class=\"mb-4\"> * GBIF and Marine Biodiversity Data - Andrew Rodrigues <http://links.gbif.org/arodrigues>, Data Partnerships Officer  * OBIS - Ocean Biodiversity Information Facility - Ward Appletans <https://orcid.org/0000-0002-3237-4547>, Programme Manager, OBIS  * OBIS-GBIF Strategy and Action Plan  * Discussion Register here <https://us02web.zoom.us/webinar/register/WN_JAyHic4xS1yx-TKYHsfVMg> ",
     "url": "https://www.gbif.org/event/7FqoAMYeaGGbVVs5OtQkoc",
     "start_time": "2024-06-13 23:00",
     "end_time": "2024-06-13 23:59"
@@ -643,9 +643,17 @@
   {
     "uid": "17npfG9wrCTTKcp72wk9Ni",
     "title": "Webinar #1 for Asia, Africa and Europe: OBIS-GBIF Joint Strategy and Action Plan",
-    "description": "Following its announcement <> on 28 May, learn more about the OBIS-GBIF joint strategy <https://docs.gbif.org/obis-gbif-joint-strategy/en/> and action plan <https://docs.gbif.org/obis-gbif-action-plan-2024/en/>, what it means and how you can get involved.<br class=\"mb-4\">We encourage that participants post questions to the topic on the discourse forum <https://discourse.gbif.org/t/obis-gbif-joint-strategy-and-action-plan/4500><br class=\"mb-4\">Final agenda to follow<br class=\"mb-4\">Register here <https://us02web.zoom.us/webinar/register/WN_MGK5uCxcRG2dyHoOeul8iQ#/registration>",
+    "description": "Following its announcement <> on 28 May, learn more about the OBIS-GBIF joint strategy <https://docs.gbif.org/obis-gbif-joint-strategy/en/> and action plan <https://docs.gbif.org/obis-gbif-action-plan-2024/en/>, what it means and how you can get involved.<br class=\"mb-4\">We encourage that participants post questions to the topic on the discourse forum <https://discourse.gbif.org/t/obis-gbif-joint-strategy-and-action-plan/4500><br class=\"mb-4\">Agenda<br class=\"mb-4\"> * GBIF and Marine Biodiversity Data - Andrew Rodrigues <http://links.gbif.org/arodrigues>, Data Partnerships Officer  * OBIS - Ocean Biodiversity Information Facility - Ward Appletans <https://orcid.org/0000-0002-3237-4547>, Programme Manager, OBIS  * OBIS-GBIF Strategy and Action Plan  * Discussion Register here <https://us02web.zoom.us/webinar/register/WN_MGK5uCxcRG2dyHoOeul8iQ#/registration>",
     "url": "https://www.gbif.org/event/17npfG9wrCTTKcp72wk9Ni",
     "start_time": "2024-06-13 09:00",
     "end_time": "2024-06-13 10:00"
+  },
+  {
+    "uid": "6VOrQN9fHM6NLte3pBbbGa",
+    "title": "Africa region Webinar: An Overview of GBIF Data Publishing Tools",
+    "description": "The GBIF Africa Regional Support Team is pleased to provide an overview of the GBIF Data Publishing Tools. This webinar will serve as an update to the latest GBIF tools for data management, and their functionalities. The aim is to help participants understand how to effectively use these tools to enhance data quality and accessibility.<br class=\"mb-4\">If you have any questions please email them to africa_support@gbif.org <mailto:africa_support@gbif.org><br class=\"mb-4\">We look forward to your participation in this engaging and informative session!<br class=\"mb-4\">Agenda<br class=\"mb-4\">1. Introduction to GBIF Data Management Tools (10 minutes)<br class=\"mb-4\"> * A brief introduction to the suite of GBIF data management tools. 2. Demonstration of selected tools (30 minutes)<br class=\"mb-4\"> * GBIF Data Validator: How to check and improve the quality of datasets before publishing.  * Species name matching: How to validate scientific names against the GBIF backbone.  * Brief mention & links to other tools: IPT, Name Parser, and Sequence ID Tool <https://data-blog.gbif.org/post/installations-and-hosting-solutions-explained/>. 3. Q&A Session (20 minutes)<br class=\"mb-4\"> * Discussion and answers to questions.  Register for the event <https://us02web.zoom.us/meeting/register/tZMtfuChrTgpH93dHjxlV4CrbeBlXDCAqH0f> ",
+    "url": "https://www.gbif.org/event/6VOrQN9fHM6NLte3pBbbGa",
+    "start_time": "2024-06-28 15:00",
+    "end_time": "2024-06-28 16:00"
   }
 ]
