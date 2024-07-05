@@ -679,5 +679,13 @@
     "url": "https://www.gbif.org/event/2hhuDtozgw6hOHCrqF5fVF",
     "start_time": "2024-08-28 00:00",
     "end_time": "2024-08-29 00:00"
+  },
+  {
+    "uid": "2uJjcQDCHwufUMQbG81MaS",
+    "title": "Technical support hour for GBIF nodes: August 2024",
+    "description": "This August session of the Technical Support Hour for Nodes, we will show you how to publish data on GBIF via theregistry API <https://techdocs.gbif.org/en/openapi/v1/registry>. This is particularly relevant for data providers who wish to automate the publishing process. The Data Product team will go through everything you need to know to get started. You canread this blog post <https://data-blog.gbif.org/post/installations-and-hosting-solutions-explained/> for some background. We will be happy to answer any question relating or not to the topic.<br class=\"mb-4\">Please feel free to post questions in advance on the discourse forum <https://discourse.gbif.org/t/how-to-publish-data-via-the-gbif-api-gbif-technical-support-hour-for-nodes/4575> or write tohelpdesk@gbif.org <mailto:helpdesk@gbif.org>.<br class=\"mb-4\"> Register for the event <https://us02web.zoom.us/meeting/register/tZ0kfu2spz4qEtanfLpjMwKahAJZ8m0SUK4c#/registration>",
+    "url": "https://www.gbif.org/event/2uJjcQDCHwufUMQbG81MaS",
+    "start_time": "2024-08-07 16:00",
+    "end_time": "2024-08-07 17:00"
   }
 ]
