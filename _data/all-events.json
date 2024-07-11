@@ -687,5 +687,13 @@
     "url": "https://www.gbif.org/event/2uJjcQDCHwufUMQbG81MaS",
     "start_time": "2024-08-07 16:00",
     "end_time": "2024-08-07 17:00"
+  },
+  {
+    "uid": "1FoDQu5gWlZzTVrqCsN7D1",
+    "title": "Global Registry of Scientific Collections (GRSciColl) community call",
+    "description": "Join us for an update on the Global Registry of Scientific Collections <https://scientific-collections.gbif.org/> (GRSciColl).<br class=\"mb-4\">In this community call, we will discuss the progress of the GRSciColl roadmap implementation <https://scientific-collections.gbif.org/road-map> and gather input on integrating institutional survey outputs into GRSciColl.<br class=\"mb-4\">Agenda:<br class=\"mb-4\"> * Update on the latest GRSciColl developments  * Discuss ideas for making institutional surveys available on GRSciColl  * Q&A session  Register for the event <https://us02web.zoom.us/meeting/register/tZ0tf-2uqDMsGtFf0ptdvxnEFwnViFvxQTzX> ",
+    "url": "https://www.gbif.org/event/1FoDQu5gWlZzTVrqCsN7D1",
+    "start_time": "2024-08-22 15:00",
+    "end_time": "2024-08-22 16:00"
   }
 ]
