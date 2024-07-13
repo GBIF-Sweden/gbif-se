@@ -44,6 +44,15 @@ load_tablefilter: true
       </tr>
     </thead>
     <tbody>
+      {%- for dataset in site.data.datasets-se.results -%}
+        <tr>
+          <td><a href="https://www.gbif.org/dataset/{{ dataset.key }}">{{ dataset.title }}</a></td>
+          <td class="hidden sm:table-cell">{{ dataset.publishingOrganizationTitle }}</td>
+          <td class="hidden sm:table-cell">{{ dataset.type }}</td>
+          <td class="hidden md:table-cell">{{ dataset.subType }}</td>
+          <td class="table-number text-right">{{ dataset.recordCount }}</td>
+        </tr>
+      {%- endfor -%}
     </tbody>
   </table>
 </article>
@@ -51,8 +60,8 @@ load_tablefilter: true
 <script>
 
   document.addEventListener('DOMContentLoaded', async function() {
-    records = await fetchRecords();
-    populateTable(records);
+    //records = await fetchRecords();
+    //populateTable(records);
     setupTableFilter();
   });
 

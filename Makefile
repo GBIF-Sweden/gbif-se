@@ -23,6 +23,7 @@ pre-render:
 	script/create-news-year-pages.sh
 	curl -sS --max-time 30 --retry 1 "https://api.gbif.org/v1/occurrence/search?limit=0&occurrenceStatus=present" --output _data/occurence-total.json
 	curl -sS --max-time 30 --retry 1 "https://api.gbif.org/v1/occurrence/search?publishingCountry=SE&limit=0&facet=kingdomKey" --output _data/kingdom-counts.json
+    curl -sS --max-time 30 --retry 1 "https://api.gbif.org/v1/dataset/search?publishingCountry=SE&limit=500" --output _data/datasets-se.json
 
 merge-events:
 	node ./script/merge-events.js
