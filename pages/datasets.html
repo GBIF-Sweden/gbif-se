@@ -46,7 +46,7 @@ load_tablefilter: true
     <tbody>
       {%- for dataset in site.data.datasets-se.results -%}
         <tr>
-          <td><a href="https://www.gbif.org/dataset/{{ dataset.key }}">{{ dataset.title }}</a></td>
+          <td><a href="{{ dataset.url }}">{{ dataset.title }}</a></td>
           <td class="hidden sm:table-cell">{{ dataset.publishingOrganizationTitle }}</td>
           <td class="hidden sm:table-cell">{{ dataset.type }}</td>
           <td class="hidden md:table-cell">{{ dataset.subType }}</td>
