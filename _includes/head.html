@@ -7,14 +7,14 @@
   <link type="application/atom+xml" rel="alternate" href="{{ site.url }}/feed/news.xml" title="GBIF Sweden | News" />
   <link rel="stylesheet" href="/assets/css/main.css?{{ "now" | date: "%Y%m%d%H%M" }}">
   {%- if page.load_leaflet == true -%}
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css">
-    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   {%- endif -%}
   {%- if page.load_tablefilter == true -%}
     <script src="https://unpkg.com/tablefilter@0.7.3/dist/tablefilter/tablefilter.js"></script>
   {%- endif -%}
   {%- if page.load_calendar == true -%}
-    <script src="https://unpkg.com/fullcalendar@6.1.8/index.global.min.js"></script>
+    <script src="https://unpkg.com/fullcalendar@6.1.15/index.global.min.js"></script>
   {%- endif -%}
   {%- if page.load_search == true -%}
     <script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
