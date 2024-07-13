@@ -73,7 +73,7 @@ load_tablefilter: true
     if (!'recordCount' in record || record.recordCount == 0 || record.type == 'CHECKLIST') { 
       var count = 0;
       if (record.type == 'OCCURRENCE' || record.type == 'SAMPLING_EVENT') {
-        count = await fetch_json('https://api.gbif.org/v1/occurrence/count?datasetKey=' + record.key);
+        //count = await fetch_json('https://api.gbif.org/v1/occurrence/count?datasetKey=' + record.key);
       } else if (record.type == 'CHECKLIST') {
         const result = await fetch_json('https://api.gbif.org/v1/dataset/' + record.key + '/metrics');
         count = result['countByOrigin']['SOURCE'];
