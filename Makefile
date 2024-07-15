@@ -19,6 +19,7 @@ deploy:
 	ssh nrm-arda '/data/apps/gbif-se/update-gbif-se.sh'
 
 pre-render:
+	script/fetch-datasets.sh
 	script/fetch-gbif-org-events.sh
 	script/create-news-year-pages.sh
 	curl -sS --max-time 30 --retry 1 "https://api.gbif.org/v1/occurrence/search?limit=0&occurrenceStatus=present" --output _data/occurence-total.json

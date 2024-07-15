@@ -44,6 +44,15 @@ load_tablefilter: true
       </tr>
     </thead>
     <tbody>
+      {%- for dataset in site.data.datasets-se.results -%}
+        <tr>
+          <td><a href="{{ dataset.url }}">{{ dataset.title }}</a></td>
+          <td class="hidden sm:table-cell">{{ dataset.publishingOrganizationTitle }}</td>
+          <td class="hidden sm:table-cell">{{ dataset.type }}</td>
+          <td class="hidden md:table-cell">{{ dataset.subtype }}</td>
+          <td class="table-number text-right">{{ dataset.recordCountFormatted }}</td>
+        </tr>
+      {%- endfor -%}
     </tbody>
   </table>
 </article>
@@ -51,55 +60,8 @@ load_tablefilter: true
 <script>
 
   document.addEventListener('DOMContentLoaded', async function() {
-    records = await fetchRecords();
-    populateTable(records);
     setupTableFilter();
   });
-
-  const fetchRecords = async() => {
-    const result = await fetch_json('https://api.gbif.org/v1/dataset/search?publishingCountry=SE&limit=500');
-    const records = result['results'];
-
-    for (var record of records) {
-      await fetchRecordCountIfMissing(record);
-    }
-
-    records.sort((a, b) => (a.title > b.title) ? 1 : ((b.title > a.title) ? -1 : 0));
-
-    return records;
-  }
-
-  const fetchRecordCountIfMissing = async(record) => {
-    if (!'recordCount' in record || record.recordCount == 0 || record.type == 'CHECKLIST') { 
-      var count = 0;
-      if (record.type == 'OCCURRENCE' || record.type == 'SAMPLING_EVENT') {
-        //count = await fetch_json('https://api.gbif.org/v1/occurrence/count?datasetKey=' + record.key);
-      } else if (record.type == 'CHECKLIST') {
-        const result = await fetch_json('https://api.gbif.org/v1/dataset/' + record.key + '/metrics');
-        count = result['countByOrigin']['SOURCE'];
-      }
-      record['recordCount'] = count;
-    }
-  }
-
-  const populateTable = (records) => {
-    const tableBody = document.getElementById('datasetstable').getElementsByTagName('tbody')[0];
-    records.forEach(record => {
-      const newRow = tableBody.insertRow();
-      const tdTitle = document.createElement('td');
-      tdTitle.appendChild(Object.assign(document.createElement('a'), 
-        {href: 'https://www.gbif.org/dataset/' + record.key, textContent: record.title}));
-      newRow.appendChild(tdTitle);
-      newRow.appendChild(Object.assign(document.createElement('td'), 
-        {className:'hidden sm:table-cell', textContent: record.publishingOrganizationTitle}));
-      newRow.appendChild(Object.assign(document.createElement('td'), 
-        {className:'hidden sm:table-cell', textContent: record.type}));
-      newRow.appendChild(Object.assign(document.createElement('td'), 
-        {className:'hidden md:table-cell', textContent: record.subtype}));
-      newRow.appendChild(Object.assign(document.createElement('td'), 
-        {className:'table-number text-right', textContent:parseInt(record.recordCount).toLocaleString('en-GB')}));
-    });
-  }
 
   const setupTableFilter = () => {
     const tf = new TableFilter('datasetstable', {
@@ -133,10 +95,5 @@ load_tablefilter: true
     filterRow.children[2].classList.add('sm:table-cell');
     filterRow.children[3].classList.add('hidden');
     filterRow.children[3].classList.add('md:table-cell');
-  }
-
-  const fetch_json = async(url) => {
-    const response = await fetch(url);
-    return await response.json();
   }
 </script>
