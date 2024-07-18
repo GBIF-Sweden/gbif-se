@@ -15,7 +15,7 @@ fs.readFile("./_data/datasets-se.json", "utf8", async (_err, jsonString) => {
     if (!'recordCount' in dataset || dataset.recordCount == 0 || dataset.type == 'CHECKLIST') { 
       var count = 0;
       if (dataset.type == 'OCCURRENCE' || dataset.type == 'SAMPLING_EVENT') {
-        //count = await fetch_json('https://api.gbif.org/v1/occurrence/count?datasetKey=' + dataset.key);
+        count = await fetch_json('https://api.gbif.org/v1/occurrence/count?datasetKey=' + dataset.key);
       } else if (dataset.type == 'CHECKLIST') {
         const result = await fetch_json('https://api.gbif.org/v1/dataset/' + dataset.key + '/metrics');
         count = result['countByOrigin']['SOURCE'];
