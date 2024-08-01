@@ -703,5 +703,21 @@
     "url": "https://www.gbif.org/event/1ZSeGV24Ls8B5Z3sdmrB5S",
     "start_time": "2024-11-18 00:00",
     "end_time": "2024-11-19 00:00"
+  },
+  {
+    "uid": "c1cb93-4aa3-4eb3-930a-c192fe6",
+    "title": "2024 Nordic Symposium for Biodiversity Across the Natural and Social Sciences",
+    "description": "Applications are now open to participate in the 2024 Nordic Symposium for Biodiversity Across the Natural and Social Sciences, to be held on 22-23 October 2024 in Trondheim, Norway.<br class=\"mb-4\">Through two days of collaborative discussion, workshops, and writing, participants will together explore one big question: How can the revolution in biodiversity data be harnessed to support research within the diverse environmental- and nature-related social sciences?<br class=\"mb-4\">Participants will have the opportunity to contribute to peer-reviewed publications and conference presentations to share the outputs of our discussions during the Symposium.<br class=\"mb-4\">Eligibility:<br class=\"mb-4\"> * You conduct research in the social or natural sciences, focused on biodiversity and/or nature  * You are interested in interdisciplinary engagement across natural and social sciences  * You are based in the Nordic region  * All career stages and career paths, in and out of academia, are very welcome to apply Cost-free participation: Thanks to the support of the Nordic Board for Wildlife Research, NTNU, SLU, and the University of Iceland, we are thrilled to be able to offer attendance at no cost and to offer each participant a stipend (up to €500) to cover costs associated with participating.<br class=\"mb-4\">To apply: Complete the application form on the Symposium website<br class=\"mb-4\"> Apply here <https://www.nordicbiodiversitysymposium2024.no/apply-now.html> <br class=\"mb-4\">Apply by Friday 6 September 2024 for full consideration.",
+    "url": "https://www.gbif.org/event/c1cb93-4aa3-4eb3-930a-c192fe6",
+    "start_time": "2024-10-22 09:00",
+    "end_time": "2024-10-23 16:00"
+  },
+  {
+    "uid": "5oxKg0qv9ReXo4lmrTkd3r",
+    "title": "Africa region Webinar: Best Practices for Mobilizing and Publishing Biodiversity data on GBIF",
+    "description": "The GBIF Africa Regional Support Team invites you to participate in the third webinar for the region. This session aims to enlighten participants across Africa on the best practices for mobilizing and publishing data on GBIF, focusing on key aspects such as data quality, metadata, licensing, standardization, and the use of GBIF tools. The webinar will also cover overcoming challenges, sharing success stories, and strengthening community collaboration. Due to high demand from French-speaking participants, this session will be conducted in French.<br class=\"mb-4\">We look forward to your participation in this engaging and informative session!<br class=\"mb-4\">Agenda<br class=\"mb-4\">| Topic | Speaker | |----------------------------------------------------|-----------| |Best Practices for Publishing Quality Data a. Data Quality: Importance of accurate, complete, and reliable data. b. Metadata: Role and key elements of comprehensive metadata.c. Licensing: Choosing appropriate licenses for data sharing. d. Data Standardization: Benefits of using standardized formats. | Tsiky RabetranoGBIF Africa Regional Support team <mailto:africa_support@gbif.org> | | |Overcoming Challenges and Building a Community a. Challenges and Solutions: Common issues in data publishing and how to address them.b. Success Stories: Examples of successful data publishing initiatives. c. Community and Collaboration: Importance of networking and collaboration within the Africa region. | Prof. Jean Cossi GangloUniversity of Abomey-Calavi & Node manager, Benin <mailto:ganglocj@gmail.com> | | | Q&A Session  a. Discussion and answers to participants' questions. | Moderator: Dr. Laban MusinguziGBIF Africa Regional Support team <mailto:africa_support@gbif.org> |<br class=\"mb-4\"> Register for the event <https://us02web.zoom.us/meeting/register/tZcocOqvqDMqGdBHGaSvo1PNTasu5K2hp6qU> <br class=\"mb-4\">If you have any questions please email them to africa_support@gbif.org <mailto:africa_support@gbif.org>",
+    "url": "https://www.gbif.org/event/5oxKg0qv9ReXo4lmrTkd3r",
+    "start_time": "2024-08-02 15:00",
+    "end_time": "2024-08-02 16:00"
   }
 ]
