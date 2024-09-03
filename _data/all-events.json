@@ -751,5 +751,13 @@
     "url": "https://www.gbif.org/event/6PUV6NRGkPcuiVpfEZpeCi",
     "start_time": "2024-09-13 15:00",
     "end_time": "2024-09-13 16:00"
+  },
+  {
+    "uid": "b35428-6883-4775-9926-fe0687b",
+    "title": "Course on Open, Reproducible and Transparent Science in Ecology",
+    "description": "Do you want to gain new skills in data management, making your data FAIR, and your workflows reproducible? Do you want training in open-source tools such as GitHub and R that can be used to achieve this?<br class=\"mb-4\">This course is organised by Living Norway in collaboration with the University of Bergen, GBIF Norway, Nord University, NINA, NTNU, NMBU, and UIO.<br class=\"mb-4\">Students will be introduced to open science, data management, data repositories/databases, data standards (e.g. FAIR, CARE), best practise and reproducible workflows (e.g. data curation, analysis, GitHub, reporting results). We will invite experts to give lectures on these topics and provide hands-on training that gives the students opportunities to practise new skills. We will provide examples, but also encourage students to bring their own data and problems to work on.<br class=\"mb-4\">Application deadline: 15th of September 2024<br class=\"mb-4\"> Read more <https://www.uib.no/en/rg/EECRG/171658/open-reproducible-and-transparent-science-ecology>",
+    "url": "https://www.gbif.org/event/b35428-6883-4775-9926-fe0687b",
+    "start_time": "2024-11-04 09:00",
+    "end_time": "2024-11-09 16:00"
   }
 ]
