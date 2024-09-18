@@ -775,5 +775,13 @@
     "url": "https://www.gbif.org/event/66nG0263ySAwZtIOTJ8gsu",
     "start_time": "2024-11-27 08:00",
     "end_time": "2024-11-29 16:00"
+  },
+  {
+    "uid": "4Ku7eVS4CYTrvhDoKfJwvz",
+    "title": "ICTMM2024: The 21st International Congress for Tropical Medicine and Malaria",
+    "description": "The 21st International Congress for Tropical Medicine and Malaria (ICTMM) is one of the largest tropical medicine conferences in the world, bringing together thousands of researchers, experts, policy-makers, stakeholders and international authorities in the field of tropical medicine and malaria.<br class=\"mb-4\">GBIF will participate in the Congress as an exhibitor and with an oral presentation in the One Health Session<br class=\"mb-4\">The booth will be located on floor 2, to the right of the entrance and the presentation titled “The importance of FAIR data in vector research” will be given byPaloma Shimabukuro <https://orcid.org/0000-0002-5114-953X>.<br class=\"mb-4\">Presentation Date: 22 Sept 2024 (Sunday) Session: D4-CS5 Oral Session One Health 2<br class=\"mb-4\"> more information <https://ictmm2024.org/programme-overview/> ",
+    "url": "https://www.gbif.org/event/4Ku7eVS4CYTrvhDoKfJwvz",
+    "start_time": "2024-09-19 00:00",
+    "end_time": "2024-09-23 00:00"
   }
 ]
