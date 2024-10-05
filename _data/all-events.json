@@ -791,5 +791,13 @@
     "url": "https://www.gbif.org/event/2AZrOrGANF2QnHuFGbfT4O",
     "start_time": "2024-10-23 18:40",
     "end_time": "2024-10-23 20:00"
+  },
+  {
+    "uid": "551d4f-04ac-4ad7-9002-74b1cf5",
+    "title": "Biospace25",
+    "description": "BIOSPACE25 <https://biospace25.esa.int/> is the first international conference exclusively dedicated to the application of Satellite Remote Sensing (SRS) across the various dimensions of biodiversity, and addressing the use of Earth Observations in all realms, from terrestrial, freshwater, coastal to marine ecosystems.<br class=\"mb-4\"> Read more <https://biospace25.esa.int/> ",
+    "url": "https://www.gbif.org/event/551d4f-04ac-4ad7-9002-74b1cf5",
+    "start_time": "2025-02-10 10:00",
+    "end_time": "2025-02-14 17:00"
   }
 ]
