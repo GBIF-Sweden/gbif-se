@@ -807,5 +807,29 @@
     "url": "https://www.gbif.org/event/fecb07-4707-41cd-8d02-7a72896",
     "start_time": "2024-10-29 08:30",
     "end_time": "2024-10-29 14:00"
+  },
+  {
+    "uid": "da1098-a182-41b3-9eb2-f92f4fb",
+    "title": "eLTER Science Conference - Towards a whole-system approach for ecosystem science",
+    "description": "An international conference for advancing our understanding of ecosystems within a pan-European network of sites, platforms, researchers, and stakeholders to facilitate collaborative, inter- and transdisciplinary science including biogeoscience, biodiversity research, and social ecology (Conference programme under development).<br class=\"mb-4\"> Read more <https://elter-ri.eu/science-conference/> ",
+    "url": "https://www.gbif.org/event/da1098-a182-41b3-9eb2-f92f4fb",
+    "start_time": "2025-06-23 08:00",
+    "end_time": "2025-06-27 15:00"
+  },
+  {
+    "uid": "e70128-2ad3-48d5-bc5d-4a855d5",
+    "title": "Swedish Oikos Conference 2025",
+    "description": "This will be the 42nd conference of the Swedish Oikos Society, and the sixth time it is hosted in Stockholm.<br class=\"mb-4\">The conference will gather researchers and students from across Sweden to share ideas and discoveries in ecological research, and solutions for our changing world. We will cover a diverse range of topics, ranging from genes to ecosystems, in Sweden and beyond.<br class=\"mb-4\">Abstract submissions will open on the 25th of October, 2024.<br class=\"mb-4\"> Read more  <https://nordicsocietyoikos.glueup.com/event/swedish-oikos-meeting-2025-121996/>",
+    "url": "https://www.gbif.org/event/e70128-2ad3-48d5-bc5d-4a855d5",
+    "start_time": "2025-02-03 17:00",
+    "end_time": "2025-02-05 17:00"
+  },
+  {
+    "uid": "1PGI2qwFmQo7VRi7J05Qdd",
+    "title": "Africa region Webinar: GBIF Hosted Portals: The experience of the South African Biodiversity Institute (SANBI)",
+    "description": "The next Africa region webinar will take place October 30 3:00-4:00 PM (Central Africa Time) / 4:00-5:00 PM (East Africa Time) / 2:00-3:00 PM (West Africa Time).<br class=\"mb-4\">This webinar will introduce GBIF Hosted Portals <https://www.gbif.org/hosted-portals> which are simple and customizable portals for displaying GBIF-mediated data. The hosted Portals are designed to support national, institutional, and regional biodiversity data efforts with minimal technical demands.<br class=\"mb-4\">The session will include:<br class=\"mb-4\"> * A presentation from the GBIF Secretariat on the hosted portal programme and its benefits.  * A case study and live demo from SANBI-GBIF (South Africa), showcasing their successful hosted portal implementation. This webinar is ideal for GBIF nodes and institutions interested in setting up their own hosted portals.<br class=\"mb-4\">If you have any questions please email them to africa_support@gbif.org <mailto:africa_support@gbif.org><br class=\"mb-4\">Agenda<br class=\"mb-4\">1. Introduction to GBIF Hosted Portals GBIF Africa Regional Support team <mailto:africa_support@gbif.org><br class=\"mb-4\">2. SANBI-GBIF Hosted Portal: Case Study and Demo Fatima Parker, SANBI-GBIF <https://orcid.org/0000-0002-0004-9504><br class=\"mb-4\">3. Q&A Session Discussion and answers to questions.<br class=\"mb-4\"> Register for the event <https://zoom.us/meeting/register/tJ0lfuygrjojHt0oVk24tjBtTk4ypCsUizG4.> ",
+    "url": "https://www.gbif.org/event/1PGI2qwFmQo7VRi7J05Qdd",
+    "start_time": "2024-10-30 14:00",
+    "end_time": "2024-10-30 15:30"
   }
 ]
