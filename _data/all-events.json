@@ -831,5 +831,21 @@
     "url": "https://www.gbif.org/event/1PGI2qwFmQo7VRi7J05Qdd",
     "start_time": "2024-10-30 14:00",
     "end_time": "2024-10-30 15:30"
+  },
+  {
+    "uid": "4nYNa01MnovKfVaDag95Ya",
+    "title": "Technical support hour for GBIF nodes: November 2024",
+    "description": "Join us for the next session of the technical support hour for GBIF nodes on November 6th, 2024, at 4 pm CET (please note we are switching back to standard time), where the topic is “switching GBIF’s taxonomic backbone to the extended Catalogue of Life (xCOL)”.<br class=\"mb-4\">Catalogue of Life is preparing an extended version of the Catalogue of Life Checklist which integrates additional taxonomic and nomenclatural data sources. This includes recently described species, additional synonyms, as well as other names originating from molecular and sequence registers. In this session, we are joined by Diana Hernández and Camila Plata from COL who will describe the progress and challenges they faced when constructing xCOL. They will also show the provenance of the selected taxonomic data sources and their relevance for closing data gaps to better represent endemic species, synonyms, and less-known taxa.<br class=\"mb-4\"> Register for the event <https://us02web.zoom.us/meeting/register/tZcocOugrDwuEtYyvCPs-c_5mFfitZYV-WB2#/registration><br class=\"mb-4\">Please feel free to post questions on the discourse forum <https://discourse.gbif.org/t/switching-gbif-s-taxonomic-backbone-to-the-extended-catalogue-of-life-xcol-gbif-technical-support-hour-for-nodes/5417> or write tohelpdesk@gbif.org <mailto:helpdesk@gbif.org>.",
+    "url": "https://www.gbif.org/event/4nYNa01MnovKfVaDag95Ya",
+    "start_time": "2024-11-06 16:00",
+    "end_time": "2024-11-06 17:00"
+  },
+  {
+    "uid": "45mnHTRuunDObFc9aVsySg",
+    "title": "Datathon Africa 2024 Registration",
+    "description": "On November 6-8, 2024, the Datathon Africa Consortium  <https://micoda.idiv.de/v1/datathons> will organize the 2024 Datathon <https://micoda.idiv.de/v1/datathons/2024>. The Datathon brings researchers in microbial ecology together to archive and reuse local metabarcoding sequences, enhancing discoverability and reusability of regional microbial data. It gives data producers academic credit for their work and creates a valuable resource to foster biodiversity research blind spots. Crucially, the Datathon aims to stimulate synthesis research by participants using the deposited sequences<br class=\"mb-4\"> Register for the event <https://docs.google.com/forms/d/e/1FAIpQLScUd83wIi7r6pM84-ggk1Ywt7Fda4P4zh4vD5ZxVKJ-goKIoQ/viewform><br class=\"mb-4\">",
+    "url": "https://www.gbif.org/event/45mnHTRuunDObFc9aVsySg",
+    "start_time": "2024-11-06 08:00",
+    "end_time": "2024-11-08 14:00"
   }
 ]
