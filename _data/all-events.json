@@ -847,5 +847,13 @@
     "url": "https://www.gbif.org/event/45mnHTRuunDObFc9aVsySg",
     "start_time": "2024-11-06 08:00",
     "end_time": "2024-11-08 14:00"
+  },
+  {
+    "uid": "6YzZJFL5MnVAIRV0Mdp8OX",
+    "title": "ESA2025 - Ecological Society of America 2025",
+    "description": "The Ecological Society of America Annual Meeting is being held Aug 10-15, 2025 in Baltimore, MD. This year's meeting theme isEcology is Everywhere.<br class=\"mb-4\"> more information  <https://www.esa.org/baltimore2025/> ",
+    "url": "https://www.gbif.org/event/6YzZJFL5MnVAIRV0Mdp8OX",
+    "start_time": "2025-08-10 18:00",
+    "end_time": "2025-08-16 04:00"
   }
 ]
