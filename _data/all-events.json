@@ -871,5 +871,13 @@
     "url": "https://www.gbif.org/event/2kK6DOPYMiOKcqe8K2NIRv",
     "start_time": "2024-11-06 09:00",
     "end_time": "2024-11-06 11:00"
+  },
+  {
+    "uid": "3affe1-60f8-437b-9d2c-99cf1cd",
+    "title": "Strengthening Capacity in the Publication of Biodiversity Data",
+    "description": "The objective of the workshop is to strengthen the capacities of biological collection teams and national organizations interested in sharing national data on biodiversity through the GBIF national node, the Uruguayan Biodiversity Information System (SIBUy).",
+    "url": "https://www.gbif.org/event/3affe1-60f8-437b-9d2c-99cf1cd",
+    "start_time": "2024-11-11 13:00",
+    "end_time": "2024-11-12 20:00"
   }
 ]
