@@ -879,5 +879,29 @@
     "url": "https://www.gbif.org/event/3affe1-60f8-437b-9d2c-99cf1cd",
     "start_time": "2024-11-11 13:00",
     "end_time": "2024-11-12 20:00"
+  },
+  {
+    "uid": "6xJHjutIyKzsmyIbKkJKla",
+    "title": "Global Registry of Scientific Collections (GRSciColl) community call",
+    "description": "Join us for an update on the Global Registry of Scientific Collections <https://scientific-collections.gbif.org> (GRSciColl).<br class=\"mb-4\">In this community call, we will discuss our road map for 2025 which will focus on improving the GRSciColl content and build a stronger community. Come and listen to our ideas and give us your feedback. We are looking forward to seeing you there!<br class=\"mb-4\"> Register for the event <https://us02web.zoom.us/meeting/register/tZEscumqrTspEtUdT70bt6xiRm3UfhEF1S7_> ",
+    "url": "https://www.gbif.org/event/6xJHjutIyKzsmyIbKkJKla",
+    "start_time": "2024-12-11 15:00",
+    "end_time": "2024-12-11 16:00"
+  },
+  {
+    "uid": "4UPanDqleO5BoeKwl0fJ84",
+    "title": "Data Use Club seminar: 2024 Graduate Researchers Award winners",
+    "description": "Join us for the December Data Use Club <> to hear about the research of the two 2024GBIF Graduate Researchers Award <> winners. The Graduate Researchers Award (formerly Young Researchers Award) is an annual scholarship programme that promotes and encourages innovation in biodiversity-related research using data shared through the GBIF network. Since bestowing its first awards in 2010, the programme has recognized outstanding achievements in original biodiversity research by more than two dozen Master’s and PhD students around the world.<br class=\"mb-4\">2024 Graduate Researcher Award recipients<br class=\"mb-4\">Ross Stewart <https://www.gbif.org/news/66bStovbp8R5IpWK0A8asc/south-african-student-ross-stewart-wins-2024-gbif-graduate-researchers-award>, South African PhD candidate from theUniversity of Johannesburg <https://www.uj.ac.za/>, will present his research which combines DNA barcoding data on flying insects with phenological data on flowering plants to explore how climate change may be changing the timing of interactions between these species across South Africa.<br class=\"mb-4\">Paola Monguilod Brun <https://www.gbif.org/news/1WjwS621Kj7p8p7OzglC33/spanish-student-paola-monguilod-brun-wins-2024-gbif-graduate-researchers-award>, Spanish Masters student fromUniversity of Zaragoza <https://www.unizar.es/university-zaragoza>, will present her research which investigates how climate change is intensifying the risks posed by invasive alien species (IAS) to human health.<br class=\"mb-4\">Comments and questions can be addressed to datause@gbif.org <mailto:datause@gbif.org>. This event will be recorded and the recording made available in the week after the event.<br class=\"mb-4\">Register now <https://us02web.zoom.us/meeting/register/tZUodempqD8rGNykAgbhWATFbSnlhSQI8pNz>",
+    "url": "https://www.gbif.org/event/4UPanDqleO5BoeKwl0fJ84",
+    "start_time": "2024-12-05 09:00",
+    "end_time": "2024-12-05 10:30"
+  },
+  {
+    "uid": "2hrwN6QPjGVUqwX3YhtjHe",
+    "title": "Technical support hour for GBIF nodes: December 2024",
+    "description": "Join us for an end-of-year special technical support hour for GBIF nodes on December 4th, 2024, at 4 pm CET, where we will cover some of the more curious cases and questions we have received in helpdesk, during the last year. We will show examples and provide tips and tricks on how to deal with strange questions and give you the top 5 of the most common questions or feedback we have received.<br class=\"mb-4\">Catalogue of Life is preparing an extended version of the Catalogue of Life Checklist which integrates additional taxonomic and nomenclatural data sources. This includes recently described species, additional synonyms, as well as other names originating from molecular and sequence registers. In this session, we are joined by Diana Hernández and Camila Plata from COL who will describe the progress and challenges they faced when constructing x-release. They will also show the provenance of the selected taxonomic data sources and their relevance for closing data gaps to better represent endemic species, synonyms, and less-known taxa.<br class=\"mb-4\"> Register for the event <https://us02web.zoom.us/meeting/register/tZwocumppz0oGdEHngEa4u-yqP_QPOHrYLBG#/registration><br class=\"mb-4\">We will be happy to answer any question relating or not to the topic and welcome your input on some of the stranger things you have had to deal with a node staff. Please feel free to post questions in advance on thediscourse forum <https://discourse.gbif.org/t/end-of-year-special-2024-gbif-technical-support-for-nodes/5499> or writehelpdesk@gbif.org <mailto:helpdesk@gbif.org>.",
+    "url": "https://www.gbif.org/event/2hrwN6QPjGVUqwX3YhtjHe",
+    "start_time": "2024-12-04 16:00",
+    "end_time": "2024-12-04 17:00"
   }
 ]
