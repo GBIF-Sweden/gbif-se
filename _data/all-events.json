@@ -919,5 +919,13 @@
     "url": "https://www.gbif.org/event/5Lq9SO5P38q0F3rx6LGPAb",
     "start_time": "2024-12-13 15:00",
     "end_time": "2024-12-13 16:00"
+  },
+  {
+    "uid": "2e54f6-600d-43da-b5ba-5cd4ee3",
+    "title": "BioDT School and Hackathon",
+    "description": "Join us for the BioDT School and Hackathon and become the pioneer of the Digital Twins Research!<br class=\"mb-4\">We are excited to invite you to the BioDT School and Hackathon, which will take place from March 3-7, 2025, at the heel of Italian Peninsula – in the city of Lecce, Italy.<br class=\"mb-4\">This unique event is designed for students, early-career researchers, and professionals interested in unlocking skills in digital modelling, and interested in latest innovation practices in biodiversity. Whether you are new to the concept of Digital Twins or looking to deepen your knowledge, this is the perfect opportunity to engage with leading experts and learn how digital twins are developed, especially through the lenses of BioDT use cases.<br class=\"mb-4\">read more <https://biodt.eu/events/bioDT-school-hackathon> ",
+    "url": "https://www.gbif.org/event/2e54f6-600d-43da-b5ba-5cd4ee3",
+    "start_time": "2025-03-03 09:00",
+    "end_time": "2025-03-07 17:00"
   }
 ]
