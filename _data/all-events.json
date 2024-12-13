@@ -927,5 +927,13 @@
     "url": "https://www.gbif.org/event/2e54f6-600d-43da-b5ba-5cd4ee3",
     "start_time": "2025-03-03 09:00",
     "end_time": "2025-03-07 17:00"
+  },
+  {
+    "uid": "25SOxIg4eemCf8k1tBaEF1",
+    "title": "SPNHC 2025",
+    "description": "The Society for the Preservation of Natural History Collections SPNHC <https://spnhc2025.ku.edu/> will host its 40th annual meeting in Lawrence, Kansas, USA, from May 27–31, 2025. The event will center around the theme Sustainable Futures: Challenges and Opportunities for Modern Collections.<br class=\"mb-4\"> read more <https://spnhc2025.ku.edu/> ",
+    "url": "https://www.gbif.org/event/25SOxIg4eemCf8k1tBaEF1",
+    "start_time": "2025-05-27 01:00",
+    "end_time": "2025-05-31 01:00"
   }
 ]
