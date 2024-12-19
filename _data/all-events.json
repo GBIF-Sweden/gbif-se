@@ -943,5 +943,21 @@
     "url": "https://www.gbif.org/event/4fkY6oPY1ZL7bPHbD4PTzz",
     "start_time": "2025-05-05 01:00",
     "end_time": "2025-05-09 01:00"
+  },
+  {
+    "uid": "952686-e31d-4938-bae8-3763f95",
+    "title": "XIII Latin American Congress of Botany Cuba 2025",
+    "description": "The XIII Congreso Latinamericano de Botánica will have its next edition in Havana, Cuba. Bringing together Latin American colleagues, it is expected that this meeting will increase relations between professionals in the region, both in terms of collections, morphoanatomical and genetic studies, as well as collection management systems and publication of biodiversity data.<br class=\"mb-4\"> Read more <https://botanica-alb.org/congreso-cuba-2025/> ",
+    "url": "https://www.gbif.org/event/952686-e31d-4938-bae8-3763f95",
+    "start_time": "2025-03-10 15:00",
+    "end_time": "2025-03-15 00:00"
+  },
+  {
+    "uid": "55RHxu9Imec6K87BnWxh9O",
+    "title": "Open question and answer session for CESP2025 call for proposals",
+    "description": "Expected audience: Node managers, Node staff and potential project partners<br class=\"mb-4\">The GBIF Secretariat will be holding an open question and answer session in English, for persons interested in knowing more about the2025 CESP call for proposals <https://www.gbif.org/news/1ehSrAN20UAGOEAgfINr5E/call-for-proposals-for-2025-capacity-enhancement-support-programme>.<br class=\"mb-4\">The aim is to provide an opportunity to raise any questions about the call’s criteria and format, applying for CESP grant, as well as about the programme in general. If you are looking for partners, it is also an opportunity to seek support.<br class=\"mb-4\">We highlight that applications for the CESP grant must be submitted by a Head of Delegation or a Node Manager, representing a currentGBIF Participant <https://www.gbif.org/the-gbif-network>. Node staff and/or potential project partners are also welcome to attend this event.<br class=\"mb-4\">Please be informed the event will be kept open for as long as there are attendees and questions.<br class=\"mb-4\">Note this event will be run twice to accommodate different time zones. Please choose the one that works best for you.<br class=\"mb-4\"> Register for the 09:00 session (CPH time) <https://us02web.zoom.us/meeting/register/tZ0udeCgqDwoHd2q4PWFy_87Y4Vsdh8l0efM> <br class=\"mb-4\"> Register for the 17:00 session (CPH time) <https://us02web.zoom.us/meeting/register/tZwkdeirrDotH92FgaFty2j98zqKnDjE9SCh> <br class=\"mb-4\">If you are unable to attend either of these times and have questions for us, you are always welcome to submit them toCESP@gbif.org <mailto:CESP@gbif.org>.",
+    "url": "https://www.gbif.org/event/55RHxu9Imec6K87BnWxh9O",
+    "start_time": "2025-01-21 09:00",
+    "end_time": "2025-01-21 18:00"
   }
 ]
