@@ -983,5 +983,21 @@
     "url": "https://www.gbif.org/event/7MJeskyyLcRnXkQXOW1gte",
     "start_time": "2025-01-21 12:00",
     "end_time": "2025-01-22 12:00"
+  },
+  {
+    "uid": "2h4gmSgKq1nCjKGaNLDieQ",
+    "title": "Data Use Club Practical Sessions: Data standards & processing",
+    "description": "The data available on GBIF comes from many different data providers: citizen science initiatives, museums, research teams, etc. The data are then processed and aggregated to enable anyone to access them seamlessly via the GBIF website and API.<br class=\"mb-4\">This Data Use Club session aims to give users the tools to understand the context of the data available on GBIF and help them decide if the data is fit for their analyses.<br class=\"mb-4\">We aim to answer the following questions by giving a brief overview of the use of data standards, the transformation and checks made by GBIF and the various data formats available.<br class=\"mb-4\"> * How are these data shared and processed by GBIF before appearing on the search interface and API?  * What kinds of flags and checks are applied?  * How to find more information about the original data and how to access it? Hosts from the GBIF Secretariat<br class=\"mb-4\"> * Marie Grosjean <https://orcid.org/0000-0002-2685-8078>  * John Waller <https://orcid.org/0000-0002-7302-5976>  * Cecilie Svenningsen <https://orcid.org/0000-0002-9216-2917>  Register for the event <https://us02web.zoom.us/meeting/register/tZYod-uurDMpG9elUZNDIihyjw4HY4d4PIFp> ",
+    "url": "https://www.gbif.org/event/2h4gmSgKq1nCjKGaNLDieQ",
+    "start_time": "2025-02-12 15:00",
+    "end_time": "2025-02-12 16:30"
+  },
+  {
+    "uid": "61fT611R8VKQd9DJincRLk",
+    "title": "Technical support hour for GBIF nodes: February 2025",
+    "description": "The next technical support hour for GBIF nodes will be on February 5th, 2025, at 4 pm CET, and the topic isinvestigating taxonomic issues on GBIF.org <https://www.gbif.org/>.<br class=\"mb-4\">The taxonomy of the records published to GBIF is matched to GBIF’s taxonomic backbone to normalize the data and make records easier to find for GBIF data users. This means that publishers sometimes share a taxon name that is changed when appearing on GBIF.org. For example, a beetle record appears as a butterfly record, or the authorship is changed. We will show examples of how the taxonomy is changed, how to investigate where the source of the change comes from, and how you can provide feedback directly to the source or GBIF helpdesk.<br class=\"mb-4\"> Register for the event <https://us02web.zoom.us/meeting/register/tZ0tdeiorDsoGdWvwy7Qsl5PGnghya-4VDft#/registration><br class=\"mb-4\">We will be happy to answer any question relating or not to the topic and welcome your input on some of the stranger things you have had to deal with a node staff. Please feel free to post questions in advance on thediscourse forum <https://discourse.gbif.org/t/investigating-taxonomic-issues-on-gbif-org/5633> or writehelpdesk@gbif.org <mailto:helpdesk@gbif.org>.",
+    "url": "https://www.gbif.org/event/61fT611R8VKQd9DJincRLk",
+    "start_time": "2025-02-05 16:00",
+    "end_time": "2025-02-05 17:00"
   }
 ]
