@@ -999,5 +999,13 @@
     "url": "https://www.gbif.org/event/61fT611R8VKQd9DJincRLk",
     "start_time": "2025-02-05 16:00",
     "end_time": "2025-02-05 17:00"
+  },
+  {
+    "uid": "39a7d0-912e-4f6d-b1f6-af326ba",
+    "title": "Europe and Central Asia Nodes meeting 2025",
+    "description": "The 17th meeting of the of the GBIF Europe and Central Asia regional nodes group <https://www.gbif.org/the-gbif-network/europe> will be hosted by Ireland <https://www.gbif.org/country/IE/summary> on the 20th to 23rd of May 2025. This in person meeting is open to node managers from the European and Central Asia participant nodes.<br class=\"mb-4\">The meeting will take place in the South East Technological University’s West Campus, Carriganore, Co. Waterford where Ireland’s National Biodiversity Data Centre is situatedhere <https://www.google.com/maps/place/National+Biodiversity+Data+Centre/@52.2526158,-7.1882514,379m/data=!3m2!1e3!4b1!4m6!3m5!1s0x4842c4edad804df3:0x24676f04efe945d!8m2!3d52.2526147!4d-7.1873669!16s%2Fg%2F124t14477?entry=ttu&g_ep=EgoyMDI1MDEwNy4wIKXMDSoASAFQAw%3D%3D><br class=\"mb-4\">For any further information contact Dag Endresen <> Nodes regional representatives for Europe and Central Asia.",
+    "url": "https://www.gbif.org/event/39a7d0-912e-4f6d-b1f6-af326ba",
+    "start_time": "2025-05-20 10:00",
+    "end_time": "2025-05-23 18:00"
   }
 ]
