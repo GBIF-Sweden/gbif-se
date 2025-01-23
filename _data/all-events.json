@@ -1015,5 +1015,21 @@
     "url": "https://www.gbif.org/event/cab1cf-8ed9-4dd6-ae5c-34d9031",
     "start_time": "2025-01-22 07:00",
     "end_time": "2025-01-22 10:00"
+  },
+  {
+    "uid": "7B390XY3XjvrEs6ZDypY7D",
+    "title": "Living Data 2025",
+    "description": "This joint conference in Bogotá will bring together members of our biodiversity networks, alongside hundreds of scientists, researchers, practitioners and other experts from around the world.<br class=\"mb-4\">Come share your knowledge and experience, help us transform our understanding of the state and trends of biodiversity, and learn how together our work contributes towards conserving the living world.<br class=\"mb-4\">The conference will be conducted in Spanish and English only, but we are exploring options for interpretation services using new technologies to enhance the conference experience.<br class=\"mb-4\"> About the event <https://www.livingdata2025.com/> ",
+    "url": "https://www.gbif.org/event/7B390XY3XjvrEs6ZDypY7D",
+    "start_time": "2025-10-21 01:00",
+    "end_time": "2025-10-24 01:00"
+  },
+  {
+    "uid": "4x3i89CNo95zuiZlFWMMnU",
+    "title": "BioDigiCon 2025",
+    "description": "The conference will showcase advances within public and federal collections, emphasizing opportunities for intra- and international collaboration and data integration across all domains of biodiversity and related sciences, including human health and food security as well as the environmental, ecological, and climate sciences.<br class=\"mb-4\"> read more <https://www.biodigicon.org/> ",
+    "url": "https://www.gbif.org/event/4x3i89CNo95zuiZlFWMMnU",
+    "start_time": "2025-09-23 01:00",
+    "end_time": "2025-09-25 01:00"
   }
 ]
