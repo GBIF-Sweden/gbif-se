@@ -1031,5 +1031,13 @@
     "url": "https://www.gbif.org/event/4x3i89CNo95zuiZlFWMMnU",
     "start_time": "2025-09-23 01:00",
     "end_time": "2025-09-25 01:00"
+  },
+  {
+    "uid": "2YXnbPwS8BK6G6fzJj0vzX",
+    "title": "ALA-LAs Technical Workshop",
+    "description": "This workshop aims to strengthen collaboration and efficiency in Atlas of Living Australia (ALA) related developments, specifically targeting developers and managers within the Living Atlases (LAs) community. It is not an introductory or training workshop; rather, it is designed specifically for developers and teams actively maintaining and adapting biodiversity data portals based on the ALA platform.<br class=\"mb-4\">The workshop is structured in two streams: one for developers and one for managers. It was suggested and welcomed to introduce a time frame dimension with two aspects. In the long term, the goal is to advance a common strategic framework. In the short term, with a focus on addressing concrete development issues, so developers can return home with practical solutions and approaches they can apply.<br class=\"mb-4\"> Read more <https://gbif.es/en/talleres/ala-las-technical-workshop-madrid-march-2025/> ",
+    "url": "https://www.gbif.org/event/2YXnbPwS8BK6G6fzJj0vzX",
+    "start_time": "2025-03-11 08:00",
+    "end_time": "2025-03-14 17:00"
   }
 ]
