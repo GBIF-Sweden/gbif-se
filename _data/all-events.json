@@ -1039,5 +1039,21 @@
     "url": "https://www.gbif.org/event/2YXnbPwS8BK6G6fzJj0vzX",
     "start_time": "2025-03-11 08:00",
     "end_time": "2025-03-14 17:00"
+  },
+  {
+    "uid": "4kpmoxOeAddIihLO6G4WRc",
+    "title": "GBIF Metabarcoding Data Toolkit community call 2025",
+    "description": "GBIF nodes participating in the Metabarcoding Data Programme are invited to the first MDT community call of 2025 to learn about latest developments and functionalities of theMetabarcoding Data Toolkit (MDT) <https://www.gbif.org/news/3gm3lJaUQgTKZJRm6TiBff/gbif-nodes-invited-to-join-pilot-for-dna-metabarcoding-data-on-biodiversity>, and discuss issues on the usage of the MDT, engagement with data holders, and other relevant aspects. Attendees will share feedback on MDT use, and ideas for community-building activities to enhance collaboration and knowledge exchange<br class=\"mb-4\">Feel free to participate on the discourse forum <https://discourse.gbif.org/tags/c/data-publishing/6/metabarcoding-data>. For any questions about this community call please write todna@gbif.org <mailto:dna@gbif.org><br class=\"mb-4\">Anyone not currently involved in a hosted portal who wants to learn more can emaildna@gbif.org <mailto:dna@gbif.org> to request a Zoom link to join this call.",
+    "url": "https://www.gbif.org/event/4kpmoxOeAddIihLO6G4WRc",
+    "start_time": "2025-02-26 15:00",
+    "end_time": "2025-02-26 16:30"
+  },
+  {
+    "uid": "2PKHCqVjMeb53XwAvtzuXm",
+    "title": "Hosted Portals Community Call",
+    "description": "A community call with network members who are currently running GBIF's hosted portal service <>.<br class=\"mb-4\">The meeting will provide updates on progress aligning GBIF.org and Hosted Portals, as well as address community feedback received prior to the meeting.<br class=\"mb-4\">Anyone not currently involved in a hosted portal who wants to learn more can emailhostedportals@gbif.org <mailto:hostedportals@gbif.org> to request a Zoom link to join this call.",
+    "url": "https://www.gbif.org/event/2PKHCqVjMeb53XwAvtzuXm",
+    "start_time": "2025-02-18 14:00",
+    "end_time": "2025-02-18 15:30"
   }
 ]
