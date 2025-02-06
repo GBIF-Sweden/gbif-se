@@ -1,7 +1,7 @@
 ---
 title: "Call for nominations opens for 2025 GBIF Graduate Researchers Award"
-date: 2025-02-06
-image: 2025-02-06_GBIF_Graduate_Researchers_Award.webp
+date: 2025-02-05
+image: 2025-02-05_GBIF_Graduate_Researchers_Award.webp
 description: "Deadline to nominate graduate students whose innovative research relies on biodiversity data: 13 June 2025"
 ---
 
