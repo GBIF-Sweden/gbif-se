@@ -1055,5 +1055,13 @@
     "url": "https://www.gbif.org/event/2PKHCqVjMeb53XwAvtzuXm",
     "start_time": "2025-02-18 14:00",
     "end_time": "2025-02-18 15:30"
+  },
+  {
+    "uid": "1kGeE7yIecXAND4Xx1flbo",
+    "title": "Africa region Webinar: DNA Data Publishing: Key Concepts and Darwin Core Terms",
+    "description": "The next Africa region webinar will take place February 28 3:00-4:00 PM Central Africa Time / 4:00-5:00 PM East Africa Time.<br class=\"mb-4\">This webinar will introduce DNA data publishing, focusing on key concepts, relevant Darwin Core terms, and best practices. We’ll explore how to format and share DNA-derived biodiversity data on GBIF.<br class=\"mb-4\">If you have any questions please email them to africa_support@gbif.org <mailto:africa_support@gbif.org><br class=\"mb-4\">Join us to enhance your understanding of DNA data publishing!<br class=\"mb-4\"> Register for the event <https://zoom.us/meeting/register/fm_ISdfORX2JPQsQoPky2A> ",
+    "url": "https://www.gbif.org/event/1kGeE7yIecXAND4Xx1flbo",
+    "start_time": "2025-02-28 15:00",
+    "end_time": "2025-02-28 16:00"
   }
 ]
