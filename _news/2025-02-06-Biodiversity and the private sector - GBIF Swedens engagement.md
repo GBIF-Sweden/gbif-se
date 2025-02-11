@@ -16,6 +16,8 @@ Running from January 9 to February 14, the project aims to develop communication
 
 Beyond using biodiversity data for their own sustainability efforts, businesses have an opportunity to contribute valuable data themselves. Sharing biodiversity-related insights—such as observations from environmental monitoring or ecosystem assessments—enhances the overall knowledge base, benefiting both industry and science. The more stakeholders contribute to biodiversity data, the more robust and actionable this resource becomes, ultimately supporting evidence-based decision-making at all levels.
 
+[Read more about this event here](/events/2025/02/hyper-island-project-connecting-business-with-biodiversity-data/).
+
 ## Business and biodiversity: Advancing data-driven sustainability
 
 As part of its commitment to integrating biodiversity considerations into the private sector, GBIF Sweden has co-authored a scientific article titled:
