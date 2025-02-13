@@ -1067,7 +1067,7 @@
   {
     "uid": "279802-7afc-4c61-8807-5794a11",
     "title": "Course in Best Practices for Reference Genome Generation (SciLifeLab)",
-    "description": "GBIF Sweden will participate in the upcoming SciLifeLab course “Best Practices for Reference Genome Generation”.<br class=\"mb-4\">The course covers essential topics from project planning and sample collection to sequencing, data processing, data mobilization and deposition in open repositories. The course is designed for junior and senior researchers utilizing reference genomes for biodiversity genetics research.<br class=\"mb-4\">Topics<br class=\"mb-4\"> * Nagoya Protocol & ABS requirements  * Biosafety, import permits  * Sampling and vouchering  * DNA extractions and sequencing  * Bioinformatic pipelines, metadata and FAIR  * Swedish Reference Genome Portal  * Data mobilization  Read more <https://training.scilifelab.se/events/best-practices-for-reference-genome-generation>",
+    "description": "GBIF Sweden will participate in the upcoming SciLifeLab course “Best Practices for Reference Genome Generation”.<br class=\"mb-4\">The course covers essential topics from project planning and sample collection to sequencing, data processing, data mobilization and deposition in open repositories.<br class=\"mb-4\">The course is designed for junior and senior researchers utilizing reference genomes for biodiversity genetics research.<br class=\"mb-4\">Topics<br class=\"mb-4\"> * Nagoya Protocol & ABS requirements  * Biosafety, import permits  * Sampling and vouchering  * DNA extractions and sequencing  * Bioinformatic pipelines, metadata and FAIR  * Swedish Reference Genome Portal  * Data mobilization  Read more <https://training.scilifelab.se/events/best-practices-for-reference-genome-generation>",
     "url": "https://www.gbif.org/event/279802-7afc-4c61-8807-5794a11",
     "start_time": "2025-04-28 10:00",
     "end_time": "2025-04-28 18:30"
@@ -1079,5 +1079,13 @@
     "url": "https://www.gbif.org/event/c4982e-131d-4b22-8659-bb5473a",
     "start_time": "2025-02-14 13:00",
     "end_time": "2025-02-14 14:00"
+  },
+  {
+    "uid": "eaabd1-fc2a-4377-9876-c618afe",
+    "title": "2nd SedaDNA Scientific Society conference",
+    "description": "The conference will be preceded by workshops on the 23rd of June and followed by a post-conference excursion on 26th June.<br class=\"mb-4\">This conference features a pre-conference workshop by Neotoma Paleoecology Database for launching a aeDNA database. There will also be opportunities to learn more about the history and current directions of the Neotoma DB, how to use Neotoma data in your own research, and how to submit your published data to be included in Neotoma.<br class=\"mb-4\"> Read more <https://nordicsocietyoikos.glueup.com/event/2nd-sedadna-scientific-society-conference-125115/home.html>",
+    "url": "https://www.gbif.org/event/eaabd1-fc2a-4377-9876-c618afe",
+    "start_time": "2025-06-23 12:00",
+    "end_time": "2025-06-27 02:00"
   }
 ]
