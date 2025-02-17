@@ -1087,5 +1087,13 @@
     "url": "https://www.gbif.org/event/eaabd1-fc2a-4377-9876-c618afe",
     "start_time": "2025-06-23 12:00",
     "end_time": "2025-06-27 02:00"
+  },
+  {
+    "uid": "10993c-5967-44ea-82e5-98999d2",
+    "title": "Workshop - Capacity Building in Biodiversity Data Management and Mobilization",
+    "description": "This workshop is a part of the GBIF Capacity Enhancement Support Programme <https://www.gbif.org/programme/82219/capacity-enhancement-support-programme> titledBuilding capacity within biodiversity data between Ethiopia and GBIF nodes in Sweden and Finland <https://www.gbif.org/project/CESP2024-013/building-capacity-within-biodiversity-data-between-ethiopia-and-gbif-nodes-in-sweden-and-finland><br class=\"mb-4\">This three-day workshop aims to provide an understanding of GBIF, data management, data standards, and data mobilization. The sessions will include presentations, hands-on exercises, and discussions tailored to Ethiopian biodiversity data needs. Participants will gain insights into how to set up a national GBIF node, the importance of data ethics, and practical skills for data publishing and validation.<br class=\"mb-4\"> workshop program  <https://docs.google.com/document/d/1XuuaYoIDhEGr045SW6_5T9Y3oqi3bnGk/edit?usp=sharing&ouid=107906763056646414410&rtpof=true&sd=true>",
+    "url": "https://www.gbif.org/event/10993c-5967-44ea-82e5-98999d2",
+    "start_time": "2025-03-04 07:00",
+    "end_time": "2025-03-06 15:00"
   }
 ]
