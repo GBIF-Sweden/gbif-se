@@ -1095,5 +1095,13 @@
     "url": "https://www.gbif.org/event/10993c-5967-44ea-82e5-98999d2",
     "start_time": "2025-03-04 07:00",
     "end_time": "2025-03-06 15:00"
+  },
+  {
+    "uid": "4tlXIVxHehOR2Rg8t0LmxR",
+    "title": "BioDT Final Event",
+    "description": "The final event is divided into an internal (Day 1) and a public part (Day 2), with both parts meant for BioDT consortium members.<br class=\"mb-4\">The first day of the event will be an internal consortium meeting intended for BioDT active project members only. During this day we will review the project progress, provide updates and discuss remaining activities for the last two months of the project (April-May 2025). We will also prepare for the upcoming final reporting.<br class=\"mb-4\">The second day of the event day will be open for participation by external stakeholders and will include presentations both by DestinE and European Commission representatives.<br class=\"mb-4\"> Read more <https://zoom.us/meeting/register/tJIqcOmoqD0jGNElY_zh_8H9XunSJ1s4qkmM> ",
+    "url": "https://www.gbif.org/event/4tlXIVxHehOR2Rg8t0LmxR",
+    "start_time": "2025-04-02 01:00",
+    "end_time": "2025-04-03 01:00"
   }
 ]
