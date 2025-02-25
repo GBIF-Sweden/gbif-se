@@ -1103,5 +1103,13 @@
     "url": "https://www.gbif.org/event/4tlXIVxHehOR2Rg8t0LmxR",
     "start_time": "2025-04-02 01:00",
     "end_time": "2025-04-03 01:00"
+  },
+  {
+    "uid": "2b4268-a47a-4184-ac61-7d1eae1",
+    "title": "2025 Virtual Data Mobilization Workshop for Africa",
+    "description": "The GBIF Africa Support Team is organizing a data mobilization workshop to address capacity needs and to promote data publication in the region.<br class=\"mb-4\">This course will be based on the GBIF Biodiversity Data Mobilization curriculum <https://docs.gbif.org/course-data-mobilization/en/> and will be conducted in English.<br class=\"mb-4\">Schedule<br class=\"mb-4\">This workshop has three phases of activities:<br class=\"mb-4\"> * 26 May to 4 June: Preparatory course activities (online self-paced)  * 9 to 13 June: Virtual workshop (Zoom sessions and online self-paced, estimated 4 hours per day)  * 16 June to 7 July: Certification exercises (online self-paced) Application<br class=\"mb-4\">Due to limited training personnel, we will only be able to accommodate 30 participants in this workshop. We hope all participants will become trainers or mentors for future workshops.<br class=\"mb-4\">If we receive over 30 applications to participate in the training, we will select participants based on the following criteria (not in specific order):<br class=\"mb-4\"> * Applicants that have already identified dataset(s) that they intend to publish and have cleared licensing requirements.  * Applicants that represent data holding institutions planning to publish data.  * Applicants that have plans to hold replication workshops.  * Applicants that intend to become mentors to support future workshops (advanced badge needed). The selection process will also consider geographic and thematic balance in the workshop participants.<br class=\"mb-4\">If you have any questions please email them to africa_support@gbif.org <mailto:africa_support@gbif.org><br class=\"mb-4\">The application will close at 23:59 UTC on the 6 May 2025. The result will be announced on the 13th of May.<br class=\"mb-4\">Apply here <https://docs.google.com/forms/d/e/1FAIpQLSdeWXUPJjWrvtra6lHgoptNKnpczIaNyVZXQ68fZMW3EP1L2Q/viewform>",
+    "url": "https://www.gbif.org/event/2b4268-a47a-4184-ac61-7d1eae1",
+    "start_time": "2025-06-09 10:00",
+    "end_time": "2025-06-13 18:00"
   }
 ]
