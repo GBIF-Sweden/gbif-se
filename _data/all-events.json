@@ -1111,5 +1111,21 @@
     "url": "https://www.gbif.org/event/2b4268-a47a-4184-ac61-7d1eae1",
     "start_time": "2025-06-09 10:00",
     "end_time": "2025-06-13 18:00"
+  },
+  {
+    "uid": "auiVthcxQBmeOXC9OeO3k",
+    "title": "Global Registry of Scientific Collections (GRSciColl) online training – Wrap-up meeting",
+    "description": "This meeting is for participants of the Global Registry of Scientific Collections <https://scientific-collections.gbif.org/> online course who have already attended the kick-off meeting and gone through the online material.<br class=\"mb-4\">This course aims to support the community maintaining collection data in GRSciColl. It gives an overview of the GRSciColl data structure and its relationship with GBIF data, explains the GRSciColl permissions system and presents the GRSciColl editing interface. By the end of the course, participants should be able to model and update the collection information in GRSciColl. The material of this course can be reused by the participants to organize their own online or onsite training events.<br class=\"mb-4\">During the wrap-up meeting, participants will be able to ask questions about GRSciColl, the module that they have just completed and discuss the exercises.<br class=\"mb-4\">Note this event will be run twice to accommodate different time zones. Please choose the one that works best for you.<br class=\"mb-4\"> Register for the 09:00 session (CPH time) <https://us02web.zoom.us/meeting/register/8sGvTCJfRp69uRA25woYaw> <br class=\"mb-4\"> Register for the 16:00 session (CPH time) <https://us02web.zoom.us/meeting/register/1eWZfQN7SXqMOytG71_QTg> <br class=\"mb-4\">If you are unable to attend the meeting and would still like to participate in the online training, please email us atscientific-collections@gbif.org <mailto:scientific-collections@gbif.org>.",
+    "url": "https://www.gbif.org/event/auiVthcxQBmeOXC9OeO3k",
+    "start_time": "2025-04-29 09:00",
+    "end_time": "2025-04-29 18:00"
+  },
+  {
+    "uid": "4NfDsmTw3Ksl1tqqXNzrH1",
+    "title": "Global Registry of Scientific Collections (GRSciColl) online training – Kick-off meeting",
+    "description": "If you are already an editor for the Global Registry of Scientific Collections <https://scientific-collections.gbif.org/> or if you wish to become one, you are welcome to join our online course.<br class=\"mb-4\">This course aims to support the community maintaining collection data in GRSciColl. It gives an overview of the GRSciColl data structure and its relationship with GBIF data, explains the GRSciColl permissions system and presents the GRSciColl editing interface. By the end of the course, participants should be able to model and update the collection information in GRSciColl. The material of this course can be reused by the participants to organize their own online or onsite training events.<br class=\"mb-4\">During the kick-off meeting, participants will be presented the training materials and exercises. The participant will then have six days to complete the three training modules before meeting again to ask questions and discuss the exercises.<br class=\"mb-4\">Note this event will be run twice to accommodate different time zones. Please choose the one that works best for you.<br class=\"mb-4\"> Register for the 09:00 session (CPH time) <https://us02web.zoom.us/meeting/register/jpj_LnxORtyjjJm8GafigQ> <br class=\"mb-4\"> Register for the 16:00 session (CPH time) <https://us02web.zoom.us/meeting/register/9GNO-Q-BTiCjhbC15s9qSQ> <br class=\"mb-4\">If you are unable to attend the meeting and would still like to participate in the online training, please email us atscientific-collections@gbif.org <mailto:scientific-collections@gbif.org>.",
+    "url": "https://www.gbif.org/event/4NfDsmTw3Ksl1tqqXNzrH1",
+    "start_time": "2025-04-23 09:00",
+    "end_time": "2025-04-23 18:00"
   }
 ]
