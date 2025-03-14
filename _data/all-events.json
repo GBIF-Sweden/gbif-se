@@ -1127,5 +1127,21 @@
     "url": "https://www.gbif.org/event/4NfDsmTw3Ksl1tqqXNzrH1",
     "start_time": "2025-04-23 09:00",
     "end_time": "2025-04-23 18:00"
+  },
+  {
+    "uid": "oUN8MYmMYJb1a4j6FgjRY",
+    "title": "Unlocking Museum Data - A Beginners Guide to Data Standards",
+    "description": "Join GBIF Sweden on May 6 for an engaging half-day workshop designed to introduce museum professionals and researchers to biodiversity data standards. This beginner-friendly session will cover essential topics, including TDWG, Darwin Core (DwC), metadata, FAIR & CARE principles, controlled vocabularies, and data interoperability.<br class=\"mb-4\">Through expert presentations, participants will gain a foundational understanding of how standardized data enhances museum collections, supports global biodiversity research, and integrates with infrastructures like GBIF and DiSSCo. The workshop concludes with a discussion and opportunities for continued learning.<br class=\"mb-4\">Whether you're new to biodiversity informatics or looking to strengthen your knowledge, this workshop will provide valuable insights into unlocking the potential of museum data.<br class=\"mb-4\"> agenda <https://docs.google.com/document/d/1VPkSTeHlvjYPaE-btWdYf9xCPtpVn3nTv-49-P2zArM/edit?tab=t.0#heading=h.t864fjop1js0>",
+    "url": "https://www.gbif.org/event/oUN8MYmMYJb1a4j6FgjRY",
+    "start_time": "2025-05-06 09:00",
+    "end_time": "2025-05-06 12:00"
+  },
+  {
+    "uid": "77e337-7b17-442a-94be-70efb6c",
+    "title": "Workshop - AI for ecological monitoring in the Andes",
+    "description": "This workshop is for Colombian and Ecuadorian researchers, scientists, and students. The aim is to bring together ecologists working with machine learning data for biodiversity science, as well as computer scientists interested in contributing to biodiversity conservation.<br class=\"mb-4\"> Read more <https://wildlabs.net/event/taller-inteligencia-artificial-para-el-monitoreo-ecologico-en-los-andes-workshop-ai>",
+    "url": "https://www.gbif.org/event/77e337-7b17-442a-94be-70efb6c",
+    "start_time": "2025-04-21 15:00",
+    "end_time": "2025-04-25 00:00"
   }
 ]
