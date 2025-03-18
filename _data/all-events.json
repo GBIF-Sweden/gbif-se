@@ -1143,5 +1143,29 @@
     "url": "https://www.gbif.org/event/77e337-7b17-442a-94be-70efb6c",
     "start_time": "2025-04-21 15:00",
     "end_time": "2025-04-25 00:00"
+  },
+  {
+    "uid": "4ztL6aWAf8IlDlcggObIsD",
+    "title": "IX Field School on Soil Zoology and Ecology for Young Scientists",
+    "description": "The School in 2025 is dedicated to modelling of soil invertebrate habitats and biodiversity. The program includes lectures and practical sessions by leading scientists in the area. The practical sessions will be divided into two levels: for beginners and those already experienced in species distribution modelling. The working languages are English and Russian.<br class=\"mb-4\">For young colleagues, participation in the School is a step towards joining the professional scientific community, an opportunity to get introduced to modern concepts and new methods of soil ecology, to gain practical skills in habitat modelling, and to discuss their own research and difficulties with experienced colleagues. All participants will receive certificates.<br class=\"mb-4\"> Read more <https://biodiversitydata.info/events/> ",
+    "url": "https://www.gbif.org/event/4ztL6aWAf8IlDlcggObIsD",
+    "start_time": "2025-08-18 01:00",
+    "end_time": "2025-08-24 01:00"
+  },
+  {
+    "uid": "6awPCpwlO6AHq2qNeJVsvM",
+    "title": "Training on Data Sharing on Vectors to Prevent and Control Vector-Borne Disease",
+    "description": "This workshop is a side-event of the 5th Annual WAASuN Meeting <https://waasun.org/><br class=\"mb-4\">This two-day workshop, jointly organized by the GBIF <> and the Special Programme for Research and Training in Tropical Diseases (TDR) <https://tdr.who.int>, aims to introduce early-career vector disease researchers to the practicalities of publishing disease vector data through global open-access infrastructures such as GBIF and through data papers. Experts in disease vector ecology and data mobilization and publication will present key principles and approaches in relevant topics includingFAIR (Findable Accessible Interoperable and Reusable) <https://www.go-fair.org/fair-principles/> data, data publishing with an integrated publishing toolkit (IPT), data citation, and data papers. The course will be conducted fully in-person.<br class=\"mb-4\">The deadline for workshop application is 14 April 2025 at 17:00 UTC.<br class=\"mb-4\"> read more <https://waasun.org/events/training-on-data-sharing-on-vectors-to-prevent-and-control-vector-borne-disease/>",
+    "url": "https://www.gbif.org/event/6awPCpwlO6AHq2qNeJVsvM",
+    "start_time": "2025-06-23 11:30",
+    "end_time": "2025-06-24 20:00"
+  },
+  {
+    "uid": "54T46HOCmsDmN7u2P1JL0L",
+    "title": "Technical support hour for GBIF nodes: April 2025",
+    "description": "Join us for the next technical support hour for GBIF nodes on April 2nd at 4 pm CEST, where the topic is Community Metrics.<br class=\"mb-4\">Community Metrics is a new initiative to develop new metrics, indicators and time series data products from GBIF-mediated data that can better support decision-making. The aim is to build on what is currently provided viaGBIF´s data analytics <https://www.gbif.org/analytics/global> and for this to build on work that the community has already done in this area. In the session,Andrew Rodrigues <https://orcid.org/0000-0002-5468-2452> and John Waller <https://orcid.org/0000-0002-7302-5976> present the idea behind the initiative and ways that the node community can actively contribute via theCommunityMetrics GitHub repository <https://github.com/gbif/CommunityMetrics>.<br class=\"mb-4\"> Register for the event <https://us02web.zoom.us/meeting/register/hOE2-dbBRBOW1pqgjoZVEA> <br class=\"mb-4\">We will be happy to answer any question relating or not to the topic and welcome your input on some of the stranger things you have had to deal with a node staff. Please feel free to post questions in advance on thediscourse forum <https://discourse.gbif.org/t/community-metrics/5832?u=andrewrodrigues> or writehelpdesk@gbif.org <mailto:helpdesk@gbif.org>.",
+    "url": "https://www.gbif.org/event/54T46HOCmsDmN7u2P1JL0L",
+    "start_time": "2025-04-02 16:00",
+    "end_time": "2025-04-02 17:00"
   }
 ]
