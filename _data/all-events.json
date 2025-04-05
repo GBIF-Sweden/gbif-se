@@ -1167,5 +1167,13 @@
     "url": "https://www.gbif.org/event/54T46HOCmsDmN7u2P1JL0L",
     "start_time": "2025-04-02 16:00",
     "end_time": "2025-04-02 17:00"
+  },
+  {
+    "uid": "3QQmCrafytTYUyCZaIoPEi",
+    "title": "Author Insight on How to Publish Vectors of Human Disease Data with GBIF and GigaByte",
+    "description": "TDR, the Special Programme for Research and Training in Tropical Diseases hosted at the World Health Organization (WHO), GBIF and GigaScience Press have just extended their third call for authors to submit data release papers on vectors of human disease for inclusion in a thematic series published in GigaByte Journal. Round three builds on the first two phases of the series, which mobilized more than 700,000 occurrence records and 890,000 specimens from more than 70 countries.<br class=\"mb-4\">This webinar provides insight into how to submit your work to the series, with some of the authors of previous submissions presenting examples the types of work that have been published so far. And giving their perspectives of how the process of publishing a data publication is, how they working with the supporting data helpdesk to share the data with GBIF, and the feedback they have received so far from publishing their data in this manner. After this we’ll get insight from the vectors task group and data helpdesk team on their experiences and tips on submitting vectors data to GBIF. Ending with an opportunity to ask questions talking to the series editors, authors and vectors task group to ask any questions about data publishing.<br class=\"mb-4\"> Register for the event <https://cassyni.com/events/iAC1qrycdt6HYcF9sdAUV/abstract> ",
+    "url": "https://www.gbif.org/event/3QQmCrafytTYUyCZaIoPEi",
+    "start_time": "2025-04-22 17:00",
+    "end_time": "2025-04-22 18:00"
   }
 ]
