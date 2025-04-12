@@ -1175,5 +1175,13 @@
     "url": "https://www.gbif.org/event/3QQmCrafytTYUyCZaIoPEi",
     "start_time": "2025-04-22 17:00",
     "end_time": "2025-04-22 18:00"
+  },
+  {
+    "uid": "3r9nuFEjROu4yc4la7xpSq",
+    "title": "Technical support hour for GBIF nodes: May 2025",
+    "description": "In the following technical support hour for GBIF nodes on May 7th at 4:00 pm CEST, we will introduce the first ‘Deep Dive’ session on handlingissues and flags <https://techdocs.gbif.org/en/data-use/occurrence-issues-and-flags>, and we will focus onDate issues <https://techdocs.gbif.org/en/data-use/occurrence-issues-and-flags#date-issues> for this particular session.Several date flags and issues can be associated with records when they areprocessed in GBIF pipelines <https://techdocs.gbif.org/en/data-processing/temporal-interpretation>. In this session, we will coverhow data and time are parsed <https://techdocs.gbif.org/en/data-processing/temporal-interpretation#general-date-and-time-parsing>, what fields are used forinterpreting the occurrence date <https://techdocs.gbif.org/en/data-processing/temporal-interpretation#occurrence-recorded-date>, and how users cansearch on date ranges <https://techdocs.gbif.org/en/data-processing/temporal-interpretation#searching-dates>. We will also cover relevant issues for each of these parts and how publishers can potentially fix the issue.<br class=\"mb-4\"> Register for the event <https://us02web.zoom.us/meeting/register/ic2ev4hdQAiCvjBANiWzxQ> <br class=\"mb-4\">Deep Dive sessions will go into detail of specific flags and issues that publishers encounter when sharing their data with GBIF and that GBIF users may use to filter their downloads. With over 60 flags and issues currently implemented, we will focus on a specific overall topic and cover critical and non-critical issues.<br class=\"mb-4\">We will be happy to answer any question relating or not to the topic and welcome your input on some of the stranger things you have had to deal with a node staff. Please feel free to post questions in advance on thediscourse forum <https://discourse.gbif.org/t/deep-dive-date-related-issues-and-flags/5876> or writehelpdesk@gbif.org <mailto:helpdesk@gbif.org>.",
+    "url": "https://www.gbif.org/event/3r9nuFEjROu4yc4la7xpSq",
+    "start_time": "2025-05-07 16:00",
+    "end_time": "2025-05-07 17:00"
   }
 ]
