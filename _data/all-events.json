@@ -1231,5 +1231,21 @@
     "url": "https://www.gbif.org/event/26b0b7-6195-401d-b3b6-2b49339",
     "start_time": "2025-06-09 08:00",
     "end_time": "2025-06-10 11:00"
+  },
+  {
+    "uid": "5508d0-2903-4bde-972c-360ccc0",
+    "title": "AgroClim, EUMETSAT and GBIF Workshop",
+    "description": "The workshop will highlight the Crop Wild Relatives (CWR) use case developed under the Biodiversity Digital Twin project and its integration into the Destination Earth (DestinE) with the AgroClim service. Participants will be introduced to the CWR Digital Twin and explore the graphical user interface developed to enable selecting novel genetic resources from CWRs to enhance crop resilience. They will also see a live demonstration of how to access climate resources from EUMETSAT and DestinE.<br class=\"mb-4\">The event will also explore GBIF’s central role as a research data infrastructure, with a focus onagrobiodiversity <https://www.gbif.org/food> and particularly approaches for enhancing taxonomic backbones to include sub-species crop categories.<br class=\"mb-4\">The workshop will conclude with forward-looking discussions on building future projects for agrobiodiversity and climate resilience.<br class=\"mb-4\"> Read more <https://www.nhm.uio.no/english/research/projects/biodt/events/agroclim-eumetsat-demonstration-workshop-and-stake.html>",
+    "url": "https://www.gbif.org/event/5508d0-2903-4bde-972c-360ccc0",
+    "start_time": "2025-05-27 10:00",
+    "end_time": "2025-05-29 13:00"
+  },
+  {
+    "uid": "5HCnIekSQP1PunmRHg3Cf7",
+    "title": "Facilitating a world where FAIR and open biodiversity data underpins research, policy, and decision-making",
+    "description": "Access to FAIR and open primary biodiversity data is crucial for understanding and conserving the natural world.<br class=\"mb-4\">In this presentation, Kate Ingenloff <https://orcid.org/0000-0001-5942-9053> gives an overview of GBIF and introduces the current data model and its potential applications. The presentation is a part of a series of lectures of theGerman National Monitoring Centre for Biodiversity. <https://www.monitoringzentrum.de/><br class=\"mb-4\"> Register for the event <https://bfn-event.webex.com/webappng/sites/bfn-event/webinar/webinarSeries/register/ce7bd35ef4524b61b688e714e1f259bc>",
+    "url": "https://www.gbif.org/event/5HCnIekSQP1PunmRHg3Cf7",
+    "start_time": "2025-05-07 11:00",
+    "end_time": "2025-05-07 12:00"
   }
 ]
