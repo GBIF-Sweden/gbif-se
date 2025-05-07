@@ -1247,5 +1247,21 @@
     "url": "https://www.gbif.org/event/5HCnIekSQP1PunmRHg3Cf7",
     "start_time": "2025-05-07 11:00",
     "end_time": "2025-05-07 12:00"
+  },
+  {
+    "uid": "31oE9xrd060tzgrOU7Tunc",
+    "title": "Hosted Portals Community Call",
+    "description": "A community call with network members who are currently running GBIF's hosted portal service <>.<br class=\"mb-4\">The meeting will provide updates on progress aligning GBIF.org and Hosted Portals, as well as address community feedback received prior to the meeting.<br class=\"mb-4\">Anyone not currently involved in a hosted portal who wants to learn more can emailhostedportals@gbif.org <mailto:hostedportals@gbif.org> to request a Zoom link to join this call.",
+    "url": "https://www.gbif.org/event/31oE9xrd060tzgrOU7Tunc",
+    "start_time": "2025-06-16 15:00",
+    "end_time": "2025-06-16 16:30"
+  },
+  {
+    "uid": "7oJVaWQZ2wlknRfM7w4OXE",
+    "title": "Introducing the Darwin Core Data Package",
+    "description": "During this webinar, we will provide an update on efforts to explore a new data model for GBIF.<br class=\"mb-4\">This work will introduce changes that we aim to propose as a Vocabulary Enhancement <https://github.com/tdwg/vocab/blob/master/vms/maintenance-specification.md#4-vocabulary-enhancements> to theDarwin Core standard <https://dwc.tdwg.org/>, with a public review expected to begin onSeptember 2025<br class=\"mb-4\">The public review will feature:<br class=\"mb-4\"> * A Darwin Core Conceptual Model <https://github.com/gbif/dwc-dp/blob/master/README.md#darwin-core-conceptual-model>, part of a long-awaited Semantic Layer for Darwin Core.  * A Darwin Core Data Package (DwC-DP) Publishing Model <https://github.com/gbif/dwc-dp/blob/master/README.md#darwin-core-data-package-dwc-dp-publishing-model>, enabling the sharing of deeper, richer data than what is currently possible with aDarwin Core Archive <https://ipt.gbif.org/manual/en/ipt/latest/dwca-guide>. We will introduce these developments, the timeline, and explain how you can already begin participating in early testing.<br class=\"mb-4\"> Register for the event <https://us02web.zoom.us/meeting/register/jsaQm5bSSzixysR5tojhTQ> ",
+    "url": "https://www.gbif.org/event/7oJVaWQZ2wlknRfM7w4OXE",
+    "start_time": "2025-06-02 14:00",
+    "end_time": "2025-06-02 15:00"
   }
 ]
