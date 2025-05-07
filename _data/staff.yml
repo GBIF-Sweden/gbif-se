@@ -1,12 +1,12 @@
-- name: PhD Ulf Jonsell
-  title: Head of delegation
+- name: Anna Carlmark Malkoch
+  title: Acting head of delegation
   organisation: Swedish Research Council
   address: PO Box 1035
   zip: SE-10138
   city: Stockholm
-  email: ulf.jonsell@vr.se
-  phone: +46 8 5464 4000
-  image: ulf.jpg
+  email: anna.carlmarkmalkoch@vr.se
+  phone: +46 8 5464 4090
+  image: person.jpg
 
 - name: PhD Veronika A. Johansson
   title: Additional delegate - Node manager
@@ -27,6 +27,16 @@
   email: kevin.holston@nrm.se
   phone: +46 8 5195 4092
   image: kevin.jpg
+
+- name: PhD Lena Thöle
+  title: Node staff (data steward)
+  organisation: Swedish Museum of Natural History
+  address: PO Box 50007
+  zip: SE-10405
+  city: Stockholm
+  email: lena.thole@nrm.se
+  phone: +46 8 5195 4195
+  image: lena.jpg
 
 - name: MSc Manash Shah
   title: Node staff
