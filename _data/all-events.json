@@ -1263,5 +1263,13 @@
     "url": "https://www.gbif.org/event/7oJVaWQZ2wlknRfM7w4OXE",
     "start_time": "2025-06-02 14:00",
     "end_time": "2025-06-02 15:00"
+  },
+  {
+    "uid": "2bc72c-8c20-40f6-ac0d-83fdd64",
+    "title": "Regional Training Workshop on Biodiversity Data Mobilization in Hindu Kush Himalaya Region",
+    "description": "This regional training, organized by International Centre for Integrated Mountain Development (ICIMOD), is designed to strengthen the capability of key institutions working for biodiversity management in its Regional Member Countries (RMCs) to manage, standardise and publish biodiversity data; in effect, building a community of data-publishing institutions that can leverage and amplify the use of open access data (for example, GBIF-mediated data) in biodiversity research and decision making.<br class=\"mb-4\">The regional training is supported by GBIF’s Capacity Enhancement Support Programme <https://www.gbif.org/project/CESP2024-006/enhancing-institutional-capacity-for-data-management-in-the-hindu-kush-himalayan-region> and ICIMOD. The National Biodiversity Centre of Bhutan, Zoological Survey of India, Forest Action-Nepal and the National Science Library, Chinese Academy of Sciences in Beijing, China, are providing technical expertise. This collaboration is expected to build future partnerships for joint actions and proposal development. Following this workshop, there will be post-training national dissemination webinars on sensitising other agencies/institutions in the participating countries.<br class=\"mb-4\"> Read more <https://www.icimod.org/event/ecosystems-landscapes/regional-institutional-capacity-building-for-biodiversity-data-mobilisation-and-management/>",
+    "url": "https://www.gbif.org/event/2bc72c-8c20-40f6-ac0d-83fdd64",
+    "start_time": "2025-05-19 05:15",
+    "end_time": "2025-05-21 13:15"
   }
 ]
