@@ -1271,5 +1271,13 @@
     "url": "https://www.gbif.org/event/2bc72c-8c20-40f6-ac0d-83fdd64",
     "start_time": "2025-05-19 05:15",
     "end_time": "2025-05-21 13:15"
+  },
+  {
+    "uid": "2Q6CAHzKI3oxtf16nG2NOI",
+    "title": "From Data to Digital Twins: Empowering Biodiversity Digital Twins with Research Infrastructures",
+    "description": "This session brings together key partners from GBIF, eLTER, DiSSCo, and LifeWatch ERIC, who share what they achieve through their collaboration with BioDT. They explain how their data, expertise, and technologies contribute to the development of the BioDT prototype Digital Twins - and how the project supports their own missions.<br class=\"mb-4\">Speakers focus on:<br class=\"mb-4\"> * How each RI supports the BioDT project  * What they gain or learn from the cooperation  * Future opportunities and remaining challenges  Register for the event <https://biodt.eu/events/data-digital-twins-empowering-biodiversity-digital-twins-research-infrastructures>",
+    "url": "https://www.gbif.org/event/2Q6CAHzKI3oxtf16nG2NOI",
+    "start_time": "2025-05-14 10:00",
+    "end_time": "2025-05-14 11:00"
   }
 ]
