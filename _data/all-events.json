@@ -1287,5 +1287,13 @@
     "url": "https://www.gbif.org/event/5QJrfAu0MMAIAEySJoJa4y",
     "start_time": "2025-07-09 15:00",
     "end_time": "2025-07-09 16:30"
+  },
+  {
+    "uid": "AlvKX50jOsGuTOptKYoHy",
+    "title": "Technical support hour for GBIF nodes: June 2025",
+    "description": "The Humboldt extension to Darwin Core (https://eco.tdwg.org/ <https://eco.tdwg.org/>) provides a means by which to more explicitly capture the sampling context of biodiversity survey data. The ratification of this extension reinvigorated efforts to expand support for Event data in GBIF and increase the quantity of survey data shared through GBIF implementing Event core with the Humboldt extension.<br class=\"mb-4\">In the upcoming GBIF technical support hour for nodes on 4 June 2025, we will talk about these efforts to increase biodiversity survey data in GBIF. Specifically, we will present a data example implementing the Humboldt extension to Darwin Core (https://eco.tdwg.org/ <https://eco.tdwg.org/>), introduce existing resources, and provide an update on the status of the Survey and Monitoring Data Guide.<br class=\"mb-4\"> Register for the event <https://us02web.zoom.us/meeting/register/lb1BqHiaTlOjUTFY8yZehA> <br class=\"mb-4\">We will be happy to answer any question relating or not to the topic. Please feel free to post questions in advance onthe discourse forum <https://discourse.gbif.org/t/the-humboldt-extension-to-darwin-core/5970> or writehelpdesk@gbif.org <mailto:helpdesk@gbif.org>.",
+    "url": "https://www.gbif.org/event/AlvKX50jOsGuTOptKYoHy",
+    "start_time": "2025-06-04 16:00",
+    "end_time": "2025-06-04 17:00"
   }
 ]
