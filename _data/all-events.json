@@ -1295,5 +1295,21 @@
     "url": "https://www.gbif.org/event/AlvKX50jOsGuTOptKYoHy",
     "start_time": "2025-06-04 16:00",
     "end_time": "2025-06-04 17:00"
+  },
+  {
+    "uid": "ba2038-b15c-46b8-8063-2426d18",
+    "title": "Training on Biodiversity Data Quality and Cleaning (in Portuguese)",
+    "description": "This hands-on course will explain the principles of data quality and seek their application through data detection and cleaning practices, with practical examples. Data quality is one of the most important aspects that determines the potential use of a dataset. This quality is determined by multiple factors that integrate the information production and processing chain, from the initial registration or capture to the final use and interpretation. The quality of biodiversity data is also associated with its various dimensions, from taxonomy to spatial information, metadata, storage and publication.<br class=\"mb-4\">The course covers the following topics:<br class=\"mb-4\"> * Principles for data quality  * Tools and protocols for data quality  * OpenRefine  * Quality of taxonomic and spatial data  Read more <https://www.gbif.pt/node/621> ",
+    "url": "https://www.gbif.org/event/ba2038-b15c-46b8-8063-2426d18",
+    "start_time": "2025-07-23 10:00",
+    "end_time": "2025-07-25 19:00"
+  },
+  {
+    "uid": "644b6d-d7ab-41c9-beaf-93d19a7",
+    "title": "Training on Publishing Biodiversity Data Through GBIF (in Portuguese)",
+    "description": "The hands-on course is designed to teach users how to publish biodiversity data through GBIF. This edition of the course includes presentations on how to publish occurrence data derived from DNA (including environmental DNA), and ecological data through the Humboldt extension. The course is aimed at researchers or teachers, curators of biological and natural history collections, public administration or private sector collaborators, protected area managers and members of NGOs who are actively involved in cataloging, monitoring and managing biodiversity data.<br class=\"mb-4\">The course covers the following topics:<br class=\"mb-4\"> * Data standards and organization of biodiversity data  * Publishing data derived from DNA and environmental DNA  * Publishing ecological data with the Humboldt extension  * Data quality control and cleaning  * Publishing data through the GBIF Integrated Publishing Toolkit (IPT) platform  Read more <https://www.gbif.pt/node/622> ",
+    "url": "https://www.gbif.org/event/644b6d-d7ab-41c9-beaf-93d19a7",
+    "start_time": "2025-06-23 10:00",
+    "end_time": "2025-06-25 19:00"
   }
 ]
