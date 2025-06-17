@@ -1319,5 +1319,21 @@
     "url": "https://www.gbif.org/event/2p3B3qkeDE93gomQnN2j9F",
     "start_time": "2025-06-24 14:00",
     "end_time": "2025-06-24 15:30"
+  },
+  {
+    "uid": "34VmGvw8t5dbFe75noTm2h",
+    "title": "Technical support hour for GBIF nodes: July 2025",
+    "description": "For the next technical support hour for GBIF nodes on July 2nd at 4:00 pm CEST,Morten <https://www.gbif.org/contact-us/directory?personId=3785&group=secretariat> from the GBIF Engineering team will introduce you to the new GBIF.org portal (demo site).<br class=\"mb-4\">The focus will be on the search interface, custom data dashboards and the new multitaxonomy feature.<br class=\"mb-4\"> Register for the event <https://us02web.zoom.us/meeting/register/tZIkdO2tqzouE91hLq2kkkCVYi_qUDYlDQjO> <br class=\"mb-4\">We will be happy to answer any question relating or not to the topic. Please feel free to post questions in advance on thediscourse forum <https://discourse.gbif.org/t/introducing-the-new-gbif-org-portal/6001> or writehelpdesk@gbif.org <mailto:helpdesk@gbif.org>.",
+    "url": "https://www.gbif.org/event/34VmGvw8t5dbFe75noTm2h",
+    "start_time": "2025-07-02 16:00",
+    "end_time": "2025-07-02 17:00"
+  },
+  {
+    "uid": "32f82e-3963-43d0-abae-f9d000a",
+    "title": "OpenEPI X Unleash Hackathon 2025",
+    "description": "The Open Data Hackathon 2025 is a virtual event that brings together aspiring changemakers committed to leveraging open source data to address pressing challenges in Sub-Saharan Africa, Latin America, and South-East Asia. Participants from around the world collaborate to develop innovative, sustainable solutions through coding, user-centered design, data analysis, and strategic thinking.<br class=\"mb-4\">read more <https://developer.openepi.io/hackathon-2025> ",
+    "url": "https://www.gbif.org/event/32f82e-3963-43d0-abae-f9d000a",
+    "start_time": "2025-07-01 00:00",
+    "end_time": "2025-07-27 00:00"
   }
 ]
