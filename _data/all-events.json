@@ -1335,5 +1335,13 @@
     "url": "https://www.gbif.org/event/32f82e-3963-43d0-abae-f9d000a",
     "start_time": "2025-07-01 00:00",
     "end_time": "2025-07-27 00:00"
+  },
+  {
+    "uid": "47ae81-eab9-4a1d-8cb4-9f216c9",
+    "title": "Animal Taxonomy Summit 2025",
+    "description": "Celebrating its 110th anniversary, the Zoological Survey of India (ZSI) organizes the Animal Taxonomy Summit 2025 to discuss and deliberate the recent advances in taxonomical research and way forward for this unique subject.<br class=\"mb-4\"> Read more <https://zsi.org.in/> ",
+    "url": "https://www.gbif.org/event/47ae81-eab9-4a1d-8cb4-9f216c9",
+    "start_time": "2025-07-01 08:30",
+    "end_time": "2025-07-03 14:30"
   }
 ]
