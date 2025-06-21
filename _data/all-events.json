@@ -1343,5 +1343,13 @@
     "url": "https://www.gbif.org/event/47ae81-eab9-4a1d-8cb4-9f216c9",
     "start_time": "2025-07-01 08:30",
     "end_time": "2025-07-03 14:30"
+  },
+  {
+    "uid": "4eddff-cc4a-4844-91e8-1e553ec",
+    "title": "Esri User Conference",
+    "description": "Join the GBIF Secretariat at the Esri User Conference <https://www.esri.com/en-us/about/events/uc/overview> in San Diego, United States from 14 - 18 July 2025. This event brings together GIS experts from around the world to discuss innovations and new developments in the space.<br class=\"mb-4\">Find the Secretariat at our co-hosted booth with NatureServe <https://www.natureserve.org/> in the GIS for Good kiosk area, and join the presentation byAndrew Rodrigues <https://orcid.org/0000-0002-5468-2452> at the Biodiversity Data Spotlight <https://uc2025.esri.com/flow/esri/25uc/eventportal/page/detailed-agenda/session/1746471350495001fy3H> session.<br class=\"mb-4\">Biodiversity Data Spotlight <https://uc2025.esri.com/flow/esri/25uc/eventportal/page/detailed-agenda/session/1746471350495001fy3H>Wednesday, 16 July 2025: 2:30 PM - 3:15 PM PDT Session: GH14A: Advances in Climate-Driven Models for Vector-Borne DiseasesExpo GIS for Good Demo Theater | SDCC<br class=\"mb-4\"> Read more <https://uc2025.esri.com/flow/esri/25uc/eventportal/page/detailed-agenda/session/1746471350495001fy3H>",
+    "url": "https://www.gbif.org/event/4eddff-cc4a-4844-91e8-1e553ec",
+    "start_time": "2025-07-14 00:00",
+    "end_time": "2025-07-18 00:00"
   }
 ]
