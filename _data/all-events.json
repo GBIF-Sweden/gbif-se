@@ -1351,5 +1351,21 @@
     "url": "https://www.gbif.org/event/4eddff-cc4a-4844-91e8-1e553ec",
     "start_time": "2025-07-14 00:00",
     "end_time": "2025-07-18 00:00"
+  },
+  {
+    "uid": "2ZHHuYytNtiJmPv4s7lDKC",
+    "title": "The Future of Open Research: Reliable, Responsible, Equitable",
+    "description": "This conference brings together scholars, activists, and policymakers to consider this challenging landscape and discuss the future of open research. The goal is to facilitate the development of open research practices explicitly geared to serve the public interest, which involves interrogating what may constitute that ‘public interest’ to different audiences and in different locations around the world.<br class=\"mb-4\"> Read more <https://zoom.us/meeting/register/tJIqcOmoqD0jGNElY_zh_8H9XunSJ1s4qkmM> ",
+    "url": "https://www.gbif.org/event/2ZHHuYytNtiJmPv4s7lDKC",
+    "start_time": "2026-05-04 00:00",
+    "end_time": "2026-05-06 00:00"
+  },
+  {
+    "uid": "cf8bf0-2793-4319-8998-69a6a33",
+    "title": "SBDI Days 2026 - Artificial Intelligence in Ecology and Biodiversity Research",
+    "description": "SBDI Days 2026 <https://biodiversitydata.se> explores how artificial intelligence influences the field of ecology and biodiversity research. The conference is hosted by the [Swedish Biodiversity Data Infrastructure](SBDI - https://biodiversitydata.se), which includesthe Swedish GBIF node <https://www.gbif.org/country/SE/summary>. The program features current developments in areas such as machine learning, digital twins, genetic monitoring using environmental DNA (e-DNA), remote sensing, and robotic biotracking. In addition to technological advances, the conference includes discussions on the ethical considerations of AI, data quality, and approaches to responsible innovation.<br class=\"mb-4\"> Read more <https://biodiversitydata.se> ",
+    "url": "https://www.gbif.org/event/cf8bf0-2793-4319-8998-69a6a33",
+    "start_time": "2026-02-10 10:00",
+    "end_time": "2026-02-11 16:00"
   }
 ]
