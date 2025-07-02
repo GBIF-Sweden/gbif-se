@@ -1367,5 +1367,13 @@
     "url": "https://www.gbif.org/event/cf8bf0-2793-4319-8998-69a6a33",
     "start_time": "2026-02-10 10:00",
     "end_time": "2026-02-11 16:00"
+  },
+  {
+    "uid": "34d6c1-de0a-4d4d-b8ba-5696d1d",
+    "title": "The thirtieth Conference of the Parties of the UNFCCC COP 30",
+    "description": "The meeting comprises the thirtieth session of the Conference of the Parties (COP 30), the twentieth session of the Conference of the Parties serving as the meeting of the Parties to the Kyoto Protocol (CMP 20), and the seventh session of the Conference of the Parties serving as the meeting of the Parties to the Paris Agreement (CMA 7).<br class=\"mb-4\"> read more <https://cop30.br/en> ",
+    "url": "https://www.gbif.org/event/34d6c1-de0a-4d4d-b8ba-5696d1d",
+    "start_time": "2025-11-10 00:00",
+    "end_time": "2025-11-21 00:00"
   }
 ]
