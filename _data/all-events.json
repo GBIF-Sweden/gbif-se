@@ -1375,5 +1375,13 @@
     "url": "https://www.gbif.org/event/34d6c1-de0a-4d4d-b8ba-5696d1d",
     "start_time": "2025-11-10 00:00",
     "end_time": "2025-11-21 00:00"
+  },
+  {
+    "uid": "6K9yO1swPRcCXtUrBgjegd",
+    "title": "GB32: 32nd Meeting of the GBIF Governing Board",
+    "description": "The 32nd meeting of the GBIF Governing Board and associated events takes place in Bogotá, Colombia.<br class=\"mb-4\">| Date | Event(s) | |-----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------| | 16 October 2025 |Global Nodes Training – Day 1 <https://gb32.gbif.org/programme#thursday-16-october-2025> | | 17 October 2025 |Global Nodes Training – Day 2 <https://gb32.gbif.org/programme#friday-17-october-2025> Nodes Steering Group meeting <https://gb32.gbif.org/programme#friday-17-october-2025> | | 18 October 2025 | Global Nodes Meeting (online attendance possible) <https://gb32.gbif.org/programme#saturday-18-october-2025> Budget Committee meeting <https://gb32.gbif.org/programme#saturday-18-october-2025> Science Committee meeting <https://gb32.gbif.org/programme#saturday-18-october-2025> Icebreaker <https://gb32.gbif.org/programme#saturday-18-october-2025> | | 19–20 October 2025 |Executive Committee meeting 1 <https://gb32.gbif.org/programme#sunday-19-october-2025> Governing Board meeting Day 1 <https://gb32.gbif.org/programme#sunday-19-october-2025> Governing Board meeting Day 2 <https://gb32.gbif.org/programme#monday-20-october-2025> Executive Committee meeting 2 <https://gb32.gbif.org/programme#monday-20-october-2025> | | 21–24 October 2025 |Living Data <https://www.livingdata2025.com/> |<br class=\"mb-4\">For more information and to register your attendance, please visit the official GB32 website atgb32.gbif.org <https://gb32.gbif.org/>.<br class=\"mb-4\">Questions? If you have any questions regarding the meeting or associated events, don't hesitate to reach out to us atGB32@gbif.org <mailto:GB32@gbif.org>.",
+    "url": "https://www.gbif.org/event/6K9yO1swPRcCXtUrBgjegd",
+    "start_time": "2025-10-16 00:00",
+    "end_time": "2025-10-20 00:00"
   }
 ]
