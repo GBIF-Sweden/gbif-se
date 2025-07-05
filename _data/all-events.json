@@ -1383,5 +1383,13 @@
     "url": "https://www.gbif.org/event/6K9yO1swPRcCXtUrBgjegd",
     "start_time": "2025-10-16 00:00",
     "end_time": "2025-10-20 00:00"
+  },
+  {
+    "uid": "4tNc8PXOpMaCnaU5Fg5IXz",
+    "title": "IUCN World Conservation Congress",
+    "description": "A once-every-four-years gathering of nature conservation experts, leaders and decision-makers from around the world.<br class=\"mb-4\">The IUCN World Conservation Congress 2025 Forum <https://iucncongress2025.org/> features a range of impactful session types including interactive thematic sessions, speaker pitches, online podcasts, training and capacity building sessions, networking and other exciting events.<br class=\"mb-4\">The Exhibition serves as a dynamic marketplace where IUCN Members, Commissions, businesses, partners, and academic institutions showcase their research, innovations, and conservation projects. Open to both registered Congress participants and the general public.<br class=\"mb-4\"> Read more <https://iucncongress2025.org/> ",
+    "url": "https://www.gbif.org/event/4tNc8PXOpMaCnaU5Fg5IXz",
+    "start_time": "2025-10-09 00:00",
+    "end_time": "2025-10-13 00:00"
   }
 ]
