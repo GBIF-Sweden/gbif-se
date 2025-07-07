@@ -15,7 +15,7 @@ and this page need to be processed last so all markdown has been converted to ht
         "title": "{{ page.title }}",
         "url": "{{ page.url }}",
         "date": "{{ page.date }}",
-        "description": "{{ page_body | truncatewords: 30 | default: '-'}}",
+        "description": "{{ page_body | truncatewords: 30, ' [...]' | default: '-'}}",
         "content": "{{ page_body }}"
       },
     {% endif %}
@@ -33,7 +33,7 @@ and this page need to be processed last so all markdown has been converted to ht
       "title": "{{ page.title }}",
       "url": "{{ page.url }}",
       "date": "{{ page.date }}",
-      "description": "{{ page_description | default: page_body | truncatewords: 30 | default: '-' }}",
+      "description": "{{ page_description | default: page_body | truncatewords: 30, ' [...]' | default: '-' }}",
       "content": "{{ page_body }}"
     } {%- unless forloop.last -%},{% endunless -%}
   {% endfor %}
