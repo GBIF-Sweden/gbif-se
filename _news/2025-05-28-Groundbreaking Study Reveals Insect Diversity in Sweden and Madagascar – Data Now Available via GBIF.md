@@ -2,7 +2,7 @@
 title: "Groundbreaking Study Reveals Insect Diversity in Sweden and Madagascar – Data Now Available via GBIF"
 date: 2025-05-28
 image: 2025-05-28_Groundbreaking_Study.jpg
-description: "A new study published in Nature Scientific Data presents unprecedented insights into insect biodiversity in Sweden and Madagascar. The results, emerging from the Insect Biome Atlas (IBA) project, demonstrate the vast diversity of insect life through a large-scale DNA metabarcoding survey. All data from the study are now openly available through the GBIF network."
+description: "A new study published in <em>Nature Scientific Data</em> presents unprecedented insights into insect biodiversity in Sweden and Madagascar. The results, emerging from the Insect Biome Atlas (IBA) project, demonstrate the vast diversity of insect life through a large-scale DNA metabarcoding survey. All data from the study are now openly available through the GBIF network."
 ---
 
 Researchers collected over 7,000 insect community samples using Malaise traps deployed over 12 months at 250 sites across the two countries. Since many species in Sweden—and most in Madagascar—had never been recorded before, the team used DNA metabarcoding to identify the insects. This method allows for the simultaneous molecular identification of the hundreds or thousands of individuals contained in a single sample.

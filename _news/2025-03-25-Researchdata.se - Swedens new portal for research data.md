@@ -2,7 +2,7 @@
 title: "Researchdata.se – Sweden’s new portal for research data"
 date: 2025-03-25
 image: 2025-03-25_Researchdata.png
-description: "Today, 25 March, marks the launch of Researchdata.se, a new national web portal designed to make it easier for researchers to find, share, and reuse research data across various disciplines."
+description: Today, 25 March, marks the launch of <a href="https://researchdata.se">Researchdata.se</a>, a new national web portal designed to make it easier for researchers to find, share, and reuse research data across various disciplines.
 ---
 
 Through a searchable platform, users gain access to thousands of datasets and resources for sustainable data management throughout the research process. The portal facilitates collaboration between universities, research infrastructures, and research organizations working with Open Science by providing a shared platform for data sharing and expert support. This strengthens interdisciplinary cooperation and enables more efficient management of research data.
