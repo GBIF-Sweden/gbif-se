@@ -32,7 +32,7 @@ layout: default
             </div>
           </header>
           <p class="mt-4">
-            {{ news.description }}
+            {% include preamble.html page=news %}
           </p>
           <footer>
             <a href="{{ news.url }}" title="{{ news.title }}" class="text-lg">Read more</a>

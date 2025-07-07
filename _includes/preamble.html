@@ -1,0 +1,2 @@
+{%- assign page_body = include.page.content | strip_html | strip_newlines | truncatewords: 50, ' [...]' -%}
+{{ include.page.description | default: page_body }}
