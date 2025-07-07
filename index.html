@@ -103,7 +103,7 @@ load_leaflet: true
       <header>
         <h2 class="mb-2">Events</h2>
       </header>
-      {% include functions/fetch-events.html event_type="coming" %}
+      {% include functions/fetch-events.html event_type="upcoming" %}
       {% for event in events limit:3 %}
         <article class="flex flex-col md:flex-row mb-8">
           <div class="basis-1/4 mb-4 md:mb-0 cursor-pointer" onclick="location.href='{{ event.url }}';">

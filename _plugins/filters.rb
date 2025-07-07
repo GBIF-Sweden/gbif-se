@@ -4,7 +4,7 @@ module Jekyll
         def event_type(event)
             end_date = event["end_time"] ? event["end_time"] : event["start_time"]
             if end_date.to_s[0..9] >= DateTime.now.strftime("%Y-%m-%d")
-                "coming"
+                "upcoming"
             else
                 "past"
             end
