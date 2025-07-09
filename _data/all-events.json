@@ -1391,5 +1391,13 @@
     "url": "https://www.gbif.org/event/4tNc8PXOpMaCnaU5Fg5IXz",
     "start_time": "2025-10-09 00:00",
     "end_time": "2025-10-13 00:00"
+  },
+  {
+    "uid": "1GjkWCU2h24hoq2iV7X9wJ",
+    "title": "Technical support hour for GBIF nodes: August 2025",
+    "description": "Join us on the 6th of August at 4:00 pm CEST for the next GBIF Technical Support Hour for Nodes where Tobias Frøslev from the Science team gives us an update on the work concerning the Metabarcording Toolkit (MDT).Tobias presented an earlier version <https://vimeo.com/showcase/10095350/video/912170754> of the tool last year, which has since then matured as part of theMetabarcoding Data Programme <https://www.gbif.org/composition/1LScBrFuZY5JOJLrVhoYFf/metabarcoding-data-programme>.<br class=\"mb-4\"> Register for the event <https://us02web.zoom.us/meeting/register/tZMlduipqTMoEtcyFpsn6Jv_YZ-bJlS-z5Fg> <br class=\"mb-4\">We will be happy to answer any question relating or not to the topic and welcome your input on some of the stranger things you have had to deal with a node staff. Please feel free to post questions in advance on thediscourse forum <https://discourse.gbif.org/tag/nodessupporthour> or write helpdesk@gbif.org <mailto:helpdesk@gbif.org>.",
+    "url": "https://www.gbif.org/event/1GjkWCU2h24hoq2iV7X9wJ",
+    "start_time": "2025-08-06 16:00",
+    "end_time": "2025-08-06 17:00"
   }
 ]
