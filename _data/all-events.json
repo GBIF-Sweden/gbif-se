@@ -1399,5 +1399,13 @@
     "url": "https://www.gbif.org/event/1GjkWCU2h24hoq2iV7X9wJ",
     "start_time": "2025-08-06 16:00",
     "end_time": "2025-08-06 17:00"
+  },
+  {
+    "uid": "81ac66-3fa1-474b-aeef-4178e36",
+    "title": "GBIF: Connecting Open Biodiversity Data with Knowledge and Action",
+    "description": "Please note that the meeting will be in Spanish. Title: GBIF, conectando datos abiertos de biodiversidad con conocimiento y accion.<br class=\"mb-4\">The meeting is organized by the Latin American group of WILDLABS and will explore how open data can drive research, conservation, and environmental policymaking in the region. This event is an opportunity to learn more about GBIF's work and discover how to join its global network.<br class=\"mb-4\">There will be a presentation by the GBIF regional support team members for Latin America and the Caribbean, Anabela Plos and Leonardo Buitrago. The presentation will provide an overview of the Global Biodiversity Information System (GBIF), explaining what it is, how it works, and how to participate in its network. It will provide an overview of the main tools for accessing, publishing, and analyzing biodiversity data, as well as the opportunities GBIF offers to support scientific research, capacity building, and informed decision-making in conservation and environmental policymaking.<br class=\"mb-4\">The event is aimed at researchers, professionals, decision-makers, students, and individuals interested in using open data to protect and better understand biodiversity.",
+    "url": "https://www.gbif.org/event/81ac66-3fa1-474b-aeef-4178e36",
+    "start_time": "2025-07-24 16:00",
+    "end_time": "2025-07-24 17:00"
   }
 ]
