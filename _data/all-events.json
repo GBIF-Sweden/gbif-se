@@ -1407,5 +1407,21 @@
     "url": "https://www.gbif.org/event/81ac66-3fa1-474b-aeef-4178e36",
     "start_time": "2025-07-24 16:00",
     "end_time": "2025-07-24 17:00"
+  },
+  {
+    "uid": "54bdd8-2fe0-41bd-bda8-822a18c",
+    "title": "BES2025 British Ecological Society",
+    "description": "This meeting will bring together ecologists from across the UK and elsewhere, all producing or working with biological survey and monitoring data.<br class=\"mb-4\"> Register for the event <https://www.britishecologicalsociety.org/content/bes-annual-meeting-2025/> ",
+    "url": "https://www.gbif.org/event/54bdd8-2fe0-41bd-bda8-822a18c",
+    "start_time": "2025-12-15 10:00",
+    "end_time": "2025-12-18 18:00"
+  },
+  {
+    "uid": "e1be7d-f2c7-48c3-a719-f0919b5",
+    "title": "2025 Global Nodes Events Launch",
+    "description": "GBIF node managers and staff (not restricted to those attending the events in Bogotá) are invited to attend a launch for the2025 Global Nodes events <https://gb32.gbif.org/programme#thursday-16-october-2025>. During this Zoom event, you will have an opportunity to preview the agendas for the Global Nodes Training and Global Nodes Meeting to be held in Bogotá Colombia 16-18 October. Even if you are unable to attend the events in Bogotá, we encourage you to attend this Zoom event to learn how you can stay in the loop and receive benefit from the training and meeting after they are concluded. This Zoom event will be recorded.<br class=\"mb-4\"> Register for the event <https://us02web.zoom.us/meeting/register/y1oQ8SgjRZu8dlOIORtdZw#/registration> ",
+    "url": "https://www.gbif.org/event/e1be7d-f2c7-48c3-a719-f0919b5",
+    "start_time": "2025-09-16 15:30",
+    "end_time": "2025-09-16 16:30"
   }
 ]
