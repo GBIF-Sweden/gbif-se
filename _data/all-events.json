@@ -1423,5 +1423,13 @@
     "url": "https://www.gbif.org/event/e1be7d-f2c7-48c3-a719-f0919b5",
     "start_time": "2025-09-16 15:30",
     "end_time": "2025-09-16 16:30"
+  },
+  {
+    "uid": "26UjaiklGjiDkoPJHcZy3U",
+    "title": "Hosted Portals Community Call",
+    "description": "A community call with network members who are currently running GBIF's hosted portal service <>.<br class=\"mb-4\">The meeting provides updates on progress aligning GBIF.org and Hosted Portals, as well as addressing community feedback.<br class=\"mb-4\">Anyone not currently involved in a hosted portal who wants to learn more can emailhostedportals@gbif.org <mailto:hostedportals@gbif.org> to request a Zoom link to join this call.",
+    "url": "https://www.gbif.org/event/26UjaiklGjiDkoPJHcZy3U",
+    "start_time": "2025-09-10 14:00",
+    "end_time": "2025-09-10 15:30"
   }
 ]
