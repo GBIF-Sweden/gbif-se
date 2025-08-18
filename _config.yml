@@ -45,7 +45,6 @@ plugins:
 # their entries' file path in the `include:` list.
 #
 exclude:
-  - script
   - README.md
   - Makefile
   - docker-compose.yml

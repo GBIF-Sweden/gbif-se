@@ -19,14 +19,14 @@ deploy:
 	ssh nrm-arda '/data/apps/gbif-se/update-gbif-se.sh'
 
 pre-render:
-	script/fetch-datasets.sh
-	script/fetch-gbif-org-events.sh
-	script/create-news-year-pages.sh
+	_script/fetch-datasets.sh
+	_script/fetch-gbif-org-events.sh
+	_script/create-news-year-pages.sh
 	curl -sS --max-time 30 --retry 1 "https://api.gbif.org/v1/occurrence/search?limit=0&occurrenceStatus=present" --output _data/occurence-total.json
 	curl -sS --max-time 30 --retry 1 "https://api.gbif.org/v1/occurrence/search?publishingCountry=SE&limit=0&facet=kingdomKey" --output _data/kingdom-counts.json
 
 merge-events:
-	node ./script/merge-events.js
+	node ./_script/merge-events.js
 
 _clean-deps:
 	rm Gemfile.lock package-lock.json
@@ -35,7 +35,7 @@ bump-deps: _clean-deps rebuild
 	docker cp gbif-se-web-1:/node/package-lock.json .
 
 news:
-	@script/create-news.sh
+	@_script/create-news.sh
 
 event:
-	@script/create-event.sh
+	@_script/create-event.sh

@@ -25,7 +25,7 @@ sed -i 's/DTSTART/start_time/g' _data/gbif-org-events.json
 sed -i 's/DTEND/end_time/g' _data/gbif-org-events.json
 
 # Convert iso timestamps to YYYY-MM-DD HH:MM format and change timezone to CET
-node ./script/convert-event-timestamps.js
+node ./_script/convert-event-timestamps.js
 
 # Convert linebreaks
 sed -i 's/\\\\n\\\\n/<br class=\\"mb-4\\">/g' _data/gbif-org-events.json
