@@ -1,9 +1,21 @@
 ---
 ---
 
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
+@import "tailwindcss";
+
+@utility container {
+    margin-inline: auto;
+}
+
+@theme {
+    --breakpoint-2xl: initial;
+    --font-sans: Roboto, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-text: Calibri, ui-sans-serif, system-ui, sans-serif, Roboto, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --color-gbif-green: #40833a;
+    --color-gbif-green-light: #c4dec4;
+    --color-gbif-green-medium: #71b171;
+    --color-gbif-green-dark: #397534;
+}
 
 @layer base {
     h1 {
@@ -51,20 +63,18 @@
     }
 }
 
-@layer components {
-    .preamble {
-        @apply text-xl;
-        @apply text-slate-700;
-    }
-    .gbif-icon {
-        @apply font-['gbificons'];
-        @apply antialiased;
-    }
-    .link-icon {
-        @apply bg-[url('/assets/images/link-icon.svg')];
-        @apply bg-no-repeat;
-        @apply pl-7;
-    }
+.preamble {
+    @apply text-xl;
+    @apply text-slate-700;
+}
+.gbif-icon {
+    @apply font-['gbificons'];
+    @apply antialiased;
+}
+.link-icon {
+    @apply bg-[url('/assets/images/link-icon.svg')];
+    @apply bg-no-repeat;
+    @apply pl-7;
 }
 
 /* GBIF font icons */
@@ -110,19 +120,23 @@
 .fc .fc-toolbar.fc-header-toolbar {
     font-size: .6rem;
     margin-bottom: 0;
-  }
-  .fc .fc-button-primary {
+}
+.fc .fc-button-primary {
     background-color: white;
     border-color: white;
     color: rgb(30 41 59);
-  }
-  .fc .fc-col-header-cell {
+}
+.fc .fc-col-header-cell {
     font-weight: normal;
+    font-size: .7rem;
     background-color:rgb(203 213 225);
-  }
-  .fc a {
+}
+.fc .fc-day {
+    font-size: .7rem;
+}
+.fc a {
     color: rgb(30 41 59);
-  }
+}
 
 /* Tablefilter */
 #tableToolbar .inf {

@@ -2,13 +2,12 @@
   "name": "gbif-se",
   "version": "1.0.0",
   "devDependencies": {
-    "@tailwindcss/typography": "^0.5.9",
-    "autoprefixer": "^10.4.14",
-    "cssnano": "^6.0.0",
-    "postcss": "^8.4.23",
-    "postcss-cli": "^10.1.0",
-    "postcss-import": "^15.1.0",
-    "tailwindcss": "^3.3.2",
+    "cssnano": "^7.0.7",
+    "postcss": "^8.5.3",
+    "postcss-cli": "^11.0.1",
+    "tailwindcss": "^4.1.6",
+    "@tailwindcss/postcss": "^4.1.6",
+    "@tailwindcss/typography": "^0.5.16",
     "ical2json": "^3.1.2"
   }
 }

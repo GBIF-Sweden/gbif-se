@@ -2,8 +2,6 @@
 
 FROM ruby:3.4
 
-ENV TZ=Europe/Stockholm
-
 # This is for installing nodejs
 RUN apt-get update && apt-get install -y ca-certificates curl gnupg
 RUN curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | gpg --dearmor -o /etc/apt/keyrings/nodesource.gpg
@@ -20,6 +18,8 @@ WORKDIR /site
 COPY Gemfile* /site
 RUN gem update --system && gem cleanup
 RUN bundle install
+
+ENV TZ=Europe/Stockholm
 
 # Main app
 EXPOSE 4000

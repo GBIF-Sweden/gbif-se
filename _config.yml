@@ -45,11 +45,7 @@ plugins:
 # their entries' file path in the `include:` list.
 #
 exclude:
-  - .jekyll-cache/
-  - node_modules/
   - script
-  - Gemfile
-  - Gemfile.lock
   - README.md
   - Makefile
   - docker-compose.yml
@@ -58,7 +54,6 @@ exclude:
   - package.json
   - package-lock.json
   - postcss.config.js
-  - tailwind.config.js
   
 collections:
   news:
