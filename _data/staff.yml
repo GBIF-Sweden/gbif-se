@@ -1,11 +1,11 @@
-- name: Anna Carlmark Malkoch
-  title: Acting head of delegation
+- name: Daniel Snitting
+  title: Head of Delegation
   organisation: Swedish Research Council
   address: PO Box 1035
   zip: SE-10138
   city: Stockholm
-  email: anna.carlmarkmalkoch@vr.se
-  phone: +46 8 5464 4090
+  email: daniel.snitting@vr.se
+  phone: +46 8 546 440 00
   image: person.jpg
 
 - name: PhD Veronika A. Johansson
@@ -15,7 +15,7 @@
   zip: SE-10405
   city: Stockholm
   email: veronika.johansson@nrm.se
-  phone: +46 8 5195 4036
+  phone: +46 8 519 540 36
   image: veronika.jpg
 
 - name: PhD Kevin Holston
@@ -25,7 +25,7 @@
   zip: SE-10405
   city: Stockholm
   email: kevin.holston@nrm.se
-  phone: +46 8 5195 4092
+  phone: +46 8 519 540 92
   image: kevin.jpg
 
 - name: PhD Lena Thöle
@@ -35,7 +35,7 @@
   zip: SE-10405
   city: Stockholm
   email: lena.thole@nrm.se
-  phone: +46 8 5195 4195
+  phone: +46 8 519 541 95
   image: lena.jpg
 
 - name: MSc Manash Shah
@@ -45,7 +45,7 @@
   zip: SE-10405
   city: Stockholm
   email: manash.shah@nrm.se
-  phone: +46 8 5195 5123
+  phone: +46 8 519 551 23
   image: manash.jpg
 
 - name: MSc Mats Bovin
@@ -55,5 +55,5 @@
   zip: SE-10405
   city: Stockholm
   email: mats.bovin@nrm.se
-  phone: +46 8 5195 4009
+  phone: +46 8 519 540 09
   image: mats.jpg
