@@ -1455,5 +1455,21 @@
     "url": "https://www.gbif.org/event/6ZKk7wDQLjLsgT7aGOGWSD",
     "start_time": "2025-09-03 16:00",
     "end_time": "2025-09-03 17:00"
+  },
+  {
+    "uid": "bcc34c-be7d-4d5a-8351-4382971",
+    "title": "National Biodiversity Network (NBN) Conference 2025",
+    "description": "The National Biodiversity Network (NBN) is holding its 25th annual conference at the SS Great Britain in Bristol, UK.<br class=\"mb-4\">To celebrate the 25th year of the conference, the theme is \"25 years of making data work for nature.\" The conference will have opportunities for network participants to showcase their work and connect with international biodiversity professionals.<br class=\"mb-4\">Kate Ingenloff <https://orcid.org/0000-0001-5942-9053> from the GBIF Secretariat joins several other presenters as a speaker at the conference.<br class=\"mb-4\"> Read more <https://nbn.org.uk/news-events-publications/nbn-conference-2/nbn-conference-2025/>",
+    "url": "https://www.gbif.org/event/bcc34c-be7d-4d5a-8351-4382971",
+    "start_time": "2025-11-20 08:45",
+    "end_time": "2025-11-20 17:15"
+  },
+  {
+    "uid": "7W6Cm2zvuCHnjqelDmWcD",
+    "title": "Data Use Club Practical Session: Making occurrence maps",
+    "description": "Users can access GBIF-mediated data and map occurrences by filtering and downloading records directly through GBIF.org and by utilizing GBIF's robust API, R and Python libraries. This session will present options and highlight considerations for creating maps using occurrence records accessed through GBIF. Content in this session will build on the previous Data Use Club recorded webinars:<br class=\"mb-4\">• Data quality <https://www.gbif.org/composition/3CF30vzt0K8AjoWOnmJsDR/data-use-club-practical-session-2-recording-and-resources-2> •Introduction to the GBIF API <https://www.gbif.org/composition/4TlmnRvvPs2RxrPvLH6mOa/data-use-club-practical-session-3-recording-and-resources> •Species occurrence cubes <https://www.gbif.org/event/hITCY11CQaEsFX90TWEza/data-use-club-practical-sessions-gbif-species-occurrence-cubes><br class=\"mb-4\">Topics:<br class=\"mb-4\"> * Data quality issues to consider before making a map  * Using the GBIF Map API  * Downloading and generating maps locally  * Downloading occurrence cubes Speakers:<br class=\"mb-4\">Matthew Blisset <https://orcid.org/0000-0003-0623-6682> John Waller <https://orcid.org/0000-0002-7302-5976><br class=\"mb-4\">Useful links<br class=\"mb-4\"> * GBIF Data Blog post introducing GBIF API <https://data-blog.gbif.org/post/gbif-api-beginners-guide/>  * GBIF Data Blog post making maps with maps API and rgbif <https://data-blog.gbif.org/post/2023-03-24-maps-api/>  * rgbif article about using map_fetch function <https://docs.ropensci.org/rgbif/articles/creating_maps_from_occurrences.html>  * Introduction to rgbif, pygbif, and GBIF API <https://www.gbif.org/composition/4TlmnRvvPs2RxrPvLH6mOa/data-use-club-practical-session-3-recording-and-resources> Register for the event <https://us02web.zoom.us/meeting/register/HQz2FN94TbqikCh3_R7EnA> ",
+    "url": "https://www.gbif.org/event/7W6Cm2zvuCHnjqelDmWcD",
+    "start_time": "2025-09-23 15:00",
+    "end_time": "2025-09-23 16:30"
   }
 ]
