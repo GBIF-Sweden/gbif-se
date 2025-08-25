@@ -11,7 +11,12 @@ layout: default
 </p>
 
 {% if page.image %}
-  <img class="max-h-72 mb-8" src="/uploads/news/{{ page.image }}" alt="">
+  <figure class="mb-8">
+    <img class="max-h-72" src="/uploads/news/{{ page.image }}" alt="">
+    {% if page.image-attribution %}
+      <figcaption class="text-sm text-slate-500 mt-2">{{ page.image-attribution }}</figcaption>
+    {% endif %}
+  </figure>
 {% endif %}
 
 {{ content }}

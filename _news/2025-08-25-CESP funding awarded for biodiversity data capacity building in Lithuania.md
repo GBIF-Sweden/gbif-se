@@ -1,7 +1,9 @@
 ---
 title: "CESP funding awarded for biodiversity data capacity building in Lithuania"
 date: 2025-08-25
-image: gbif-logo.png
+image: 2025-08-25_CESP-Lithuania.png
+image-attribution: >- 
+  European rhinoceros beetle (<i>Oryctes nasicornis</i>) <a href="https://www.gbif.org/occurrence/3407960032">observed</a> in Таураге, Литва, Lithuania by Eugenijus Kavaliauskas. iNaturalist Research-grade Observations, licensed under (CC BY-NC 4.0)
 description: >-
   GBIF Sweden is pleased to announce that we have been awarded funding from GBIF’s Capacity Enhancement Support Programme (CESP) for the project Biodiversity data capacity building in Lithuania.
 ---
