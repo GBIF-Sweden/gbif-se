@@ -1535,5 +1535,13 @@
     "url": "https://www.gbif.org/event/911d07-6b93-44cc-94b8-8bba184",
     "start_time": "2025-09-17 09:00",
     "end_time": "2025-09-18 13:00"
+  },
+  {
+    "uid": "acb7e5-8e24-47e4-9f09-22ac3ac",
+    "title": "GBIF Biodiversity Data Mobilization Workshop in Mongolia",
+    "description": "<br class=\"mb-4\">This one day training workshop is organized by the GBIF Mongolia Node, the Institute of Biology, Mongolian Academy of Sciences to enhance their capacity in sharing biodiversity data through GBIF.<br class=\"mb-4\">This training is organized as a part of the International Biological Conference in MongoliaIBCM-2025 <http://ibcm.ac.mn/> in Ulaanbaatar, Mongolia. It will be run and facilitated byLily Shrestha <https://orcid.org/0000-0002-4540-723X> from the GBIF Asia Support Team, Nepal.",
+    "url": "https://www.gbif.org/event/acb7e5-8e24-47e4-9f09-22ac3ac",
+    "start_time": "2025-09-17 03:00",
+    "end_time": "2025-09-17 11:00"
   }
 ]
