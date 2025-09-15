@@ -1543,5 +1543,13 @@
     "url": "https://www.gbif.org/event/acb7e5-8e24-47e4-9f09-22ac3ac",
     "start_time": "2025-09-17 03:00",
     "end_time": "2025-09-17 11:00"
+  },
+  {
+    "uid": "72113c-5fac-4ec2-be91-e1c52da",
+    "title": "XL Jornadas Argentinas de Botanica",
+    "description": "The Argentine Botanical Conference is held every two years and brings together botanists from Argentina and the region.<br class=\"mb-4\"> Read more <https://botanicaargentina.org.ar/jornadas-argentinas-de-botanica-mar-del-plata-2025/>",
+    "url": "https://www.gbif.org/event/72113c-5fac-4ec2-be91-e1c52da",
+    "start_time": "2025-09-23 15:00",
+    "end_time": "2025-09-28 01:00"
   }
 ]
