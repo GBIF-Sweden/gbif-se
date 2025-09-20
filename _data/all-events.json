@@ -1551,5 +1551,13 @@
     "url": "https://www.gbif.org/event/72113c-5fac-4ec2-be91-e1c52da",
     "start_time": "2025-09-23 15:00",
     "end_time": "2025-09-28 01:00"
+  },
+  {
+    "uid": "1N2l1f8dxU2HPM9xU4vNYS",
+    "title": "Technical support hour for GBIF nodes: October 2025",
+    "description": "Join us for the next technical support hour for GBIF nodes on the October the 1 at 16 CEST for an update on the Global Registry of Scientific CollectionsGRSciColl <https://scientific-collections.gbif.org/>.<br class=\"mb-4\">GRSciColl is a registry of physical scientific collections hosted by GBIF and maintained by the community. The data product team will briefly present GRSciColl with an emphasis on its latest news and developments as well as give advice on how best help your communities share information about their collections.<br class=\"mb-4\"> Register for the event <https://us02web.zoom.us/meeting/register/tZEvcuqpqj4jE9LlsFrJKmDaDLTenwrCz5nY> <br class=\"mb-4\">We will be happy to answer any question related or not to the topic. Please feel free to post questions inthis thread <https://discourse.gbif.org/t/update-on-the-global-registry-of-scientific-collections-technical-support-hour-for-nodes/6100> or write tohelpdesk@gbif.org <mailto:helpdesk@gbif.org>.",
+    "url": "https://www.gbif.org/event/1N2l1f8dxU2HPM9xU4vNYS",
+    "start_time": "2025-10-01 16:00",
+    "end_time": "2025-10-01 17:00"
   }
 ]
