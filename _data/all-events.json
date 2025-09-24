@@ -1559,5 +1559,21 @@
     "url": "https://www.gbif.org/event/1N2l1f8dxU2HPM9xU4vNYS",
     "start_time": "2025-10-01 16:00",
     "end_time": "2025-10-01 17:00"
+  },
+  {
+    "uid": "6vcOTwO9o9p1u1e9AflLYh",
+    "title": "Asia-Pacific Conference on Mosquito and Vector Control (AMV) 2026",
+    "description": "The conference aims to strengthen the Asia-Pacific regional mosquito and vector control capacity and network and review new technologies, AI for mosquito control, and approaches to address the rapidly changing landscape for mosquito control in the region.<br class=\"mb-4\"> Read more <https://www.amv-2026.com/> ",
+    "url": "https://www.gbif.org/event/6vcOTwO9o9p1u1e9AflLYh",
+    "start_time": "2026-08-05 00:00",
+    "end_time": "2026-08-07 00:00"
+  },
+  {
+    "uid": "4WKX3jyB4b9oD7LCg6tEcY",
+    "title": "GBIF eDNA Data Infrastructure: technical roadmap review",
+    "description": "Participation by invitation only.<br class=\"mb-4\">GBIF is host a three-day technical review meeting of the GBIF DNA data roadmap <https://www.gbif.org/metabarcoding>, funded by the Minderoo Foundation <https://www.minderoo.org/>. The event gathers invited experts and stakeholders to explore the technical needs and opportunities for integrating eDNA-derived data into GBIF.<br class=\"mb-4\">The workshop provides guidance for a future eDNA roadmap, including work expected to launch in 2026.<br class=\"mb-4\">Central topics include:<br class=\"mb-4\"> * Indexing and searching DNA sequence data  * Dynamic updating and standardization of taxonomic assignments for eDNA occurrences  * Developing a catalogue of DNA reference libraries  * Establishing consistent data flows from metabarcoding and other eDNA studies. By engaging leading partners, the workshop defines priorities, identifies bottlenecks and aligns efforts to ensure that eDNA data can be mobilized and interpreted effectively within GBIF for broader reach and impact.<br class=\"mb-4\">",
+    "url": "https://www.gbif.org/event/4WKX3jyB4b9oD7LCg6tEcY",
+    "start_time": "2025-11-11 07:00",
+    "end_time": "2025-11-13 16:00"
   }
 ]
