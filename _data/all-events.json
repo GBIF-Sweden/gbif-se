@@ -1575,5 +1575,13 @@
     "url": "https://www.gbif.org/event/4WKX3jyB4b9oD7LCg6tEcY",
     "start_time": "2025-11-11 07:00",
     "end_time": "2025-11-13 16:00"
+  },
+  {
+    "uid": "c71532-6372-49ae-89de-8fa6f23",
+    "title": "2025 Virtual Data Mobilization Workshop for Asia in December",
+    "description": "The GBIF Asia Support Team are hosting a data mobilization workshop to address capacity needs and to promote data publication in the region. The workshop will be held in December 2025 to allow participation from those who had a busy summer schedule. This course is based on theGBIF Biodiversity Data Mobilization curriculum <https://docs.gbif.org/course-data-mobilization/en/> and will be conducted in English.<br class=\"mb-4\">This workshop has three phases of activities:<br class=\"mb-4\"> * 24 November to 5 December 2025: Preparatory course activities (online self-paced)  * 8 to 12 December 2025: Virtual workshop (Zoom sessions and online self-paced, estimated 4 hours per day)  * 15 December 2025 to 2 January 2026: Certification exercises (online self-paced) Due to limited training personnel, we will only be able to accommodate 30 participants in this workshop. We hope all participants will become trainers or mentors for future workshops. If more than 30 applications are received to participate in the training, participants will be selected based on the following criteria (not in specific order):<br class=\"mb-4\"> * Applicants that have already identified dataset(s) that they intend to publish and have cleared licensing requirements;  * Applicants that represent data holding institutions planning to publish data;  * Applicants that have plans to hold replication workshops;  * Applicants that intend to become mentors to support future workshops (advanced badge needed); The selection process will also consider geographic and thematic balance in the workshop participants. Application close on 1 November 2025 (23:59 UTC). The result will be announced on 7 November 2025.<br class=\"mb-4\"> Apply here <https://docs.google.com/forms/d/e/1FAIpQLSe4rRbX2x8r8_5k6Nr6qvFBvVFLZtzM4iTrHkPCzVwHBAbg4g/viewform>",
+    "url": "https://www.gbif.org/event/c71532-6372-49ae-89de-8fa6f23",
+    "start_time": "2025-12-08 04:00",
+    "end_time": "2025-12-12 08:00"
   }
 ]
