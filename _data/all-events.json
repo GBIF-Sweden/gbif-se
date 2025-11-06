@@ -64,14 +64,6 @@
     "end_time": "2024-08-23 00:00"
   },
   {
-    "uid": "PsERupVup1i5EgCvEmJut",
-    "title": "Mastering Data Citation: Insights from GBIF",
-    "description": "Why is data citation crucial for biodiversity data?<br class=\"mb-4\">Data citation is a fundamental step in promoting transparency, credibility, and collaboration in the field of biodiversity research. It ensures that the hard work of data collectors and curators is recognized and facilitates the sharing and integration of valuable biodiversity datasets.<br class=\"mb-4\">This webinar will shed light on the crucial aspects of recognizing and attributing biodiversity research datasets, as well as to provide best practices for standardized dataset citation that acknowledge creators and sources, ultimately making data more discoverable, reusable, and crediting those who collect and manage it.<br class=\"mb-4\">Join us on 6 November 2023, as GBIF guides you through the essential techniques for citing biodiversity data effectively.<br class=\"mb-4\">Agenda<br class=\"mb-4\">15:00 - 15:10 General introduction of the BioDT project – Hanna Koivula (CSC) 15:10 - 15:35 Data citation: the GBIF way – Daniel Noesgaard (GBIF) 15:35 - 16:00 Q & A<br class=\"mb-4\"> Register for webinar <https://biodt.eu/events/mastering-data-citation-insights-gbif> <br class=\"mb-4\">This webinar is organized by BioDT <https://biodt.eu/events/mastering-data-citation-insights-gbif> and is part of a series of webinars focused on sharing best practices on data citation.",
-    "url": "https://www.gbif.org/event/PsERupVup1i5EgCvEmJut",
-    "start_time": "2023-11-06 15:00",
-    "end_time": "2023-11-06 16:00"
-  },
-  {
     "uid": "6tQZ1sj6aBLu4fyZphi5VB",
     "title": "Evolution 2024 | Third Joint Congress on Evolutionary Biology",
     "description": "<br class=\"mb-4\">The Congress merges the traditions of the participating societies: the European Society for Evolutionary Biology (ESEB); the American Society of Naturalists (ASN); the Society of Systematic Biologists (SSB); and the Society for the Study of Evolution (SSE). The sextennial Congress takes the place of the ESEB and Evolution Meetings in 2024, and it builds on the success of the previous Congresses in Ottawa in 2012 and Montpellier in 2018.<br class=\"mb-4\">The structure of this Congress will be unique. Roughly 40% of talks will be structured into symposia, following the traditional ESEB format. The remaining 60% of talks will be structured into general sessions according to topic, following the traditional Evolution meetings format. The success of the joint meeting therefore depends on the strength and range of the symposia complementing the standard sessions.<br class=\"mb-4\"> Read more <https://www.evolutionsociety.org/news/display/2023/8/9/now-accepting-symposium-proposals-for-evolution-2024/>",
@@ -1431,5 +1423,13 @@
     "url": "https://www.gbif.org/event/c71532-6372-49ae-89de-8fa6f23",
     "start_time": "2025-12-08 04:00",
     "end_time": "2025-12-12 08:00"
+  },
+  {
+    "uid": "4MGD3c2W2JqJBue3gsUT7n",
+    "title": "Data Use Club seminar: 2025 Graduate Researchers Award winners",
+    "description": "Join us for the December Data Use Club <> to hear about the research of the two 2025GBIF Graduate Researchers Award <> winners. The Graduate Researchers Award (formerly Young Researchers Award) is an annual scholarship programme that promotes and encourages innovation in biodiversity-related research using data shared through the GBIF network. Since bestowing its first awards in 2010, the programme has recognized outstanding achievements in original biodiversity research by more than two dozen Master’s and PhD students around the world.<br class=\"mb-4\">2025 Graduate Researcher Award recipients<br class=\"mb-4\">PhD student Kumdet Panshak Solomon <https://orcid.org/0000-0003-0349-4213> of University of Jos in Nigeria presents research which advances biodiversity informatics and conservation in West Africa by leveraging GBIF-mediated data collected through BirdPlus, a mobile app developed with the Nigerian Bird Atlas Project (NiBAP). Designed to increase citizen science participation and data representation from the Global South, BirdPlus expands coverage of underrepresented bird species in Nigeria through a multilingual, user-friendly and offline-capable platform.<br class=\"mb-4\">Master's student Esteban Marentes Herrera <https://orcid.org/0000-0002-5090-6973> from Pontificia Universidad Javeriana Cali in Colombia presents research focuses on using machine learning models to predict beetle species diversity across Colombia’s Antioquia province. Despite Colombia being a megadiverse country, current species estimates—particularly for arthropods—are underrepresented in data records. His model integrates occurrence data and curated checklists from GBIF with habitat and environmental variables from public repositories to provide a more comprehensive estimate of beetle diversity in the region.<br class=\"mb-4\">This event will be recorded and the recording made available in the week after the event. If there are any questions ahead of the session, please contactdatause@gbif.org <mailto:datause@gbif.org>.<br class=\"mb-4\"> Register <https://us02web.zoom.us/meeting/register/73070PsdRwSZsh8StQsPiw> ",
+    "url": "https://www.gbif.org/event/4MGD3c2W2JqJBue3gsUT7n",
+    "start_time": "2025-12-11 14:30",
+    "end_time": "2025-12-11 16:00"
   }
 ]
