@@ -1447,5 +1447,21 @@
     "url": "https://www.gbif.org/event/464GiN2DPzjqpCTdMRK5Vm",
     "start_time": "2025-12-02 00:00",
     "end_time": "2025-12-05 00:00"
+  },
+  {
+    "uid": "19baab-321c-4350-ac78-2a55690",
+    "title": "Decades of discovery - Mobilizing data from the 70s to today",
+    "description": "Workshop on data publishing with GBIF and OBIS Norway, where you get the tools and help to turn your datasets— spanning the last 5 decades —into accessible resources for the global scientific community. Learn step-by-step how to prepare, publish, and make your data openly accessible.<br class=\"mb-4\"> Read more <https://www.gbif.no/events/2025/2025-11-decades-of-discovery.html> ",
+    "url": "https://www.gbif.org/event/19baab-321c-4350-ac78-2a55690",
+    "start_time": "2025-12-01 11:00",
+    "end_time": "2025-12-03 18:00"
+  },
+  {
+    "uid": "a6ab3b-4f98-4e94-a055-f3e9d01",
+    "title": "WiNoDa winter school 2025 - Sharing of primary biodiversity data with the Integrated Publishing Toolkit",
+    "description": "The WiNoDa winter school is a series of lectures and hands-on sessions for researchers in the natural science collections domain. This session will give an overview of biodiversity data networks and include a hands-on session of the Integrated Publishing Toolkit (IPT).<br class=\"mb-4\"> Read more <https://winoda.de/en/event/winter-school/> ",
+    "url": "https://www.gbif.org/event/a6ab3b-4f98-4e94-a055-f3e9d01",
+    "start_time": "2025-11-25 01:00",
+    "end_time": "2025-11-25 01:00"
   }
 ]
