@@ -1463,5 +1463,13 @@
     "url": "https://www.gbif.org/event/a6ab3b-4f98-4e94-a055-f3e9d01",
     "start_time": "2025-11-25 01:00",
     "end_time": "2025-11-25 01:00"
+  },
+  {
+    "uid": "5VJGnPPLRhoummBC7PfZzr",
+    "title": "Technical support hour for GBIF nodes: December 2025",
+    "description": "Join us on December 3rd at 4:00 pm CET for the technical node support hour on publishing marine data to the Ocean Biodiversity Information SystemOBIS <https://obis.org/> and GBIF. Elizabeth Lawrence will join us from the OBIS Secretariat, and the presentation will cover relevant resources - such as theOBIS manual <https://manual.obis.org/>, OBIS data quality requirements, and controlled vocabularies.<br class=\"mb-4\"> Register for the event <https://us02web.zoom.us/meeting/register/9E78KdD_Tta8wsT5WB2j7g> <br class=\"mb-4\">We will be happy to answer any question relating or not to the topic. Please feel free to post questions in advance ondiscourse forum <https://discourse.gbif.org/t/publishing-marine-data-to-obis-and-gbif-technical-support-hour-for-nodes/6168> or writehelpdesk@gbif.org <mailto:helpdesk@gbif.org>.",
+    "url": "https://www.gbif.org/event/5VJGnPPLRhoummBC7PfZzr",
+    "start_time": "2025-12-03 16:00",
+    "end_time": "2025-12-03 17:00"
   }
 ]
