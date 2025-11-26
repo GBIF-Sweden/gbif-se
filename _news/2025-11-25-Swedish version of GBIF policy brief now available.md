@@ -1,7 +1,7 @@
 ---
 title: "Swedish version of GBIF policy brief now available"
-date: 2025-11-26
-image: 2025-11-26_trias_one_stop.png
+date: 2025-11-25
+image: 2025-11-25_trias_one_stop.png
 description: >- 
   A Swedish translation of the policy brief <em>Why countries need the Global Biodiversity Information Facility (GBIF): lessons from Belgium</em> is now available. The brief uses Belgium’s long-term engagement in GBIF to show how national participation in a global biodiversity data infrastructure strengthens research, supports policy and management, and enables wide reuse of openly shared species occurrence data.
 
