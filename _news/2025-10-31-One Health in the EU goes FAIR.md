@@ -10,8 +10,6 @@ The VectorNet portal aggregates several datasets, including the [VectorNet Obser
 
 Explore the data portal and read more:
 
-• [https://www.vectornetdata.org/](https://www.vectornetdata.org/)
-
-• [One Health in the EU goes FAIR: launch of the VectorNet Data Portal](https://www.gbif.org/news/5NZfNTbgYmorvvOv63lJVG/one-health-in-the-eu-goes-fair-launch-of-vectornet-data-portal)
-
-• [GBIF Sweden contributes to One Health: hosting and mobilizing vector data](https://www.gbif.se/news/2025/gbif-sweden-contributes-to-one-health-hosting-and-mobilizing-vector-data/)
+- [https://www.vectornetdata.org/](https://www.vectornetdata.org/)
+- [One Health in the EU goes FAIR: launch of the VectorNet Data Portal](https://www.gbif.org/news/5NZfNTbgYmorvvOv63lJVG/one-health-in-the-eu-goes-fair-launch-of-vectornet-data-portal)
+- [GBIF Sweden contributes to One Health: hosting and mobilizing vector data](https://www.gbif.se/news/2025/gbif-sweden-contributes-to-one-health-hosting-and-mobilizing-vector-data/)
