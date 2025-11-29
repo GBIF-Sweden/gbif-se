@@ -88,14 +88,6 @@
     "end_time": "2023-12-15 00:00"
   },
   {
-    "uid": "686uY1fQAo8N8mb98Q2GEa",
-    "title": "Global Registry of Scientific Collections (GRSciColl) community call",
-    "description": "Join us for an update on the Global Registry of Scientific Collections. In this community call we will focus on the first item of the GRSciColl road map: the review of the data schema.<br class=\"mb-4\">Agenda:<br class=\"mb-4\"> * Welcome and introduction  * Data Schema and Road Map Update  * Q&A and Discussion We encourage all participants to actively engage in the review process. Your input is invaluable. If you're eager to participate, you can start by reviewing thedata schema documentation <https://www.gbif.org/news/6QmgDWnOORMkZIG9xvZAD> beforehand and ask questions or share your insights on our dedicatedforum thread <https://discourse.gbif.org/c/grscicoll>.<br class=\"mb-4\"> Register  <https://us02web.zoom.us/meeting/register/tZckf-GrqTIjGNGb_JzjFkp_H6RLSAImEagc> ",
-    "url": "https://www.gbif.org/event/686uY1fQAo8N8mb98Q2GEa",
-    "start_time": "2023-11-29 15:00",
-    "end_time": "2023-11-29 16:30"
-  },
-  {
     "uid": "R71kcTbgBGO6IVQpDiyvr",
     "title": "Technical support hour for GBIF nodes: December 2023",
     "description": "In the December session, we will explain the new features of Integrated Publishing Toolkit Version 3.0 (IPT3).<br class=\"mb-4\">For some background information, you can read our release information here <https://ipt.gbif-uat.org/manual/en/ipt/latest/releases#3-0-rc1-august-2023>.<br class=\"mb-4\">Mikhail Podolskiy <https://dk.linkedin.com/in/mikhail-podolskiy-a34658154> from the Informatics team will join the session. We will be happy to answer any question relating or not to the topic.<br class=\"mb-4\"> Register for the event <https://us02web.zoom.us/meeting/register/tZMocOuorT4pE9IQGeccjRPj8dY52HcXdv-o> <br class=\"mb-4\">If nodes and nodes staff have ideas for topics, or questions please post them in the community forum <https://discourse.gbif.org/t/gbif-technical-support-hour-for-nodes-tour-of-the-registry-and-how-to-debug-ingestion/3760> or email them tohelpdesk@gbif.org <mailto:helpdesk@gbif.org>",
