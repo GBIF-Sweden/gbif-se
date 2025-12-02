@@ -1439,5 +1439,13 @@
     "url": "https://www.gbif.org/event/5VJGnPPLRhoummBC7PfZzr",
     "start_time": "2025-12-03 16:00",
     "end_time": "2025-12-03 17:00"
+  },
+  {
+    "uid": "3C8Xm8ihzKpDknSL1lizj1",
+    "title": "CESP project results - 2024",
+    "description": "This webinar presents the results of the case studies carried out for the validation of the dwc extension aimed at documenting information on sociobiodiversity, within the scope ofCESP015-2024 <https://www.gbif.org/project/CESP2024-015/developing-a-data-extension-for-documenting-socio-biodiversity-information>.<br class=\"mb-4\"> Read more <https://www.sibbr.gov.br/page/cesp/cesp-2024.html> ",
+    "url": "https://www.gbif.org/event/3C8Xm8ihzKpDknSL1lizj1",
+    "start_time": "2025-12-02 20:00",
+    "end_time": "2025-12-02 21:40"
   }
 ]
