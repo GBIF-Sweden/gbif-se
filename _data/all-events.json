@@ -1447,5 +1447,13 @@
     "url": "https://www.gbif.org/event/3C8Xm8ihzKpDknSL1lizj1",
     "start_time": "2025-12-02 20:00",
     "end_time": "2025-12-02 21:40"
+  },
+  {
+    "uid": "3ioWg1a0c3OaUuYQAR9RPb",
+    "title": "BioMonWeek 2026",
+    "description": "Join Biodiversa+, GBIF, MARCO-BOLO, BioAgora and Alliance for Nature from 4 to 8 May 2026 for the first BioMonWeek conference.<br class=\"mb-4\">This event brings together Europe’s biodiversity monitoring community, including researchers, monitoring experts, policymakers, private sector professionals and students.<br class=\"mb-4\">Conference themes will explore methods for strengthening transnational cooperation, harmonizing and standardizing monitoring data, sharing best practices, leveraging new technologies, citizen science and more.<br class=\"mb-4\">Additional details including website and registration links will be updated once released.",
+    "url": "https://www.gbif.org/event/3ioWg1a0c3OaUuYQAR9RPb",
+    "start_time": "2026-05-04 01:00",
+    "end_time": "2026-05-08 01:00"
   }
 ]
