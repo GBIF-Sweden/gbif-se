@@ -24,14 +24,6 @@
     "end_time": "2024-04-12 19:00"
   },
   {
-    "uid": "0cc339-4a90-4eee-89b3-6b6e784",
-    "title": "BES 2023 - British Ecological Society Annual Meeting 2023",
-    "description": "Join ecologists from around the world in December 2023 for Europe’s largest and most welcoming conference dedicated to ecology.<br class=\"mb-4\">Each year our Annual Meeting attracts over 1200 delegates and provides opportunities to meet new colleagues, develop your career, learn new skills, and share your science with the global ecological community.<br class=\"mb-4\">We will be offering an exciting programme of internationally renowned plenary speakers, diverse thematic sessions, engaging workshops, and a variety of networking events.<br class=\"mb-4\">More information here <https://www.britishecologicalsociety.org/events/bes-annual-meeting-2023/welcome-to-bes2023/>",
-    "url": "https://www.gbif.org/event/0cc339-4a90-4eee-89b3-6b6e784",
-    "start_time": "2023-12-12 10:00",
-    "end_time": "2023-12-15 18:00"
-  },
-  {
     "uid": "4PLN09zRP6tkrmSWL7tZcs",
     "title": "ESA2024 - Ecological Society of America 2024",
     "description": "This year’s meeting will emphasize the society’s mission of supporting ecologists throughout their careers. The emphasis recognizes the need for us to continually invest in all the people who advance the science and practice of ecology. Among many aspects of professional development, we are planning programming and invite contributions that consider the transformational potential of effective mentorship.<br class=\"mb-4\"> more information  <https://www.esa.org/longbeach2024/> ",
@@ -70,14 +62,6 @@
     "url": "https://www.gbif.org/event/6fiey0ckNZQgqDhppL7z3J",
     "start_time": "2024-01-24 00:00",
     "end_time": "2024-01-25 00:00"
-  },
-  {
-    "uid": "7rHfBVHUvJnyoOohYhjQQA",
-    "title": "AGU 2023: Annual meeting of the American Geophysical Union",
-    "description": "Join GBIF Secretariat communications manager Kyle Copas <https://orcid.org/0000-0002-6590-599X> at the following sessions during the AGU Fall Meeting 2023 <https://www.agu.org/fall-meeting>—or seek him out <mailto:kcopas@gbif.org> elsewhere during the meeting.<br class=\"mb-4\">Monday, 12 December 2023: 17:05-17:15 How Biodiversity Data Supports Research on Climate-driven Changes in Patterns of Human Diseases <https://agu.confex.com/agu/fm23/meetingapp.cgi/Paper/1337657> Session: GH14A: Advances in Climate-Driven Models for Vector-Borne DiseasesMoscone West-2020, L2<br class=\"mb-4\">Wednesday, 13 December 2023: 09:15-09:24 \"Darwin More\": Diversifying the GBIF Data Model to Improve the Richness and Quality of FAIR and Open Data about Biological Material Samples <https://agu.confex.com/agu/fm23/meetingapp.cgi/Paper/1264054> Session: IN31A: Preserving Our Primary Field Data for Future Generations of Geoscientific Research: Perspectives on Managing Physical Samples, Airborne Observations, and Other Field DataMoscone West-2014, L2<br class=\"mb-4\">NOTE: all event times are Pacific Standard Time (UTC-8).<br class=\"mb-4\">Read more <https://www.agu.org/fall-meeting> ",
-    "url": "https://www.gbif.org/event/7rHfBVHUvJnyoOohYhjQQA",
-    "start_time": "2023-12-11 00:00",
-    "end_time": "2023-12-15 00:00"
   },
   {
     "uid": "I01nPkQIb33IQA5xEof4D",
