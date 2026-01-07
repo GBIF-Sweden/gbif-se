@@ -1439,5 +1439,13 @@
     "url": "https://www.gbif.org/event/5ce25f-4cf0-4f80-955d-ae4a4e0",
     "start_time": "2026-08-17 02:00",
     "end_time": "2026-08-19 02:00"
+  },
+  {
+    "uid": "e3d73b-f472-4e7d-9604-63ff3b4",
+    "title": "Nature Action Dialogues",
+    "description": "The Nature Action Dialogues provide a unique and powerful forum where business, finance and conservation leaders meet as peers to advance collaboration at the nexus of biodiversity, climate, water, and health. This is a working space to accelerate change, shape leadership, and unlock sustainable growth while halting and reversing nature loss.<br class=\"mb-4\"> Register for the event <https://www.natureactiondialogues.org/> ",
+    "url": "https://www.gbif.org/event/e3d73b-f472-4e7d-9604-63ff3b4",
+    "start_time": "2026-05-12 02:00",
+    "end_time": "2026-05-13 02:00"
   }
 ]
