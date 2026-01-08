@@ -1447,5 +1447,13 @@
     "url": "https://www.gbif.org/event/e3d73b-f472-4e7d-9604-63ff3b4",
     "start_time": "2026-05-12 02:00",
     "end_time": "2026-05-13 02:00"
+  },
+  {
+    "uid": "77dESEd7zS9wTvKLF9dfMB",
+    "title": "Biodiversity Information Standards (TDWG) 2026 annual conference",
+    "description": "The Biodiversity Information Standards (TDWG) 2026 conference takes place in Oslo, Norway in September. This year, the conference is hosted byGBIF Norway <https://www.gbif.no/>, the University of Oslo Natural History Museum <https://www.nhm.uio.no/english/> and the Norwegian Biodiversity Information Centre <https://www.regjeringen.no/en/dep/kld/organisation/Subordinate-agencies/the-norwegian-biodiversity-information-c/id2583290/>.<br class=\"mb-4\">TDWG's annual conferences provide a forum for developing, refining and extending TDWG standards in response to new challenges and opportunities. The theme of the 2026 conference isresearch and robot-ready biodiversity data standards.<br class=\"mb-4\">Conference activities span 21-25 September 2026, including a full conference programme, welcome reception and registration events (on 20 September), public keynote sessions, side events, bioblitz and excursions events and a conference dinner.<br class=\"mb-4\"> Read more <https://www.tdwg.org/conferences/2026/> ",
+    "url": "https://www.gbif.org/event/77dESEd7zS9wTvKLF9dfMB",
+    "start_time": "2026-09-21 01:00",
+    "end_time": "2026-09-25 01:00"
   }
 ]
