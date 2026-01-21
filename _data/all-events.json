@@ -1203,7 +1203,7 @@
   {
     "uid": "7ySI8IQjHE6weCPNqpWrnO",
     "title": "IPBES 12 Plenary",
-    "description": "The IPBES 12 Plenary is open for participation of IPBES members and observers. Stakeholder participation inIPBES 12 <https://www.ipbes.net/events/ipbes-12-plenary> is open only to delegates who are officially nominated by their organizations that have been accredited as observers to previous sessions of the Plenary (https://ipbes.net/accredited-organisations) Each nominated delegate must complete the online registration form as soon as possible, but no later than December 5, 2025. Individual registration is required to access in-session documents and receive meeting connection details.<br class=\"mb-4\">Please note: Registration cannot be processed via email. All registrations must be submitted online via the IPBES website.<br class=\"mb-4\"> Read more <https://www.ipbes.net/events/ipbes-12-plenary> ",
+    "description": "The IPBES 12 Plenary is open for participation of IPBES members and observers, hosted in Manchester, United Kingdom. Stakeholder participation inIPBES 12 <https://www.ipbes.net/events/ipbes-12-plenary> is open only to delegates who are officially nominated by their organizations that have been accredited as observers toprevious sessions of the Plenary <https://ipbes.net/accredited-organisations>. Individual registration is required to access in-session documents and receive meeting connection details.<br class=\"mb-4\"> Read more <https://www.ipbes.net/events/ipbes-12-plenary> ",
     "url": "https://www.gbif.org/event/7ySI8IQjHE6weCPNqpWrnO",
     "start_time": "2026-02-02 23:00",
     "end_time": "2026-02-07 23:00"
@@ -1427,7 +1427,7 @@
   {
     "uid": "1na3qHa8E2NDbfHahvFCml",
     "title": "2026 Graduate Researchers Award support session for nodes",
-    "description": "Ahead of the submission deadline for the 2026 Graduate Researchers Award programme, this session brings together nodes from across the GBIF network to share experiences, practical guidance, and lessons learned from running country-level processes. The session will include discussion and a Q&A with the GBIF Secretariat to support national nodes participating in the programme.<br class=\"mb-4\">Presenters:<br class=\"mb-4\"> * Ricardo Ortiz Gallego <https://orcid.org/0000-0003-1070-1081> - node manger forSiB Colombia <https://biodiversidad.co/>  * Fatima Parker- Allie <https://orcid.org/0000-0002-0004-9504> - node manager forSANBI <https://www.sanbi-gbif.org/>  * Francisco Pando <https://orcid.org/0000-0002-6321-9398> - node manager for GBIF.ES <https://gbif.es/en/>  * GBIF Secretariat staff This session is for GBIF node managers, heads of delegation and node staff who are involved in running national calls for the Graduate Researchers Award.<br class=\"mb-4\">The event will be recorded, and the recording made available in the week after the session.<br class=\"mb-4\"> Register <https://us02web.zoom.us/meeting/register/LzwsKyMJRL6C7sxU8Wm7Jg> ",
+    "description": "Ahead of the submission deadline for the 2026 Graduate Researchers Award programme <>, this session brings together nodes from across the GBIF network to share experiences, practical guidance, and lessons learned from running country-level processes. The session will include discussion and a Q&A with the GBIF Secretariat to support national nodes participating in the programme.<br class=\"mb-4\">Presenters:<br class=\"mb-4\"> * Ricardo Ortiz Gallego <https://orcid.org/0000-0003-1070-1081> - node manger forSiB Colombia <https://biodiversidad.co/>  * Fatima Parker- Allie <https://orcid.org/0000-0002-0004-9504> - node manager forSANBI <https://www.sanbi-gbif.org/>  * Francisco Pando <https://orcid.org/0000-0002-6321-9398> - node manager for GBIF.ES <https://gbif.es/en/>  * GBIF Secretariat staff This session is for GBIF node managers, heads of delegation and node staff who are involved in running national calls for the Graduate Researchers Award.<br class=\"mb-4\">The event will be recorded, and the recording made available in the week after the session.<br class=\"mb-4\"> Register <https://us02web.zoom.us/meeting/register/LzwsKyMJRL6C7sxU8Wm7Jg> ",
     "url": "https://www.gbif.org/event/1na3qHa8E2NDbfHahvFCml",
     "start_time": "2026-02-24 14:00",
     "end_time": "2026-02-24 15:00"
@@ -1455,5 +1455,37 @@
     "url": "https://www.gbif.org/event/77dESEd7zS9wTvKLF9dfMB",
     "start_time": "2026-09-21 01:00",
     "end_time": "2026-09-25 01:00"
+  },
+  {
+    "uid": "7cd297-afdb-41c5-af33-e918389",
+    "title": "Swedish Climate Symposium - Climate research - Science, Society, Actions",
+    "description": "The Swedish Climate Symposium is a national platform for advancing climate knowledge and action. It brings together researchers, policymakers, and societal stakeholders to explore the latest science, identify knowledge gaps, and solutions for climate adaptation and mitigation. Hosted by leading Swedish research organizations, the symposium fosters dialogue across disciplines and sectors to strengthen Sweden’s role in global climate efforts.<br class=\"mb-4\"> Read more <https://swedishclimatesymposium.com/> ",
+    "url": "https://www.gbif.org/event/7cd297-afdb-41c5-af33-e918389",
+    "start_time": "2026-05-20 02:00",
+    "end_time": "2026-05-22 02:00"
+  },
+  {
+    "uid": "851c4a-f89b-40d3-a1e6-e1e2b5a",
+    "title": "Applied biodiversity data use - Tools, workflows, and use cases from Ethiopia",
+    "description": "This workshop is a part of GBIF Capacity Enhancement Support Programme <https://www.gbif.org/programme/82219/capacity-enhancement-support-programme> CESP2024-013 <https://www.gbif.org/project/CESP2024-013/building-capacity-within-biodiversity-data-between-ethiopia-and-gbif-nodes-in-sweden-and-finland><br class=\"mb-4\">The workshop focuses on practical use of biodiversity data to support research, conservation, and decision-making in Ethiopia. Building on data mobilized through GBIF and national partners, it introduces tools, workflows, and real-world use cases that demonstrate how biodiversity data can be discovered, accessed, analyzed, and interpreted. Through hands-on sessions and applied examples, participants will strengthen their capacity to turn open biodiversity data into evidence for science, policy, and sustainable management.",
+    "url": "https://www.gbif.org/event/851c4a-f89b-40d3-a1e6-e1e2b5a",
+    "start_time": "2026-03-03 01:00",
+    "end_time": "2026-03-06 01:00"
+  },
+  {
+    "uid": "2pqmyOjuQmhHWLPS5Unckp",
+    "title": "Technical Support Hour for Nodes: February 2026",
+    "description": "Join us for the first 2026 technical support hour for GBIF nodes on the 4th of February at 4:00 pm CET. We are starting the year withrevisiting one of our old blog posts <https://data-blog.gbif.org/post/choose-dataset-type/> on how to choose a dataset class when sharing data on GBIF. In addition to giving data providers the tools to choose a dataset type, we will also discuss how this choice may be influenced by other developments: the Darwin Core Data Package (DwC DP), the Global Registry of Scientific Collections (GRSciColl) andchecklistbank.org <https://www.checklistbank.org/>.<br class=\"mb-4\"> Register for the event <https://us02web.zoom.us/meeting/register/5UZ4fyTcSmW8z8aM4WLyBQ> <br class=\"mb-4\">We will be happy to answer any questions related to or not related to the topic. Please feel free to post questions in advancethe discourse forum <https://discourse.gbif.org/t/choosing-a-dataset-class-technical-support-hour-for-nodes/6209> or writehelpdesk@gbif.org <mailto:helpdesk@gbif.org>.",
+    "url": "https://www.gbif.org/event/2pqmyOjuQmhHWLPS5Unckp",
+    "start_time": "2026-02-04 16:00",
+    "end_time": "2026-02-04 17:00"
+  },
+  {
+    "uid": "d20a20-46da-4f30-84ef-6499ac2",
+    "title": "AI for specimen labels - final dissemination workshop",
+    "description": "This is the final workshop in the CESP2024-016 project <https://www.gbif.org/project/CESP2024-016/ai-for-specimen-labels> AI for specimen labels.<br class=\"mb-4\">We invite both the participants of the previous events and new people interested in use of AI in transcribing specimen labels.<br class=\"mb-4\">We will sum up the progress of the project, including some information about DiSSCo and its annotation infrastructure, and current status of SpLAT - Specimen Label Automated Transcriber. We will also test SpLAT using different LLMs and discuss possible methods of evaluating the tool's result, as well as the future plans and opportunities.<br class=\"mb-4\"> Attend online <https://uw-edu-pl.zoom.us/j/96102818702?pwd=2bxdz2sZvwhHKFfiWKsbGpKzhVZBfH.1#success>",
+    "url": "https://www.gbif.org/event/d20a20-46da-4f30-84ef-6499ac2",
+    "start_time": "2026-01-23 09:00",
+    "end_time": "2026-01-23 17:00"
   }
 ]
