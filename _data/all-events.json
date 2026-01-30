@@ -1463,5 +1463,21 @@
     "url": "https://www.gbif.org/event/d20a20-46da-4f30-84ef-6499ac2",
     "start_time": "2026-01-23 09:00",
     "end_time": "2026-01-23 17:00"
+  },
+  {
+    "uid": "f56f8b-1bea-42be-977d-e5eb0e8",
+    "title": "BID Pacific biodiversity data mobilization workshop",
+    "description": "The GBIF Secretariat is organizing a capacity enhancement workshop on biodiversity data mobilization as part of theBID programme <https://www.gbif.org/programme/82243/bid-biodiversity-information-for-development> for representatives of projects selected under the BID Pacific call for proposals and relevant Samoan and regional partners. The workshop is hosted bySPREP <https://www.sprep.org/> in Apia, Samoa, 20-22 April 2026.<br class=\"mb-4\">The course begins with online preparatory activities followed by an onsite workshop and concludes with online follow-up activities. A digital certification using theOpen Badges standard <https://www.1edtech.org/standards/open-badges> will be awarded to participants that successfully complete the course at either a basic or advanced level. Participants will be evaluated by trainers for their active participation during and for the quality of their exercise submissions after the workshop. It is a project milestone requirement that an individual from the project successfully completes the certification.<br class=\"mb-4\">The BID programme <https://www.gbif.org/bid> is funded by the European Union <http://www.europa.eu>. ",
+    "url": "https://www.gbif.org/event/f56f8b-1bea-42be-977d-e5eb0e8",
+    "start_time": "2026-04-20 02:00",
+    "end_time": "2026-04-22 02:00"
+  },
+  {
+    "uid": "3X22JSUeCEUaZdaq0LB8Ys",
+    "title": "Pacific Academy of Sciences Inaugural Congress 2026",
+    "description": "This free event is taking place on 16 to 18 February 2026 in Apia, Samoa. It is made possible by the support of the International Science Council’s Regional Focal Point for Asia and the Pacific, funded by the Australian Government’s Department of Industry, Science and Resources<br class=\"mb-4\"> Read more <https://www.pacificsci.org/events/pas-congress-2026> ",
+    "url": "https://www.gbif.org/event/3X22JSUeCEUaZdaq0LB8Ys",
+    "start_time": "2026-02-16 00:00",
+    "end_time": "2026-02-18 00:00"
   }
 ]
