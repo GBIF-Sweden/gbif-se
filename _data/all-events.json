@@ -1479,5 +1479,13 @@
     "url": "https://www.gbif.org/event/3X22JSUeCEUaZdaq0LB8Ys",
     "start_time": "2026-02-16 00:00",
     "end_time": "2026-02-18 00:00"
+  },
+  {
+    "uid": "57QSP3Zkj1ldnDrW6VkOfs",
+    "title": "Europe and Central Asia nodes meeting 2026",
+    "description": "The 18th meeting of the nodes of the GBIF Europe and Central Asia <> (ECA) region takes place in Montpellier, France on 4 May 2026. This full-day, in-person meeting is open to node managers from the region's participant nodes.<br class=\"mb-4\">Main topics of the meeting include coordination of ECA nodes to support GBIF participation in the region and alignment with and contribution to regional biodiversity research data infrastructures. The meeting focuses on supporting the publication of monitoring data from ECA nodes and is aligned with theBioMonWeek2026 conference <https://www.gbif.org/event/3ioWg1a0c3OaUuYQAR9RPb/biomonweek-2026>.<br class=\"mb-4\">Attendance is by invitation only. For any further information, please contact Dag Endresen <mailto:dag.endresen@nhm.uio.no>, regional node representative for Europe and Central Asia.<br class=\"mb-4\">The meeting is in the same week and location as the BioMonWeek2026 conference <https://www.gbif.org/event/3ioWg1a0c3OaUuYQAR9RPb/biomonweek-2026>, the new European conference dedicated to advancing biodiversity monitoring.",
+    "url": "https://www.gbif.org/event/57QSP3Zkj1ldnDrW6VkOfs",
+    "start_time": "2026-05-04 01:00",
+    "end_time": "2026-05-04 01:00"
   }
 ]
