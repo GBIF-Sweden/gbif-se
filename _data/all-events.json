@@ -1487,5 +1487,13 @@
     "url": "https://www.gbif.org/event/57QSP3Zkj1ldnDrW6VkOfs",
     "start_time": "2026-05-04 01:00",
     "end_time": "2026-05-04 01:00"
+  },
+  {
+    "uid": "2hxlMn5xIitrbh69g6pVWr",
+    "title": "BID project kick-off webinar: Latin America and the Caribbean region",
+    "description": "This webinar, hosted by the GBIF Secretariat and the GBIF Regional Support Contractors, is aimed at supporting successful projects funded through the Biodiversity Information for Development (BID) Latin America and the Caribbean (LAC) round.<br class=\"mb-4\">The webinar covers essential information relating to the delivery of BID projects. Topics covered include support available for project implementation, capacity enhancement, communication channels and visibility, reporting requirements and also includes a question and answers session.<br class=\"mb-4\">This session is most relevant for BID LAC project leads.<br class=\"mb-4\"> Register for the event <https://us02web.zoom.us/meeting/register/VLw7HhoISbq5bX4ZJkmptg> <br class=\"mb-4\">The BID programme <https://www.gbif.org/bid> is funded by the European Union <http://www.europa.eu>. ",
+    "url": "https://www.gbif.org/event/2hxlMn5xIitrbh69g6pVWr",
+    "start_time": "2026-03-03 16:00",
+    "end_time": "2026-03-03 17:30"
   }
 ]
