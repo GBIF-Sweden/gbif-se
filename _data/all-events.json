@@ -96,14 +96,6 @@
     "end_time": "2024-09-06 23:00"
   },
   {
-    "uid": "2vtOYk4ymZsLxQah4mfErG",
-    "title": "Technical support hour for GBIF nodes: February 2024",
-    "description": "The theme for February session of the Technical Support Hour for Node, is DNA <https://www.gbif.org/dna> data publishing. For this session, we welcome Tobias Guldberg Frøslev <https://orcid.org/0000-0002-3530-013X> from the Participation and Engagment team. Tobias will present the resource currently available for sharing DNA-derived data - with a focus on a new tool for formatting environmental DNA dataset – on GBIF and answer all your questions on the topic.<br class=\"mb-4\">You are welcome to read more about DNA and GBIF here <https://discourse.gbif.org/t/invitation-to-share-dna-metabarcoding-data-to-test-early-pilot-of-data-publishing-tool/3975><br class=\"mb-4\">The Data Product team will join as well. We will be happy to answer any question relating or not to the topic.<br class=\"mb-4\"> Register for the event <https://us02web.zoom.us/meeting/register/tZAlcumhpjopHNJ4yzlZLVVBsEb0NR7RkSIy> <br class=\"mb-4\">If nodes and nodes staff have ideas for topics, or questions please post them in the community forum <https://discourse.gbif.org/t/gbif-technical-support-hour-for-nodes-tour-of-the-registry-and-how-to-debug-ingestion/3760> or email them tohelpdesk@gbif.org <mailto:helpdesk@gbif.org>",
-    "url": "https://www.gbif.org/event/2vtOYk4ymZsLxQah4mfErG",
-    "start_time": "2024-02-07 16:00",
-    "end_time": "2024-02-07 17:00"
-  },
-  {
     "uid": "4eUUexKQt1oomsjY8UqSUO",
     "title": "ARISE day 2024",
     "description": "The ARISE project <https://www.arise-biodiversity.nl/> is building an infrastructure that will identify and monitor all multicellular species in the Netherlands.<br class=\"mb-4\">On March 27 the ARISE day will provide updates on ARISE, keynote speeches, workshops, entertainment, meet old friends, make new ones. All lectures and activities will be in English.<br class=\"mb-4\"> Read more <https://www.arise-biodiversity.nl/arise-day-2024> ",
@@ -1511,5 +1503,13 @@
     "url": "https://www.gbif.org/event/3BQikLxIEXz8AOjM2l77eX",
     "start_time": "2026-03-10 10:00",
     "end_time": "2026-03-10 11:30"
+  },
+  {
+    "uid": "1Bg1vLtxgGYdmhl3k2Cpph",
+    "title": "Hosted Portals Community Call",
+    "description": "A community call with network members who are currently running GBIF's hosted portal service <>.<br class=\"mb-4\">The meeting provides updates on progress aligning GBIF.org and Hosted Portals, as well as addressing community feedback.<br class=\"mb-4\">Anyone not currently involved in a hosted portal who wants to learn more can emailhostedportals@gbif.org <mailto:hostedportals@gbif.org> to request a Zoom link to join this call.",
+    "url": "https://www.gbif.org/event/1Bg1vLtxgGYdmhl3k2Cpph",
+    "start_time": "2026-03-18 14:00",
+    "end_time": "2026-03-18 15:30"
   }
 ]
