@@ -1,0 +1,40 @@
+name: Prune package versions
+
+on:
+  schedule:
+    - cron: '20 0 * * 4'
+  workflow_dispatch:
+
+permissions:
+  packages: write
+  contents: read
+
+jobs:
+  prune:
+    name: Prune package versions
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Prune old versions
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OWNER: ${{ github.repository_owner }}
+          REPO: ${{ github.event.repository.name }}
+          KEEP: 10
+        run: |
+          versions=$(gh api \
+            /orgs/$OWNER/packages/container/$REPO/versions \
+            --paginate \
+            --jq '.[].id')
+
+          count=0
+          for id in $versions; do
+            count=$((count+1))
+            if [ "$count" -gt "$KEEP" ]; then
+              echo "Deleting version $id"
+              gh api \
+                --method DELETE \
+                /orgs/$OWNER/packages/container/$REPO/versions/$id
+            fi
+          done
