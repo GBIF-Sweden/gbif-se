@@ -20,7 +20,7 @@ jobs:
       packages: write
 
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       
       - name: Setup Node
         uses: actions/setup-node@v6
@@ -30,7 +30,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.4'
+          ruby-version: '4.0'
 
       - name: Install Node dependencies
         run: npm ci

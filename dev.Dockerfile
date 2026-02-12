@@ -1,6 +1,6 @@
 # This file is for building the local dev image
 
-FROM ruby:3.4
+FROM ruby:4.0
 
 # This is for installing nodejs
 RUN apt-get update && apt-get install -y ca-certificates curl gnupg
