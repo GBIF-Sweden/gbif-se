@@ -6,6 +6,7 @@ on:
       - 'main'
   schedule:
     - cron: '17 0 * * *'
+  workflow_dispatch:
 
 env:
   JEKYLL_ENV: production

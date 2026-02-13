@@ -1,0 +1,54 @@
+name: Bump dependencies
+
+on:
+  schedule:
+    - cron: '17 2 16 * *'
+  workflow_dispatch:
+
+env:
+  JEKYLL_ENV: production
+
+jobs:
+
+  bump-deps:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v6
+      
+      - name: Setup Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24.x
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '4.0'
+
+      - name: Remove lock files
+        run: rm -f package-lock.json Gemfile.lock
+
+      - name: Install Node dependencies
+        run: npm ci
+
+      - name: Install Ruby dependencies
+        run: bundle install 
+
+      - name: Pre render - fetch external data
+        run: make pre-render
+
+      - name: Merge events
+        run: make merge-events
+
+      - name: Build site
+        run: bundle exec jekyll build --future
+
+      - name: Commit and push changes to lock files
+        run: |
+          git config --global user.name "[Bump deps workflow]"
+          git config --global user.email "username@users.noreply.github.com"
+          git add package-lock.json Gemfile.lock
+          git diff-index --quiet HEAD package-lock.json Gemfile.lock || git commit -m "[Bump deps workflow] Bump deps"
+          git push
