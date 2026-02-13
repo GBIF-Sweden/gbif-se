@@ -2,7 +2,7 @@ name: Bump dependencies
 
 on:
   schedule:
-    - cron: '17 2 16 * *'
+    - cron: '17 4 16 * *'
   workflow_dispatch:
 
 env:
