@@ -31,7 +31,7 @@ jobs:
         run: rm -f package-lock.json Gemfile.lock
 
       - name: Install Node dependencies
-        run: npm ci
+        run: npm install
 
       - name: Install Ruby dependencies
         run: bundle install 
