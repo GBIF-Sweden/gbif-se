@@ -1511,5 +1511,21 @@
     "url": "https://www.gbif.org/event/1OkMVgOaORMKAoDUUAXZVa",
     "start_time": "2026-05-18 01:00",
     "end_time": "2026-06-30 01:00"
+  },
+  {
+    "uid": "b5b29d-3b32-464d-bc92-982bf55",
+    "title": "Biodiversity Data Mobilization - Standards, Publishing and Validation",
+    "description": "This five-day workshop will focus on practical data mobilization for Lithuania, guiding participants through the full process from identifying datasets to publishing them through GBIF.<br class=\"mb-4\">The programme follows the workflow of data mobilization, including data discovery and assessment, data cleaning and standardization, metadata creation, application of Darwin Core standards, use of the IPT for publishing, and dataset validation and quality control. Through a combination of short presentations, structured hands-on sessions, and group discussions, participants will work directly with Lithuanian biodiversity datasets and develop concrete outputs ready for publication. The workshop will also address practical approaches to sustaining long-term FAIR data publishing and reuse in Lithuania.<br class=\"mb-4\">This event is a part of the CESP project Biodiversity data capacity building in Lithuania <https://www.gbif.org/project/CESP2025-002/biodiversity-data-capacity-building-in-lithuania>",
+    "url": "https://www.gbif.org/event/b5b29d-3b32-464d-bc92-982bf55",
+    "start_time": "2026-03-16 01:00",
+    "end_time": "2026-03-20 01:00"
+  },
+  {
+    "uid": "4koHo7R28ziBdn1H0RpGGG",
+    "title": "B-Cubed training series: From biodiversity observations to insights, hands-on training",
+    "description": "This session opens the B-Cubed training series—six live sessions held on consecutive Fridays at 15:00 CET. Each 90-minute session includes a presentation, interactive Q&A, and a hands-on segment where participants work directly with tools and workflows.<br class=\"mb-4\">In this first session, participants are introduced to GBIF’s new service for creating and downloading species occurrence cubes from GBIF-mediated data using SQL queries. Through live demonstrations and practical examples, participants will learn how to build queries, generate cubes and download datasets tailored to their research needs.<br class=\"mb-4\">The session is led by Andrew Rodrigues <https://orcid.org/0000-0002-5468-2452> (GBIF Secretariat) andLina Estupinan Suarez <https://www.idiv.de/staff/lina-estupinan-suarez/> (Martin Luther University Halle-Wittenberg).<br class=\"mb-4\"> Register here <https://us02web.zoom.us/webinar/register/WN_OQ32-nB5RFa9FLjruDEEDg#/registration>",
+    "url": "https://www.gbif.org/event/4koHo7R28ziBdn1H0RpGGG",
+    "start_time": "2026-02-20 15:00",
+    "end_time": "2026-02-20 16:30"
   }
 ]
