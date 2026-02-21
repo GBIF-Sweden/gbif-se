@@ -1363,7 +1363,7 @@
   {
     "uid": "3ioWg1a0c3OaUuYQAR9RPb",
     "title": "BioMonWeek 2026",
-    "description": "Join Biodiversa+, GBIF, MARCO-BOLO, BioAgora and Alliance for Nature from 4 to 8 May 2026 for the first BioMonWeek conference.<br class=\"mb-4\">This event brings together Europe’s biodiversity monitoring community, including researchers, monitoring experts, policymakers, private sector professionals and students.<br class=\"mb-4\">Conference themes will explore methods for strengthening transnational cooperation, harmonizing and standardizing monitoring data, sharing best practices, leveraging new technologies, citizen science and more.<br class=\"mb-4\">Additional details including website and registration links will be updated once released.",
+    "description": "Join Biodiversa+, GBIF, MARCO-BOLO, BioAgora and Alliance for Nature from 4 to 8 May 2026 for the first BioMonWeek conference.<br class=\"mb-4\">This event brings together Europe’s biodiversity monitoring community, including researchers, monitoring experts, policymakers, private sector professionals and students.<br class=\"mb-4\">Conference themes will explore methods for strengthening transnational cooperation, harmonizing and standardizing monitoring data, sharing best practices, leveraging new technologies, citizen science and more.<br class=\"mb-4\"> Read more <https://2026.biomonweek.eu/page/home/> ",
     "url": "https://www.gbif.org/event/3ioWg1a0c3OaUuYQAR9RPb",
     "start_time": "2026-05-04 01:00",
     "end_time": "2026-05-08 01:00"
@@ -1519,5 +1519,13 @@
     "url": "https://www.gbif.org/event/4koHo7R28ziBdn1H0RpGGG",
     "start_time": "2026-02-20 15:00",
     "end_time": "2026-02-20 16:30"
+  },
+  {
+    "uid": "6lxj2G9UiCL1Dfv4GQZXz8",
+    "title": "Asia Regional Nodes meeting 2026",
+    "description": "Meeting goals<br class=\"mb-4\"> * Strengthen the Asia GBIF community  * Provide a forum for GBIF nodes in Asia and the GBIF Secretariat to share latest updates and best practices  * Explore opportunities for synergies between existing and/or upcoming related regional initiatives and the GBIF network, e.g., through support of, or participation in any related training efforts; encouraging data sharing through other related regional programmes; identifying possible data flows that could encourage use of the data being mobilized through GBIF, etc.  * Showcase the relevance of GBIF data across a broad range of use cases. This event will be attended by GBIF nodes and representatives of other relevant regional initiatives.<br class=\"mb-4\">Agenda (subject to changes):<br class=\"mb-4\"> * July 8 (Wed): Opening address, GBIF general updates (morning), and GBIF Asia Nodes closed session (afternoon).  * July 9 (Thu): Symposium including Node and Publisher training, lectures, and educational sessions.  * July 10 (Fri): Field trip, with optional attendance for the remainder of the day. Questions on the agenda please contact Node Manager Seok-Jun Son <mailto:birdson88@korea.kr>.",
+    "url": "https://www.gbif.org/event/6lxj2G9UiCL1Dfv4GQZXz8",
+    "start_time": "2026-07-08 01:00",
+    "end_time": "2026-07-10 01:00"
   }
 ]
