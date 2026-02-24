@@ -1475,7 +1475,7 @@
   {
     "uid": "3BQikLxIEXz8AOjM2l77eX",
     "title": "Introduction to GBIF participation: West Asia",
-    "description": "This webinar will introduce GBIF, including its governance structure, the benefits of participation and opportunities to engage in the global biodiversity data network. It is primarily intended for governments and organizations in the West Asia region that collect, manage and/or use biodiversity data. The webinar will also include an overview of the upcomingonline regional workshop event <>, scheduled for 25 and 28 May and 1 and 4 June 2026.<br class=\"mb-4\">Who should join this webinar?<br class=\"mb-4\">The event is intended for government and organizational representatives from Bahrain, Egypt, Iran, Iraq, Jordan, Lebanon, Oman, Palestine, Qatar, Saudi Arabia, Syria, United Arab Emirates and Yemen.<br class=\"mb-4\">Context<br class=\"mb-4\">The 2019 IPBES Global Assessment Report on Biodiversity and Ecosystem Services <https://www.ipbes.net/ipbes-global-assessment-report-biodiversity-ecosystem-services> noted that openly accessible biodiversity data from the West Asia region is currently underrepresented. Sharing species occurrence data through GBIF is a pathway to enable the region to leverage a mature data infrastructure to increase biodiversity data flows and support more robust biodiversity science and monitoring.<br class=\"mb-4\"> Register for the event <https://us02web.zoom.us/webinar/register/WN_cT0mP2GfSbet2DS6Y5beHQ#/registration>",
+    "description": "This webinar will introduce GBIF, including its governance structure, the benefits of participation and opportunities to engage in the global biodiversity data network. It is primarily intended for governments and organizations in the West Asia region that collect, manage and/or use biodiversity data. The webinar will also include an overview of the upcomingonline regional workshop event <>, scheduled for 25 and 28 May and 1 and 4 June 2026.<br class=\"mb-4\">Who should join this webinar?<br class=\"mb-4\">The event is intended for government and organizational representatives from Bahrain, Egypt, Iran, Iraq, Jordan, Kuwait, Lebanon, Oman, Palestine, Qatar, Saudi Arabia, Syria, United Arab Emirates and Yemen.<br class=\"mb-4\">Context<br class=\"mb-4\">The 2019 IPBES Global Assessment Report on Biodiversity and Ecosystem Services <https://www.ipbes.net/ipbes-global-assessment-report-biodiversity-ecosystem-services> noted that openly accessible biodiversity data from the West Asia region is currently underrepresented. Sharing species occurrence data through GBIF is a pathway to enable the region to leverage a mature data infrastructure to increase biodiversity data flows and support more robust biodiversity science and monitoring.<br class=\"mb-4\"> Register for the event <https://us02web.zoom.us/webinar/register/WN_cT0mP2GfSbet2DS6Y5beHQ#/registration>",
     "url": "https://www.gbif.org/event/3BQikLxIEXz8AOjM2l77eX",
     "start_time": "2026-03-10 10:00",
     "end_time": "2026-03-10 11:30"
@@ -1519,5 +1519,29 @@
     "url": "https://www.gbif.org/event/6lxj2G9UiCL1Dfv4GQZXz8",
     "start_time": "2026-07-08 01:00",
     "end_time": "2026-07-10 01:00"
+  },
+  {
+    "uid": "5N6g0mSyrJXeToWkdaIyBd",
+    "title": "World Biodiversity Forum",
+    "description": "Under the theme of Leading Transformation Together, the fourth edition of the World Biodiversity Forum WBF takes place from Sunday, 14 June to Friday, 19 June 2026 in Davos, Switzerland.<br class=\"mb-4\"> Read more <https://worldbiodiversityforum.org/> ",
+    "url": "https://www.gbif.org/event/5N6g0mSyrJXeToWkdaIyBd",
+    "start_time": "2026-06-14 01:00",
+    "end_time": "2026-06-19 01:00"
+  },
+  {
+    "uid": "5aH5R0tVKHgwX6cvV1xZJU",
+    "title": "BHL Day 2026",
+    "description": "In connection with the Annual Meeting of the Biodiversity Heritage Library <https://www.biodiversitylibrary.org/>(BHL), a public symposium takes place at the Natural History Museum, on Wednesday 29 April.<br class=\"mb-4\">The symposium is open to all attendees of the BHL Annual Meeting as well as others from the biodiversity community.<br class=\"mb-4\">The symposium will be of interest to:<br class=\"mb-4\"> * Information professionals who provide the literature and metadata;  * Data professionals who extract, manage and integrate the data;  * Developers who build products; and  * The community that uses the products and data.  Read more <https://about.biodiversitylibrary.org/get-involved/events/bhl-day-2026/> ",
+    "url": "https://www.gbif.org/event/5aH5R0tVKHgwX6cvV1xZJU",
+    "start_time": "2026-04-29 14:00",
+    "end_time": "2026-04-29 17:00"
+  },
+  {
+    "uid": "01pD9wT1gucVCJkSNw9EUL",
+    "title": "Data Use Club: Best practices for using GBIF-mediated data",
+    "description": "Join our first GBIF Data Use Club <> event of 2026 hosted by the GBIF Secretariat, highlighting best practices for using GBIF-mediated data.<br class=\"mb-4\">The webinar will cover best practices for data transparency, ways to avoid unnecessary load on GBIF servers and how to appropriately credit original data providers through citations, including licences, attribution, fair use and technical considerations.<br class=\"mb-4\">In addition to comprehensive overviews of each topic and practical examples, the session will feature a panel discussion followed by a Q&A session.<br class=\"mb-4\">Speakers: Daniel Noesgaard <https://orcid.org/0000-0002-0407-1805>, Marie Grosjean <https://orcid.org/0000-0002-2685-8078>, Laura Anne Russell <https://orcid.org/0000-0002-1920-5298><br class=\"mb-4\"> Register for the event <https://us02web.zoom.us/meeting/register/k7YPfwfiTtqPkSCRe99oCw> ",
+    "url": "https://www.gbif.org/event/01pD9wT1gucVCJkSNw9EUL",
+    "start_time": "2026-03-11 15:00",
+    "end_time": "2026-03-11 16:30"
   }
 ]
