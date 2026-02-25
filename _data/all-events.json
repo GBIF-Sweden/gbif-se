@@ -1543,5 +1543,13 @@
     "url": "https://www.gbif.org/event/01pD9wT1gucVCJkSNw9EUL",
     "start_time": "2026-03-11 15:00",
     "end_time": "2026-03-11 16:30"
+  },
+  {
+    "uid": "24AvB7NC671xAdSukkQfPj",
+    "title": "GBIF Central Asia 2026 engagement meeting",
+    "description": "This event is for GBIF heads of delegation, additional delegates and national leads who maintain and expand GBIF participation in the Central Asia region.<br class=\"mb-4\">Meeting participants will discuss national GBIF involvement in the United Nations Convention to Combat Desertification (UNCCD <https://www.unccd.int/>) and the Convention on Biological Diversity (CBD <https://www.cbd.int/>), and identify synergies, collaborations and funding opportunities to support data-intensive biodiversity work in the region.<br class=\"mb-4\">Attendance to this event is by invitation only. For further information, please contactKyle Copas <mailto:kcopas@gbif.org> and Dmitry Schigel <mailto:dschigel@gbif.org>.<br class=\"mb-4\">The meeting will take place in the same week and location as the Expanding FAIR biodiversity data practices in Central Asia via regional workshops and collaborative networks <https://www.gbif.org/project/CESP2025-004/expanding-fair-biodiversity-data-practices-in-central-asia-via-regional-workshops-and-collaborative-networks> event.",
+    "url": "https://www.gbif.org/event/24AvB7NC671xAdSukkQfPj",
+    "start_time": "2026-04-22 01:00",
+    "end_time": "2026-04-23 01:00"
   }
 ]
