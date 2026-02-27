@@ -179,7 +179,7 @@
   {
     "uid": "7wZAstOpuUj1iWYIBx5HVa",
     "title": "4th Global Soil Biodiversity Conference",
-    "description": "Expanding on the Global Soil Biodiversity Initiative <https://www.globalsoilbiodiversity.org/>'s previous events (GSBI), the 4th Global Soil Biodiversity Conference in Victoria, Canada will convene the world’s leading experts in this interdisciplinary field of soil biodiversity science to present and discuss recent advances addressing the urgency of meeting global challenges which link to human, animal and plant health and a more sustainable world.<br class=\"mb-4\">The conference will be the top meeting for all scientists, technologists, experimentalists and modellers, students and practitioners working on any aspects of soil biodiversity science and its linkages to the functioning of our global biosphere. The conference will provide the latest updates on soil biodiversity research and knowledge for scientists, policy makers, regulators, environmental agencies, conservationists, land-use managers and other stakeholders in the sustainable use and conservation of soil biodiversity.<br class=\"mb-4\">Visit website <https://globalsoilbiodiversity2026.org/>",
+    "description": "Expanding on the Global Soil Biodiversity Initiative <https://www.globalsoilbiodiversity.org/>'s previous events (GSBI), the 4th Global Soil Biodiversity Conference in Victoria, Canada will convene the world’s leading experts in this interdisciplinary field of soil biodiversity science to present and discuss recent advances addressing the urgency of meeting global challenges which link to human, animal and plant health and a more sustainable world.<br class=\"mb-4\">The conference will be the top meeting for all scientists, technologists, experimentalists and modellers, students and practitioners working on any aspects of soil biodiversity science and its linkages to the functioning of our global biosphere. The conference will provide the latest updates on soil biodiversity research and knowledge for scientists, policy makers, regulators, environmental agencies, conservationists, land-use managers and other stakeholders in the sustainable use and conservation of soil biodiversity.<br class=\"mb-4\">read more <https://globalsoilbiodiversity2026.org/>",
     "url": "https://www.gbif.org/event/7wZAstOpuUj1iWYIBx5HVa",
     "start_time": "2026-04-12 11:00",
     "end_time": "2026-04-15 19:00"
@@ -1559,5 +1559,21 @@
     "url": "https://www.gbif.org/event/1ixflNJcLn1bLSYtPWdGAu",
     "start_time": "2026-04-08 15:00",
     "end_time": "2026-04-08 16:00"
+  },
+  {
+    "uid": "1rD4wvR8H2t2d7Tyces3mY",
+    "title": "10th International Barcode of life",
+    "description": "The 10th International Barcode of Life Conference will take place in Bangkok, Thailand. This in-person conference provides a unique opportunity to exchange and disseminate cutting-edge scientific knowledge about the latest DNA barcoding and metabarcoding advancements for species identification<br class=\"mb-4\"> Read more <https://dnabarcodingconference.com/> ",
+    "url": "https://www.gbif.org/event/1rD4wvR8H2t2d7Tyces3mY",
+    "start_time": "2026-11-02 00:00",
+    "end_time": "2026-11-06 00:00"
+  },
+  {
+    "uid": "4fSVCIvu0glgX2GMFRwahY",
+    "title": "Global eDNA Conference",
+    "description": "Hosted in partnership with the MTS eDNA Committee <https://www.mtsociety.org/edna> and the University of Washington’s eDNA Collaborative <https://www.ednacollab.org/>, the conference will convene a global community of eDNA enthusiasts from across economic sectors to build connections, learn from one another, and further advance eDNA science.<br class=\"mb-4\">The global conference will feature three days of concurrent sessions, focusing on a diverse array of eDNA-related topics (e.g., conservation applications, quantitative analysis, community engagement, policy-relevant communication, technological development, and many others), as well as a set of plenary speakers, a call for abstracts, a poster session, and unstructured time for networking.<br class=\"mb-4\"> Register for the event <https://www.mtsociety.org/global-edna-conference> ",
+    "url": "https://www.gbif.org/event/4fSVCIvu0glgX2GMFRwahY",
+    "start_time": "2026-10-28 00:00",
+    "end_time": "2026-10-30 00:00"
   }
 ]
