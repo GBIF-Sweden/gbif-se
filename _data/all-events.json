@@ -137,14 +137,6 @@
     "end_time": "2024-11-01 00:00"
   },
   {
-    "uid": "6Jx3bKshi8VWPqk2dW5Jz7",
-    "title": "Data Use Club seminar: Biosecurity alerts",
-    "description": "During the next Data Use Club <> webinar, three speakers from the Science and Decision Support Team at theAtlas of Living Australia <https://www.ala.org.au/> (ALA) will share their insights on how early surveillance and incursion detection of invasive species is a crucial component of an effective biosecurity system. Australia is a global leader in biosecurity, as is reflected in its biosecurity measures being among the most stringent and recognizable in the world.<br class=\"mb-4\">Australia's native flora, fauna and environment have experienced some of greatest impacts from invasive species as a result of its history of accidental and deliberate introductions.Callum Waite, Erin Roger and Shandiya Balasubramaniam will describe their work in developing a biosecurity alert system prototype that relies on the experimentalR package koel <https://github.com/AtlasOfLivingAustralia/koel>, which ingests species lists, applies spatial, temporal, and taxonomic filters to occurrence records from the ALA, and emails users updates on species of concern.<br class=\"mb-4\">NOTE: This session will start at 9:00 CET to better accommodate our Australia-based speakers<br class=\"mb-4\">Speakers<br class=\"mb-4\"> * Callum Waite <https://orcid.org/0009-0009-0474-0122>  * Erin Roger <https://orcid.org/0000-0002-9671-132X>, Sector Lead  * Shandiya Balasubramaniam <https://orcid.org/0000-0001-9928-9964>, Decision Support Program Lead  Register <https://us02web.zoom.us/meeting/register/tZMscO-hrT0tHtGhKnsJQoJk6hdoixwByJsE> <br class=\"mb-4\">Email questions, comments or feedback to datause@gbif.org <mailto:datause@gbif.org>",
-    "url": "https://www.gbif.org/event/6Jx3bKshi8VWPqk2dW5Jz7",
-    "start_time": "2024-02-28 09:00",
-    "end_time": "2024-02-28 10:00"
-  },
-  {
     "uid": "123JskXfrvbKFD9P9zmgCi",
     "title": "Technical support hour for GBIF nodes: March 2024",
     "description": "The theme for the March 2024 session of the Technical Support Hour for Node is GBIF’s data quality workflow. We will go through how published data is processed regarding quality checks, show how you can get an overview of the flags and issues of datasets, how users provide publicly accessible feedback and how you can navigate the feedback yourself.<br class=\"mb-4\"> Register for the event <https://us02web.zoom.us/meeting/register/tZUkfuCupj8iH92pS7BE9VbYfkSL-Q7j9IyC> <br class=\"mb-4\">If nodes and node staff have ideas for topics, or questions please post them in the community forum <https://discourse.gbif.org/t/gbifs-data-quality-workflow-gbif-technical-support-hour-for-nodes/4286> or email them tohelpdesk@gbif.org <mailto:helpdesk@gbif.org>",
@@ -1575,5 +1567,13 @@
     "url": "https://www.gbif.org/event/4fSVCIvu0glgX2GMFRwahY",
     "start_time": "2026-10-28 00:00",
     "end_time": "2026-10-30 00:00"
+  },
+  {
+    "uid": "4Yp0cvBOsyACAirkeYpzJ8",
+    "title": "Oceania Regional Nodes Meeting",
+    "description": "Meeting goals<br class=\"mb-4\"> * Support regional coordination, led by the regional representatives  * Facilitate regional collaboration by allowing nodes to share updates on their activities, receive peer feedback, and discuss joint project proposals throughCESP <https://www.gbif.org/programme/82219/capacity-enhancement-support-programme>, BID <https://www.gbif.org/programme/82243/bid-biodiversity-information-for-development>, and other programmes  * Provide feedback to the Secretariat and NSG on regional issues and priorities  * Develop stronger regional engagement in GBIF Attendance is by invitation only. For any further information, please contact the hosts of the meetingLagi Reupena <mailto:lagir@sprep.org> or Tavita Su'a <mailto:tavitas@sprep.org>.<br class=\"mb-4\">Agenda<br class=\"mb-4\"> * April 23 (Thu) Nodes meeting  * April 24 (Fri) Nodes meeting The meeting is in the same week as the BID workshop <https://www.gbif.org/event/f56f8b-1bea-42be-977d-e5eb0e8>",
+    "url": "https://www.gbif.org/event/4Yp0cvBOsyACAirkeYpzJ8",
+    "start_time": "2026-04-23 01:00",
+    "end_time": "2026-04-24 01:00"
   }
 ]
