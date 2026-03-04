@@ -1,7 +1,7 @@
 ---
 title: "Call for submissions: 2026 Ebbe Nielsen Challenge"
 date: 2026-01-28
-image: 2026_Ebbe_Nielsen_Challenge_open_for_submissions.png
+image: 2026-01-28_Ebbe_Nielsen_Challenge_open_for_submissions.png
 ---
 The Global Biodiversity Information Facility (GBIF) has opened the call for submissions for the 2026 Ebbe Nielsen Challenge. The challenge promotes innovative uses of open biodiversity data by recognizing the development of tools, workflows, and applications that improve the access, integration, analysis, or reuse of biodiversity information.
 

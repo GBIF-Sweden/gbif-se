@@ -1,7 +1,7 @@
 ---
 title: "Call for nominations: 2026 GBIF Graduate Researchers Award"
 date: 2026-01-22
-image: 2026-graduate-research-award.png
+image: 2026-01-22_graduate-research-award.png
 
 ---
 The Global Biodiversity Information Facility (GBIF) has opened the call for nominations for the 2026 GBIF Graduate Researchers Award. The award recognizes outstanding research by master’s and PhD students whose work uses GBIF-mediated biodiversity data and demonstrates innovation and discovery in biodiversity science and biodiversity informatics.
