@@ -4,13 +4,28 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+    groups:
+      default:
+        patterns:
+          - "*"
+    ignore:
+    - dependency-name: "*"
+      update-types: ["version-update:semver-patch"]
 
   - package-ecosystem: "bundler"
     directory: "/"
     schedule:
       interval: "weekly"
+    groups:
+      default:
+        patterns:
+          - "*"
 
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "weekly"
+    groups:
+      default:
+        patterns:
+          - "*"
