@@ -1559,5 +1559,21 @@
     "url": "https://www.gbif.org/event/4Yp0cvBOsyACAirkeYpzJ8",
     "start_time": "2026-04-23 01:00",
     "end_time": "2026-04-24 01:00"
+  },
+  {
+    "uid": "2VeCrurhas3yvfm53RQeGB",
+    "title": "Virtual Data Mobilization Workshop in French for Africa",
+    "description": "The GBIF Africa Regional Support Team will organize a virtual data mobilisation training workshop in French to strengthen the capacity of francophone institutions in Africa to mobilize and publish biodiversity data through GBIF.<br class=\"mb-4\">The workshop follows the GBIF Biodiversity Data Mobilization curriculum and will cover key steps of the data mobilization workflow, including data capture (Darwin Core), data management and cleaning, and data publishing using the Integrated Publishing Toolkit (IPT).<br class=\"mb-4\">Key dates:<br class=\"mb-4\">Preparatory self-study: 20 April – 3 May 2026 Virtual sessions: 4–7 May 2026 (08:00–11:00 UTC) Certification exercises: 16–29 May 2026<br class=\"mb-4\">A maximum of 30 participants will be selected.<br class=\"mb-4\">Application deadline: 10 April 2026 (23:59 UTC) Results announcement: 15 April 2026<br class=\"mb-4\"> Application form <https://forms.gle/tcDGPTAqkkr6DbVC8> ",
+    "url": "https://www.gbif.org/event/2VeCrurhas3yvfm53RQeGB",
+    "start_time": "2026-05-04 10:00",
+    "end_time": "2026-05-07 13:00"
+  },
+  {
+    "uid": "8557e2-c3e0-410a-bd06-06f54f2",
+    "title": "From a vegetation-plot database to a GBIF dataset",
+    "description": "This event is a 2-hour webinar that is part of the \"Cutting vEdge Tools - Ecoinformatics Seminar Series\" and is organised by the IAVS Ecoinformatics Group in collaboration with the IAVS European Vegetation Survey group.<br class=\"mb-4\">Part 1: Introduction to key concepts in publishing through GBIF. Part 2: Using an R script to export data from a Turboveg database and map it to the Darwin Core Standard as a sampling event.",
+    "url": "https://www.gbif.org/event/8557e2-c3e0-410a-bd06-06f54f2",
+    "start_time": "2026-03-27 01:00",
+    "end_time": "2026-03-27 01:00"
   }
 ]
