@@ -1575,5 +1575,13 @@
     "url": "https://www.gbif.org/event/8557e2-c3e0-410a-bd06-06f54f2",
     "start_time": "2026-03-27 01:00",
     "end_time": "2026-03-27 01:00"
+  },
+  {
+    "uid": "75ZH1v9gOPraRVasRirxpw",
+    "title": "Technical Support Hour for Nodes: April 2026",
+    "description": "Join us on the 1st of April at 16:00 CEST for our next Technical Support Hour for Nodes where John Waller from the Data Products team will presentGBIF Rule-based Annotations <https://data-blog.gbif.org/post/2026-01-21-rule-based-annotations/>.<br class=\"mb-4\">The rule-based annotations tool is an experimental feature developed to facilitate data cleaning and capture user feedback. It is currently available for testing.<br class=\"mb-4\">We will be happy to answer any questions related to or not related to the topic. Note that we are changing to summer time, the time zone is CEST.<br class=\"mb-4\"> Register for the event <https://us02web.zoom.us/meeting/register/vLUm9trMTYS7lz2gI0ebCA> ",
+    "url": "https://www.gbif.org/event/75ZH1v9gOPraRVasRirxpw",
+    "start_time": "2026-04-01 16:00",
+    "end_time": "2026-04-01 17:00"
   }
 ]
