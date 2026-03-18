@@ -1355,7 +1355,7 @@
   {
     "uid": "e3d73b-f472-4e7d-9604-63ff3b4",
     "title": "Nature Action Dialogues",
-    "description": "The Nature Action Dialogues provide a unique and powerful forum where business, finance and conservation leaders meet as peers to advance collaboration at the nexus of biodiversity, climate, water, and health. This is a working space to accelerate change, shape leadership, and unlock sustainable growth while halting and reversing nature loss.<br class=\"mb-4\"> Register for the event <https://www.natureactiondialogues.org/> ",
+    "description": "The Nature Action Dialogues provide a unique and powerful forum where business, finance and conservation leaders meet as peers to advance collaboration at the nexus of biodiversity, climate, water, and health. This is a working space to accelerate change, shape leadership, and unlock sustainable growth while halting and reversing nature loss.<br class=\"mb-4\">Register for the event <https://www.natureactiondialogues.org/> ",
     "url": "https://www.gbif.org/event/e3d73b-f472-4e7d-9604-63ff3b4",
     "start_time": "2026-05-12 02:00",
     "end_time": "2026-05-13 02:00"
@@ -1583,5 +1583,13 @@
     "url": "https://www.gbif.org/event/a03612-defa-40f7-8080-bac104b",
     "start_time": "2026-04-23 02:00",
     "end_time": "2026-04-25 02:00"
+  },
+  {
+    "uid": "ce250a-2414-4879-9874-2983ba5",
+    "title": "TNFD data recommendations - Understanding corporate nature data exchange",
+    "description": "In November 2025, following more than four years of research, market consultation and piloting, theTaskforce on Nature-based Financial Disclosures <https://tnfd.global> (TNFD) released a set of eight “Recommendations for upgrading the nature data value chain for market participants.\" The recommendations seek to catalyse a whole-of-value-chain mindset shift about the discoverability, quality and accessibility of nature-related data as a strategic global public good.<br class=\"mb-4\">Recommendation 5 focuses on incentivising corporate nature data exchange. The aim is to expand mechanisms and incentives for companies and financial institutions to contribute state-of-nature data they have collected back into the global commons as a recognised and valuable contribution to global policy goal to halt and reverse nature loss. Despite both a willingness and successful examples of corporates contributing nature data to the public domain, barriers to participation remain. This webinar will feature corporates sharing their needs and experiences with sharing open biodiversity data along with insights and highlights from work to date by both GBIFKyle Copas <https://orcid.org/0000-0002-6590-599X> and SiB Colombia.<br class=\"mb-4\"> Read more <https://tnfd.global/event/tnfds-data-recommendations-understanding-corporate-nature-data-exchange/>",
+    "url": "https://www.gbif.org/event/ce250a-2414-4879-9874-2983ba5",
+    "start_time": "2026-03-31 16:00",
+    "end_time": "2026-03-31 17:00"
   }
 ]
