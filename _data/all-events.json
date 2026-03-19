@@ -1325,8 +1325,8 @@
     "title": "BioMonWeek 2026",
     "description": "Join Biodiversa+, GBIF, MARCO-BOLO, BioAgora and Alliance for Nature from 4 to 8 May 2026 for the first BioMonWeek conference.<br class=\"mb-4\">This event brings together Europe’s biodiversity monitoring community, including researchers, monitoring experts, policymakers, private sector professionals and students.<br class=\"mb-4\">Conference themes will explore methods for strengthening transnational cooperation, harmonizing and standardizing monitoring data, sharing best practices, leveraging new technologies, citizen science and more.<br class=\"mb-4\"> Read more <https://2026.biomonweek.eu/page/home/> ",
     "url": "https://www.gbif.org/event/3ioWg1a0c3OaUuYQAR9RPb",
-    "start_time": "2026-05-04 01:00",
-    "end_time": "2026-05-08 01:00"
+    "start_time": "2026-05-05 01:00",
+    "end_time": "2026-05-07 01:00"
   },
   {
     "uid": "4HhXuPSjJJRIzqHyfbB4fq",
@@ -1591,5 +1591,13 @@
     "url": "https://www.gbif.org/event/ce250a-2414-4879-9874-2983ba5",
     "start_time": "2026-03-31 16:00",
     "end_time": "2026-03-31 17:00"
+  },
+  {
+    "uid": "5CvSVMC6kRUbjR7GdxnPto",
+    "title": "IAIA26",
+    "description": "IAIA26 offers conference sessions, training courses, sponsored meetings, technical visits, and networking events that promote learning and professional connections. One- and two-day training courses take place in the days leading up to the conference, led by experienced instructors and covering a wide range of topics.<br class=\"mb-4\">The program features over 120 technical sessions across sectors including academia, government, industry, and consulting. Technical visits, held before and after the conference, provide insights into regional projects and culture, guided by impact assessment professionals. Networking events such as the welcome reception, newcomer network, and banquet create opportunities for engagement, entertainment, and expanding professional networks.<br class=\"mb-4\"> Read more <https://2026.iaia.org/> ",
+    "url": "https://www.gbif.org/event/5CvSVMC6kRUbjR7GdxnPto",
+    "start_time": "2026-05-19 01:00",
+    "end_time": "2026-05-22 01:00"
   }
 ]
