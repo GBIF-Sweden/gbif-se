@@ -1591,5 +1591,13 @@
     "url": "https://www.gbif.org/event/5CvSVMC6kRUbjR7GdxnPto",
     "start_time": "2026-05-19 01:00",
     "end_time": "2026-05-22 01:00"
+  },
+  {
+    "uid": "4OGi2NeNFTS0k49OY54yA4",
+    "title": "TaxonWorks Together 2026",
+    "description": "The seventh TaxonWorks Together conference is happening online from 19-21 May 2026.<br class=\"mb-4\">Join the TaxonWorks Together group for three days of activities centered around building the collective TaxonWorks community within the broader context of biodiversity informatics around the world, highlighting what's new, changed and on the horizon.<br class=\"mb-4\">Activities at the conference range from highly guided sessions, to un-conference style formats, with informational (demonstrations, new features, participant presentations) and conversational (round-table, Q&A) opportunities throughout.<br class=\"mb-4\">All sessions are virtual (via Zoom) and free to attend, however, registration is required as spaces may be limited.<br class=\"mb-4\"> Learn more <https://together.taxonworks.org/> ",
+    "url": "https://www.gbif.org/event/4OGi2NeNFTS0k49OY54yA4",
+    "start_time": "2026-05-19 01:00",
+    "end_time": "2026-05-21 01:00"
   }
 ]
