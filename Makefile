@@ -1,6 +1,9 @@
 run:
 	docker compose up --detach
 
+stop:
+	docker compose down
+
 restart:
 	docker compose restart
 
