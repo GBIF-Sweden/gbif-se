@@ -1,6 +1,6 @@
 # This file is for building the production image
 
-FROM nginx:1.28
+FROM nginx:1.30
 
 ENV TZ=Europe/Stockholm
 
