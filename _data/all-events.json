@@ -1591,5 +1591,13 @@
     "url": "https://www.gbif.org/event/25b1bc-61d1-445a-b020-83d4b59",
     "start_time": "2026-09-07 09:00",
     "end_time": "2026-09-07 16:00"
+  },
+  {
+    "uid": "3FkcgH4mqPW5OfY6YN9eH",
+    "title": "The 33rd meeting of the GBIF Governing Board and associated events takes place in Oslo, Norway.",
+    "description": "The 33rd meeting of the GBIF Governing Board and associated events takes place in Oslo, Norway.<br class=\"mb-4\"> * 28 September 2026 Monday: Committees and Icebreaker  * 29 September 2026 Tuesday: GB33 Day 1  * 30 September Wednesday: GB33 Day 2 - Hosted dinner  * 01 October Thursday: GB33 Day 3  * 02 October Friday: Symposium For more information and to register your attendance, please visit the official GB33 website atgb33.gbif.org <https://gb33.gbif.org/>.<br class=\"mb-4\">Questions? If you have any questions regarding the meeting or associated events, don't hesitate to reach out to us atGB33@gbif.org <mailto:GB33@gbif.org>.<br class=\"mb-4\">The meeting is one week after TDWG 2026 Biodiversity Information Standards (TDWG) 2026 annual conference <https://www.gbif.org/event/77dESEd7zS9wTvKLF9dfMB/biodiversity-information-standards-tdwg-2026-annual-conference>",
+    "url": "https://www.gbif.org/event/3FkcgH4mqPW5OfY6YN9eH",
+    "start_time": "2026-09-28 01:00",
+    "end_time": "2026-10-02 01:00"
   }
 ]
