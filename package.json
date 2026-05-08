@@ -2,7 +2,7 @@
   "name": "gbif-se",
   "version": "1.0.0",
   "devDependencies": {
-    "cssnano": "^7.0.7",
+    "cssnano": "^8.0.0",
     "postcss": "^8.5.8",
     "postcss-cli": "^11.0.1",
     "tailwindcss": "^4.2.1",
