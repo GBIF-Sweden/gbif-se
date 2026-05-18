@@ -9,7 +9,7 @@ The Ebbe Nielsen Challenge is open to individuals and teams worldwide and encour
 
 Participants may submit working prototypes, software tools, data pipelines, or other digital products that make use of GBIF-mediated data, either alone or in combination with other open data sources. Submissions should clearly describe the problem addressed, the approach taken, and the added value of the solution.
 
-The submission deadline is 7 September 2026.
+**The submission deadline is Friday 26 June 2026, 23:59 Central European Summer Time (UTC+2).**
 
 Further details on eligibility, submission requirements, evaluation criteria, and timelines are available from GBIF at:
 [https://www.gbif.org/news/3DyM3tK5wgYipqyaHwG2c2/2026-ebbe-nielsen-challenge-open-for-submissions](https://www.gbif.org/news/3DyM3tK5wgYipqyaHwG2c2/2026-ebbe-nielsen-challenge-open-for-submissions)

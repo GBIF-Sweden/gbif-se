@@ -1,5 +1,5 @@
 ---
-title: "GBIF Sweden joins newly funded BID project to strengthen museum collection digitization and biodiversity data use in Africa"
+title: "GBIF Sweden part of newly funded BID project to strengthen museum collection digitization and biodiversity data use in Africa"
 date: 2026-05-13
 image: 2026-05-13_GBIF-Sweden-joins-newly-funded-BID-project.png
 image-attribution: "Photo: Kristoffer Hylander, Bishoftu, Ethiopia"
