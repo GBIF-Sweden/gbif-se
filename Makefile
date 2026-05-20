@@ -23,14 +23,13 @@ deploy:
 
 pre-render:
 	_script/fetch-datasets.sh
-	#_script/fetch-gbif-org-events.sh
+	_script/fetch-gbif-org-events.sh
 	_script/create-news-year-pages.sh
 	curl -sS --max-time 30 --retry 1 "https://api.gbif.org/v1/occurrence/search?limit=0&occurrenceStatus=present" --output _data/occurence-total.json
 	curl -sS --max-time 30 --retry 1 "https://api.gbif.org/v1/occurrence/search?publishingCountry=SE&limit=0&facet=kingdomKey" --output _data/kingdom-counts.json
 
 merge-events:
-	echo
-	#node ./_script/merge-events.js
+	node ./_script/merge-events.js
 
 _clean-deps:
 	rm Gemfile.lock package-lock.json
