@@ -1575,5 +1575,13 @@
     "url": "https://www.gbif.org/event/7IOU7Z6LuuszGg1zTIJjl3",
     "start_time": "2026-06-03 16:00",
     "end_time": "2026-06-03 17:00"
+  },
+  {
+    "uid": "f1e6a3-f044-461c-a642-eaad23c",
+    "title": "BID project kick-off webinar: Africa region",
+    "description": "This webinar, hosted by the GBIF Secretariat and the GBIF Regional Support Contractors, is aimed at supporting successful projects funded through the Biodiversity Information for Development <https://www.gbif.org/programme/82243/bid-biodiversity-information-for-development> (BID) in the African region. The webinar covers essential information relating to the delivery of BID projects. Topics covered include: * Support available for project implementation * Capacity enhancement * Communication channels * Visibility * Reporting requirements. The session also includes a question and answers session and is most relevant for BID Africa project leads. The BID programme <https://www.gbif.org/bid> is funded by the European Union <http://www.europa.eu>.",
+    "url": "https://www.gbif.org/event/f1e6a3-f044-461c-a642-eaad23c",
+    "start_time": "2026-08-18 14:00",
+    "end_time": "2026-08-18 15:30"
   }
 ]
