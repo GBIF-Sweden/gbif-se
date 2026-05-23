@@ -1583,5 +1583,21 @@
     "url": "https://www.gbif.org/event/f1e6a3-f044-461c-a642-eaad23c",
     "start_time": "2026-08-18 14:00",
     "end_time": "2026-08-18 15:30"
+  },
+  {
+    "uid": "6320eb-629e-4c8f-b7f4-d81d71a",
+    "title": "Webinar: Improving Data Quality at the Source - A Data Quality Toolkit for Biocollections",
+    "description": "GBIF North America is hosting a webinar event on 11 June 2026, 11:00 - 12:00 EDT. This is part of the North America Regional Meeting, and is open to anyone that would like to join. Biocollection data often suffer from data quality issues that arise from the complexities of the digitization and mobilization processes, and these data quality issues can prevent the data from reaching its full potential for research and educational impact. Some data quality issues are complex, others are relatively simple to identify and fix and can provide momentum for further improvements. In this webinar, we will discuss several categories of common data quality issues in biocollections datasets, and we will share a toolbox of data quality checks and fixes that can be easily deployed in collection management systems or spreadsheets. Learn more <https://events.zoom.us/ev/Aqhr9vH7esHMJNIjuFWyzsj-O_0K0Nla13f3OYs0GNUmSdr-qY1K~ApozuhVigB_Ed_3AlP6blur3Uisvagw_4cNNBIodcwncMw3aEbNKDA9qQA>",
+    "url": "https://www.gbif.org/event/6320eb-629e-4c8f-b7f4-d81d71a",
+    "start_time": "2026-06-11 02:00",
+    "end_time": "2026-06-11 02:00"
+  },
+  {
+    "uid": "4ba799-8da7-40ae-a9a6-c16bbb4",
+    "title": "2026 Digital Data in Biodiversity Research Conference",
+    "description": "This year’s program features three full days of plenary speakers, oral presentations, extended sessions and a virtual expo hall showcasing posters and exhibitors. The conference will bring together presenters from across the biodiversity community and around the world to highlight innovative work advancing the theme, Enabling Science Through Integrated Biodiversity Data. Read more <https://idigb.io/h>",
+    "url": "https://www.gbif.org/event/4ba799-8da7-40ae-a9a6-c16bbb4",
+    "start_time": "2026-06-02 02:00",
+    "end_time": "2026-06-04 02:00"
   }
 ]
