@@ -1591,5 +1591,13 @@
     "url": "https://www.gbif.org/event/4ba799-8da7-40ae-a9a6-c16bbb4",
     "start_time": "2026-06-02 02:00",
     "end_time": "2026-06-04 02:00"
+  },
+  {
+    "uid": "776367-9bfb-4af8-8893-ea222b2",
+    "title": "Webinar: Bugs to Bytes, a free platform for ecological research data",
+    "description": "Most ecological research data is still managed through scattered spreadsheets, lab notebooks and ad-hoc shared folders. Organizing a multi-site survey, let alone collaborating across and within institutions, quickly becomes the bottleneck that slows down actual research. The free web-based platform bugstobytes.com <https://www.bugstobytes.com/> is built to address this issue. It provides researchers with a clear data structure that mirrors the actual workflow of modern field work, with fully customizable metadata. Every specimen record is linked to the GBIF Backbone Taxonomy, with autocomplete search, synonym resolution and full hierarchical classification. This webinar, organized by the WiNoDa Knowledge Lab <https://winoda.de/en/english/> covers: * The platform's foundation, how it supports and simplifies your research process and data management * A live tour of the platform, from creating a project to exporting publication-ready datasets and plots * Data and project sharing, how organizations and personal workspaces on the platform support collaboration across individual researchers and within institutions. Register <https://winoda.de/en/event/webinar-bugs-to-bytes/>",
+    "url": "https://www.gbif.org/event/776367-9bfb-4af8-8893-ea222b2",
+    "start_time": "2026-06-02 11:00",
+    "end_time": "2026-06-02 12:00"
   }
 ]
