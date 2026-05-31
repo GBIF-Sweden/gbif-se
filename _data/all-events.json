@@ -113,14 +113,6 @@
     "end_time": "2024-06-06 13:00"
   },
   {
-    "uid": "2cn0uCiWlTeeldhJuOkOxd",
-    "title": "8th Annual Digital Data in Biodiversity Research Conference: Synthesizing & Harmonizing Data for Integrated Biodiversity Research",
-    "description": "<br class=\"mb-4\">iDigBio <https://www.idigbio.org/>, the Natural Science Collections Alliance (NSCA) <https://nscalliance.org/>, and The University of Kansas's Biodiversity Research Institute are delighted to announce the 2024 Digital Data in Biodiversity Research Conference, 29-31 May, with this edition of the conference offering both in-person and virtual participation. The overall theme for the 2024 conference will be Synthesizing & Harmonizing Data for Integrated Biodiversity Research.<br class=\"mb-4\"> Read more <https://www.idigbio.org/content/digital-data-2024-synthesizing-harmonizing-data-integrated-biodiversity-research>",
-    "url": "https://www.gbif.org/event/2cn0uCiWlTeeldhJuOkOxd",
-    "start_time": "2024-05-29 00:00",
-    "end_time": "2024-05-31 00:00"
-  },
-  {
     "uid": "7i8KywevYxWzlQMGaYdcxp",
     "title": "Data Use Club practical sessions: cloud computing services",
     "description": "Utilizing cloud computing services <https://techdocs.gbif.org/en/cloud-services/> can enable big data queries that are slow or impractical on a local machine. Public datasets containingsnapshots <https://www.gbif.org/occurrence-snapshots> of all GBIF-mediated occurrence data are shared each month on the Microsoft Planetary Computer (Azure), as an Amazon AWS Open Dataset, and on a public Google GCS bucket and BigQuery table.<br class=\"mb-4\">During this practical session, GBIF Data Analyst, John Waller <https://orcid.org/0000-0002-7302-5976>, will describe the snapshots and will demonstrate how to query and cite GBIF-mediated data using these cloud services.<br class=\"mb-4\"> Register for the event <https://us02web.zoom.us/meeting/register/tZElc-ispz8uHNJaZDBD9Mvnzb_BLT95wKr3> ",
