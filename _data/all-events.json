@@ -1591,5 +1591,13 @@
     "url": "https://www.gbif.org/event/76a4ZXe0jGs2glA4Bzagb0",
     "start_time": "2026-07-26 18:00",
     "end_time": "2026-09-01 04:00"
+  },
+  {
+    "uid": "1qF86dkeKYWyJDxAayyq3u",
+    "title": "Promoting the use of data-driven research and AI for controlling and managing invasive weeds",
+    "description": "Invasive weed science increasingly relies on heterogeneous data streams, such as survey and monitoring networks, remote sensing, and model-based inference, alongside machine learning for detection, mapping, and decision support. Coordinated frameworks for data collection, interoperability, and collaborative analysis remain incomplete. This expert workshop convenes researchers to sharpen priorities for data-driven research and AI in invasive weed management, and to identify gaps and opportunities for the field. Refer to workshop event page <https://invasion-science-technology.github.io/workshop-2026/index.html> for full details, agenda and registration.",
+    "url": "https://www.gbif.org/event/1qF86dkeKYWyJDxAayyq3u",
+    "start_time": "2026-06-15 02:30",
+    "end_time": "2026-06-17 02:00"
   }
 ]
