@@ -105,14 +105,6 @@
     "end_time": "2024-12-04 23:00"
   },
   {
-    "uid": "5ffiVoYwhcFpz3wvv4qLjv",
-    "title": "Latin America and Caribbean Nodes meeting 2024",
-    "description": "Will be available soon Agenda and meeting overview <https://gbif.ambiente.gob.ec/nodes-meeting-2024><br class=\"mb-4\">Contact Leslie Melisa Ojeda Cabrera <mailto:snib.guatemala@gmail.com> Nodes regional representative for Latin America and the Caribbean for any further information on the agenda.<br class=\"mb-4\">Questions on the logistics please contact Victor Sánchez Chocho <mailto:victor.chocho@ambiente.gob.ec> Nodes regional representative deputy for Latin America and the Caribbean",
-    "url": "https://www.gbif.org/event/5ffiVoYwhcFpz3wvv4qLjv",
-    "start_time": "2024-06-03 09:00",
-    "end_time": "2024-06-06 13:00"
-  },
-  {
     "uid": "7i8KywevYxWzlQMGaYdcxp",
     "title": "Data Use Club practical sessions: cloud computing services",
     "description": "Utilizing cloud computing services <https://techdocs.gbif.org/en/cloud-services/> can enable big data queries that are slow or impractical on a local machine. Public datasets containingsnapshots <https://www.gbif.org/occurrence-snapshots> of all GBIF-mediated occurrence data are shared each month on the Microsoft Planetary Computer (Azure), as an Amazon AWS Open Dataset, and on a public Google GCS bucket and BigQuery table.<br class=\"mb-4\">During this practical session, GBIF Data Analyst, John Waller <https://orcid.org/0000-0002-7302-5976>, will describe the snapshots and will demonstrate how to query and cite GBIF-mediated data using these cloud services.<br class=\"mb-4\"> Register for the event <https://us02web.zoom.us/meeting/register/tZElc-ispz8uHNJaZDBD9Mvnzb_BLT95wKr3> ",
