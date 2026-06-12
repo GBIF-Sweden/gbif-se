@@ -1591,5 +1591,13 @@
     "url": "https://www.gbif.org/event/1qF86dkeKYWyJDxAayyq3u",
     "start_time": "2026-06-15 02:30",
     "end_time": "2026-06-17 02:00"
+  },
+  {
+    "uid": "b0d7f2-d9f6-4d64-8488-49c153a",
+    "title": "Workshop for eDNA researchers in Denmark: Mobilizing eDNA and other DNA metabarcoding data to GBIF",
+    "description": "In collaboration with the GBIF Secretariat, DanBIF <https://danbif.dk/om-danbif/> is hosting a one-and-a-half-day workshop in Copenhagen, where participants can learn how to increase the visibility and reuse of their biodiversity data by publishing it through GBIF using the Metabarcoding Data Toolkit <https://mdt.gbif.org/> (MDT). When datasets are published through GBIF, each published dataset is assigned a DOI, enhancing discoverability, reuse and citation. Sharing biodiversity data through GBIF via the Danish eDNA portal also enables streamlined visualization and exploration, supporting research, policy and decision-making at local, national and global scales. Open access biodiversity data plays a critical role in informing international initiatives such as theCBD <https://www.cbd.int/>, IPBES <https://www.ipbes.dk/en/>, and IUCN Red-Listing <https://www.iucnredlist.org/>. This event is by invitation only and is supported by the Novo Nordisk Foundation <https://novonordiskfonden.dk/>.",
+    "url": "https://www.gbif.org/event/b0d7f2-d9f6-4d64-8488-49c153a",
+    "start_time": "2026-09-02 02:00",
+    "end_time": "2026-09-03 02:00"
   }
 ]
