@@ -1615,5 +1615,13 @@
     "url": "https://www.gbif.org/event/37ec95-23fa-478f-b335-f6a3b2a",
     "start_time": "2026-11-09 01:00",
     "end_time": "2026-11-12 01:00"
+  },
+  {
+    "uid": "08f299-cf31-453f-b3da-90da978",
+    "title": "Data Use Club practical session: New and improved GBIF.org",
+    "description": "The recent refreshed GBIF.org website provides a wealth of new features including improved taxonomic backbone handling, event data exploration, improved search and download capabilities, web stack consistency and custom data dashboards. ThisData Use Club <> session provides a practical demonstration of some of these updates and features.Topics * Species search interface * Occurrence search interface * Customizable dashboards * Spatial search interface * Download interface * Dataset and events search Speakers * Esteban Marentes Herrera <https://orcid.org/0000-0002-5090-6973> * Marie Grosjean <https://orcid.org/0000-0002-2685-8078> * Kate Ingenloff <https://orcid.org/0000-0001-5942-9053> Register <https://us02web.zoom.us/meeting/register/1KEwWZ4DQfyqaSDpF4fXrw>",
+    "url": "https://www.gbif.org/event/08f299-cf31-453f-b3da-90da978",
+    "start_time": "2026-08-25 09:00",
+    "end_time": "2026-08-25 10:30"
   }
 ]
