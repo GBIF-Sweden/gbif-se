@@ -1623,5 +1623,13 @@
     "url": "https://www.gbif.org/event/08f299-cf31-453f-b3da-90da978",
     "start_time": "2026-08-25 09:00",
     "end_time": "2026-08-25 10:30"
+  },
+  {
+    "uid": "3LrFfv8NrLREQxRqfb63s",
+    "title": "Technical Support Hour for Nodes: August 2026",
+    "description": "Join us on 5 August at 16:00 CEST for our next Technical Support Hour for GBIF Nodes. Diana Hernández and Camila Plata, editors at the Catalogue of Life, will present an update on the Catalogue of Life eXtended Release (COL XR). They will also provide an overview of ChecklistBank, the Catalogue of Life infrastructure. Now that COL XR is being used for taxonomic interpretation on GBIF.org <http://gbif.org/>, they will explain how the eXtended Release is built, which sources are used, why editorial decisions are relevant, and how users can provide feedback or contribute. They will also show how ChecklistBank supports the production of COL XR and highlight some lesser-known functionalities that Nodes may find useful to explore. We will be happy to answer questions about COL XR, ChecklistBank, or any other technical support topics. Please feel free to post your questions in advance in thisdiscourse thread <https://discourse.gbif.org/t/update-on-the-catalogue-of-life-extended-release-col-xr-technical-support-hour-for-nodes/6406> or write tohelpdesk@gbif.org <mailto:helpdesk@gbif.org>.",
+    "url": "https://www.gbif.org/event/3LrFfv8NrLREQxRqfb63s",
+    "start_time": "2026-08-05 16:00",
+    "end_time": "2026-08-05 17:00"
   }
 ]
