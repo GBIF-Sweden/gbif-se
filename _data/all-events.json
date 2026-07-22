@@ -1631,5 +1631,37 @@
     "url": "https://www.gbif.org/event/24GbI1FB0Ztt8aNymXSz6n",
     "start_time": "2026-08-27 15:00",
     "end_time": "2026-08-27 16:00"
+  },
+  {
+    "uid": "dade0c-3c29-40d4-a1fb-fd4e85d",
+    "title": "UNCCD COP17",
+    "description": "The 17th session of the Convention’s Conference of the Parties (COP17) of the United Nations Convention to Combat Desertification <https://www.unccd.int/> (UNCCD) will be hosted by Mongolia in its capital city, Ulaanbaatar, from 17 to 28 August 2026 under the theme Restoring Land. Restoring Hope. GBIF has received provisional accreditation as an observer to the UNCCD and will collaborate with GBIF Mongolia in Ulaanbataar to introduce ourselves to the Convention's parties and observers. Learn more <https://unccdcop17.org/>",
+    "url": "https://www.gbif.org/event/dade0c-3c29-40d4-a1fb-fd4e85d",
+    "start_time": "2026-08-17 02:00",
+    "end_time": "2026-08-28 02:00"
+  },
+  {
+    "uid": "2bc10e-99c5-4f80-b617-38c4bf3",
+    "title": "CBD COP17",
+    "description": "From 19 to 30 October 2026, the Republic of Armenia will host the Seventeenth meeting of the Conference of the Parties to the United Nations Convention on Biological Diversity (CBD COP17), bringing together in Yerevan representatives of governments from around the world, international organizations, the scientific community, civil society, Indigenous Peoples, youth and the private sector. CBD COP17 will be held under the framework of the Convention on Biological Diversity <https://www.cbd.int/>, alongside the Twelfth meeting of the Parties to theCartagena Protocol on Biosafety <https://www.cbd.int/biosafety> (CP-MOP-12) and the Sixth meeting of theParties to the Nagoya Protocol <https://www.cbd.int/abs/nagoya-protocol/signatories> on Access to Genetic Resources and the Fair and Equitable Sharing of Benefits Arising from Their Utilization (NP-MOP-6). The conference marks a significant milestone in the global environmental agenda, as it will feature the first global review of collective progress in implementing theKunming–Montreal Global Biodiversity Framework <https://www.cbd.int/gbf> (KMGBF). Discussions will focus on halting biodiversity loss, restoring ecosystems, promoting the sustainable management of natural resources, addressing the interlinkages between climate change and nature and strengthening environmental financing and international cooperation. CBD COP17 is the highest decision-making body under the Convention on Biological Diversity, where global priorities for biodiversity conservation are established and the direction of joint international action is determined. Learn more <https://cop17yerevan.am/en>",
+    "url": "https://www.gbif.org/event/2bc10e-99c5-4f80-b617-38c4bf3",
+    "start_time": "2026-10-19 02:00",
+    "end_time": "2026-10-30 01:00"
+  },
+  {
+    "uid": "3I72EoR0kaHkvgMQWE9AaB",
+    "title": "BID Africa biodiversity data mobilization workshop",
+    "description": "The GBIF Secretariat is organizing a capacity enhancement workshop on biodiversity data mobilization as part of theBID programme <https://www.gbif.org/programme/82243/bid-biodiversity-information-for-development> for representatives of projects selected under the BID Africa call for proposals and relevant regional partners. The workshop is hosted bySANBI <https://www.sanbi.org/> in Cape Town, South Africa on 5-7 November 2026. The course begins with online preparatory activities followed by an onsite workshop and concludes with online follow-up activities. A digital certification using theOpen Badges standard <https://www.1edtech.org/standards/open-badges> will be awarded to participants that successfully complete the course at either a basic or advanced level. Participants will be evaluated by trainers for their active participation during and for the quality of their exercise submissions after the workshop. It is a project milestone requirement that an individual from the project successfully completes the certification. The BID programme <https://www.gbif.org/bid> is funded by the European Union <http://www.europa.eu>.",
+    "url": "https://www.gbif.org/event/3I72EoR0kaHkvgMQWE9AaB",
+    "start_time": "2026-11-05 00:00",
+    "end_time": "2026-11-07 00:00"
+  },
+  {
+    "uid": "wJA427BR0DzS3qIYhOepY",
+    "title": "Africa Regional Nodes meeting 2026",
+    "description": "Meeting goals * Support regional coordination, led by the regional representatives * Facilitate regional collaboration by allowing nodes to share updates on their activities, receive peer feedback, and discuss joint project proposals throughCESP <https://www.gbif.org/programme/82219/capacity-enhancement-support-programme> and other programmes * Provide feedback to the Secretariat and NSG on regional issues and priorities * Develop stronger regional engagement in GBIF Attendance is by invitation only. * For any queries on the event, please contact events@gbif.org <mailto:events@gbif.org>. * For questions on practical and local arrangements, please contact bdiprogrammessupport@sanbi.org.za <mailto:bdiprogrammessupport@sanbi.org.za>. Agenda 9-10 November 2026: Nodes meeting The meeting is in conjunction with the BID Africa biodiversity data mobilization workshop which will also take place at the same location.",
+    "url": "https://www.gbif.org/event/wJA427BR0DzS3qIYhOepY",
+    "start_time": "2026-11-09 08:00",
+    "end_time": "2026-11-10 16:00"
   }
 ]
