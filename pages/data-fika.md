@@ -4,25 +4,25 @@ title: Data Fika
 permalink: /:basename/
 description: >-
   Data Fika is GBIF Sweden's free monthly online series for data stewards and researchers
-  working with biodiversity data — ten short sessions on finding, using, cleaning and
+  working with biodiversity data - ten short sessions on finding, using, cleaning and
   publishing GBIF-mediated data, running September 2026 to June 2027.
 ---
 
 # {{ page.title }}
 
 <p class="preamble">
-  A monthly online fika about biodiversity data. Ten short sessions — from your first GBIF
-  download to a fully reproducible research workflow — for data stewards and researchers at
+  A monthly online fika about biodiversity data. Ten short sessions - from your first GBIF
+  download to a fully reproducible research workflow - for data stewards and researchers at
   Swedish universities, museums, botanical gardens and data infrastructures.
 </p>
 
 <div class="mt-6 mb-8 px-4 py-3 bg-gbif-green-light rounded-sm">
   <ul class="mb-0">
     <li><strong>When:</strong> once a month on Fridays, 11:00–11:45 (Swedish time), September 2026 – June 2027</li>
-    <li><strong>Where:</strong> online — the video link is sent with the invitation</li>
+    <li><strong>Where:</strong> online — the video link will be sent with the invitation</li>
     <li><strong>Format:</strong> 20–30 minute presentation followed by ~15 minutes hands-on work and Q&amp;A</li>
     <li><strong>Cost:</strong> free — bring your own coffee</li>
-    <li><strong>How to join:</strong> email <a href="mailto:lena.thole@nrm.se">gbif@nrm.se</a> or <a href="mailto:gbif@nrm.se">gbif@nrm.se</a> to be added to the invitation list</li>
+    <li><strong>How to join:</strong> email <a href="mailto:lena.thole@nrm.se">lena.thole@nrm.se</a> or <a href="mailto:gbif@nrm.se">gbif@nrm.se</a> to be added to the invitation list</li>
   </ul>
 </div>
 
@@ -46,7 +46,11 @@ are relevant to you. Recordings and materials are shared with participants after
 Email [lena.thole@nrm.se](mailto:lena.thole@nrm.se) or [gbif@nrm.se](mailto:gbif@nrm.se) with *Data Fika* in the subject line to be added to
 the invitation list. You will receive calendar invitations with the zoom link, and the
 materials after each session. 
-Participation is free and no preparation is needed — for the hands-on parts it helps to have R or Python installed, but you can also just watch.
+
+Participation is free and no preparation is needed.
+
+Help us spread the word — download the [Data Fika flyer](/uploads/data-fika-flyer.pdf)
+(PDF) and share it with colleagues or pin it up by the coffee machine.
 
 ## Programme 2026/27
 
