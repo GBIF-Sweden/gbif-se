@@ -8,14 +8,6 @@
     "end_time": "2024-08-30 10:00"
   },
   {
-    "uid": "5cb0df-4456-4d91-a798-15373d0",
-    "title": "International Mycological Congress IMC12",
-    "description": "The main aims of the International Mycological Congress are to:<br class=\"mb-4\"> * Engage the youth<br class=\"mb-4\"> * Facilitate face-to-face meetings<br class=\"mb-4\"> * Organize hands-on workshops in mycology<br class=\"mb-4\"> more information <https://imc12.org> ",
-    "url": "https://www.gbif.org/event/5cb0df-4456-4d91-a798-15373d0",
-    "start_time": "2024-08-11 10:00",
-    "end_time": "2024-08-15 18:00"
-  },
-  {
     "uid": "311aad-4200-466d-b8ec-5e0dabc",
     "title": "ISME19",
     "description": "Organized every two years, the ISME symposia are the largest not-for-profit international meetings addressing the wide range of topics in Microbial Ecology. With an average delegate number of 2200 people representing over 50 countries worldwide we are truly international.<br class=\"mb-4\">The next meeting, ISME19, will be held in Cape Town, South Africa, 2024.<br class=\"mb-4\">read more <https://www.isme-microbes.org/symposia-events> ",
@@ -1623,5 +1615,21 @@
     "url": "https://www.gbif.org/event/a85fe4-1276-4056-aca2-38aa3b6",
     "start_time": "2026-10-21 02:00",
     "end_time": "2026-10-21 02:00"
+  },
+  {
+    "uid": "5e24fb-7349-4e6c-8b95-6118222",
+    "title": "Belize biodiversity publication practical workshop",
+    "description": "The University of Belize’s Environmental Research Institute (UB-ERI) is hosting representatives from various protected areas and research stations in Belize to a practical workshop on GBIF Publishing as a part of the Biodiversity Data Mobilization and Integration for Policy and Research project. This workshop aims to provide attendees with the skills to validate, format, and publish their biodiversity data on GBIF through one of three user-tailored pipelines.",
+    "url": "https://www.gbif.org/event/5e24fb-7349-4e6c-8b95-6118222",
+    "start_time": "2026-08-27 02:00",
+    "end_time": "2026-08-27 02:00"
+  },
+  {
+    "uid": "96d7f3-70a9-499a-a0f2-fb2db1f",
+    "title": "DwC DACK kick-off meeting",
+    "description": "This kick-off meeting for the CESP project <> DwC-DACK brings CMS developers, DiSSCo, GBIF Nodes and partners together to refine our technical roadmap, select target CMS instances and establish our path toward the March 2027 Leiden Hackathon. Meeting details: Project ID: CESP2026-014 Date: Sunday, 27 September 2026 Time: 12:00 – 17:00 CEST Venue: meeting room K29 in the Botanical Museum, Oslo. Host: University of Oslo Natural History Museum & GBIF NorwayRegistration <https://forms.gle/RouNDjS6SJm2Mqfd7> Draft agenda <https://docs.google.com/document/d/10Hl-lQ1xtrlSjm--Nd6e4otwoXRFpMl8emBw4K4Fdag>",
+    "url": "https://www.gbif.org/event/96d7f3-70a9-499a-a0f2-fb2db1f",
+    "start_time": "2026-10-27 01:00",
+    "end_time": "2026-10-27 01:00"
   }
 ]
