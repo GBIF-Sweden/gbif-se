@@ -8,3 +8,4 @@ _data/occurence-total.json
 _data/kingdom-counts.json
 _data/datasets-se.json
 _data/news-years.yml
+.DS_Store
