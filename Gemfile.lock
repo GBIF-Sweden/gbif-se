@@ -12,8 +12,12 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
+    ffi (1.17.4-aarch64-linux-gnu)
     ffi (1.17.4-x86_64-linux-gnu)
     forwardable-extended (2.6.0)
+    google-protobuf (4.35.1-aarch64-linux-gnu)
+      bigdecimal
+      rake (~> 13.3)
     google-protobuf (4.35.1-x86_64-linux-gnu)
       bigdecimal
       rake (~> 13.3)
@@ -70,6 +74,8 @@ GEM
     rexml (3.4.4)
     rouge (4.7.0)
     safe_yaml (1.0.5)
+    sass-embedded (1.102.0-aarch64-linux-gnu)
+      google-protobuf (~> 4.31)
     sass-embedded (1.102.0-x86_64-linux-gnu)
       google-protobuf (~> 4.31)
     terminal-table (3.0.2)
@@ -78,6 +84,7 @@ GEM
     webrick (1.9.2)
 
 PLATFORMS
+  aarch64-linux
   x86_64-linux-gnu
 
 DEPENDENCIES
@@ -102,8 +109,10 @@ CHECKSUMS
   csv (3.3.6)
   em-websocket (0.5.3)
   eventmachine (1.2.7)
+  ffi (1.17.4-aarch64-linux-gnu)
   ffi (1.17.4-x86_64-linux-gnu)
   forwardable-extended (2.6.0)
+  google-protobuf (4.35.1-aarch64-linux-gnu)
   google-protobuf (4.35.1-x86_64-linux-gnu)
   http_parser.rb (0.8.1)
   i18n (1.15.2)
@@ -128,6 +137,7 @@ CHECKSUMS
   rexml (3.4.4)
   rouge (4.7.0)
   safe_yaml (1.0.5)
+  sass-embedded (1.102.0-aarch64-linux-gnu)
   sass-embedded (1.102.0-x86_64-linux-gnu)
   terminal-table (3.0.2)
   unicode-display_width (2.6.0)
