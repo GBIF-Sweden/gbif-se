@@ -8,6 +8,6 @@
     "tailwindcss": "^4.3.0",
     "@tailwindcss/postcss": "^4.3.0",
     "@tailwindcss/typography": "^0.5.16",
-    "ical2json": "^5.0.0"
+    "ical2json": "^5.1.0"
   }
 }
