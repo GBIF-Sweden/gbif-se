@@ -1631,5 +1631,21 @@
     "url": "https://www.gbif.org/event/96d7f3-70a9-499a-a0f2-fb2db1f",
     "start_time": "2026-10-27 01:00",
     "end_time": "2026-10-27 01:00"
+  },
+  {
+    "uid": "11a424-a1c7-4c8c-9061-10471e0",
+    "title": "Data Fika GBIF Sweden series",
+    "description": "About Data Fika is a GBIF Sweden online webinar series for the Swedish biodiversity data community running from September 2026 to June 2027. Across ten sessions the series follows the biodiversity data journey from finding and reusing GBIF-mediated data to data quality standards metadata FAIR and CARE principles and publishing biodiversity data through GBIF.Four optional hands-on workshops <https://www.gbif.org/event/2bsVOOmeBADxlsrgWMFn2G?> provide opportunities for practical learning. The series is relevant to researchers data stewards students and others who work with biodiversity data and want to make better use of GBIF data tools standards and publishing infrastructure. Participants can attend individual sessions or follow the full series. How to join Participation is free and no preparation is needed. Send an email to lena.thole@nrm.se <mailto:lena.thole@nrm.se> or gbif@nrm.se <mailto:gbif@nrm.se> withData Fika in the subject line to be added to the invitation list. Read more <https://www.gbif.se/data-fika/>",
+    "url": "https://www.gbif.org/event/11a424-a1c7-4c8c-9061-10471e0",
+    "start_time": "2026-09-11 11:00",
+    "end_time": "2027-06-04 11:45"
+  },
+  {
+    "uid": "2bsVOOmeBADxlsrgWMFn2G",
+    "title": "Data Fika GBIF Sweden series (Companion workshops)",
+    "description": "About Data Fika is a GBIF Sweden online webinar series <https://www.gbif.org/event/11a424-a1c7-4c8c-9061-10471e0/data-fika-gbif-sweden-series?> for the Swedish biodiversity data community running from September 2026 to June 2027. Across ten sessions the series follows the biodiversity data journey from finding and reusing GBIF-mediated data to data quality standards metadata FAIR and CARE principles and publishing biodiversity data through GBIF. These four optional hands-on workshops provide opportunities for practical learning. The series is relevant to researchers data stewards students and others who work with biodiversity data and want to make better use of GBIF data tools standards and publishing infrastructure. Participants can attend individual sessions or follow the full series. How to join Participation is free and no preparation is needed. Send an email to lena.thole@nrm.se <mailto:lena.thole@nrm.se> or gbif@nrm.se <mailto:gbif@nrm.se> withData Fika in the subject line to be added to the invitation list. Read more <https://www.gbif.se/data-fika/>",
+    "url": "https://www.gbif.org/event/2bsVOOmeBADxlsrgWMFn2G",
+    "start_time": "2026-10-16 10:00",
+    "end_time": "2027-06-04 12:00"
   }
 ]
