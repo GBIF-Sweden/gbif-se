@@ -1631,5 +1631,13 @@
     "url": "https://www.gbif.org/event/2bsVOOmeBADxlsrgWMFn2G",
     "start_time": "2026-10-16 10:00",
     "end_time": "2027-06-04 12:00"
+  },
+  {
+    "uid": "b8c734-9dc0-445e-b378-acfea5f",
+    "title": "Morphological identification at the species level of hard ticks of interest in public health and veterinary medicine for LAC",
+    "description": "This international theoretical and practical training course is part of the GBIF thematic inter-institutional network and the project \"Geographic distribution of ticks (Acari: Ixodida) of public health and veterinary importance for Latin America and the Caribbean <>\". The course will strengthen taxonomic capacity for the morphological identification of hard ticks (Ixodidae) to species level, with emphasis on diagnostic characters, the use of taxonomic keys and field sampling and collection techniques. The training is directly relevant to the GBIF community because accurate species identification is essential for generating reliable and standardized occurrence data. The event is part of a broader series of capacity building activities developed by the thematic inter-institutional network to strengthen collaboration and data mobilization among institutions and research groups in LAC.",
+    "url": "https://www.gbif.org/event/b8c734-9dc0-445e-b378-acfea5f",
+    "start_time": "2026-10-05 02:00",
+    "end_time": "2026-10-09 02:00"
   }
 ]
