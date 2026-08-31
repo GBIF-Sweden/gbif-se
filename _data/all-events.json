@@ -1623,5 +1623,13 @@
     "url": "https://www.gbif.org/event/b8c734-9dc0-445e-b378-acfea5f",
     "start_time": "2026-10-05 02:00",
     "end_time": "2026-10-09 02:00"
+  },
+  {
+    "uid": "2be9fc-49eb-4e1e-8049-14555b2",
+    "title": "Connecting the Dots - Species Interactions in the Age of Big Biodiversity Data",
+    "description": "Biodiversity is often documented as collections of species occurrences, abundances and distributions, yet ecosystems are fundamentally shaped by the interactions among species. In this guest lecture,Erik Kusch <https://orcid.org/0000-0002-4984-7646> will explore how incorporating species interactions into biodiversity research can improve our understanding and prediction of ecological change, while discussing how these data can be more effectively captured and mobilized in the digital age. Drawing on his doctoral research, Erik will demonstrate how species interaction information can strengthen forecasts of community assembly and extinction cascades under climate change by accounting for ecological network resilience. He will also present approaches for inferring species interactions from existing biodiversity data, including species observations, abundances, and distributions, thereby addressing one of the major limitations in ecological network research: the scarcity of interaction records at broad spatial and temporal scales. Advancing biodiversity science requires moving beyond documenting which species occur to understanding how they interact. Rather than proposing entirely new data ecosystems or relying solely on interaction inference, Erik will highlight the potential of leveraging established biodiversity infrastructures with modest extensions to existing data models. Such an approach could substantially expand the availability, interoperability, and reuse of species interaction data while building upon the global investments already made in biodiversity informatics. By connecting ecological theory, computational methods, and biodiversity infrastructures, this lecture aims to spark discussion on how the scientific community can collectively build a richer, more connected picture of life on Earth. Learn more <https://biodiversitydata.se/events/2026/09/connecting-the-dots-species-interactions-in-the-age-of-big-biodiversity-data/>",
+    "url": "https://www.gbif.org/event/2be9fc-49eb-4e1e-8049-14555b2",
+    "start_time": "2026-09-03 15:00",
+    "end_time": "2026-09-03 17:00"
   }
 ]
