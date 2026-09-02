@@ -1631,5 +1631,37 @@
     "url": "https://www.gbif.org/event/2be9fc-49eb-4e1e-8049-14555b2",
     "start_time": "2026-09-03 15:00",
     "end_time": "2026-09-03 17:00"
+  },
+  {
+    "uid": "079c2c-25a0-4911-b0ec-bc22b25",
+    "title": "GBIF Monthly Office Hour for Europe and Central Asia (September)",
+    "description": "The GBIF Office Hours for Europe & Central Asia are monthly, one hour online sessions where the GBIF ECA support team is present live to provide direct, practical support to data publishers and data users across the region. The format is intentionally open, informal and flexible. Some sessions may begin with a short 15–20 minute introduction to a selected topic, but this is optional and may be shortened or omitted entirely, depending on participants’ interests and questions. The main focus of each session is an open, free flowing Q&A and discussion. Participants are encouraged to bring any questions or topics they wish to discuss, including (but not limited to) datasets, publishing workflows, IPT usage and working with GBIF mediated data. Even if you do not have a specific question prepared, you are very welcome to join and listen or contribute to the discussion. Questions can also be sent in advance to eca_support@gbif.org <mailto:eca_support@gbif.org> Join the session: Join Zoom <https://bit.ly/4rYE0W7>",
+    "url": "https://www.gbif.org/event/079c2c-25a0-4911-b0ec-bc22b25",
+    "start_time": "2026-09-04 10:00",
+    "end_time": "2026-09-04 11:00"
+  },
+  {
+    "uid": "5NclMw3LbR7SFlhxr4Iip5",
+    "title": "GBIF Monthly Office Hour for Europe and Central Asia (October)",
+    "description": "The GBIF Office Hours for Europe & Central Asia are monthly, one hour online sessions where the GBIF ECA support team is present live to provide direct, practical support to data publishers and data users across the region. The format is intentionally open, informal and flexible. Some sessions may begin with a short 15–20 minute introduction to a selected topic, but this is optional and may be shortened or omitted entirely, depending on participants’ interests and questions. The main focus of each session is an open, free flowing Q&A and discussion. Participants are encouraged to bring any questions or topics they wish to discuss, including (but not limited to) datasets, publishing workflows, IPT usage and working with GBIF mediated data. Even if you do not have a specific question prepared, you are very welcome to join and listen or contribute to the discussion. Questions can also be sent in advance to eca_support@gbif.org <mailto:eca_support@gbif.org> Join the session: Join Zoom <https://bit.ly/4rYE0W7>",
+    "url": "https://www.gbif.org/event/5NclMw3LbR7SFlhxr4Iip5",
+    "start_time": "2026-10-02 10:00",
+    "end_time": "2026-10-02 11:00"
+  },
+  {
+    "uid": "1uxpRnMM8AOkNRtsggV1fl",
+    "title": "GBIF Monthly Office Hour for Europe and Central Asia (November)",
+    "description": "The GBIF Office Hours for Europe & Central Asia are monthly, one hour online sessions where the GBIF ECA support team is present live to provide direct, practical support to data publishers and data users across the region. The format is intentionally open, informal and flexible. Some sessions may begin with a short 15–20 minute introduction to a selected topic, but this is optional and may be shortened or omitted entirely, depending on participants’ interests and questions. The main focus of each session is an open, free flowing Q&A and discussion. Participants are encouraged to bring any questions or topics they wish to discuss, including (but not limited to) datasets, publishing workflows, IPT usage and working with GBIF mediated data. Even if you do not have a specific question prepared, you are very welcome to join and listen or contribute to the discussion. Questions can also be sent in advance to eca_support@gbif.org <mailto:eca_support@gbif.org> Join the session: Join Zoom <https://bit.ly/4rYE0W7>",
+    "url": "https://www.gbif.org/event/1uxpRnMM8AOkNRtsggV1fl",
+    "start_time": "2026-11-06 09:00",
+    "end_time": "2026-11-06 10:00"
+  },
+  {
+    "uid": "1z2C6hN9zb9FR5LCfmBH8u",
+    "title": "GBIF Monthly Office Hour for Europe and Central Asia (December)",
+    "description": "The GBIF Office Hours for Europe & Central Asia are monthly, one hour online sessions where the GBIF ECA support team is present live to provide direct, practical support to data publishers and data users across the region. The format is intentionally open, informal and flexible. Some sessions may begin with a short 15–20 minute introduction to a selected topic, but this is optional and may be shortened or omitted entirely, depending on participants’ interests and questions. The main focus of each session is an open, free flowing Q&A and discussion. Participants are encouraged to bring any questions or topics they wish to discuss, including (but not limited to) datasets, publishing workflows, IPT usage and working with GBIF mediated data. Even if you do not have a specific question prepared, you are very welcome to join and listen or contribute to the discussion. Questions can also be sent in advance to eca_support@gbif.org <mailto:eca_support@gbif.org> Join the session: Join Zoom <https://bit.ly/4rYE0W7>",
+    "url": "https://www.gbif.org/event/1z2C6hN9zb9FR5LCfmBH8u",
+    "start_time": "2026-12-04 09:00",
+    "end_time": "2026-12-04 10:00"
   }
 ]
