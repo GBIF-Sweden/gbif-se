@@ -55,7 +55,7 @@ Help us spread the word — download the [Data Fika flyer](/uploads/data-fika-fl
 ## Programme 2026/27
 
 
-<p class="text-slate-600 text-base">Sessions take place on the second Friday of the month (May and June: first Friday), 11:00–11:45.</p>
+<p class="text-slate-600 text-base">Sessions take place on the second Friday of the month (June: first Friday), 11:00–11:45.</p>
 
 
 <table class="w-full mt-4 mb-2">
@@ -118,7 +118,7 @@ Help us spread the word — download the [Data Fika flyer](/uploads/data-fika-fl
     </tr>
     <tr class="border-b border-slate-200 align-top">
       <td class="p-2">9</td>
-      <td class="p-2 whitespace-nowrap">7 May 2027  </td>
+      <td class="p-2 whitespace-nowrap">14 May 2027  </td>
       <td class="p-2"><strong>Publishing Data to GBIF</strong></td>
       <td class="p-2 hidden md:table-cell">How collection data becomes a published GBIF dataset: Darwin Core mapping, extensions, metadata and licensing choices — with a small look at the IPT behind the scenes.</td>
     </tr>

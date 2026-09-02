@@ -1,7 +1,7 @@
 ---
 title: "Data Fika #9: Publishing Data to GBIF"
-start_time: 2027-05-07 11:00
-end_time: 2027-05-07 11:45
+start_time: 2027-05-14 11:00
+end_time: 2027-05-14 11:45
 location: Online
 description: >-
   Session 9 of Data Fika, GBIF Sweden's monthly online series on biodiversity data. How collection data becomes a published GBIF dataset — Darwin Core mapping, extensions, metadata and licensing, with a look at the IPT.
