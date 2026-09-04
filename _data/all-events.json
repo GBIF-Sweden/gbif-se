@@ -1370,8 +1370,8 @@
   },
   {
     "uid": "3FkcgH4mqPW5OfY6YN9eH",
-    "title": "The 33rd meeting of the GBIF Governing Board and associated events takes place in Oslo, Norway.",
-    "description": "The 33rd meeting of the GBIF Governing Board and associated events takes place in Oslo, Norway. * 28 September 2026 Monday: Committees and Icebreaker * 29 September 2026 Tuesday: GB33 Day 1 * 30 September Wednesday: GB33 Day 2 - Hosted dinner * 01 October Thursday: GB33 Day 3 * 02 October Friday: Symposium For more information and to register your attendance, please visit the official GB33 website atgb33.gbif.org <https://gb33.gbif.org/>. Questions? If you have any questions regarding the meeting or associated events, don't hesitate to reach out to us atGB33@gbif.org <mailto:GB33@gbif.org> . The meeting is one week after TDWG 2026 Biodiversity Information Standards (TDWG) 2026 annual conference <https://www.gbif.org/event/77dESEd7zS9wTvKLF9dfMB/biodiversity-information-standards-tdwg-2026-annual-conference>",
+    "title": "33rd GBIF Governing Board Meeting",
+    "description": "The 33rd meeting of the GBIF Governing Board and associated events take place in Oslo, Norway. * 28 September 2026 Monday: Committees and Icebreaker * 29 September 2026 Tuesday: GB33 Day 1 * 30 September Wednesday: GB33 Day 2 - Hosted dinner * 01 October Thursday: GB33 Day 3 * 02 October Friday: Symposium For more information and to register your attendance, please visit the official GB33 website atgb33.gbif.org <https://gb33.gbif.org/>. Questions? If you have any questions regarding the meeting or associated events, don't hesitate to reach out to us atGB33@gbif.org <mailto:GB33@gbif.org> . The meeting is one week after TDWG 2026 Biodiversity Information Standards (TDWG) 2026 annual conference <https://www.gbif.org/event/77dESEd7zS9wTvKLF9dfMB/biodiversity-information-standards-tdwg-2026-annual-conference>",
     "url": "https://www.gbif.org/event/3FkcgH4mqPW5OfY6YN9eH",
     "start_time": "2026-09-28 01:00",
     "end_time": "2026-10-02 01:00"
@@ -1663,5 +1663,13 @@
     "url": "https://www.gbif.org/event/1z2C6hN9zb9FR5LCfmBH8u",
     "start_time": "2026-12-04 09:00",
     "end_time": "2026-12-04 10:00"
+  },
+  {
+    "uid": "3QDYmEEcpS6LbscaiiDeDn",
+    "title": "GBIF Science Symposium in Oslo",
+    "description": "This event is open to the public. Join in-person or through live-streaming. The GBIF Science Symposium <https://www.gbif.no/events/2026/2026-10-gbif-science-symposium.html> is an annual event held alongside the meeting of the GBIF Governing Board. The 2026 symposium in Oslo, “GBIF at 25 — From Open Data to Living Knowledge,” also marks GBIF’s 25th anniversary, looking back at the development and impact of the global data infrastructure while exploring where biodiversity science is heading next. The programme spans applications of biodiversity data in Norway and globally, including conservation, health and disease risk, before looking ahead to emerging approaches such as eDNA, automated monitoring, sensors and AI. Registration is required for coffee and lunch. Register for coffee and lunch <https://docs.google.com/forms/d/e/1FAIpQLSerPMfUbs457LMSz9qx4MfS5pbTlvslpuh-SaqYe77cRLj0Bw/viewform>",
+    "url": "https://www.gbif.org/event/3QDYmEEcpS6LbscaiiDeDn",
+    "start_time": "2026-10-02 08:30",
+    "end_time": "2026-10-02 16:30"
   }
 ]
