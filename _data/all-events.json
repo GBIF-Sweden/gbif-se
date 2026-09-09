@@ -1663,5 +1663,21 @@
     "url": "https://www.gbif.org/event/3b5b64-a6eb-41c3-bf4b-1e58291",
     "start_time": "2026-09-10 02:00",
     "end_time": "2026-09-10 02:00"
+  },
+  {
+    "uid": "1OJumAkGVsOmKvBIyeGNjk",
+    "title": "Technical Support Hour for Nodes: October 2026",
+    "description": "Join us for the next Technical Support Hour for GBIF nodes on October 7th at 4:00 pm CEST, where the topic will be the nucleotide sequence search. Cecilie Svenningsen from the GBIF secretariat will present this functionality that lets users search similar occurrence records by DNA sequences of up to 2,048 base pairs and can be combined with additional filters such as target gene and sequence length, and other occurrence-related filters. The presentation will also cover the processing and data quality measures that were developed to support sequence search and the new filters. Join us if you are interested, we will be happy to answer any questions related or not related to the topic. Please feel free to post questions in advance in thisdiscourse thread <https://discourse.gbif.org/t/nucleotide-sequence-search-on-gbif-org-technical-support-hour-for-nodes/6443> or write tohelpdesk@gbif.org <mailto:helpdesk@gbif.org>. Register <https://us02web.zoom.us/meeting/register/7_3oIGfhR4K_VjncQ6hadA>",
+    "url": "https://www.gbif.org/event/1OJumAkGVsOmKvBIyeGNjk",
+    "start_time": "2026-10-07 16:00",
+    "end_time": "2026-10-07 17:00"
+  },
+  {
+    "uid": "c86aa8-b958-4bdc-8556-89b7800",
+    "title": "BID project kick-off webinar Regional and Cross-regional projects",
+    "description": "This webinar, hosted by the GBIF Secretariat and the GBIF Regional Support Contractors, is aimed at supporting successful projects funded through the Biodiversity Information for Development (BID). The webinar covers essential information relating to the delivery of BID projects. Topics covered include: * Support available for project implementation * Capacity enhancement * Communication channels * Visibility * Reporting requirements. The session also includes a question and answers session and is most relevant for BID regional and cross-regional project leads.",
+    "url": "https://www.gbif.org/event/c86aa8-b958-4bdc-8556-89b7800",
+    "start_time": "2026-10-27 14:00",
+    "end_time": "2026-10-27 15:30"
   }
 ]
