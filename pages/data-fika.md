@@ -137,6 +137,8 @@ Help us spread the word — download the [Data Fika flyer](/uploads/data-fika-fl
 Four optional 2-hour companion events let you go deeper, : 
 
 - 16 Oct 2026 10-12 **a hands-on download workshop after session 2** 
+<a class="ml-2 px-2.5 pt-1 pb-1 bg-gbif-green text-white rounded-sm shadow-md hover:bg-slate-300 hover:text-slate-800 hover:no-underline" 
+href="https://nrm-se.zoom.us/webinar/register/WN_6Mr6haMVS-WxJs6tz_XSsQ">Register</a>
 - 19 Feb 2027 10-12 **one extended cleaning-and-fitness workshop combining sessions 5 and 6**
 - 16 Apr 2027 10-12 **a CARE discussion (about one hour) with invited speakers alongside session 8**
 -  4 Jun 2027 13-15 **a data-integration deep-dive after session 10.**
