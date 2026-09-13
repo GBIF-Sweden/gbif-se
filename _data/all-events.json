@@ -81,14 +81,6 @@
     "end_time": "2024-10-02 17:00"
   },
   {
-    "uid": "6PUV6NRGkPcuiVpfEZpeCi",
-    "title": "Africa region Webinar: Introduction to flags and issues in GBIF datasets",
-    "description": "The next Africa region webinar will take place September 13 3:00-4:00 PM Central Africa Time / 4:00-5:00 PM East Africa Time.<br class=\"mb-4\">GBIF identifies common data quality problems and labels them issues and flags to records with common data quality problems. Prior knowledge of these issues and flags is important to data publishers and users. The GBIF Africa Regional Support Team invites you to participate in the fourth regional webinar. This session aims to enlighten participants across Africa on the flags and issues in data to improve quality of published data and improve user experience.<br class=\"mb-4\">If you have any questions please email them to africa_support@gbif.org <mailto:africa_support@gbif.org><br class=\"mb-4\">We look forward to your participation in this engaging and informative session!<br class=\"mb-4\"> Register <https://us02web.zoom.us/meeting/register/tZ0lc-yopzIiHdMgJOL1TNJdlBfqupNZZIrh> <br class=\"mb-4\">Agenda<br class=\"mb-4\">1. Introduction to flags and issues Laban Musinguzi GBIF Africa Regional Support team <https://orcid.org/0000-0002-1114-956X><br class=\"mb-4\">2. Identifying flags and issues in published datasets Tsiky Rabetrano GBIF Africa Regional Support team <https://orcid.org/0000-0001-7915-3218><br class=\"mb-4\">3. Q&A Session Discussion and answers to questions.",
-    "url": "https://www.gbif.org/event/6PUV6NRGkPcuiVpfEZpeCi",
-    "start_time": "2024-09-13 15:00",
-    "end_time": "2024-09-13 16:00"
-  },
-  {
     "uid": "b35428-6883-4775-9926-fe0687b",
     "title": "Course on Open, Reproducible and Transparent Science in Ecology",
     "description": "Do you want to gain new skills in data management, making your data FAIR, and your workflows reproducible? Do you want training in open-source tools such as GitHub and R that can be used to achieve this?<br class=\"mb-4\">This course is organised by Living Norway in collaboration with the University of Bergen, GBIF Norway, Nord University, NINA, NTNU, NMBU, and UIO.<br class=\"mb-4\">Students will be introduced to open science, data management, data repositories/databases, data standards (e.g. FAIR, CARE), best practise and reproducible workflows (e.g. data curation, analysis, GitHub, reporting results). We will invite experts to give lectures on these topics and provide hands-on training that gives the students opportunities to practise new skills. We will provide examples, but also encourage students to bring their own data and problems to work on.<br class=\"mb-4\">Application deadline: 15th of September 2024<br class=\"mb-4\"> Read more <https://www.uib.no/en/rg/EECRG/171658/open-reproducible-and-transparent-science-ecology>",
