@@ -1,0 +1,60 @@
+- date: 11 Sep 2026
+  title: Intro to GBIF
+  topics: >
+    What GBIF is and why open biodiversity data matters. DOIs, versioning and the data lifecycle. 
+    A first look at FAIR. Ends with everyone pulling a first download.
+
+- date: 9 Oct 2026
+  title: Reusing Data from GBIF
+  topics: >
+    Website downloads, rgbif, pygbif and the API. Reproducible downloads and their DOIs. Cubes. 
+    Occurrence vs sample data. Darwin Core Archives and DwC-DP. SBDI vs GBIF.org — when to use which.
+
+- date: 13 Nov 2026
+  title: Standards, Identifiers &amp; Metadata
+  topics: > 
+    What the Darwin Core columns in your download mean. TDWG standards. Persistent identifiers 
+    (UUIDs, RORs, ORCIDs, DOIs). Metadata and ISO formats.
+
+- date: 11 Dec 2026
+  title: The GBIF Data Model
+  topics: >
+    How GBIF represents occurrences, events and measurements — and why sample/event data differs 
+    from presence-only. Long vs wide format, SQL for cubes. Data management basics: folder 
+    structures, file naming, version control, ReadMe files.
+
+- date: 8 Jan 2027
+  title: Data Cleaning
+  topics: >
+    Coordinate validation with CoordinateCleaner. Taxonomic name resolution — Dyntaxa vs the GBIF 
+    backbone for Swedish material. Date parsing, duplicate detection and encoding issues.
+
+- date: 12 Feb 2027
+  title: Fitness for Use &amp; Sampling Bias
+  topics: >
+    Cleaned ≠ fit for your question. Spatial, temporal and taxonomic bias. Presence-only pitfalls, 
+    basisOfRecord filtering, coordinate uncertainty. Diagnosing bias in your own download.
+
+- date: 12 Mar 2027
+  title: Licences &amp; Sensitive Data
+  topics: >
+    The Creative Commons family and GBIF's three licences. Artportalen's protected-species 
+    generalisation, GDPR and the recorder, public-authority access. Embargoes and data agreements.
+
+- date: 9 Apr 2027
+  title: FAIR &amp; CARE Principles
+  topics: >
+    FAIR as practical implementation. CARE as a governance framework: who decides, and the history 
+    of collections — grounded in Swedish collections' own holdings and Sámi data governance.
+
+- date: 14 May 2027
+  title: Publishing Data to GBIF
+  topics: >
+    How collection data becomes a published GBIF dataset: Darwin Core mapping, extensions, 
+    metadata and licensing choices — with a small look at the IPT behind the scenes.
+
+- date: 4 Jun 2027
+  title: End-to-End Research Data Workflow
+  topics: >
+    A capstone tying it all together: download, clean, check fitness, integrate with other 
+    sources, produce a figure and document it reproducibly — and cite everything.
