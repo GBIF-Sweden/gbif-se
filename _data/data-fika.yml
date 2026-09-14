@@ -3,6 +3,8 @@
   topics: >
     What GBIF is and why open biodiversity data matters. DOIs, versioning and the data lifecycle. 
     A first look at FAIR. Ends with everyone pulling a first download.
+  material: DataFika_01_Intro_to_GBIF.pdf
+  recording: dataFika_1_recording.mp4
 
 - date: 9 Oct 2026
   title: Reusing Data from GBIF

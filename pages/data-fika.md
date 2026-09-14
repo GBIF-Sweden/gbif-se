@@ -65,6 +65,8 @@ Help us spread the word — download the [Data Fika flyer](/uploads/data-fika-fl
       <th class="p-2 text-left">Date</th>
       <th class="p-2 text-left">Session</th>
       <th class="p-2 text-left hidden md:table-cell">Topics</th>
+      <th class="p-2 text-left"><span class="hidden md:table-cell">Material</span></th>
+      <th class="p-2 text-left"><span class="hidden md:table-cell">Recording</span></th>
     </tr>
   </thead>
   <tbody>
@@ -74,6 +76,20 @@ Help us spread the word — download the [Data Fika flyer](/uploads/data-fika-fl
       <td class="p-2 whitespace-nowrap">{{ session.date }}</td>
       <td class="p-2"><strong>{{ session.title }}</strong></td>
       <td class="p-2 hidden md:table-cell">{{ session.topics }}</td>
+      <td class="p-2 text-center">
+        {% if session.material %}
+          <a href="https://www.gbif.se/uploads2/data-fika/{{ session.material }}" title="View session material">
+            {%- include icons/file-pdf.html class="h-6 inline" -%}
+          </a>
+        {% endif %}
+      </td>
+      <td class="p-2 text-center">
+        {% if session.recording %}
+          <a href="https://www.gbif.se/uploads2/data-fika/{{ session.recording }}" title="View session recording">
+            {%- include icons/video.html class="h-6 inline" -%}
+          </a>
+        {% endif %}
+      </td>
     </tr>
   {% endfor %}
   </tbody>
