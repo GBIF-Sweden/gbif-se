@@ -1679,5 +1679,13 @@
     "url": "https://www.gbif.org/event/7292dd-04d0-4d13-b84f-920ccae",
     "start_time": "2026-09-15 02:00",
     "end_time": "2026-09-15 02:00"
+  },
+  {
+    "uid": "d30f82-61d1-4364-b7ca-05fb6fb",
+    "title": "Data Use Club practical session: Sequence data on the new GBIF.org",
+    "description": "GBIF has launched a new version of GBIF.org <>, consolidating developments around taxonomic backbone handling, event data exploration, improved search and download, web stack consistency and custom data dashboards. Our last Data Use Club <> session explored the new search features for datasets, taxa and occurrences,spatial searches and the new customizable dashboards. This session continues exploration of the new features on GBIF.org, focusing on sequence searches <> and discussions of best practices for using the sequence data. Topics coverd in this session: * DNA integration in biodiversity data * Sequence search and use * Dashboards for sequence data Speakers Cecilie Svenningsen <https://orcid.org/0000-0002-9216-2917> Tobias Guldberg Frøslev <https://orcid.org/0000-0002-3530-013X> Esteban Marentes Herrera <https://orcid.org/0000-0002-5090-6973> Marie Grosjean <https://orcid.org/0000-0002-2685-8078> Register <https://us02web.zoom.us/meeting/register/8Es9RwTDRBymewtccx_QtA>",
+    "url": "https://www.gbif.org/event/d30f82-61d1-4364-b7ca-05fb6fb",
+    "start_time": "2026-11-19 09:00",
+    "end_time": "2026-11-19 10:30"
   }
 ]
