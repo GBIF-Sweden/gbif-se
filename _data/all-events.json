@@ -33,14 +33,6 @@
     "end_time": "2024-12-04 23:00"
   },
   {
-    "uid": "7i8KywevYxWzlQMGaYdcxp",
-    "title": "Data Use Club practical sessions: cloud computing services",
-    "description": "Utilizing cloud computing services <https://techdocs.gbif.org/en/cloud-services/> can enable big data queries that are slow or impractical on a local machine. Public datasets containingsnapshots <https://www.gbif.org/occurrence-snapshots> of all GBIF-mediated occurrence data are shared each month on the Microsoft Planetary Computer (Azure), as an Amazon AWS Open Dataset, and on a public Google GCS bucket and BigQuery table.<br class=\"mb-4\">During this practical session, GBIF Data Analyst, John Waller <https://orcid.org/0000-0002-7302-5976>, will describe the snapshots and will demonstrate how to query and cite GBIF-mediated data using these cloud services.<br class=\"mb-4\"> Register for the event <https://us02web.zoom.us/meeting/register/tZElc-ispz8uHNJaZDBD9Mvnzb_BLT95wKr3> ",
-    "url": "https://www.gbif.org/event/7i8KywevYxWzlQMGaYdcxp",
-    "start_time": "2024-09-19 15:00",
-    "end_time": "2024-09-19 16:30"
-  },
-  {
     "uid": "5yIH2tf89ZxeDXCqtKTQRY",
     "title": "GB31: 31st Meeting of the GBIF Governing Board",
     "description": "The 31st meeting of the GBIF Governing Board and associated events will take place in Vairão, Vila do Conde, Portugal, on 30 September - 4 October 2024.<br class=\"mb-4\">30 September - GBIF committee meetings <https://gb31.gbif.org/programme#monday-30-september-2024> 01 October - Governing Board meeting Day 1 <https://gb31.gbif.org/programme#tuesday-1-october-2024> 02 October - Symposium <https://gb31.gbif.org/programme#wednesday-2-october-2024-in-person-or-virtual-attendance> 03 October -Governing Board meeting Day 2 <https://gb31.gbif.org/programme#thursday-3-october-2024> 04 October - Excursion <https://gb31.gbif.org/programme#friday-4-october-2024><br class=\"mb-4\">The GB31 information and registration website can be found at gb31.gbif.org <https://gb31.gbif.org/>.<br class=\"mb-4\">Any questions about the meeting can be sent to GB31@gbif.org <mailto:GB31@gbif.org>.<br class=\"mb-4\"> Read more <https://gb31.gbif.org/> ",
