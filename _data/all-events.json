@@ -1679,5 +1679,13 @@
     "url": "https://www.gbif.org/event/d30f82-61d1-4364-b7ca-05fb6fb",
     "start_time": "2026-11-19 09:00",
     "end_time": "2026-11-19 10:30"
+  },
+  {
+    "uid": "2c43b6-935b-43b1-92a8-0b8177e",
+    "title": "New release: SUBSIM (Swedish subsea image analysis platform)",
+    "description": "You're invited to you to the new release of the Swedish subsea image analysis platform <> which is now fully integrated into the European Digital Twin Ocean. The webinar introduces SUBSIM, its architecture, functionality, codebase and explains the integration with the European Digital Twin Ocean. Examples of scientific applications from Sweden will also be presented in the session. The webinar is particularly relevant for developers, infrastructure providers and scientists with a technical background. Learn more <https://url41.mailanyone.net/scanner?m=1x8bKj-0000000DTB5-3iZJ&d=4%7Cmail%2F90%2F1789986600%2F1x8bKj-0000000DTB5-3iZJ%7Cin41c%7C57e1b682%7C12918722%7C9499237%7C6AB107E976E44027FF6AA72C61B6B6F6&o=%2Fphtt%3A%2Fdtsoio-.flwboteeu%2Fens%2Fvahte-iclcnewshsas-ocmeubg-iasasne-slyiaaer-s-icsev-idiwaltgtnaeco-ni&s=n9UaG3ni6ECusKM8fgenF89y3Wc>",
+    "url": "https://www.gbif.org/event/2c43b6-935b-43b1-92a8-0b8177e",
+    "start_time": "2026-10-05 09:00",
+    "end_time": "2026-10-05 11:30"
   }
 ]
