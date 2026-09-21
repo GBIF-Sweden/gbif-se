@@ -6,7 +6,7 @@ permalink: /:basename/
 
 # {{ page.title }}
 
-The GBIF Sweden website is provided by [NRM (Naturhistoriska riksmuseet)](https://www.nrm.se/en/16.html).
+The GBIF Sweden website is provided by [NRM (Naturhistoriska riksmuseet)](https://www.nrm.se/).
 
 We want as many people as possible to be able to use GBIF Sweden’s websites, regardless of platform or any adaptation aids. However, we are aware that the sites have some accessibility problems.
 

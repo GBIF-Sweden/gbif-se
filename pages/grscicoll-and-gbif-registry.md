@@ -19,4 +19,4 @@ This tool allows users the ability to browse, search and view objects in the GBI
 Registered users with administrative privileges are also able to edit certain objects and approve edits suggested by others. Contact [gbif@nrm.se](mailto:gbif@nrm.se) or use the [SBDI Support](https://docs.biodiversitydata.se/support/) form if you wish to add or make edits to your organization and/or collection.
 
 - [Access the GBIF Registry](https://registry.gbif.org/)
-- [Read more about GRSciColl](https://www.gbif.org/grscicoll)
+- [Read more about GRSciColl](https://scientific-collections.gbif.org/about)

@@ -34,7 +34,7 @@
 - name: Information
   items:
     - name: GBIF API
-      path: https://www.gbif.org/developer/summary
+      path: https://techdocs.gbif.org/en/openapi/
     - name: Accessibility
       path: /accessibility/
     - name: Privacy Policy

@@ -16,6 +16,6 @@ The **CARE** principles for Indigenous Data Governance (Carroll et al., 2020) ha
 
 Read more about FAIR and CARE principles at:
 
-- [Go-FAIR](https://www.go-fair.org/)
+- [Go-FAIR](https://www.gofair.foundation/)
 - [FAIR sharing](https://fairsharing.org/): standards, databases, policies 
-- [Global Indigenous Data Alliance (GIDA)](https://www.gida-global.org/care)
+- [Global Indigenous Data Alliance (GIDA)](https://www.gida-global.org/careprinciples)

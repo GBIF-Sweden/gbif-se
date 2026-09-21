@@ -3,7 +3,7 @@
 
     - name: GBIF API
       description: Access and download data, metadata, species names, maps, literature and more; or build your own tools.
-      link: https://www.gbif.org/developer/summary
+      link: https://techdocs.gbif.org/en/openapi/
 
     - name: rgbif
       description: R package from rOpenSci that allows searching and retrieving data from GBIF.
@@ -34,7 +34,7 @@
 
     - name: Data validator
       description: A service to get a report on a dataset syntax and content validity.
-      link: https://www.gbif.org/tools/data-validator/about
+      link: https://www.gbif.org/tool/81281/gbif-data-validator
 
     - name: Open refine
       description: A powerful free, open source tool for working with messy data.	

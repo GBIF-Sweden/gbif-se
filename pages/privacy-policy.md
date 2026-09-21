@@ -6,7 +6,7 @@ permalink: /:basename/
 
 # {{ page.title }}
 
-Here you will find information about how personal data collected by e.g. the website [https://www.gbif.se](), is being processed at the GBIF Sweden Infrastructure. GBIF Sweden complies with the General Data Protection Regulation (GDPR). GBIF Sweden is responsible for all processing of personal data in its operations. Here it is explained how your personal data is processed within GBIF Sweden. Use the bookmarks to reach the different sections of the page.
+Here you will find information about how personal data collected by e.g. [the website](https://www.gbif.se), is being processed at the GBIF Sweden Infrastructure. GBIF Sweden complies with the General Data Protection Regulation (GDPR). GBIF Sweden is responsible for all processing of personal data in its operations. Here it is explained how your personal data is processed within GBIF Sweden. Use the bookmarks to reach the different sections of the page.
 
 - [What do GBIF Sweden do with your personal data and why do we collect it?](#what-do-gbif-sweden-do-with-your-personal-data-and-why-do-we-collect-it)
 - [What personal data does GBIF Sweden collect?](#what-personal-data-does-gbif-sweden-collect)
@@ -104,4 +104,3 @@ Contact [GBIF Sweden](mailto:gbif@nrm.se) or the [SBDI Support Center](https://d
 
 ### Links
 - [Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016](http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32016R0679)
-- [The Swedish Data Protection Authority’s (DPA) pages on GDPR](https://www.datainspektionen.se/)

@@ -19,7 +19,7 @@ At its simplest level, GBIF and SBDI allows institutions to create datasets desc
 Datasets can also provide a catalog or list of named organisms, or taxa. While they may include additional details like local species names or specimen citations, these ‘checklists’ typically categorize information along taxonomic, geographic, and thematic lines, or some combination of the three. Checklists function as a rapid summary or baseline inventory of taxa in a given context.
 
 - [Browse checklists](https://www.gbif.org/dataset/search?type=CHECKLIST)
-- [DwC-A template for checklists](https://ipt.gbif.org/manual/en/ipt/2.5/checklist-data#templates)
+- [DwC-A template for checklists](https://ipt.gbif.org/manual/en/ipt/latest/checklist-data#templates)
 - [Data quality requirements for checklists](https://www.gbif.org/data-quality-requirements-checklists)
 
 ## Occurrence data
@@ -28,7 +28,7 @@ Other datasets published through GBIF and SBDI have sufficiently consistent deta
 Occurrence records in these datasets sometimes provide only general locality information, sometimes simply identifying the country, but in many cases more precise locations and geographic coordinates support fine-scale analysis and mapping of species distributions.
 
 - [Browse occurrence datasets](https://www.gbif.org/dataset/search?type=OCCURRENCE)
-- [DwC-A template for occurrence datasets](https://ipt.gbif.org/manual/en/ipt/2.5/occurrence-data#templates)
+- [DwC-A template for occurrence datasets](https://ipt.gbif.org/manual/en/ipt/latest/occurrence-data#templates)
 - [Data quality requirements for occurrences](https://www.gbif.org/data-quality-requirements-occurrences)
 
 ## Sampling-event data
@@ -38,7 +38,7 @@ By indicating the methods, events and relative abundance of species recorded in 
 
 - [Introduction to sampling-event data](https://www.gbif.org/sampling-event-data)
 - [Browse sampling-event datasets](https://www.gbif.org/dataset/search?type=SAMPLING_EVENT)
-- [DwC-A template for sampling-event datasets](https://ipt.gbif.org/manual/en/ipt/2.5/sampling-event-data#templates)
+- [DwC-A template for sampling-event datasets](https://ipt.gbif.org/manual/en/ipt/latest/sampling-event-data#templates)
 - [Data quality requirements for sampling events](https://www.gbif.org/data-quality-requirements-sampling-events)
 
 Contact [gbif@nrm.se](mailto:gbif@nrm.se) or use the [SBDI Support](https://docs.biodiversitydata.se/support/) form if you have questions about data mobilization, publishing licenses or data standards.
