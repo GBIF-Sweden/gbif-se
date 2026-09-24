@@ -1679,5 +1679,13 @@
     "url": "https://www.gbif.org/event/2c43b6-935b-43b1-92a8-0b8177e",
     "start_time": "2026-10-05 09:00",
     "end_time": "2026-10-05 11:30"
+  },
+  {
+    "uid": "a4fde0-161b-4974-850e-75f80e7",
+    "title": "Kick-off workshop: Soil biodiversity in Africa and Latin America",
+    "description": "This meeting is for the participants of the BID project Exploring macrofauna and earthworms in Africa and Latin America <https://www.gbif.org/project/BID-CRG2025-061/exploring-macrofauna-and-earthworms-in-africa-and-latin-america> . It is the first of a series of online workshops and webinars aiming to build capacity and stimulate data mobilization by the participants, promote cooperation between countries, GBIF nodes and publishers. Project: BID-CRG2025-061",
+    "url": "https://www.gbif.org/event/a4fde0-161b-4974-850e-75f80e7",
+    "start_time": "2026-10-08 02:00",
+    "end_time": "2026-10-08 02:00"
   }
 ]
