@@ -17,9 +17,9 @@
       description: Set up a simple, branded and fully customizable website that displays a subset of GBIF-mediated data.
       link: https://www.gbif.org/hosted-portals
 
-    - name: SBDI Bioatlas
-      description: Explore Swedish biodiversity data and tools for visualization and analysis.
-      link: https://biodiversitydata.se/
+    - name: GBIF Gap Finder
+      description: Identify and prioritise biodiversity data gaps.
+      link: https://www.gbif.se/gap-finder/
 
     - name: GBIF.org
       description: Provides anyone, anywhere, open access to data about all types of life on Earth.
