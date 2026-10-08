@@ -38,6 +38,12 @@ The following content on the websites is not sufficiently accessible:
 - There may be link texts that are not clear enough.
 - There may be HTML code that does not fully validate.
 
+### GBIF Gap Finder [gbif.se/gap-finder](https://gbif.se/gap-finder/) -  An interactive dashboard showing gaps in Sweden's GBIF-mediated biodiversity data. 
+### Known limitations:
+
+- The interactive maps and charts cannot be fully used with a keyboard or a screen reader. The data behind the maps, and the analysis tables, can be downloaded as CSV files (buttons below the maps and on the Data & sources tab).
+- An automated check of every tab (axe-core, WCAG 2.1 AA, October 2026) found no further issues; the maps were not part of that check.
+
 ## Unreasonably burdensome adjustment
 GBIF Sweden invokes exceptions for unreasonably onerous adaptation in accordance with section 12 of the Act on Accessibility to Digital Public Services for the content below.
 
