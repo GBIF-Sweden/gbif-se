@@ -1671,5 +1671,13 @@
     "url": "https://www.gbif.org/event/a4fde0-161b-4974-850e-75f80e7",
     "start_time": "2026-10-08 02:00",
     "end_time": "2026-10-08 02:00"
+  },
+  {
+    "uid": "dd4fa8-5965-4d1b-b921-da6665a",
+    "title": "InBioAgro: A practical guide to implementing restoration strategies on agricultural farms",
+    "description": "This workshop aims to provide a hands-on learning space where participants can explore, discuss, analyze and design alternative management strategies to enhance biodiversity across different conservation areas, while considering the characteristics, opportunities and constraints of each production system. By the end of the workshop, participants will gain skills in: * Understanding the purpose and rationale behind different management strategies * Identifying opportunities and constraints for their implementation in the field * Prioritizing alternatives based on their expected impact and the effort required * Developing practical roadmaps for implementing each strategy * Identifying concrete next steps for action. This event is related to project: BID-LAC2025-INS-150",
+    "url": "https://www.gbif.org/event/dd4fa8-5965-4d1b-b921-da6665a",
+    "start_time": "2026-10-20 02:00",
+    "end_time": "2026-10-20 02:00"
   }
 ]
