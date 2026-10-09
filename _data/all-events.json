@@ -1679,5 +1679,13 @@
     "url": "https://www.gbif.org/event/dd4fa8-5965-4d1b-b921-da6665a",
     "start_time": "2026-10-20 02:00",
     "end_time": "2026-10-20 02:00"
+  },
+  {
+    "uid": "303ca1-3a61-4228-8282-aa4048b",
+    "title": "The Sampling Event Horizon: Lessons from the publishing frontier",
+    "description": "Publishing biodiversity data as Sampling Events unlocks richer, more reusable datasets. In this event, pioneers from the GBIF community share their experience crossing the Sampling Event Horizon: once your data crosses into Sampling Event structure, can you go back to simple occurrence records? In this panel, leaders and stalwart adventurers from the GBIF Secretariat and GBIF North America share lessons learned: the gotchas that cost them time, the bottlenecks that slowed them down and practical advice for planning new efforts or retrofitting legacy data into this structure. Please come with questions! After short talks from each panelist, we'll open up to a Q&A/panel discussion covering whatever the sampling event frontier throws at us. Register <https://events.zoom.us/ev/AlA-vV4CkHKnIWwWF8aamNTwFLP60ujy1YwLnVgs3abN6ivpyVW1~Ahwtpj7cZ3L3ihqDFNjGs4oFpgEpJMf9d64BbHwH70j6Iy92DmPCNbo3_w?lmt=1790097651000> Speakers: * Steve Formel <https://orcid.org/0000-0001-7418-1244> - OBIS * Chandra Earl <https://orcid.org/0000-0001-9850-882X> - NEON Biorepository, Arizona State University * Kate Ingenloff <https://orcid.org/0000-0001-5942-9053> - GBIF Secretariat * Zachary Kachian <https://orcid.org/0000-0002-0500-0339> - Field Museum of Natural History, Keller Science Action Center * Kate Webbink <https://orcid.org/0000-0002-8347-0942> - Field Museum of Natural History",
+    "url": "https://www.gbif.org/event/303ca1-3a61-4228-8282-aa4048b",
+    "start_time": "2026-10-22 17:00",
+    "end_time": "2026-10-22 18:30"
   }
 ]
