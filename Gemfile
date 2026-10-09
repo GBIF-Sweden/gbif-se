@@ -15,8 +15,8 @@ gem "jekyll", "~> 4.4", ">= 4.4.1"
 # gem "github-pages", group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.17.0"
-  gem "jekyll-seo-tag", "~> 2.8"
+  gem "jekyll-feed", "~> 0.18.0"
+  gem "jekyll-seo-tag", "~> 2.9"
   gem "jekyll-postcss-v2", "~> 1.0", ">= 1.0.1"
 end
 
