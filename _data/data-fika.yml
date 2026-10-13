@@ -11,6 +11,8 @@
   topics: >
     Website downloads, rgbif, pygbif and the API. Reproducible downloads and their DOIs. Cubes. 
     Occurrence vs sample data. Darwin Core Archives and DwC-DP. SBDI vs GBIF.org — when to use which.
+  material: DataFika_02_Reusing_Data.pdf
+  recording: dataFika_2_recording.mp4
 
 - date: 13 Nov 2026
   title: Standards, Identifiers &amp; Metadata
