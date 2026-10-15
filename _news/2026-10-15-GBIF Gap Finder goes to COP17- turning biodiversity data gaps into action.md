@@ -1,7 +1,7 @@
 ---
 title: "GBIF Gap Finder goes to COP17: turning biodiversity data gaps into action"
 date: 2026-10-15
-image: 2026-10-16_Gap_Finder_COP17.jpg
+image: 2026-10-15_Gap_Finder_COP17.jpg
 ---
 
 The newly launched **GBIF Gap Finder**, developed by GBIF Sweden, will be showcased at the **Data to Action Pavilion** during the 17th meeting of the Conference of the Parties to the Convention on Biological Diversity (CBD COP17), taking place in Yerevan, Armenia, from 19 to 30 October 2026.
