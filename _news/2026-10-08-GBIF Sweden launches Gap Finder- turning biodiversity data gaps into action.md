@@ -1,7 +1,7 @@
 ---
 title: "GBIF Sweden launches Gap Finder: turning biodiversity data gaps into action"
 date: 2026-10-08
-image: 2026_10_08_GeoGaps_GapFinder2026.png
+image: 2026-10-08_GeoGaps_GapFinder2026.png
 description:
 ---
 
