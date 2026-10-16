@@ -1687,5 +1687,13 @@
     "url": "https://www.gbif.org/event/303ca1-3a61-4228-8282-aa4048b",
     "start_time": "2026-10-22 17:00",
     "end_time": "2026-10-22 18:30"
+  },
+  {
+    "uid": "3wGAY6Yasxu14WVM2WXIwO",
+    "title": "British Ecological Society (BES) Annual Meeting 2026",
+    "description": "BES 2026 is Europe's largest and most welcoming conference dedicated to ecology. Founded over a century ago, the BES was the first Society in the world committed to understanding our earth through ecology, the science studying the relationship between living things and their environment. That commitment remains today with a global community spanning 120 countries and a strategic mission to find ecological solutions for a planet under threat. GBIF will be represented at BES 2026 as an exibitor (booth #15, shared with the National Biodiversity Network (NBN) Trust)",
+    "url": "https://www.gbif.org/event/3wGAY6Yasxu14WVM2WXIwO",
+    "start_time": "2026-12-14 13:00",
+    "end_time": "2026-12-17 13:00"
   }
 ]
