@@ -1695,5 +1695,13 @@
     "url": "https://www.gbif.org/event/3wGAY6Yasxu14WVM2WXIwO",
     "start_time": "2026-12-14 13:00",
     "end_time": "2026-12-17 13:00"
+  },
+  {
+    "uid": "045a16-66c5-4218-be47-28e1352",
+    "title": "BES Annual Meeting 2026 Conference",
+    "description": "The British Ecological Society (BES) Annual Meeting 2026 takes place in Birmingham, UK from 14-17 December 2026. The program offers internationally renowned plenary speakers, diverse thematic sessions, engaging workshops and a variety of networking events. Early bird registration is open until 3 November 2026. Learn more <https://www.britishecologicalsociety.org/content/bes-annual-meeting-2026/>",
+    "url": "https://www.gbif.org/event/045a16-66c5-4218-be47-28e1352",
+    "start_time": "2026-12-14 01:00",
+    "end_time": "2026-12-17 01:00"
   }
 ]
