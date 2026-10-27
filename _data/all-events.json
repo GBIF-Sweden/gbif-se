@@ -1687,5 +1687,13 @@
     "url": "https://www.gbif.org/event/045a16-66c5-4218-be47-28e1352",
     "start_time": "2026-12-14 01:00",
     "end_time": "2026-12-17 01:00"
+  },
+  {
+    "uid": "1113fc-51ae-4935-aa78-e14f03d",
+    "title": "Webinar: Data governance and sovereignty (BID project BID-CRG2025-061)",
+    "description": "This webinar is associated with the BID project exploring macrofauna and earthworms in Africa and Latin America <https://www.gbif.org/project/BID-CRG2025-061/exploring-macrofauna-and-earthworms-in-africa-and-latin-america> . This event brings together parters from around the world to discuss topics such as data governance and sovereignty in connection to the project.",
+    "url": "https://www.gbif.org/event/1113fc-51ae-4935-aa78-e14f03d",
+    "start_time": "2026-11-04 01:00",
+    "end_time": "2026-11-04 01:00"
   }
 ]
