@@ -1695,5 +1695,13 @@
     "url": "https://www.gbif.org/event/1113fc-51ae-4935-aa78-e14f03d",
     "start_time": "2026-11-04 01:00",
     "end_time": "2026-11-04 01:00"
+  },
+  {
+    "uid": "7yVhRRjzyD6sNTf7on4jLX",
+    "title": "Translator (re)introduction call",
+    "description": "Are you new to the community? Unsure of how to get started with contributing translations? Or do you just need a reminder of how Crowdin works? Please join our translator (re)introduction call on Wednesday 4 November 2026 at 14:00 CET (UTC+1) <https://www.timeanddate.com/worldclock/converter.html?iso=20261104T130000&p1=69> We will cover all the basics of doing volunteer translations in GBIF, including * Crowdin (our translation platform) * How translations are used in GBIF * Various translation projects * Previewing translations * Pitfalls and how to avoid them The call is open to all volunteer translators whether you’ve only just joined or been a part of the community for years. And if you can’t make the call, don’t worry. We will record everything and make the recording available right after. Register <https://ucph-ku.zoom.us/meeting/register/1qacj6rwT8CvdRQUZoelnA>",
+    "url": "https://www.gbif.org/event/7yVhRRjzyD6sNTf7on4jLX",
+    "start_time": "2026-11-04 14:00",
+    "end_time": "2026-11-04 15:00"
   }
 ]
