@@ -1678,5 +1678,13 @@
     "url": "https://www.gbif.org/event/7yVhRRjzyD6sNTf7on4jLX",
     "start_time": "2026-11-04 14:00",
     "end_time": "2026-11-04 15:00"
+  },
+  {
+    "uid": "244138-2190-49d2-910e-1ee7f1b",
+    "title": "International Congress for Conservation Biology",
+    "description": "The International Congress for Conservation Biology <https://conbio.org/mini-sites/iccb-2027/> (ICCB) brings together researchers, practitioners, policymakers and conservation professionals from around the world to share research and experience, exchange ideas and build collaborations. ICCB 2027 welcomes participation from the GBIF community, including those working on biodiversity data, species distributions, ecological monitoring and the use of open biodiversity information in conservation planning and decision-making. The congress offers an opportunity to connect biodiversity data and tools with the needs of conservation practitioners and policymakers. Calls are open for session proposals and contributed abstracts. We encourage submissions that explore how biodiversity information can inform conservation action, as well as approaches to filling data gaps and improving access to and use of biodiversity knowledge. Submission deadlines: * Session proposals: 3 December 2026 * Contributed abstracts: 11 February 2027",
+    "url": "https://www.gbif.org/event/244138-2190-49d2-910e-1ee7f1b",
+    "start_time": "2027-06-27 02:00",
+    "end_time": "2027-07-01 02:00"
   }
 ]
