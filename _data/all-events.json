@@ -1686,5 +1686,13 @@
     "url": "https://www.gbif.org/event/244138-2190-49d2-910e-1ee7f1b",
     "start_time": "2027-06-27 02:00",
     "end_time": "2027-07-01 02:00"
+  },
+  {
+    "uid": "6c55c8-a10c-4146-afe7-f30fdb5",
+    "title": "GBIF-OBIS Norway FAIR data publishing workshop",
+    "description": "Do you have species occurrence data waiting to be published, but aren’t sure where to begin? Join the GBIF and OBIS Norway teams for a hands-on workshop designed to help guide participants in transforming their datasets into Darwin Core-compliant, accessible resources for the global scientific community. Learn more <https://www.gbif.no/events/2026/gbif-obis-fair-data-publishing-workshop.html>",
+    "url": "https://www.gbif.org/event/6c55c8-a10c-4146-afe7-f30fdb5",
+    "start_time": "2026-12-10 09:00",
+    "end_time": "2026-12-11 16:00"
   }
 ]
