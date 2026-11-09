@@ -40,14 +40,6 @@
     "end_time": "2024-11-22 09:00"
   },
   {
-    "uid": "b35428-6883-4775-9926-fe0687b",
-    "title": "Course on Open, Reproducible and Transparent Science in Ecology",
-    "description": "Do you want to gain new skills in data management, making your data FAIR, and your workflows reproducible? Do you want training in open-source tools such as GitHub and R that can be used to achieve this?<br class=\"mb-4\">This course is organised by Living Norway in collaboration with the University of Bergen, GBIF Norway, Nord University, NINA, NTNU, NMBU, and UIO.<br class=\"mb-4\">Students will be introduced to open science, data management, data repositories/databases, data standards (e.g. FAIR, CARE), best practise and reproducible workflows (e.g. data curation, analysis, GitHub, reporting results). We will invite experts to give lectures on these topics and provide hands-on training that gives the students opportunities to practise new skills. We will provide examples, but also encourage students to bring their own data and problems to work on.<br class=\"mb-4\">Application deadline: 15th of September 2024<br class=\"mb-4\"> Read more <https://www.uib.no/en/rg/EECRG/171658/open-reproducible-and-transparent-science-ecology>",
-    "url": "https://www.gbif.org/event/b35428-6883-4775-9926-fe0687b",
-    "start_time": "2024-11-04 09:00",
-    "end_time": "2024-11-09 16:00"
-  },
-  {
     "uid": "66nG0263ySAwZtIOTJ8gsu",
     "title": "Africa Regional Nodes Meeting | Engagement meeting for BID Africa",
     "description": "Meeting goals<br class=\"mb-4\">The Africa nodes meeting aims to:<br class=\"mb-4\"> * Strengthen the GBIF Africa community  * Provide a forum for GBIF nodes in Africa and the GBIF Secretariat to share latest updates and best practices  * Showcase the relevance of GBIF data across a broad range of use cases  * Identify key regional capacity and information needs to inform the development of the upcomingBiodiversity Information for Development <> (BID) call for proposals in the region  * Identify and explore opportunities for synergies between BID and any existing or upcoming regional-scale initiatives related to biodiversity data training, mobilization or other activities  * Encourage participation in the calls for proposals by project applicants and reviewers, mentors, trainers and other partners Audience<br class=\"mb-4\">This event will be attended by representatives of:<br class=\"mb-4\"> * GBIF nodes in Africa  * Relevant regional initiatives and networks  * Selected institutions previously involved in the BID programme Contact  Jean Paul Kubwimana  <mailto:jkubwimana@arcosnetwork.org> Nodes regional representative for Africa for any further information on the agenda.<br class=\"mb-4\">Questions on the logistics please contact Luke Jimu <mailto:jimaldino@yahoo.com><br class=\"mb-4\"><br class=\"mb-4\"> <https://www.europa.eu> This programme is funded by the European Union <http://www.europa.eu>.",
@@ -1662,5 +1654,21 @@
     "url": "https://www.gbif.org/event/6c55c8-a10c-4146-afe7-f30fdb5",
     "start_time": "2026-12-10 09:00",
     "end_time": "2026-12-11 16:00"
+  },
+  {
+    "uid": "495475-541f-4f52-98be-3fe22c6",
+    "title": "Swedish Oikos Meeting 2027 in Umea",
+    "description": "The Swedish Oikos Meeting 2027 <https://nordicsocietyoikos.glueup.com/event/swedish-oikos-meeting-2027-in-umeå-200447/> brings together ecologists from Sweden and beyond to share current research, exchange ideas and build collaborations across ecological disciplines. Under the theme “Ecology Across Boundaries: From Mechanisms to Biodiversity and Ecosystems”, the meeting covers research spanning ecological mechanisms, biodiversity and ecosystem processes through oral presentations, speed talks and posters. The event takes place at Umeå University on 10–12 February 2027. Learn more <https://nordicsocietyoikos.glueup.com/event/swedish-oikos-meeting-2027-in-umeå-200447/>",
+    "url": "https://www.gbif.org/event/495475-541f-4f52-98be-3fe22c6",
+    "start_time": "2027-02-10 01:00",
+    "end_time": "2027-02-12 01:00"
+  },
+  {
+    "uid": "780d39-3a97-414e-af38-c50d0b8",
+    "title": "Swedish Biodiversity Symposium 2027",
+    "description": "The Swedish Biodiversity Symposium 2027 <https://swedishbiodiversitysymposium.se/en> in Uppsala is a science–policy–oriented forum for communication, dissemination and discussion of science-based knowledge on biodiversity. The theme of this second symposium isScience and Society for Local Solutions and Global Impact. The Swedish Biodiversity Symposium is a biennial, trans-disciplinary forum that highlights Sweden’s biodiversity knowledge, research and the practical implementation of global policy — and how national experience informs international processes. The symposium primarily welcomes national participants working professionally with biodiversity in any capacity, including those in academia, research institutes, government agencies, business and NGOs engaged in research, policy development, nature management, education, outreach and related fields. Learn more <https://swedishbiodiversitysymposium.se/en>",
+    "url": "https://www.gbif.org/event/780d39-3a97-414e-af38-c50d0b8",
+    "start_time": "2027-10-19 02:00",
+    "end_time": "2027-10-21 02:00"
   }
 ]
