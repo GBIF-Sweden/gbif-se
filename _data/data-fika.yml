@@ -27,7 +27,7 @@
     from presence-only. Long vs wide format, SQL for cubes. Data management basics: folder 
     structures, file naming, version control, ReadMe files.
 
-- date: 8 Jan 2027
+- date: 15 Jan 2027
   title: Data Cleaning
   topics: >
     Coordinate validation with CoordinateCleaner. Taxonomic name resolution — Dyntaxa vs the GBIF 
