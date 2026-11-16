@@ -19,6 +19,8 @@
   topics: > 
     What the Darwin Core columns in your download mean. TDWG standards. Persistent identifiers 
     (UUIDs, RORs, ORCIDs, DOIs). Metadata and ISO formats.
+  material: DataFika_03_Standards_Identifiers_Metadata.pdf
+  recording: dataFika_3_recording.mp4
 
 - date: 11 Dec 2026
   title: The GBIF Data Model
